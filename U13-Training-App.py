@@ -1,5 +1,4 @@
 import streamlit as st
-import os
 
 # Seiten-Konfiguration
 st.set_page_config(page_title="U13 Trainingsplan", page_icon="🏐", layout="centered")
@@ -17,13 +16,6 @@ monat = st.selectbox(
         "Läufer-Spezial: System-Drills"
     ]
 )
-
-# Hilfsfunktion für lokale Bilder
-def load_local_image(filename):
-    if os.path.exists(filename):
-        return filename
-    else:
-        return f"https://dummyimage.com/600x300/ccc/000&text=Bild+{filename}+fehlt"
 
 # ---------------------------------------------------------
 # MONAT 1
@@ -43,7 +35,6 @@ if monat == "Monat 1: WVV Stationskarten & 1:2 System":
             * **Ablauf:** Abwechselndes Werfen und Fangen in der tiefen Volleyball-Grundstellung. Steigerung: Der Ball wird angeworfen und mit dem Unterarm-Spielbrett (ohne Schwung!) zum Partner zurückgedrückt.
             * **Trainer-Fokus:** Knie beugen! Der Schwerpunkt muss unten bleiben.
             """)
-            st.image(load_local_image("wvv_warmup.jpg"), caption="WVV Erwärmung: Ballkoordination")
             
         with st.expander("🎯 2. Technik: WVV Stationskarten für 3er-Gruppen (30 Min)"):
             st.markdown("""
@@ -53,7 +44,6 @@ if monat == "Monat 1: WVV Stationskarten & 1:2 System":
             * **Ablauf (Baggern):** Gleicher Aufbau. Der Ball wird nun flacher angeworfen und gezielt als Bagger zu C gespielt.
             * **WVV-Tipp:** Nutze die offiziellen WVV-Technikvideos für das Leitbild (Körbchen formen / Spielbrett).
             """)
-            st.image(load_local_image("wvv_stationen.jpg"), caption="WVV Stationskarten: 3er-Gruppen am Netz")
             
         with st.expander("🧠 3. Taktik: WVV 3-gegen-3 (1:2 System) Einführung (30 Min)"):
             st.markdown("""
@@ -62,7 +52,6 @@ if monat == "Monat 1: WVV Stationskarten & 1:2 System":
             * **Ablauf:** Trainer wirft den Ball im Wechsel auf Seite A und B ein. Die Annahme baggert zum Zuspieler. Der Zuspieler pritscht den Ball als Bogenpass zurück zu einem Angreifer, der den Ball fängt.
             * **Trainer-Fokus:** Orientierung des Zuspielers (Rücken zur Seitenlinie, Blick ins Feld). Der Ball muss im hohen Bogen gespielt werden.
             """)
-            st.image(load_local_image("wvv_1_2_system.jpg"), caption="WVV Taktik: 3v3 (1:2 System)")
             
         with st.expander("🏆 4. Abschlussspiel: WVV Kleinfeld-Turnier (20 Min)"):
             st.markdown("""
@@ -71,7 +60,6 @@ if monat == "Monat 1: WVV Stationskarten & 1:2 System":
             * **Ablauf:** Normale Regeln, aber der 2. Ball (das Zuspiel) darf gefangen und geworfen werden, um das System zu festigen. Der 1. und 3. Ball müssen volley gespielt werden.
             * **Trainer-Fokus:** Direkte Bälle über das Netz führen zum Punktabzug.
             """)
-            st.image(load_local_image("wvv_kleinfeld.jpg"), caption="WVV Abschlussspiel: System-Fokus")
 
     with tab2:
         st.subheader("Trainingseinheit 2")
@@ -145,7 +133,6 @@ elif monat == "Läufer-Spezial: System-Drills":
             * *Grüne Ampel:* Trainer schlägt wirklich auf. Jetzt erst sprintet der Zuspieler von Pos I auf Pos III.
         * **Trainer-Fokus:** Konsequenter Blick des Zuspielers zum Trainer. Explosiver Start im exakt richtigen Moment.
         """)
-        st.image(load_local_image("ampel_start.jpg"), caption="Timing-Drill: Warten auf den Aufschlag")
 
     with st.expander("🔄 2. Wiederholung: Das Zuspiel-Karussell (20 Min)"):
         st.markdown("""
@@ -157,7 +144,6 @@ elif monat == "Läufer-Spezial: System-Drills":
             4. In dem Moment, wo Zuspieler 1 pritscht, sprintet Zuspieler 2 los.
         * **Trainer-Fokus:** Der Zuspieler muss vor dem Ballkontakt **stehen**! Wer im Laufen pritscht, wird korrigiert.
         """)
-        st.image(load_local_image("zuspiel_karussell.jpg"), caption="Wiederholung: Zuspieler in Dauerschleife")
 
     with st.expander("🌪️ 3. Reaktion: Der Chaos-Läufer (20 Min)"):
         st.markdown("""
@@ -168,7 +154,6 @@ elif monat == "Läufer-Spezial: System-Drills":
             * Ball nicht erreichbar? Laut "HILFE!" rufen. Ein Annahmespieler übernimmt.
         * **Trainer-Fokus:** Mut zum Rufen! Kommunikation rettet den Ball.
         """)
-        st.image(load_local_image("chaos_laeufer.jpg"), caption="Reaktion: Ungenaue Annahmen retten")
 
     with st.expander("🏆 4. Spielform: Läufer-Bingo (20 Min)"):
         st.markdown("""
@@ -182,4 +167,3 @@ elif monat == "Läufer-Spezial: System-Drills":
         * **Punkte-Regel:** Normaler Punkt = 1. Bingo-Punkt = 3!
         * **Trainer-Fokus:** Lobe System-Versuche, auch wenn der Angriff im Aus landet. Das System soll erzwungen werden.
         """)
-        st.image(load_local_image("laeufer_bingo.jpg"), caption="Spielform: Systempunkte zählen dreifach")
