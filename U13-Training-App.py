@@ -5,12 +5,16 @@ import os
 st.set_page_config(page_title="U13 Trainingsplan", page_icon="🏐", layout="centered")
 
 st.title("🏐 U13 Trainingsplan – TuB Bocholt")
-st.markdown("Übersicht für das 3-gegen-3 Läufersystem (Fokus: 1 Feld, hohe Intensität)")
+st.markdown("Basierend auf dem WVV-Schulsportportal (Fokus: 1 Feld, 3-gegen-3 im 1:2 System).")
 
 # Navigation
 monat = st.selectbox(
     "Wähle den Trainingsmonat:", 
-    ["Monat 1: Grundlagen & Laufwege", "Monat 2: Systemfestigung", "Monat 3: Matchpraxis"]
+    [
+        "Monat 1: WVV Stationskarten & 1:2 System", 
+        "Monat 2: WVV Powervolleyball & Analyse", 
+        "Monat 3: WVV Spielabzeichen Bronze"
+    ]
 )
 
 # Hilfsfunktion für lokale Bilder
@@ -18,125 +22,109 @@ def load_local_image(filename):
     if os.path.exists(filename):
         return filename
     else:
-        return f"https://dummyimage.com/600x300/ccc/000&text=Bild+{filename}+fehlt"
+        return f"https://dummyimage.com/600x300/ccc/000&text=WVV+Bild+{filename}+fehlt"
 
 # ---------------------------------------------------------
 # MONAT 1
 # ---------------------------------------------------------
-if monat == "Monat 1: Grundlagen & Laufwege":
-    st.header("Monat 1: Zielgenauigkeit & Einführung")
+if monat == "Monat 1: WVV Stationskarten & 1:2 System":
+    st.header("Monat 1: WVV Grundtechniken & Laufwege")
     
     tab1, tab2 = st.tabs(["TE 1 (Fokus Technik)", "TE 2 (Fokus System)"])
     
     with tab1:
         st.subheader("Trainingseinheit 1")
         
-        with st.expander("🏃‍♂️ 1. Warm-up: Linien-Fangen & Tic-Tac-Toe (10 Min)"):
+        with st.expander("🏃‍♂️ 1. Warm-up: WVV Ballkoordination (10 Min)"):
             st.markdown("""
-            **Detail-Ablauf Linien-Fangen (5 Min):**
-            * **Organisation:** Bestimme 2 Fänger. Alle (inkl. Fänger) bewegen sich *ausschließlich* auf den Linien des 9x9m Feldes.
-            * **Regel:** Wer neben die Linie tritt, ist gefangen. Strafe: 3 Strecksprünge neben dem Feld, danach sofort wieder mitmachen (kein Ausscheiden!).
-            * **Trainer-Fokus:** Bei Begegnungen schnelle Ausfallschritte oder Sidesteps einfordern.
-
-            **Detail-Ablauf Tic-Tac-Toe (5 Min):**
-            * **Organisation:** Links und rechts neben dem Feld je ein 3x3 Gitter (Reifen/Tape). 4 Teams à 3 Spieler.
-            * **Regel:** Auf Kommando sprintet der Erste, legt ein Leibchen, rennt zurück und schlägt ab. Liegen 3 Leibchen, darf umgelegt werden. Wer zuerst 3 in einer Reihe hat, gewinnt.
-            * **Trainer-Fokus:** Maximale Antrittsschnelligkeit.
+            **Die WVV Volleyball-Challenge**
+            * **Organisation:** Spieler verteilen sich paarweise auf dem Feld. Jedes Paar hat einen Ball.
+            * **Ablauf:** Abwechselndes Werfen und Fangen in der tiefen Volleyball-Grundstellung. Steigerung: Der Ball wird angeworfen und mit dem Unterarm-Spielbrett (ohne Schwung!) zum Partner zurückgedrückt.
+            * **Trainer-Fokus:** Knie beugen! Der Schwerpunkt muss unten bleiben.
             """)
-            st.image(load_local_image("aufwaermen.jpg"), caption="Warm-Up: Linien-Fangen & Tic-Tac-Toe")
+            st.image(load_local_image("wvv_warmup.jpg"), caption="WVV Erwärmung: Ballkoordination")
             
-        with st.expander("🎯 2. Technik: Insel-Challenge im Stationsbetrieb (30 Min)"):
+        with st.expander("🎯 2. Technik: WVV Stationskarten für 3er-Gruppen (30 Min)"):
             st.markdown("""
-            **Zielgerichtetes Pritschen und Baggern auf 1 Feld**
-            * **Organisation:** 4 Turnmatten ("Inseln") auf Seite A auslegen. Kinder in drei 4er-Gruppen teilen.
-            * **Die Rotation:**
-                * **Gruppe 1 (Seite B):** Werfen sich den Ball selbst an, spielen gezielt auf die Inseln.
-                * **Gruppe 2 (Seite A):** Stehen zwischen den Matten, fangen Bälle, rufen "Treffer!".
-                * **Gruppe 3 (Transport):** Rollen Bälle unter dem Netz zügig zu Gruppe 1 zurück.
-            * **Ablauf:** Fliegender Wechsel alle 3 Minuten (1 -> 2 -> 3 -> 1).
-            * **Trainer-Fokus:** Beinarbeit! Erst unter den Ball laufen, dann aus den Beinen heraus spielen. Beim Pritschen "Körbchen formen" und über der Stirn spielen. Arm-Bagger konsequent korrigieren.
+            **Methodische Übungsreihe (Pritschen & Baggern)**
+            * **Organisation:** 3er-Gruppen bilden (A: Anwerfer, B: Übender, C: Fänger). Alle Gruppen nutzen das Feld quer (über das Netz oder eine Zauberschnur).
+            * **Ablauf (Pritschen):** Spieler A wirft beidhändig im hohen Bogen an. Spieler B pritscht den Ball hoch über das Netz. Spieler C fängt den Ball. Rotation nach 10 Wiederholungen (A->B, B->C, C->A).
+            * **Ablauf (Baggern):** Gleicher Aufbau. Der Ball wird nun flacher angeworfen und gezielt als Bagger zu C gespielt.
+            * **WVV-Tipp:** Rufe dir die offiziellen WVV-Technikvideos für das Leitbild (Körbchen formen / Spielbrett) auf dem Handy auf und zeige sie den Kindern direkt am Netz.
             """)
-            st.image(load_local_image("technik_inseln.jpg"), caption="Technik: Gezieltes Pritschen/Baggern auf Matten")
+            st.image(load_local_image("wvv_stationen.jpg"), caption="WVV Stationskarten: 3er-Gruppen am Netz")
             
-        with st.expander("🧠 3. Taktik: Der Einwerfer im Wellenprinzip (30 Min)"):
+        with st.expander("🧠 3. Taktik: WVV 3-gegen-3 (1:2 System) Einführung (30 Min)"):
             st.markdown("""
-            **Einführung in das Läufersystem (Laufwege)**
-            * **Organisation:** Trainer steht auf einem Kasten in der Mitte am Netz (Ballwagen parat). Auf Seite A und B jeweils ein 3er-Team (Pos 4, 6, 2). Zuspieler auf 1. Rest wartet hinter der Grundlinie.
-            * **Ablauf (Die Welle):**
-                1. Trainer wirft leicht auf Feld A ein.
-                2. Zuspieler sprintet ans Netz. Annahme fängt den Ball und wirft hohen Bogen zum Läufer.
-                3. Läufer fängt über dem Kopf und wirft zum Angreifer.
-                4. Sobald der Ball drüben ist, rennt das Team Bälle sammeln. Das *nächste* wartende 3er-Team sprintet sofort auf Feld A.
-                5. Trainer wirft derweil schon auf Feld B ein.
-            * **Trainer-Fokus:** Der Zuspieler darf erst loslaufen, wenn der Ball die Trainer-Hand verlässt (Positionsfehler vermeiden). Kommunikation einfordern ("Ich habe!").
+            **Das 1:2 System (1 Zuspieler, 2 Annahme)**
+            * **Organisation:** Trainer steht am Netz. Zwei 3er-Teams besetzen die beiden Netzhälften (Zuspieler in der Mitte am Netz auf Pos. III, Annahmespieler auf Pos. IV und II leicht nach hinten versetzt).
+            * **Ablauf:** Trainer wirft den Ball im Wechsel auf Seite A und B ein. Die Annahme baggert zum Zuspieler. Der Zuspieler pritscht den Ball als Bogenpass zurück zu einem Angreifer, der den Ball fängt (noch kein Schlag).
+            * **Trainer-Fokus:** Orientierung des Zuspielers (Rücken zur Seitenlinie, Blick ins Feld). Der Ball muss im hohen Bogen gespielt werden.
             """)
-            st.image(load_local_image("taktik_laeufer.jpg"), caption="Taktik: Das Läufersystem Laufweg-Erklärung")
+            st.image(load_local_image("wvv_1_2_system.jpg"), caption="WVV Taktik: 3v3 (1:2 System)")
             
-        with st.expander("🏆 4. Abschlussspiel: Kaiserplatz (20 Min)"):
+        with st.expander("🏆 4. Abschlussspiel: WVV Kleinfeld-Turnier (20 Min)"):
             st.markdown("""
-            **Kaiserplatz mit System-Zwang**
-            * **Organisation:** Seite A ist die "Kaiserseite". Seite B sind die Herausforderer (ein Team auf dem Feld, Rest wartet an der Grundlinie).
-            * **Ablauf:** Trainer wirft Ball bei den Herausforderern ein. 
-                * Punktet Seite B -> Wechsel auf die Kaiserseite. Altes Kaiser-Team stellt sich hinten an.
-                * Punktet Seite A -> 1 Punkt für den Kaiser. Verlierer-Team B geht raus, nächstes rückt sofort nach.
-            * **Sonderregel (U13):** Der Ball *muss* 3-mal gespielt werden (Annahme -> Läufer -> Angriff). Direkte Bälle rüber spielen bedeutet sofortigen Punktverlust.
-            * **Trainer-Fokus:** Tempo extrem hoch halten. Sobald der Ball tot ist, direkt den nächsten einwerfen. Das zwingt zur schnellen Rotation.
+            **3-gegen-3 Spielform (Mit Fangen)**
+            * **Organisation:** 1 Feld, 3-gegen-3 spielen. Wartende Teams stehen an der Grundlinie.
+            * **Ablauf:** Normale Regeln, aber der 2. Ball (das Zuspiel) darf gefangen und geworfen werden, um das System zu festigen. Der 1. und 3. Ball müssen volley gespielt werden.
+            * **Trainer-Fokus:** Konsequenter Fokus auf den Aufbau über die Position III. Direkte Bälle über das Netz führen zum Punktabzug.
             """)
-            st.image(load_local_image("kaiserplatz.jpg"), caption="Abschlussspiel: Kaiserplatz Turnier-Setup")
+            st.image(load_local_image("wvv_kleinfeld.jpg"), caption="WVV Abschlussspiel: System-Fokus")
 
     with tab2:
         st.subheader("Trainingseinheit 2")
-        st.info("Wiederholung von TE 1. Tausche die Insel-Ziele gegen kleinere Markierungen aus, um die Präzision zu steigern.")
+        st.info("Wiederholung von TE 1. Lasst beim Abschlussspiel das Fangen weg und fordert das saubere Pritschen auf Position III ein.")
 
 # ---------------------------------------------------------
 # MONAT 2
 # ---------------------------------------------------------
-elif monat == "Monat 2: Systemfestigung":
-    st.header("Monat 2: Präzision unter Druck")
-    st.success("Tipp: Behalte die Rotations-Prinzipien (Wellenprinzip) aus Monat 1 bei den neuen Übungen bei!")
+elif monat == "Monat 2: WVV Powervolleyball & Analyse":
+    st.header("Monat 2: Powervolleyball & Spielerbeobachtung")
+    st.success("Tipp: Die WVV-Beobachtungsbögen halten auch die wartenden Spieler auf dem Feld konzentriert!")
     
-    tab1, tab2 = st.tabs(["TE 1 (Fokus Präzision)", "TE 2 (Fokus Umschaltspiel)"])
+    tab1, tab2 = st.tabs(["TE 1 (Fokus Taktik)", "TE 2 (Fokus Angriff)"])
     
     with tab1:
         st.subheader("Trainingseinheit 1")
-        with st.expander("🏃‍♂️ 1. Warm-up & Athletik (10 Min)"):
-            st.markdown("**Spiegelbild am Netz (Ganzes Feld nutzen)**\nAlle Spielerpaare verteilen sich entlang der kompletten Netzkante. Leader macht Sidesteps, Schatten folgt. Nach 60 Sekunden Wechsel. Alle sind gleichzeitig aktiv.")
+        with st.expander("🏃‍♂️ 1. Warm-up (10 Min)"):
+            st.markdown("**WVV Aufwärm-Spiele**\nPaarweises Zuwerfen über das Netz. Zusatzaufgabe: Nach dem Wurf sofort den Boden berühren (Tiefe Abwehrhaltung) und wieder fangbereit stehen.")
             
         with st.expander("🎯 2. Technik (30 Min)"):
-            st.markdown("**Bagger-Tennis im Endlos-Modus**\n3-gegen-3 auf 1 Feld. Die wartenden Spieler stehen auf Pos 1 hinter dem Feld. Sobald ein Team den Ball rüberspielt, wechselt der Spieler, der den Ball zuletzt berührt hat, sofort vom Feld und ein Neuer sprintet rein.")
+            st.markdown("**WVV Stationskarten: Der Dankeball**\n3er Gruppen. Spieler A wirft einen hohen 'Freeball' über das Netz. Spieler B muss den Ball im Bagger sauber auf Position III spielen. Spieler C (Zuspieler) fängt ihn. Fliegender Wechsel.")
             
-        with st.expander("🧠 3. Taktik (30 Min)"):
-            st.markdown("**System-Drill im Wellenprinzip**\nZwei 3er-Teams auf der Annahmeseite (Team A auf dem Feld, Team B dahinter). Trainer schlägt 3 Bälle (Freeballs) scharf ein. Team A spielt Läufersystem. Nach 3 Bällen sofortiger Wechsel mit Team B.")
+        with st.expander("🧠 3. Taktik: WVV Spielerbeobachtung im 1:2 System (30 Min)"):
+            st.markdown("**Die Beobachtungs-Aufgabe**\nEin 3er-Team spielt auf dem Feld, ein 3er-Team beobachtet von außen (Nutze den WVV Beobachtungsbogen). Trainer wirft Bälle im 'Powervolleyball'-Stil (zügig nacheinander) ein. Beobachter machen Striche bei: *'Zuspieler bewegt sich schnell zur Pos III'* und *'Zuspieler spielt den Ball im hohen Bogen'*.")
             
         with st.expander("🏆 4. Abschlussspiel (20 Min)"):
-            st.markdown("**Zusatzpunkt-Wash-Spiel**\nUm einen 'großen' Punkt zu erzielen, muss ein Team 2 Ballwechsel am Stück (Wash) gewinnen. Verliert es den ersten, rückt sofort das nächste Team rein. Zusatzpunkt für sauberes Läufersystem bleibt bestehen.")
+            st.markdown("**Powervolleyball-Turnier**\n3v3 Teams. Keine Aufschläge! Der Trainer feuert die Bälle extrem schnell als 'Dankebälle' nacheinander ein. Welches Team hält sein 1:2 System trotz der Geschwindigkeit aufrecht?")
 
     with tab2:
         st.subheader("Trainingseinheit 2")
-        st.info("Wiederholung von TE 1. Erhöhe den Druck, indem der Trainer die Dankebälle schärfer wirft/schlägt.")
+        st.info("Fokus auf den Zuspieler. Beobachtungsaufgabe für die Wartenden: *'Steht der Zuspieler rechtzeitig still, bevor er den Ball pritscht?'*")
 
 # ---------------------------------------------------------
 # MONAT 3
 # ---------------------------------------------------------
-elif monat == "Monat 3: Matchpraxis":
-    st.header("Monat 3: Spielintelligenz")
+elif monat == "Monat 3: WVV Spielabzeichen Bronze":
+    st.header("Monat 3: WVV Volleyball-Spielabzeichen (Bronze)")
     
-    tab1, tab2 = st.tabs(["TE 1 (Fokus Chaos & Lösung)", "TE 2 (Turniermodus)"])
+    tab1, tab2 = st.tabs(["TE 1 (Prüfungsvorbereitung)", "TE 2 (Abzeichen & Turnier)"])
     
     with tab1:
         st.subheader("Trainingseinheit 1")
-        with st.expander("🏃‍♂️ 1. Warm-up & Athletik (10 Min)"):
-            st.markdown("**Ball-Klau**\nBegrenze das Feld auf die beiden 3-Meter-Räume. Alle dribbeln ihren Ball und schlagen die Bälle der anderen weg. Wer seinen verliert, macht 3 Strecksprünge am Netz.")
+        with st.expander("🏃‍♂️ 1. Warm-up (10 Min)"):
+            st.markdown("**Koordination am Netz**\nBall über das Netz pritschen, unter dem Netz durchrutschen, eigenen Ball wieder fangen (nach 1x aufkommen).")
             
-        with st.expander("🎯 2. Technik (30 Min)"):
-            st.markdown("**Schere-Stein-Papier-Sprint (Beide Hälften)**\nTrainer auf den 3-Meter-Linien als 'Bosse'. Spieler müssen offene Räume anspielen. Nach jedem Ball Sprint zur Seitenlinie, SSP gegen den Wartenden spielen.")
+        with st.expander("🎯 2. Technik: Spielabzeichen Bronze (Pritschen & Baggern) (30 Min)"):
+            st.markdown("**Stationstraining für die Prüfung**\n*Station 1 (Pritschen):* 10 saubere Pässe (Ziel-Pritschen) über 3 Meter in einen Reifen auf dem Boden.\n*Station 2 (Baggern):* 5 angeworfene Bälle (durch Trainer) im Bagger kontrolliert in einen markierten 3x3-Meter Raum spielen.")
             
-        with st.expander("🧠 3. Taktik (30 Min)"):
-            st.markdown("**Chaos-Aufbau (Butterfly-System)**\nTeam A schlägt auf Team B auf. Team B baut im System auf und greift an. Team A wehrt ab und baut selbst im System auf (Endlos-Rallye). Fällt der Ball, rücken wartende Teams nach.")
+        with st.expander("🧠 3. Taktik: WVV 1:2 System (Aufschlag-Annahme) (30 Min)"):
+            st.markdown("**Der Ernstfall**\nDas Powervolleyball (Einwerfen) wird durch Aufschläge von unten ersetzt. Team A schlägt auf, Team B baut im 1:2 System auf. Das Abzeichen erfordert saubere Annahme unter realen Bedingungen.")
             
         with st.expander("🏆 4. Abschlussspiel (20 Min)"):
-            st.markdown("**TuB Bocholt Bundesliga-Blitzturnier**\nSpiele auf exakt 4 Minuten Zeit. Gewinner bleibt stehen, Verlierer geht raus. Extrem kurze Standzeiten. Joker-Karten-Regel gilt!")
+            st.markdown("**Turniermodus**\n3v3 nach offiziellen WVV Schulsportregeln (Kleinfeld). Gewinnerteam bekommt extra Zeit, um die Stationen für das Abzeichen weiter zu üben.")
 
     with tab2:
         st.subheader("Trainingseinheit 2")
-        st.info("Reiner Turniermodus. Der Trainer greift nur noch bei groben Systemfehlern ein und agiert ansonsten als Schiedsrichter.")
+        st.info("Abnahme des WVV-Spielabzeichens (Bronze) an den Stationen für alle Kinder. Danach feierliches Abschluss-Turnier im 1:2 System.")
