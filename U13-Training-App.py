@@ -181,11 +181,161 @@ if monat == "Monat 1: Annahme-Präzision & System-Start":
             **Trainer-Details:** Lobe auch den Versuch, wenn der finale Ball im Aus landet!
             """)
 
-    # ---------------- WOCHE 3 & 4 (PLATZHALTER) ----------------
+    # ---------------- WOCHE 3 ----------------
     with w3:
-        st.info("Woche 3: Wird nach dem 15-Minuten-Raster für Transition und Annahme-Konstanz generiert.")
+        st.subheader("TE 5 (90 Min): Annahme-Konstanz")
+        with st.expander("🏃‍♂️ 1. Warm-up (10 Min): Reaktions-Sprints"):
+            st.markdown("""
+            **Ablauf:** Bauchlage am Netz. Auf Pfiff: Aufstehen, Rückwärtslauf bis 3m-Linie, Vorwärtssprint.
+            **Trainer-Details:** Beim Rückwärtslaufen über die Schulter schauen lassen (Raum-Blick schulen).
+            """)
+        with st.expander("🎯 2. Technik I (15 Min): Annahme aus der Bewegung (Trocken)"):
+            st.markdown("""
+            **Ablauf:** Trainer wirft den Ball in weiten Bögen seitlich. Spieler muss mit Sidesteps hinter den Ball kommen und ihn fangen.
+            **Trainer-Details:** Keine gekreuzten Beine beim Laufen! Nur Sidesteps.
+            """)
+        with st.expander("🎯 3. Technik II (15 Min): Annahme aus der Bewegung (Live)"):
+            st.markdown("""
+            **Ablauf:** Gleicher Aufbau wie Technik I, nun aber geschlagene Bälle. Nach dem Sidestep muss der Ball zum Ziel gebaggert werden.
+            **Trainer-Details:** Verlange, dass das Spielbrett erst im letzten Moment geschlossen wird, wenn der Stand sicher ist.
+            """)
+        with st.expander("🧠 4. Taktik I (15 Min): Aufschlag-Druck (Räume erkennen)"):
+            st.markdown("""
+            **Ablauf:** Aufschläger versuchen gezielt in die "Naht" (die Lücke zwischen zwei Annahmespielern) zu servieren.
+            **Trainer-Details:** Fordere die Aufschläger heraus, kluge Entscheidungen zu treffen, statt nur hart draufzuhauen.
+            """)
+        with st.expander("🧠 5. Taktik II (15 Min): Annahme-Riegel verschieben"):
+            st.markdown("""
+            **Ablauf:** Die Annahme reagiert auf die taktischen Aufschläge aus Taktik I. Wer nimmt den Ball in der Schnittstelle?
+            **Trainer-Details:** Klare Ansage fordern: Der Spieler, der den Ball seitlich vor sich hat, nimmt ihn. Der andere macht Platz.
+            """)
+        with st.expander("🏆 6. Abschlussspiel (20 Min): Druck-Turnier"):
+            st.markdown("""
+            **Ablauf:** 3v3 / 4v4. Ein direkter Annahmefehler (Ass für den Gegner) gibt 2 Punkte.
+            **Trainer-Details:** Das erhöht den psychologischen Druck auf die Annahme. Erinnere sie an die Grundtechnik (tief bleiben).
+            """)
+
+        st.divider()
+
+        st.subheader("TE 6 - Freitag (120 Min): Transition Defensive -> Annahme")
+        with st.expander("🏃‍♂️ 1. Warm-up (15 Min): 1v1 Volley-Tennis"):
+            st.markdown("""
+            **Ablauf:** 1v1 in schmalen Feldern. Ball darf 1x tippen, alle Körperteile erlaubt. Auf-/Abstieg.
+            **Trainer-Details:** Halte das Tempo extrem hoch. Kurze Standzeiten, schnelle Wechsel.
+            """)
+        with st.expander("🎯 2. Technik I (15 Min): Not-Annahme am Boden (Trocken)"):
+            st.markdown("""
+            **Ablauf:** Hechtbagger üben (Sprawl). Aus dem Stand auf Brust/Bauch abgleiten, Arme ausstrecken. 
+            **Trainer-Details:** Gleiten, nicht fallen! Knie dürfen nicht zuerst aufschlagen (Verletzungsgefahr).
+            """)
+        with st.expander("🎯 3. Technik II (15 Min): Not-Annahme am Boden (Live)"):
+            st.markdown("""
+            **Ablauf:** Trainer wirft Bälle knapp vor die Spieler. Diese müssen abtauchen und den Ball hoch ins Zentrum spielen.
+            **Trainer-Details:** Der Ball muss nur hoch in die Luft, nicht zwingend perfekt zum Netz (Not-Situation!).
+            """)
+        with st.expander("🧠 4. Taktik I (15 Min): Abwehr-Positionierung"):
+            st.markdown("""
+            **Ablauf:** Trockenübung auf dem Feld. Trainer hebt den Arm (simuliert Angriff), alle Spieler rücken auf ihre Abwehr-Positionen.
+            **Trainer-Details:** Niemand darf im 'Schatten' eines eigenen Mitspielers stehen. Alle müssen den Ball sehen können.
+            """)
+        with st.expander("🧠 5. Taktik II (15 Min): Umschaltspiel nach Abwehr"):
+            st.markdown("""
+            **Ablauf:** Aus der Feldabwehr (Ball ist gerettet) sofort wieder in die Annahme-Struktur für den Aufbau formieren.
+            **Trainer-Details:** Nach der Abwehr nicht stehenbleiben! Das Kommando lautet: 'Ball ist oben, Transition!'
+            """)
+        with st.expander("⚡ 6. Athletik I (15 Min): Rumpfstabilität"):
+            st.markdown("""
+            **Ablauf:** Unterarmstütz (Plank) mit Variationen (Bein heben) und Thera-Band Schulter-Rotation.
+            **Trainer-Details:** Starke Körpermitte ist entscheidend für stabile Annahmen in der Bewegung.
+            """)
+        with st.expander("⚡ 7. Athletik II (10 Min): Schulter-Mobilität"):
+            st.markdown("""
+            **Ablauf:** Ausgiebiges Auslockern und leichtes dynamisches Dehnen der Schlag-Schulter.
+            **Trainer-Details:** Dient der Verletzungsprävention vor dem Wochenende.
+            """)
+        with st.expander("🏆 8. Abschlussspiel (20 Min): Transition-Match"):
+            st.markdown("""
+            **Ablauf:** Schneller Ballwechsel-Rhythmus. Trainer wirft sofort nach Rallye-Ende neuen Ball ein.
+            **Trainer-Details:** Wer nicht schnell genug von Abwehr auf Annahme umschaltet, wird vom nächsten Ball überrumpelt.
+            """)
+
+    # ---------------- WOCHE 4 ----------------
     with w4:
-        st.success("Woche 4: Wird nach dem 15-Minuten-Raster für Wettkampfhärte generiert.")
+        st.subheader("TE 7 (90 Min): Match-Day Vorbereitung")
+        with st.expander("🏃‍♂️ 1. Warm-up (10 Min): Pre-Game Einspielen"):
+            st.markdown("""
+            **Ablauf:** Paarweises Warmspielen. Simulation eines echten Spieltages (100% Fokus).
+            **Trainer-Details:** Korrigiere Schlampigkeit sofort. Jede Berührung muss spielnah sein (tiefer Stand).
+            """)
+        with st.expander("🎯 2. Technik I (15 Min): Annahme-Präzisions-Test"):
+            st.markdown("""
+            **Ablauf:** Jeder Spieler nimmt 10 harte Trainer-Aufschläge an. Wie viele landen im Zielkreis?
+            **Trainer-Details:** Baut künstlichen Wettkampf-Stress auf. Notiere die Werte.
+            """)
+        with st.expander("🎯 3. Technik II (15 Min): Der sichere Not-Aufschlag"):
+            st.markdown("""
+            **Ablauf:** 10 Aufschläge (Float oder von unten), die absolut sicher in die Feldmitte müssen.
+            **Trainer-Details:** 'Das ist euer 14:14-Sicherheitsball.' Zeige, wie man Risiko rausnimmt (ruhiger Anwurf).
+            """)
+        with st.expander("🧠 4. Taktik I (15 Min): Abstimmung U13/U14 (Schnittstellen)"):
+            st.markdown("""
+            **Ablauf:** Gemischte Teams spielen. Festlegen: Wer nimmt den kurzen Ball? Wer nimmt Bälle in der Mitte?
+            **Trainer-Details:** Lass die U14-Spieler die Führung übernehmen und die Räume für die U13 ansagen.
+            """)
+        with st.expander("🧠 5. Taktik II (15 Min): Systemprüfung unter Zeitdruck"):
+            st.markdown("""
+            **Ablauf:** Trainer schlägt ein. Die Teams müssen den kompletten Aufbau in max. 4 Sekunden (U13) bzw. 3 Sekunden (U14) schaffen.
+            **Trainer-Details:** Zähle laut mit. Fehler oder zu langsam = Liegestütze (Druck!).
+            """)
+        with st.expander("🏆 6. Abschlussspiel (20 Min): TuB Bocholt Liga (Hinrunde)"):
+            st.markdown("""
+            **Ablauf:** Spiel auf Zeit (z.B. 4 Min pro Match). Start des großen Monats-Turniers.
+            **Trainer-Details:** Halte dich zurück. Lass sie spielen, führe eine korrekte Punktetabelle für Freitag.
+            """)
+
+        st.divider()
+
+        st.subheader("TE 8 - Freitag (120 Min): Der große Monatstest")
+        with st.expander("🏃‍♂️ 1. Warm-up (15 Min): Turnier-Warm-up"):
+            st.markdown("""
+            **Ablauf:** Dynamisches Dehnen, Einschlagen am Netz mit Zuspiel aus der Annahme.
+            **Trainer-Details:** Achte auf die Körperspannung. Keine Faxen am Netz, volle Spieltags-Mentalität.
+            """)
+        with st.expander("🎯 2. Technik I (15 Min): Aufschlag-Duelle"):
+            st.markdown("""
+            **Ablauf:** Spieler treten direkt gegeneinander an. Wer platziert seinen Aufschlag besser in die vorgegebene Zone?
+            **Trainer-Details:** Fördert den Wettkampfgeist. Fordere harte, flache Flugkurven.
+            """)
+        with st.expander("🎯 3. Technik II (15 Min): Annahme-Feinschliff"):
+            st.markdown("""
+            **Ablauf:** Die Verlierer aus Übung 2 schlagen auf, die Gewinner stehen im Annahme-Riegel und müssen perfekt abwehren.
+            **Trainer-Details:** Korrigiere hier nur noch minimale Details. Lobe laute Kommunikation.
+            """)
+        with st.expander("🧠 4. Taktik I (15 Min): Spielaufbau unter Wettkampfstress"):
+            st.markdown("""
+            **Ablauf:** Spielstände simulieren ('Es steht 23:23'). Annahme MUSS sitzen, um Sideout zu schaffen.
+            **Trainer-Details:** Beobachte die Körpersprache. Wer versteckt sich? Fordere von Schlüsselspielern Verantwortung.
+            """)
+        with st.expander("🧠 5. Taktik II (15 Min): Timeout-Coaching"):
+            st.markdown("""
+            **Ablauf:** Teams simulieren Mini-Matches. Sie nehmen selbst Timeouts und suchen taktische Lösungen.
+            **Trainer-Details:** Misch dich nicht ein. Lerne, wie deine Spieler miteinander kommunizieren und Probleme lösen.
+            """)
+        with st.expander("⚡ 6. Athletik I (15 Min): Explosive Sprungserie"):
+            st.markdown("""
+            **Ablauf:** 3x5 Hocksprünge auf Kommando, kurze Sprints zur 3m-Linie.
+            **Trainer-Details:** ZNS (Zentrales Nervensystem) aktivieren vor dem Finale.
+            """)
+        with st.expander("⚡ 7. Athletik II (10 Min): Ausgiebiges Partner-Dehnen"):
+            st.markdown("""
+            **Ablauf:** Kurzes Runterfahren und Dehnen (Fokus Schultern & Beine).
+            **Trainer-Details:** Puls kontrolliert senken, bevor es in das heiße Turnier geht.
+            """)
+        with st.expander("🏆 8. Abschlussspiel (20 Min): Monats-Finale"):
+            st.markdown("""
+            **Ablauf:** 2 Gewinnsätze bis 15 Punkte. Volle Anwendung aller Regeln (TuB Bocholt Liga Finale).
+            **Trainer-Details:** Sei der strenge Schiedsrichter. Pfeif Netzfehler und Übertreten gnadenlos ab. Zelebriere den Sieger!
+            """)
 
 # [Monat 2, 3 und Spezial-Tab bleiben wie bisher, bis sie umgewandelt werden]
 elif monat == "Monat 2: Grundtechnik Angriff & Aufschlag":
