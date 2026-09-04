@@ -19,10 +19,9 @@ with col1:
         ]
     )
 with col2:
-    # Der Schieberegler für die Teilnehmerzahl
     spieler = st.slider("Spieleranzahl heute:", min_value=6, max_value=16, value=11, step=1)
 
-# Dynamische Organisations-Logik basierend auf dem Slider
+# Dynamische Organisations-Logik
 if spieler <= 8:
     orga_modus = "🔥 **Kleingruppe (6-8):** Extreme Ballberührungsdichte. Keine Pausen, Dauerschleifen (Butterfly-Drills)."
 elif spieler <= 12:
@@ -48,72 +47,86 @@ if monat == "Monat 1: Annahme-Präzision (RTK: Bagger)":
             st.markdown(f"**Orga bei {spieler} Spielern:** Paarweise. Bei ungerader Zahl eine 3er-Gruppe mit fliegendem Wechsel.")
             st.markdown("""
             **Ablauf:** Spieler A wirft seitlich. Spieler B macht schnellen Sidestep, formt das Spielbrett und baggert zurück.
-            **🚀 PRO-Level (für Starke):** Der Werfer wirft absichtlich extrem fies (sehr kurz oder flach), sodass der Stärkere zwingend abtauchen (Sprawl) muss.
+            **🚀 PRO-Level:** Der Werfer wirft absichtlich extrem fies (sehr kurz oder flach), sodass der Stärkere zwingend abtauchen (Sprawl) muss.
             """)
 
         with st.expander("🎯 2. Technik I (15 Min): Ziel-Baggern aus dem Stand"):
             st.markdown(f"**Orga bei {spieler} Spielern:** {'Alle auf ein Ziel im fliegenden Wechsel.' if spieler <= 10 else 'Feld dritteln. Zwei Ziele aufbauen (Kästen), damit zwei Reihen gleichzeitig baggern können.'}")
             st.markdown("""
-            **Ablauf:** Trainer/Zuspieler wirft Bälle zentral an. Ball im hohen Bogen auf das Ziel (Pos II/III) baggern.
-            **🚀 PRO-Level:** Stärkere Spieler dürfen den Ball nicht mehr hoch anwerfen lassen, sondern bekommen ihn vom Trainer hart per Tennis-Aufschlag serviert.
+            **Ablauf:** Trainer/Zuspieler wirft Bälle zentral an. Ball im hohen Bogen auf das Ziel baggern.
+            **🚀 PRO-Level:** Stärkere Spieler dürfen den Ball nicht anwerfen lassen, sondern bekommen ihn hart per Tennis-Aufschlag serviert.
             """)
 
         with st.expander("🎯 3. Technik II (15 Min): Bagger aus der Bewegung"):
             st.markdown("""
             **Ablauf:** Bälle in Lücken werfen. Spieler erläuft Ball, stoppt ab und spielt zum Ziel.
-            **🚀 PRO-Level:** Starke Spieler starten auf dem Bauch liegend an der Grundlinie. Auf Pfiff aufstehen, sprinten und den Ball erlaufen.
+            **🚀 PRO-Level:** Starke Spieler starten auf dem Bauch liegend. Auf Pfiff aufstehen, sprinten und den Ball erlaufen.
             """)
 
         with st.expander("🧠 4. Taktik I (15 Min): Annahme-Riegel formieren"):
-            st.markdown(f"**Orga bei {spieler} Spielern:** {'Zwei feste Riegel.' if spieler <= 8 else 'Wellenprinzip: Nach 3 gespielten Bällen sprintet der nächste Riegel aufs Feld.' if spieler <= 12 else 'Ein Riegel auf Feld A, ein Riegel auf Feld B (Querfeld). Wartende Spieler schlagen von der Seite auf.'}")
+            st.markdown(f"**Orga bei {spieler} Spielern:** {'Zwei feste Riegel.' if spieler <= 8 else 'Wellenprinzip: Nach 3 Bällen sprintet der nächste Riegel aufs Feld.' if spieler <= 12 else 'Querfeld-Stationen. Wartende Spieler schlagen von der Seite auf.'}")
             st.markdown("""
             **Ablauf:** Trainer/Spieler werfen Bälle ein. Klare Kommunikation ('Ich!').
-            **🚀 PRO-Level:** Starke Spieler müssen im 2er-Riegel (statt 3er) das halbe Feld allein abdecken.
+            **🚀 PRO-Level:** Starke Spieler müssen im 2er-Riegel das halbe Feld allein abdecken.
             """)
 
         with st.expander("🧠 5. Taktik II (15 Min): Pass zum Steller"):
             st.markdown("""
             **Ablauf:** Gezielter Bagger zum einlaufenden Steller (dieser fängt).
-            **🚀 PRO-Level:** Starke Zuspieler fangen den Ball nicht mehr, sondern müssen ihn direkt als sauberes Zuspiel auf Position IV weiterleiten.
+            **🚀 PRO-Level:** Starke Zuspieler fangen den Ball nicht, sondern leiten ihn direkt als sauberes Zuspiel weiter.
             """)
 
         with st.expander("🏆 6. Abschlussspiel (20 Min): Annahme-Bingo"):
-            st.markdown(f"**Orga bei {spieler} Spielern:** {'3v3 / 4v4 Dauer-Match.' if spieler <= 8 else 'Kaiserplatz mit 3er-Teams. Bei 13+ Spielern 4 Teams bilden (2 spielen, 2 machen Athletik am Rand, Wechsel nach Zeit).'}")
+            st.markdown(f"**Orga bei {spieler} Spielern:** {'3v3 / 4v4 Dauer-Match.' if spieler <= 8 else 'Kaiserplatz mit 3er-Teams.'}")
             st.markdown("""
             **Punkte-Regel:** Zusatzpunkt, wenn Annahme perfekt beim Zuspieler landet.
-            **🚀 PRO-Level:** Für starke Spieler (U14) zählen Punkte im Angriff nur, wenn der Ball gesprungen und geschlagen wird. Anfänger dürfen Lobben.
+            **🚀 PRO-Level:** Für starke Spieler (U14) zählen Punkte im Angriff nur, wenn der Ball gesprungen und geschlagen wird.
             """)
 
         st.divider()
 
         st.subheader("TE 2 - Freitag (120 Min): Annahme unter Druck")
         with st.expander("🏃‍♂️ 1. Warm-up (15 Min): Tiefe Abwehr & Linien-Chaos"):
-            st.markdown("**Ablauf:** Linienfangen mit tiefem Abwehr-Stopp auf Pfiff.\n**🚀 PRO-Level:** Fänger dürfen nur im Seitgalopp (Sidesteps) fangen, Gejagte normal laufen.")
+            st.markdown("**Ablauf:** Linienfangen mit tiefem Abwehr-Stopp auf Pfiff.\n**🚀 PRO-Level:** Fänger dürfen nur im Seitgalopp (Sidesteps) fangen.")
 
-        with st.expander("🎯 2. Technik (15 Min): Harte Bälle absorbieren"):
-            st.markdown(f"**Orga bei {spieler} Spielern:** {'Endlos-Reihe.' if spieler <= 10 else 'Zwei Trainer/Aufschläger an den Netzkanten schießen diagonal ab, um Staus zu vermeiden.'}")
+        with st.expander("🎯 2. Technik I (15 Min): Volleycorner Plattform-Entwicklung an der Wand"):
+            st.markdown(f"**Orga bei {spieler} Spielern:** {'Jeder hat einen eigenen Platz an der Wand.' if spieler <= 10 else 'In Paaren arbeiten: Einer arbeitet an der Wand, der andere drückt leicht von hinten gegen die Schultern, um die Stabilität zu testen.'}")
             st.markdown("""
-            **Ablauf:** Arme hinhalten, Ball abprallen lassen (Bagger-Winkel).
+            **Ablauf:** Vor eine Wand stellen, Hände abknicken und mit Spannung gegen die Wand drücken. Aus dieser Position die Hände langsam bis auf Brusthöhe nach unten und wieder nach oben führen.
+            **Trainer-Details:** Die Übung ist bewusst anstrengend. Der konstante Druck trainiert, die Schultern zusammenzupressen und die Arme vollständig zu überstrecken. Das Ziel ist, die Position für eine große, geschlossene Plattform körperlich zu spüren und zu automatisieren.
+            **🚀 PRO-Level:** Die Bewegung mit geschlossenen Augen ausführen. Der Fokus liegt komplett auf der isolierten Muskelspannung im Schultergürtel.
+            """)
+
+        with st.expander("🎯 3. Technik II (15 Min): Harte Bälle absorbieren"):
+            st.markdown(f"**Orga bei {spieler} Spielern:** {'Endlos-Reihe.' if spieler <= 10 else 'Zwei Trainer/Aufschläger an den Netzkanten schießen diagonal ab.'}")
+            st.markdown("""
+            **Ablauf:** Arme hinhalten, Ball abprallen lassen (Bagger-Winkel). Das Gefühl aus der Wandübung (zusammengepresste Schultern) direkt auf den Ball übertragen.
             **🚀 PRO-Level:** Starke Spieler stellen sich 2 Meter näher ans Netz (weniger Reaktionszeit!).
             """)
 
-        with st.expander("🧠 3. Taktik (30 Min): Serve & Pass"):
+        with st.expander("🧠 4. Taktik I (15 Min): Serve & Pass (Leicht)"):
+            st.markdown("""
+            **Ablauf:** Aufschläge von unten. Fokus auf Annahme-Aufbau.
+            **🚀 PRO-Level:** Zuspieler müssen die Bälle ausnahmslos im Sprung zuspielen.
+            """)
+
+        with st.expander("🧠 5. Taktik II (15 Min): Serve & Pass (Schwer)"):
             st.markdown("""
             **Ablauf:** Harte Aufschläge von oben vs. Annahmeriegel.
             **🚀 PRO-Level:** Starke Aufschläger müssen von der Grundlinie servieren. Schwächere dürfen ab 4,50m ins Feld rücken.
             """)
 
-        with st.expander("⚡ 4. Athletik (20 Min): DVV Rumpf & Puls"):
+        with st.expander("⚡ 6. Athletik (15 Min): DVV Rumpf & Puls"):
             st.markdown("""
             **Ablauf:** 3 Runden Zirkel (Plank, Ausfallschritte). Danach sofort Aufschläge.
             **🚀 PRO-Level:** Bei Planks diagonal Arm und Bein heben. 
             """)
 
-        with st.expander("🏆 5. Abschlussspiel (20 Min): Handicap-Match"):
-            st.markdown(f"**Orga bei {spieler} Spielern:** {'4v4 normal.' if spieler <= 8 else '3 Teams (A, B, C). A vs B, C fungiert als ständige Aufschläger von außen.'}")
+        with st.expander("🏆 7. Abschlussspiel (20 Min): Handicap-Match"):
+            st.markdown(f"**Orga bei {spieler} Spielern:** {'4v4 normal.' if spieler <= 8 else '3 Teams. A vs B, C fungiert als ständige Aufschläger von außen.'}")
             st.markdown("""
             **Ablauf:** Matchpraxis.
-            **🚀 PRO-Level (Das ultimative Handicap):** Starke Spieler dürfen *nur* ins hintere Felddrittel (Pos 1, 6, 5) angreifen, Anfänger überallhin.
+            **🚀 PRO-Level:** Starke Spieler dürfen *nur* ins hintere Felddrittel (Pos 1, 6, 5) angreifen, Anfänger überallhin.
             """)
 
     # ---------------- WOCHE 2 ----------------
@@ -126,20 +139,20 @@ if monat == "Monat 1: Annahme-Präzision (RTK: Bagger)":
             st.markdown(f"**Orga bei {spieler} Spielern:** {'Fliegender Wechsel am Netz.' if spieler <= 10 else 'Ganze Netzlänge nutzen, 3 Stationen parallel aufbauen.'}")
             st.markdown("""
             **Ablauf:** Zuspieler pendelt zwischen Netz und Pos 3.
-            **🚀 PRO-Level:** Starke Spieler müssen den gefangenen Ball sofort im Sprung zurückwerfen (Sprungzuspiel-Vorbereitung).
+            **🚀 PRO-Level:** Starke Spieler müssen den gefangenen Ball sofort im Sprung zurückwerfen.
             """)
 
         with st.expander("🎯 3. Technik II (15 Min): Annahme + Zuspiel Kopplung"):
             st.markdown("""
             **Ablauf:** Annahme baggert zum Steller. Steller pritscht hoch in Korb.
-            **🚀 PRO-Level:** Der Steller darf den Ball nicht fangen, sondern muss ihn als sauberen Pass rückwärts (über Kopf) auf Pos II spielen.
+            **🚀 PRO-Level:** Der Steller darf den Ball nicht fangen, sondern muss ihn über Kopf auf Pos II spielen.
             """)
 
         with st.expander("🧠 4. Taktik (30 Min): System-Laufwege"):
-            st.markdown(f"**Orga bei {spieler} Spielern:** {'Eine Gruppe spielt endlos.' if spieler <= 8 else 'Wellenprinzip: 3 Bälle pro Team, dann Sprint raus, nächstes Team rein.'}")
+            st.markdown(f"**Orga bei {spieler} Spielern:** {'Eine Gruppe spielt endlos.' if spieler <= 8 else 'Wellenprinzip: 3 Bälle pro Team, dann Sprint raus.'}")
             st.markdown("""
             **Ablauf:** Trainer wirft ein. Zuspieler läuft ein. Komplett durchgespielt.
-            **🚀 PRO-Level:** Der Trainer wirft bei starken Teams absichtlich fiese Dankebälle ins Aus, das System muss out-of-system gerettet werden.
+            **🚀 PRO-Level:** Der Trainer wirft absichtlich fiese Dankebälle ins Aus, das System muss gerettet werden.
             """)
 
         with st.expander("🏆 5. Abschlussspiel (20 Min): Wash-Game"):
@@ -152,19 +165,19 @@ if monat == "Monat 1: Annahme-Präzision (RTK: Bagger)":
 
         st.subheader("TE 4 - Freitag (120 Min): System unter Druck")
         with st.expander("🏃‍♂️ 1. Warm-up (15 Min): Ball-Handling Staffel"):
-            st.markdown("**Ablauf:** Staffel mit Ball prellen, Anwurf-Simulation.\n**🚀 PRO-Level:** Die Stärkeren müssen die Staffel rückwärts laufen.")
+            st.markdown("**Ablauf:** Staffel mit Ball prellen, Anwurf-Simulation am Netz.\n**🚀 PRO-Level:** Die Stärkeren müssen die Staffel rückwärts laufen.")
 
         with st.expander("🎯 2. Technik (15 Min): Zonen-Aufschlag"):
             st.markdown("""
             **Ablauf:** Aufschläge gezielt auf Turnmatten in Ecken.
-            **🚀 PRO-Level:** Matten werden halbiert (schwierigeres Ziel). Aufschlag muss knallhart sein.
+            **🚀 PRO-Level:** Matten werden halbiert (schwierigeres Ziel).
             """)
 
         with st.expander("🧠 3. Taktik (30 Min): Rette das System (Out-of-System)"):
-            st.markdown(f"**Orga bei {spieler} Spielern:** {'Warte-Spieler sammeln Bälle hinter dem Feld, um Tempo hochzuhalten.' if spieler > 10 else 'Dauerbelastung.'}")
+            st.markdown(f"**Orga bei {spieler} Spielern:** {'Warte-Spieler sammeln Bälle hinter dem Feld.' if spieler > 10 else 'Dauerbelastung.'}")
             st.markdown("""
             **Ablauf:** Trainer wirft Ball absichtlich ins Aus. Spieler rufen 'Hilfe' und spielen Notpass.
-            **🚀 PRO-Level:** Starke Angreifer müssen den Notpass zwingend als harten Angriffsschlag (aus dem Hinterfeld) lösen, statt nur zu pritschen.
+            **🚀 PRO-Level:** Starke Angreifer müssen den Notpass zwingend als harten Angriffsschlag lösen.
             """)
 
         with st.expander("⚡ 4. Athletik (20 Min): DVV Fußarbeit & Rumpf"):
@@ -176,15 +189,15 @@ if monat == "Monat 1: Annahme-Präzision (RTK: Bagger)":
         with st.expander("🏆 5. Abschlussspiel (20 Min): System-Kaiser"):
             st.markdown("""
             **Ablauf:** Herausforderer rücken nur bei 3er-System-Aufbau vor.
-            **🚀 PRO-Level:** Ein Punkt, der von einem starken Spieler durch einen direkten Block erzielt wird, zählt doppelt.
+            **🚀 PRO-Level:** Ein direkter Blockpunkt eines starken Spielers zählt doppelt.
             """)
 
     with w3:
-        st.info("Woche 3 und 4 folgen exakt dieser Logik: Dynamische Orga-Anpassung über den Slider und PRO-Levels in jeder Übung!")
+        st.info("Woche 3 und 4 folgen der gleichen Logik mit dynamischer Orga-Anpassung und PRO-Levels.")
     with w4:
-        st.success("Tipp: Die PRO-Levels sind perfekt, um den U14-Spielern zu zeigen, dass du ihre Fähigkeiten siehst und sie forderst.")
+        st.success("Tipp: Nutze die PRO-Levels, um die U14 in denselben Übungen ans Limit zu bringen.")
 
-# [Monat 2, 3 und Spezial-Tab bleiben wie gehabt]
+# [Monat 2, 3 und Spezial-Tab Platzhalter]
 elif monat == "Monat 2: Angriff (RTK: Anlauf-Rhythmus)":
     st.info("Die Struktur für Monat 2 skaliert ebenfalls dynamisch mit dem Slider.")
 elif monat == "Monat 3: Out-of-System (RTK: Highball)":
