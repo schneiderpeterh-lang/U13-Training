@@ -27,7 +27,7 @@ if spieler <= 8:
 elif spieler <= 12:
     orga_modus = "🌊 **Standard (9-12):** Wellenprinzip. 3er/4er-Teams wechseln sich fliegend ab. Ein Team auf dem Feld, eins wartet und rotiert nach 3 Bällen ein."
 else:
-    orga_modus = "🎪 **Großgruppe (13-16):** Volles Haus! Wir nutzen Stationen. Wartende Spieler stehen nicht rum, sondern werfen Bälle ein, fangen Pässe als Zielspieler oder machen Athletik am Spielfeldrand."
+    orga_modus = "🎪 **Großgruppe (13-16):** Volles Haus! Wir nutzen Stationen. Wartende Spieler werfen Bälle ein oder machen Athletik."
 
 st.success(f"Aktueller Modus für {spieler} Spieler:\n {orga_modus}")
 st.divider()
@@ -47,14 +47,14 @@ if monat == "Monat 1: Annahme-Präzision (RTK: Bagger)":
             st.markdown(f"**Orga bei {spieler} Spielern:** Paarweise. Bei ungerader Zahl eine 3er-Gruppe mit fliegendem Wechsel.")
             st.markdown("""
             **Ablauf:** Spieler A wirft seitlich. Spieler B macht schnellen Sidestep, formt das Spielbrett und baggert zurück.
-            **🚀 PRO-Level:** Der Werfer wirft absichtlich extrem fies (sehr kurz oder flach), sodass der Stärkere zwingend abtauchen (Sprawl) muss.
+            **🚀 PRO-Level:** Der Werfer wirft absichtlich extrem fies, sodass der Stärkere zwingend abtauchen (Sprawl) muss.
             """)
 
         with st.expander("🎯 2. Technik I (15 Min): Ziel-Baggern aus dem Stand"):
-            st.markdown(f"**Orga bei {spieler} Spielern:** {'Alle auf ein Ziel im fliegenden Wechsel.' if spieler <= 10 else 'Feld dritteln. Zwei Ziele aufbauen (Kästen), damit zwei Reihen gleichzeitig baggern können.'}")
+            st.markdown(f"**Orga bei {spieler} Spielern:** {'Alle auf ein Ziel im fliegenden Wechsel.' if spieler <= 10 else 'Feld dritteln. Zwei Ziele aufbauen (Kästen).'}")
             st.markdown("""
             **Ablauf:** Trainer/Zuspieler wirft Bälle zentral an. Ball im hohen Bogen auf das Ziel baggern.
-            **🚀 PRO-Level:** Stärkere Spieler dürfen den Ball nicht anwerfen lassen, sondern bekommen ihn hart per Tennis-Aufschlag serviert.
+            **🚀 PRO-Level:** Stärkere Spieler bekommen den Ball hart per Tennis-Aufschlag serviert.
             """)
 
         with st.expander("🎯 3. Technik II (15 Min): Bagger aus der Bewegung"):
@@ -64,7 +64,7 @@ if monat == "Monat 1: Annahme-Präzision (RTK: Bagger)":
             """)
 
         with st.expander("🧠 4. Taktik I (15 Min): Annahme-Riegel formieren"):
-            st.markdown(f"**Orga bei {spieler} Spielern:** {'Zwei feste Riegel.' if spieler <= 8 else 'Wellenprinzip: Nach 3 Bällen sprintet der nächste Riegel aufs Feld.' if spieler <= 12 else 'Querfeld-Stationen. Wartende Spieler schlagen von der Seite auf.'}")
+            st.markdown(f"**Orga bei {spieler} Spielern:** {'Zwei feste Riegel.' if spieler <= 8 else 'Wellenprinzip: Nach 3 Bällen sprintet der nächste Riegel aufs Feld.' if spieler <= 12 else 'Querfeld-Stationen.'}")
             st.markdown("""
             **Ablauf:** Trainer/Spieler werfen Bälle ein. Klare Kommunikation ('Ich!').
             **🚀 PRO-Level:** Starke Spieler müssen im 2er-Riegel das halbe Feld allein abdecken.
@@ -89,45 +89,46 @@ if monat == "Monat 1: Annahme-Präzision (RTK: Bagger)":
         with st.expander("🏃‍♂️ 1. Warm-up (15 Min): Tiefe Abwehr & Linien-Chaos"):
             st.markdown("**Ablauf:** Linienfangen mit tiefem Abwehr-Stopp auf Pfiff.\n**🚀 PRO-Level:** Fänger dürfen nur im Seitgalopp (Sidesteps) fangen.")
 
-        with st.expander("🎯 2. Technik I (15 Min): Plattform-Entwicklung an der Wand"):
-            st.markdown(f"**Orga bei {spieler} Spielern:** {'Jeder hat einen eigenen Platz an der Wand.' if spieler <= 10 else 'In Paaren arbeiten: Einer arbeitet an der Wand, der andere drückt leicht von hinten gegen die Schultern.'}")
+        with st.expander("⚡ 2. Athletik (15 Min): ZNS-Aktivierung & Rumpf"):
+            st.markdown("""
+            **Ablauf:** Schnelle Leiter-Drills (Tappings) für die Fußarbeit und kurze Planks (Unterarmstütz), um die Muskelspannung für das Spielbrett zu aktivieren.
+            **Trainer-Details:** Direkt nach dem Aufwärmen ist das Nervensystem am frischesten. Fokus liegt auf Explosivität (kurze Bodenkontaktzeiten), nicht auf Erschöpfung!
+            **🚀 PRO-Level:** Bei Planks diagonal Arm und Bein heben. 
+            """)
+
+        with st.expander("🎯 3. Technik I (15 Min): Plattform-Entwicklung an der Wand"):
+            st.markdown(f"**Orga bei {spieler} Spielern:** {'Jeder hat einen eigenen Platz an der Wand.' if spieler <= 10 else 'In Paaren arbeiten: Einer arbeitet, der andere drückt leicht von hinten gegen die Schultern.'}")
             st.markdown("""
             **Ablauf:** Hände abknicken und mit Spannung gegen die Wand drücken. Hände langsam bis auf Brusthöhe nach unten und wieder nach oben führen.
-            **Trainer-Details:** Übung ist bewusst anstrengend! Schultern zusammenpressen, Arme komplett überstrecken. Ziel: Die Körperspannung für das perfekte Spielbrett automatisieren.
+            **Trainer-Details:** Die Spannung aus dem Athletik-Teil direkt hierhin mitnehmen. Schultern zusammenpressen, Arme komplett überstrecken.
             **🚀 PRO-Level:** Bewegung mit geschlossenen Augen ausführen. Fokus komplett auf isolierter Muskelspannung.
             """)
 
-        with st.expander("🎯 3. Technik II (15 Min): Harte Bälle absorbieren"):
+        with st.expander("🎯 4. Technik II (15 Min): Harte Bälle absorbieren"):
             st.markdown(f"**Orga bei {spieler} Spielern:** {'Endlos-Reihe.' if spieler <= 10 else 'Zwei Trainer/Aufschläger an den Netzkanten schießen diagonal ab.'}")
             st.markdown("""
             **Ablauf:** Arme hinhalten, Ball abprallen lassen (Bagger-Winkel). Gefühl aus der Wandübung direkt auf den Ball übertragen.
             **🚀 PRO-Level:** Starke Spieler stellen sich 2 Meter näher ans Netz (weniger Reaktionszeit!).
             """)
 
-        with st.expander("🧠 4. Taktik I (15 Min): Annahme-Winkel (1-Mann-Riegel)"):
-            st.markdown(f"**Orga bei {spieler} Spielern:** {'Hohe Frequenz: Jeder nimmt 3 Bälle in Folge, dann schneller Wechsel.' if spieler <= 10 else 'Zwei Felder nutzen (falls möglich) oder 2 Spieler stehen nebeneinander und werden abwechselnd angespielt.'}")
+        with st.expander("🧠 5. Taktik I (15 Min): Annahme-Winkel (1-Mann-Riegel)"):
+            st.markdown(f"**Orga bei {spieler} Spielern:** {'Hohe Frequenz: Jeder nimmt 3 Bälle in Folge.' if spieler <= 10 else 'Zwei Felder nutzen oder 2 Spieler nebeneinander abwechselnd anspielen.'}")
             st.markdown("""
-            **Ablauf:** Ein Spieler nimmt alleine an. Aufschläge kommen von 3 Positionen (Links, Mitte, Rechts). Das kann mit 3 Aufschlägern oder einer **Ballmaschine** (wird umpositioniert) geschehen. Der Annahmespieler muss vor jedem Ball seine Plattform und seinen Körperwinkel zur Aufschlagposition ausrichten.
-            **Trainer-Details:** Die äußere Schulter des Spielers muss leicht vorgeschoben werden, damit das Spielbrett immer ins Feld-Zentrum zeigt. 
-            **🚀 PRO-Level:** Starke Spieler bekommen die Bälle in hoher Frequenz aus der Ballmaschine und müssen zwischen den Aufschlägen in der Mitte das Feld berühren (Beinarbeit!).
+            **Ablauf:** Aufschläge von Links, Mitte, Rechts. Der Annahmespieler muss vor jedem Ball seine Plattform und seinen Körperwinkel ausrichten.
+            **Trainer-Details:** Die äußere Schulter muss leicht vorgeschoben werden, damit das Spielbrett ins Feld-Zentrum zeigt. 
+            **🚀 PRO-Level:** Starke Spieler bekommen Bälle in hoher Frequenz (Ballmaschine/Trainer) und müssen dazwischen die Spielfeldmitte berühren.
             """)
 
-        with st.expander("🧠 5. Taktik II (15 Min): Annahme-Taktik (3er-Riegel vs. variable Aufschläge)"):
+        with st.expander("🧠 6. Taktik II (15 Min): Annahme-Taktik (3er-Riegel vs. variabel)"):
             st.markdown(f"**Orga bei {spieler} Spielern:** {'Ein 3er-Team wehrt 6 Bälle ab, dann Rotation.' if spieler <= 10 else 'Wellenprinzip: Team A nimmt 6 Bälle, Team B rückt sofort nach.'}")
             st.markdown("""
-            **Ablauf:** 3er-Riegel. Insgesamt 6 Aufschläge (mit Maschine oder 3 Aufschlägern) von wechselnden Positionen (Links, Mitte, Rechts). 
-            **Trainer-Details:** Fokus liegt auf der Absprache *vor* dem Aufschlag! Wenn der Aufschlag von links kommt, wer übernimmt die rechte Schnittstelle? Der Riegel muss sich als Einheit verschieben. Ohne lautes Sprechen kein Aufschlag!
-            **🚀 PRO-Level:** Starke Spieler müssen denselben Riegel-Drill zu zweit (2er-Riegel) auf dem vollen Feld absolvieren.
-            """)
-
-        with st.expander("⚡ 6. Athletik (15 Min): DVV Rumpf & Puls"):
-            st.markdown("""
-            **Ablauf:** 3 Runden Zirkel (Plank, Ausfallschritte). Danach sofort Aufschläge.
-            **🚀 PRO-Level:** Bei Planks diagonal Arm und Bein heben. 
+            **Ablauf:** 3er-Riegel. 6 Aufschläge von wechselnden Positionen. 
+            **Trainer-Details:** Fokus liegt auf der Absprache *vor* dem Aufschlag! Wer übernimmt die Schnittstelle?
+            **🚀 PRO-Level:** Starke Spieler müssen denselben Drill zu zweit (2er-Riegel) auf dem vollen Feld absolvieren.
             """)
 
         with st.expander("🏆 7. Abschlussspiel (20 Min): Handicap-Match"):
-            st.markdown(f"**Orga bei {spieler} Spielern:** {'4v4 normal.' if spieler <= 8 else '3 Teams. A vs B, C fungiert als ständige Aufschläger von außen.'}")
+            st.markdown(f"**Orga bei {spieler} Spielern:** {'4v4 normal.' if spieler <= 8 else '3 Teams. A vs B, C fungiert als Aufschläger von außen.'}")
             st.markdown("""
             **Ablauf:** Matchpraxis.
             **🚀 PRO-Level:** Starke Spieler dürfen *nur* ins hintere Felddrittel (Pos 1, 6, 5) angreifen, Anfänger überallhin.
@@ -171,23 +172,24 @@ if monat == "Monat 1: Annahme-Präzision (RTK: Bagger)":
         with st.expander("🏃‍♂️ 1. Warm-up (15 Min): Ball-Handling Staffel"):
             st.markdown("**Ablauf:** Staffel mit Ball prellen, Anwurf-Simulation am Netz.\n**🚀 PRO-Level:** Die Stärkeren müssen die Staffel rückwärts laufen.")
 
-        with st.expander("🎯 2. Technik (15 Min): Zonen-Aufschlag"):
+        with st.expander("⚡ 2. Athletik (15 Min): DVV Fußarbeit"):
+            st.markdown("""
+            **Ablauf:** Koordinationsleiter & Medizinball-Würfe (seitlich aus der Hüfte).
+            **Trainer-Details:** Direkt nach dem Warm-up ist die Spritzigkeit am höchsten. Fokus auf reaktive, schnelle Kontakte in der Leiter.
+            **🚀 PRO-Level:** Kontaktzeiten in der Leiter messen (Wettbewerb).
+            """)
+
+        with st.expander("🎯 3. Technik (15 Min): Zonen-Aufschlag"):
             st.markdown("""
             **Ablauf:** Aufschläge gezielt auf Turnmatten in Ecken.
             **🚀 PRO-Level:** Matten werden halbiert (schwierigeres Ziel).
             """)
 
-        with st.expander("🧠 3. Taktik (30 Min): Rette das System (Out-of-System)"):
+        with st.expander("🧠 4. Taktik (30 Min): Rette das System (Out-of-System)"):
             st.markdown(f"**Orga bei {spieler} Spielern:** {'Warte-Spieler sammeln Bälle hinter dem Feld.' if spieler > 10 else 'Dauerbelastung.'}")
             st.markdown("""
             **Ablauf:** Trainer wirft Ball absichtlich ins Aus. Spieler rufen 'Hilfe' und spielen Notpass.
             **🚀 PRO-Level:** Starke Angreifer müssen den Notpass zwingend als harten Angriffsschlag lösen.
-            """)
-
-        with st.expander("⚡ 4. Athletik (20 Min): DVV Fußarbeit & Rumpf"):
-            st.markdown("""
-            **Ablauf:** Koordinationsleiter & Medizinball-Würfe.
-            **🚀 PRO-Level:** Kontaktzeiten in der Leiter messen (Wettbewerb).
             """)
 
         with st.expander("🏆 5. Abschlussspiel (20 Min): System-Kaiser"):
@@ -197,7 +199,7 @@ if monat == "Monat 1: Annahme-Präzision (RTK: Bagger)":
             """)
 
     with w3:
-        st.info("Woche 3 und 4 folgen der gleichen Logik mit dynamischer Orga-Anpassung und PRO-Levels.")
+        st.info("Woche 3 und 4 folgen der gleichen Logik mit Athletik zur ZNS-Aktivierung nach dem Warm-up.")
     with w4:
         st.success("Tipp: Nutze die PRO-Levels, um die U14 in denselben Übungen ans Limit zu bringen.")
 
