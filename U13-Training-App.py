@@ -85,35 +85,39 @@ if monat == "Monat 1: Annahme-Präzision (RTK: Bagger)":
 
         st.divider()
 
-        st.subheader("TE 2 - Freitag (120 Min): Annahme unter Druck")
+        st.subheader("TE 2 - Freitag (120 Min): Annahme unter Druck (Volleycorner)")
         with st.expander("🏃‍♂️ 1. Warm-up (15 Min): Tiefe Abwehr & Linien-Chaos"):
             st.markdown("**Ablauf:** Linienfangen mit tiefem Abwehr-Stopp auf Pfiff.\n**🚀 PRO-Level:** Fänger dürfen nur im Seitgalopp (Sidesteps) fangen.")
 
-        with st.expander("🎯 2. Technik I (15 Min): Volleycorner Plattform-Entwicklung an der Wand"):
-            st.markdown(f"**Orga bei {spieler} Spielern:** {'Jeder hat einen eigenen Platz an der Wand.' if spieler <= 10 else 'In Paaren arbeiten: Einer arbeitet an der Wand, der andere drückt leicht von hinten gegen die Schultern, um die Stabilität zu testen.'}")
+        with st.expander("🎯 2. Technik I (15 Min): Plattform-Entwicklung an der Wand"):
+            st.markdown(f"**Orga bei {spieler} Spielern:** {'Jeder hat einen eigenen Platz an der Wand.' if spieler <= 10 else 'In Paaren arbeiten: Einer arbeitet an der Wand, der andere drückt leicht von hinten gegen die Schultern.'}")
             st.markdown("""
-            **Ablauf:** Vor eine Wand stellen, Hände abknicken und mit Spannung gegen die Wand drücken. Aus dieser Position die Hände langsam bis auf Brusthöhe nach unten und wieder nach oben führen.
-            **Trainer-Details:** Die Übung ist bewusst anstrengend. Der konstante Druck trainiert, die Schultern zusammenzupressen und die Arme vollständig zu überstrecken. Das Ziel ist, die Position für eine große, geschlossene Plattform körperlich zu spüren und zu automatisieren.
-            **🚀 PRO-Level:** Die Bewegung mit geschlossenen Augen ausführen. Der Fokus liegt komplett auf der isolierten Muskelspannung im Schultergürtel.
+            **Ablauf:** Hände abknicken und mit Spannung gegen die Wand drücken. Hände langsam bis auf Brusthöhe nach unten und wieder nach oben führen.
+            **Trainer-Details:** Übung ist bewusst anstrengend! Schultern zusammenpressen, Arme komplett überstrecken. Ziel: Die Körperspannung für das perfekte Spielbrett automatisieren.
+            **🚀 PRO-Level:** Bewegung mit geschlossenen Augen ausführen. Fokus komplett auf isolierter Muskelspannung.
             """)
 
         with st.expander("🎯 3. Technik II (15 Min): Harte Bälle absorbieren"):
             st.markdown(f"**Orga bei {spieler} Spielern:** {'Endlos-Reihe.' if spieler <= 10 else 'Zwei Trainer/Aufschläger an den Netzkanten schießen diagonal ab.'}")
             st.markdown("""
-            **Ablauf:** Arme hinhalten, Ball abprallen lassen (Bagger-Winkel). Das Gefühl aus der Wandübung (zusammengepresste Schultern) direkt auf den Ball übertragen.
+            **Ablauf:** Arme hinhalten, Ball abprallen lassen (Bagger-Winkel). Gefühl aus der Wandübung direkt auf den Ball übertragen.
             **🚀 PRO-Level:** Starke Spieler stellen sich 2 Meter näher ans Netz (weniger Reaktionszeit!).
             """)
 
-        with st.expander("🧠 4. Taktik I (15 Min): Serve & Pass (Leicht)"):
+        with st.expander("🧠 4. Taktik I (15 Min): Annahme-Winkel (1-Mann-Riegel)"):
+            st.markdown(f"**Orga bei {spieler} Spielern:** {'Hohe Frequenz: Jeder nimmt 3 Bälle in Folge, dann schneller Wechsel.' if spieler <= 10 else 'Zwei Felder nutzen (falls möglich) oder 2 Spieler stehen nebeneinander und werden abwechselnd angespielt.'}")
             st.markdown("""
-            **Ablauf:** Aufschläge von unten. Fokus auf Annahme-Aufbau.
-            **🚀 PRO-Level:** Zuspieler müssen die Bälle ausnahmslos im Sprung zuspielen.
+            **Ablauf:** Ein Spieler nimmt alleine an. Aufschläge kommen von 3 Positionen (Links, Mitte, Rechts). Das kann mit 3 Aufschlägern oder einer **Ballmaschine** (wird umpositioniert) geschehen. Der Annahmespieler muss vor jedem Ball seine Plattform und seinen Körperwinkel zur Aufschlagposition ausrichten.
+            **Trainer-Details:** Die äußere Schulter des Spielers muss leicht vorgeschoben werden, damit das Spielbrett immer ins Feld-Zentrum zeigt. 
+            **🚀 PRO-Level:** Starke Spieler bekommen die Bälle in hoher Frequenz aus der Ballmaschine und müssen zwischen den Aufschlägen in der Mitte das Feld berühren (Beinarbeit!).
             """)
 
-        with st.expander("🧠 5. Taktik II (15 Min): Serve & Pass (Schwer)"):
+        with st.expander("🧠 5. Taktik II (15 Min): Annahme-Taktik (3er-Riegel vs. variable Aufschläge)"):
+            st.markdown(f"**Orga bei {spieler} Spielern:** {'Ein 3er-Team wehrt 6 Bälle ab, dann Rotation.' if spieler <= 10 else 'Wellenprinzip: Team A nimmt 6 Bälle, Team B rückt sofort nach.'}")
             st.markdown("""
-            **Ablauf:** Harte Aufschläge von oben vs. Annahmeriegel.
-            **🚀 PRO-Level:** Starke Aufschläger müssen von der Grundlinie servieren. Schwächere dürfen ab 4,50m ins Feld rücken.
+            **Ablauf:** 3er-Riegel. Insgesamt 6 Aufschläge (mit Maschine oder 3 Aufschlägern) von wechselnden Positionen (Links, Mitte, Rechts). 
+            **Trainer-Details:** Fokus liegt auf der Absprache *vor* dem Aufschlag! Wenn der Aufschlag von links kommt, wer übernimmt die rechte Schnittstelle? Der Riegel muss sich als Einheit verschieben. Ohne lautes Sprechen kein Aufschlag!
+            **🚀 PRO-Level:** Starke Spieler müssen denselben Riegel-Drill zu zweit (2er-Riegel) auf dem vollen Feld absolvieren.
             """)
 
         with st.expander("⚡ 6. Athletik (15 Min): DVV Rumpf & Puls"):
