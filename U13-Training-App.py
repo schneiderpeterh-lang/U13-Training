@@ -43,17 +43,17 @@ if monat == "Monat 1: Annahme-Präzision (RTK: Bagger)":
     # ---------------- WOCHE 1 ----------------
     with w1:
         st.subheader("TE 1 (90 Min) & TE 2 (120 Min)")
-        st.info("Woche 1 ist bereits vollständig implementiert (siehe vorherige Schritte).")
+        st.info("Woche 1 ist bereits vollständig implementiert.")
 
     # ---------------- WOCHE 2 ----------------
     with w2:
-        st.subheader("TE 3 (90 Min Dienstag): Zuspieler-Integration & Bagger-Winkel")
-        with st.expander("🏃‍♂️ 1. Warm-up (10 Min): Kognitives Chaos"):
-            st.markdown(f"**Orga bei {spieler} Spielern:** Paarweise am Netz.")
+        st.subheader("TE 3 (90 Min Mittwoch): Zuspieler-Integration & Bagger-Winkel")
+        with st.expander("🎾 1. Warm-up (10 Min): Baggertennis (1v1-Minifeld)"):
+            st.markdown(f"**Orga bei {spieler} Spielern:** Das Feld wird in mehrere kleine Schläuche unterteilt (z.B. 3-4 Minifelder quer). Modus: Auf- und Absteiger-Turnier.")
             st.markdown("""
-            **Ablauf:** A pritscht Ball 1, B rollt Ball 2. Auf Pfiff: Sprint zur Grundlinie und zurück.
-            **Trainer-Details:** Fehler sind hier erwünscht. Fördert die schnelle kognitive Umschaltung.
-            **🚀 PRO-Level:** Statt Pritschen müssen die Starken den Ball im Bagger oben halten.
+            **Ablauf:** 1 gegen 1 auf Mini-Feldern. Jeder Spieler hat ein eigenes kleines Feld. Der Ball darf einmal den Boden berühren (wie beim Tennis), muss dann aber über das Netz in das gegnerische Feld zurückgespielt werden (primär im Bagger).
+            **Trainer-Details:** Fördert maximale Ballberührungsdichte, Beinarbeit, Schnelligkeit und Präzision unter Wettkampfdruck.
+            **🚀 PRO-Level:** Starke Spieler dürfen den Ball *nicht* aufkommen lassen (Direkt-Duell Volley-Tennis) oder nur mit einer Hand retten.
             """)
 
         with st.expander("⚡ 2. Athletik (10 Min): ZNS-Aktivierung & Fußarbeit"):
@@ -93,7 +93,6 @@ if monat == "Monat 1: Annahme-Präzision (RTK: Bagger)":
             **🚀 PRO-Level:** Wenn ein starker Spieler das Zuspiel übernimmt, muss der Pass zwingend im Sprung erfolgen.
             """)
 
-        agents_divider = "---"
         st.divider()
 
         st.subheader("TE 4 - Freitag (120 Min): RTK Athletik & System unter Druck")
@@ -112,7 +111,7 @@ if monat == "Monat 1: Annahme-Präzision (RTK: Bagger)":
 
         with st.expander("🎯 3. Technik I (15 Min): Zonen-Aufschlag"):
             st.markdown("""
-            **Ablauf:** Aufschläge gezielt auf Turnmatten in den Ecken.
+            **Ablauf:** Aufschläge gezielt auf Turnmatten in Ecken.
             **Trainer-Details:** Handgelenk muss fest sein, um Druck und Genauigkeit zu erzeugen.
             **🚀 PRO-Level:** Matten werden halbiert (schwierigeres Ziel). Aufschlag muss knallhart als Float gespielt werden.
             """)
