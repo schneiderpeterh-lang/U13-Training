@@ -42,75 +42,114 @@ if monat == "Monat 1: Annahme-Präzision (RTK: Bagger)":
     
     # ---------------- WOCHE 1 ----------------
     with w1:
-        st.subheader("TE 1 (90 Min): Das sichere Spielbrett")
-        st.info("Training 1 ist bereits abgeschlossen. Fokus liegt auf TE 2 (Freitag).")
+        st.subheader("TE 1 (90 Min) & TE 2 (120 Min)")
+        st.info("Woche 1 ist bereits vollständig implementiert (siehe vorherige Schritte).")
 
+    # ---------------- WOCHE 2 ----------------
+    with w2:
+        st.subheader("TE 3 (90 Min Dienstag): Zuspieler-Integration & Bagger-Winkel")
+        with st.expander("🏃‍♂️ 1. Warm-up (10 Min): Kognitives Chaos"):
+            st.markdown(f"**Orga bei {spieler} Spielern:** Paarweise am Netz.")
+            st.markdown("""
+            **Ablauf:** A pritscht Ball 1, B rollt Ball 2. Auf Pfiff: Sprint zur Grundlinie und zurück.
+            **Trainer-Details:** Fehler sind hier erwünscht. Fördert die schnelle kognitive Umschaltung.
+            **🚀 PRO-Level:** Statt Pritschen müssen die Starken den Ball im Bagger oben halten.
+            """)
+
+        with st.expander("⚡ 2. Athletik (10 Min): ZNS-Aktivierung & Fußarbeit"):
+            st.markdown("""
+            **Ablauf:** Linien-Tappings (Quick Feet) und Scheren-Sprünge an der 3m-Linie.
+            **Trainer-Details:** Schnelle, kurze Bodenkontaktzeiten auf dem Vorfuß. Aktivierung des Nervensystems.
+            **🚀 PRO-Level:** Auf Pfiff sofort aus der schnellen Fußarbeit in die tiefe Abwehr-Haltung abtauchen.
+            """)
+
+        with st.expander("🎯 3. Technik I (15 Min): Bagger-Winkel anpassen"):
+            st.markdown(f"**Orga bei {spieler} Spielern:** {'Fliegender Wechsel am Netz.' if spieler <= 10 else 'Ganze Netzlänge nutzen, parallele Kleingruppen.'}")
+            st.markdown("""
+            **Ablauf:** Ball selbst anwerfen und diagonal auf Position 2 baggern.
+            **Trainer-Details (RTK Bagger):** Die innere Schulter muss tiefer sein, damit das Spielbrett exakt zum Ziel zeigt.
+            **🚀 PRO-Level:** Der Ball wird nicht selbst angeworfen, sondern von einem Partner aus der Bewegung zugeworfen.
+            """)
+
+        with st.expander("🎯 4. Technik II (15 Min): Annahme + Zuspiel Kopplung"):
+            st.markdown("""
+            **Ablauf:** Annahme baggert zum Steller. Steller pritscht hoch in einen Korb oder auf Zielposition.
+            **Trainer-Details:** Der Bagger muss hoch genug sein, damit der Steller in Ruhe unter den Ball treten kann.
+            **🚀 PRO-Level:** Der Steller darf den Ball nicht fangen, sondern muss ihn direkt als sauberen Pass über Kopf auf Position II spielen.
+            """)
+
+        with st.expander("🧠 5. Taktik I (15 Min): System-Laufwege (Trocken)"):
+            st.markdown(f"**Orga bei {spieler} Spielern:** {'Grundaufstellung auf dem Feld.' if spieler <= 8 else 'Wellenwechsel nach jeweils 3 erfolgreichen Abläufen.'}")
+            st.markdown("""
+            **Ablauf:** U14/U13 in Grundaufstellung. Trainer wirft Bälle hoch. Zuspieler läuft ein, fängt den Ball, alle rotieren.
+            **Trainer-Details:** Positionsfehler streng abpfeifen. Erst laufen, wenn der Ball den Trainer verlässt.
+            """)
+
+        with st.expander("🏆 6. Abschlussspiel (20 Min): Wash-Game (2 Rallyes)"):
+            st.markdown(f"**Orga bei {spieler} Spielern:** {'3v3 / 4v4 ohne Wechsel.' if spieler <= 8 else 'Kaiserplatz-Modus.'}")
+            st.markdown("""
+            **Ablauf:** 2 Rallyes in Folge gewinnen = 1 Punkt.
+            **Trainer-Details:** Zweiter Ball fliegt sofort rein. Hält die Konzentration oben.
+            **🚀 PRO-Level:** Wenn ein starker Spieler das Zuspiel übernimmt, muss der Pass zwingend im Sprung erfolgen.
+            """)
+
+        agents_divider = "---"
         st.divider()
 
-        st.subheader("TE 2 - Freitag (120 Min): Annahme & Steller-Rotation")
-        with st.expander("🏃‍♂️ 1. Warm-up (10 Min): Tiefe Abwehr & Linien-Chaos"):
-            st.markdown("**Ablauf:** Linienfangen mit tiefem Abwehr-Stopp auf Pfiff.\n**🚀 PRO-Level:** Fänger dürfen nur im Seitgalopp (Sidesteps) fangen.")
-
-        with st.expander("⚡ 2. Athletik (10 Min): ZNS-Aktivierung & Rumpf"):
+        st.subheader("TE 4 - Freitag (120 Min): RTK Athletik & System unter Druck")
+        with st.expander("🏃‍♂️ 1. Warm-up (15 Min): Ball-Handling & Anwurf"):
             st.markdown("""
-            **Ablauf:** Linien-Tappings für die Fußarbeit und kurze Planks (Unterarmstütz) für das Spielbrett.
-            **Trainer-Details:** Fokus liegt auf Explosivität (kurze Bodenkontaktzeiten), nicht auf Erschöpfung!
-            **🚀 PRO-Level:** Bei Planks diagonal Arm und Bein heben. 
+            **Ablauf:** Staffel mit Ball prellen, Anwurf-Simulation am Netz und Richtungswechseln.
+            **Trainer-Details:** Ball muss vor der Schlag-Schulter angeworfen werden (Vorbereitung für Aufschlag).
             """)
 
-        with st.expander("🎯 3. Technik I (15 Min): Plattform-Entwicklung an der Wand"):
-            st.markdown(f"**Orga bei {spieler} Spielern:** {'Jeder hat einen eigenen Platz an der Wand.' if spieler <= 10 else 'In Paaren arbeiten: Einer arbeitet, der andere drückt leicht von hinten gegen die Schultern.'}")
+        with st.expander("⚡ 2. Athletik (15 Min): DVV Fußarbeit & Rumpf"):
             st.markdown("""
-            **Ablauf:** Hände abknicken und mit Spannung gegen die Wand drücken. Hände langsam bis auf Brusthöhe nach unten und wieder nach oben führen.
-            **Trainer-Details:** Die Spannung aus dem Athletik-Teil direkt mitnehmen. Schultern zusammenpressen, Arme komplett überstrecken.
-            **🚀 PRO-Level:** Bewegung mit geschlossenen Augen ausführen.
+            **Ablauf:** Laterale Sidesteps an den Linien & Medizinball-Würfe (seitlich).
+            **Trainer-Details:** Rumpf-Rotation stärken für stabiles Baggern aus der Drehung.
+            **🚀 PRO-Level:** Zusatzgewicht oder schwerere Medizinbälle nutzen.
             """)
 
-        with st.expander("🎯 4. Technik II (15 Min): Harte Bälle absorbieren"):
-            st.markdown(f"**Orga bei {spieler} Spielern:** {'Endlos-Reihe.' if spieler <= 10 else 'Zwei Trainer/Aufschläger an den Netzkanten schießen diagonal ab.'}")
+        with st.expander("🎯 3. Technik I (15 Min): Zonen-Aufschlag"):
             st.markdown("""
-            **Ablauf:** Arme hinhalten, Ball abprallen lassen. Gefühl aus der Wandübung auf den Ball übertragen.
-            **🚀 PRO-Level:** Starke Spieler stellen sich 2 Meter näher ans Netz.
+            **Ablauf:** Aufschläge gezielt auf Turnmatten in den Ecken.
+            **Trainer-Details:** Handgelenk muss fest sein, um Druck und Genauigkeit zu erzeugen.
+            **🚀 PRO-Level:** Matten werden halbiert (schwierigeres Ziel). Aufschlag muss knallhart als Float gespielt werden.
             """)
 
-        with st.expander("🧠 5. Taktik I (15 Min): Annahme-Winkel (1-Mann-Riegel)"):
-            st.markdown(f"**Orga bei {spieler} Spielern:** {'Hohe Frequenz: Jeder nimmt 3 Bälle in Folge.' if spieler <= 10 else 'Zwei Felder nutzen oder 2 Spieler nebeneinander abwechselnd anspielen.'}")
+        with st.expander("🎯 4. Technik II (15 Min): Annahme-Verschiebung"):
+            st.markdown(f"**Orga bei {spieler} Spielern:** {'Aufschläger-Teams wechseln sich an der Grundlinie ab.' if spieler <= 10 else 'Zwei Aufschläger schicken die Annahme variabel.'}")
             st.markdown("""
-            **Ablauf:** Aufschläge von Links, Mitte, Rechts. Der Spieler muss seine Plattform und Körperwinkel ausrichten.
-            **Trainer-Details:** Die äußere Schulter vorschieben, damit das Spielbrett ins Feld-Zentrum zeigt. 
-            **🚀 PRO-Level:** Bälle kommen in hoher Frequenz, dazwischen die Spielfeldmitte berühren.
+            **Ablauf:** Aufschläger wechselt permanent die Position (Mitte, Seite). Annahmeriegel muss rotieren.
+            **Trainer-Details:** Den Kreuzwinkel abdecken! Das äußere Bein blockiert den Ball Richtung Aus.
             """)
 
-        with st.expander("🧠 6. Taktik II (15 Min): Annahme-Taktik (3er-Riegel)"):
-            st.markdown(f"**Orga bei {spieler} Spielern:** {'Ein 3er-Team wehrt 6 Bälle ab, dann Rotation.' if spieler <= 10 else 'Wellenprinzip: Team A nimmt 6 Bälle, Team B rückt sofort nach.'}")
+        with st.expander("🧠 5. Taktik I (15 Min): Out-of-System (Trocken & Live)"):
             st.markdown("""
-            **Ablauf:** 3er-Riegel. 6 Aufschläge von wechselnden Positionen. 
-            **Trainer-Details:** Fokus liegt auf der Absprache *vor* dem Aufschlag! Wer übernimmt die Schnittstelle?
-            **🚀 PRO-Level:** Starke Spieler müssen denselben Drill im 2er-Riegel absolvieren.
+            **Ablauf:** Trainer wirft Ball absichtlich ins Aus. Spieler rufen 'Hilfe' und spielen Notpass ans Netz.
+            **Trainer-Details:** Auditive Kommunikation (wer ruft?) und hoher Notpass (Highball-Vorbereitung).
+            **🚀 PRO-Level:** Starke Angreifer müssen den Notpass zwingend als harten Angriffsschlag aus dem Hinterfeld lösen.
             """)
 
-        with st.expander("🧠 7. Taktik III (20 Min): Rotations-Karussell (Läufersystem)"):
-            st.markdown(f"**Orga bei {spieler} Spielern:** {'Dauer-Laufwege mit fliegendem Wechsel auf der Steller-Position.' if spieler <= 10 else 'Team A macht 3 Rotationen, dann fliegender Wechsel mit Team B.'}")
+        with st.expander("🧠 6. Taktik II (15 Min): System-Integration"):
             st.markdown("""
-            **Ablauf:** 4 Spieler auf dem Feld (Zuspieler + 3er Annahmeriegel). Der Zuspieler startet nacheinander aus den Positionen I (hinten rechts), VI (hinten Mitte) und V (hinten links). Der Trainer schlägt den Ball an (Signal). Der Steller sprintet auf seine Netzposition (Schnittstelle zwischen II und III) und pritscht die Annahme zu einem Angreifer. Danach sofort Rotation zur nächsten Startposition.
-            **Trainer-Details:** Der Zuspieler darf erst loslaufen, wenn der Trainer den Ball schlägt! Auf den direkten, kürzesten Weg ans Netz achten. Im Moment des Zuspiels muss er komplett abgestoppt sein und zum Ziel (Pos IV) schauen.
-            **🚀 PRO-Level:** Starke Zuspieler müssen beim Einlaufen aus Pos V (dem längsten Weg) den Ball zwingend im Sprung zuspielen.
+            **Ablauf:** Komplex-Übung Aufschlag -> Annahme -> Zuspiel -> Angriff.
+            **Trainer-Details:** Flüssigkeit im Ablauf erzwingen. Keine stehenden Spieler nach der Ballberührung.
             """)
 
-        with st.expander("🏆 8. Abschlussspiel (20 Min): Handicap-Match (Läufer-Fokus)"):
-            st.markdown(f"**Orga bei {spieler} Spielern:** {'4v4 normal.' if spieler <= 8 else '3 Teams. A vs B, C fungiert als Aufschläger.'}")
+        with st.expander("🏆 7. Abschlussspiel (20 Min): System-Kaiser"):
+            st.markdown(f"**Orga bei {spieler} Spielern:** {'3v3 / 4v4 Turniermodus.' if spieler <= 8 else 'Kaiserplatz mit mehreren Teams.'}")
             st.markdown("""
-            **Ablauf:** Matchpraxis. Das Läufersystem wird nun im Spiel angewendet.
-            **🚀 PRO-Level:** Punkte zählen doppelt, wenn der Steller aus einer Hinterfeld-Position eingelaufen ist und der Angriff direkt zum Punkt führt (sauberer Systemaufbau).
+            **Ablauf:** Herausforderer rücken nur bei 3er-System-Aufbau auf die Kaiserseite.
+            **Trainer-Details:** Lobe auch den Versuch, wenn der finale Ball im Aus landet!
+            **🚀 PRO-Level:** Ein direkter Blockpunkt eines starken Spielers zählt doppelt.
             """)
 
-    # ---------------- WOCHE 2-4 (Platzhalter) ----------------
-    with w2:
-        st.info("Woche 2 setzt den Fokus auf die weitere Zuspieler-Integration.")
+    # ---------------- WOCHE 3 & 4 ----------------
     with w3:
-        st.info("Woche 3 fokussiert sich auf Annahme-Konstanz und Rumpf.")
+        st.info("Woche 3 widmet sich der Annahme-Konstanz und der Transition von der Abwehr zur Annahme.")
     with w4:
-        st.info("Woche 4 bereitet auf den Match-Day vor.")
+        st.info("Woche 4 schließt den Monat mit Match-Simulationen und dem großen Monatstest ab.")
 
 # [Monat 2, 3 und Spezial-Tab Platzhalter]
 elif monat == "Monat 2: Angriff (RTK: Anlauf-Rhythmus)":
