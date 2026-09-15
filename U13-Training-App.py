@@ -185,7 +185,7 @@ if monat == "Monat 1: Annahme-Plattform, Beinarbeit & Basis-Aufschlag":
         st.subheader("TE 4 - Freitag (120 Min): Druckaufbau & Annahme unter Belastung")
         
         with st.expander("🏃‍♂️ 1. Warm-up (15 Min): Ball-Handling Staffel & Richtungswechsel"):
-            st.markdown("**Ablauf:** Dribbeln, Richtungswechsel um Hütchen und saubere Anwurfsimulation vor der Schlagschulter[span_2](start_span)[span_2](end_span)[span_3](start_span)[span_3](end_span).")
+            st.markdown("**Ablauf:** Dribbeln, Richtungswechsel um Hütchen und saubere Anwurfsimulation vor der Schlagschulter.")
             
         with st.expander("⚡ 2. Athletik I (15 Min): Quick-Feet & Leiter-Ersatz an Linien"):
             st.markdown("**Ablauf:** Linien-Tappings, Scheren-Sprünge und explosive 3-Meter-Antritte.")
@@ -230,11 +230,12 @@ if monat == "Monat 1: Annahme-Plattform, Beinarbeit & Basis-Aufschlag":
             **Trainer-Details:** Schnelle Beinarbeit und tiefer Schwerpunkt beim Abstoppen.
             """)
             
-        with st.expander("🎯 2. Technik I (15 Min): Annahme aus der seitlichen Bewegung (ohne Netz)"):
+        with st.expander("🎯 2. Technik I (15 Min): Defense-Beinarbeit (Tennisbälle)"):
             st.markdown("""
-            **Ablauf (ohne Netz in 2er-Gruppen):** Spieler startet mittig. Partner wirft variabel 2 m nach links oder rechts.
-            * Schnelle Sidesteps/Kreuzschritte, Brett stabilisieren, kontrolliert zum Partner zurückbaggern.
-            **Trainer-Details:** Beine müssen stehen, bevor der Ball das Brett berührt!
+            **Ablauf (ohne Netz):** 2er-Teams arbeiten im Freiraum der Halle. Der Werfer hat zwei Tennis- oder Unihockeybälle.
+            * Der Werfer wirft nacheinander zwei Bälle tief und leicht versetzt auf den Boden. 
+            * Der Abwehrspieler bleibt durchgehend in der tiefen Grundposition, verschiebt sich mit schnellen Sideshuffles zur Seite und holt beide Bälle.
+            **Trainer-Details:** Der Fokus liegt auf dem Schwerpunkt! Der Spieler darf sich zwischen den Bällen **auf keinen Fall aufrichten**. Wer hochkommt, muss danach wieder runter und verliert die entscheidenden Millisekunden.
             """)
             
         with st.expander("🎯 3. Technik II (15 Min): Kurze und lange Bälle kontrollieren"):
@@ -322,7 +323,7 @@ if monat == "Monat 1: Annahme-Plattform, Beinarbeit & Basis-Aufschlag":
             st.markdown("**Ablauf:** Duelle Aufschläger vs. Annahmeriegel (Pos I, IV, II).")
         with st.expander("🧠 3. Taktik (35 Min): Spielaufbau unter Wettkampfstress"):
             st.markdown("**Ablauf:** Simulation von Drucksituationen (z. B. Spielstand '13:13').")
-        with st.expander("⚡ 4. Athletik & Auslockern (15 Min)"):
+        with st.expander("⚡ 4. Athletik & Auslockern (15 Min):"):
             st.markdown("**Ablauf:** Kurze Sprungserien (3x5 Hocksprünge) + ausgiebiges Partner-Dehnen.")
         with st.expander("🏆 5. Abschlussspiel (20 Min): Monats-Finale"):
             st.markdown("**Wettkampf:** 2 Gewinnsätze bis 15 Punkte unter voller Anwendung aller Annahme- und Läuferregeln.")
