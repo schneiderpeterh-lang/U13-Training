@@ -323,7 +323,7 @@ if monat == "Monat 1: Annahme-Plattform, Beinarbeit & Basis-Aufschlag":
             st.markdown("**Ablauf:** Duelle Aufschläger vs. Annahmeriegel (Pos I, IV, II).")
         with st.expander("🧠 3. Taktik (35 Min): Spielaufbau unter Wettkampfstress"):
             st.markdown("**Ablauf:** Simulation von Drucksituationen (z. B. Spielstand '13:13').")
-        with st.expander("⚡ 4. Athletik & Auslockern (15 Min):"):
+        with st.expander("⚡ 4. Athletik & Auslockern (15 Min)"):
             st.markdown("**Ablauf:** Kurze Sprungserien (3x5 Hocksprünge) + ausgiebiges Partner-Dehnen.")
         with st.expander("🏆 5. Abschlussspiel (20 Min): Monats-Finale"):
             st.markdown("**Wettkampf:** 2 Gewinnsätze bis 15 Punkte unter voller Anwendung aller Annahme- und Läuferregeln.")
@@ -337,14 +337,24 @@ elif monat == "Monat 2: Grundtechnik Angriff & Aufschlag":
     w1, w2, w3, w4 = st.tabs(["Woche 1", "Woche 2", "Woche 3", "Woche 4"])
     
     with w1:
-        st.subheader("TE 1 (90 Min): Der Armzug (ohne Netz / an der Wand)")
+        st.subheader("TE 1 (90 Min): Der Armzug & Stemmschritt")
         with st.expander("🏃‍♂️ 1. Warm-up (10 Min): Schulter-Aktivierung (ohne Netz)"):
             st.markdown("**Ablauf:** Baseball-Würfe in Paaren. Fokus auf Aufdrehen der Schulterachse.")
         with st.expander("🎯 2. Technik (30 Min): Wand-Schlagen (ohne Netz)"):
             st.markdown("**Ablauf:** Vor der Wand: Hoher Ellenbogen, Handgelenk klappt aktiv ab, Ball tippt vor der Wand auf den Boden.")
-        with st.expander("🧠 3. Taktik/Technik (30 Min): Schlagen aus dem Stand am Netz"):
-            st.markdown("**Ablauf:** Trainer wirft auf Pos IV. Spieler machen Stemmschritt aus dem Stand und schlagen mit Handgelenkseinsatz über das Netz.")
-        with st.expander("🏆 4. Abschlussspiel (20 Min): Angriffs-Bingo"):
+        with st.expander("🧠 3. Taktik I (15 Min): Stemmschritt über Hindernis (ohne Ball)"):
+            st.markdown("""
+            **Organisation:** Als flaches Hindernis dienen flache Hütchen oder kleine Markierungsscheiben auf dem Boden.
+            **Ablauf:** Die Kinder starten mit einem Bein in der Luft. Der erste Schritt geht gezielt über das flache Hindernis in Richtung Netz. Direkt danach folgen die letzten beiden Schritte im Stemmschritt ("Links-Rechts" bei Rechtshändern).
+            **Trainer-Fokus:** Voller Doppelarmschwung nach hinten-oben, explosive Bremsbewegung. Kein Ball!
+            """)
+        with st.expander("🧠 4. Taktik II (15 Min): Einschlagen mit Ball & Stemmschritt"):
+            st.markdown("""
+            **Organisation:** Trainer oder Zuspieler steht auf Pos III mit Ballwagen. Angreifer in Reihe auf Pos IV.
+            **Ablauf:** Hoher Bogenpass auf Pos IV. Die Kinder wenden das "unsichtbare Hindernis" aus Taktik I nun live auf den anfliegenden Ball an, führen den Stemmschritt aus und schlagen über das Netz.
+            **Trainer-Fokus:** Rhythmus übertragen! Der Ball muss am höchsten Punkt vor der Schlag-Schulter getroffen werden.
+            """)
+        with st.expander("🏆 5. Abschlussspiel (20 Min): Angriffs-Bingo"):
             st.markdown("**Punkte-Regel:** Punkte zählen nur bei geschlagenem Ball oder aggressivem Angriff.")
 
         st.divider()
