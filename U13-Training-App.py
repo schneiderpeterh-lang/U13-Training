@@ -73,7 +73,7 @@ if monat == "Monat 1: Annahme-Plattform, Beinarbeit & Basis-Aufschlag":
         with st.expander("🧠 5. Taktik II (15 Min): Annahme am Netz auf Pos III"):
             st.markdown("""
             **Ablauf (mit Netz):** Spieler starten auf Pos I bzw. Pos IV. Trainer wirft kontrollierte Bälle über das Netz.
-            * Spieler erlaufen den Ball mit schnellen Schritten nach vorne/innen und baggern gezielt auf Pos III (wo ein Korb oder Fänger steht).
+            * Spieler erlaufen den Ball mit schnellen Schritte nach vorne/innen und baggern gezielt auf Pos III (wo ein Korb oder Fänger steht).
             **Trainer-Details:** Lautes Rufen ('Ich!') vor der Ballberührung einfordern.
             """)
             
@@ -245,16 +245,18 @@ if monat == "Monat 1: Annahme-Plattform, Beinarbeit & Basis-Aufschlag":
             **Trainer-Details:** Ständiges Nachfedern auf den Fußballen (Ready Position).
             """)
             
-        with st.expander("🧠 4. Taktik I (15 Min): Annahmeriegel verschieben (Pos I, IV, II)"):
+        with st.expander("🧠 4. Taktik I (15 Min): Reiner Schlag ohne Sprung (niedriges Netz)"):
             st.markdown("""
-            **Ablauf:** Aufschläger wechselt an der Grundlinie die Position (Pos I oder Pos II). Der Riegel verschiebt sich synchron vor dem Aufschlag.
-            **Trainer-Details:** Klare Absprache an den Schnittstellen ('Ich!').
+            **Organisation:** Das Netz wird deutlich niedriger gespannt (z.B. auf Kopfhöhe oder leicht darüber). Die Spieler stellen sich nah ans Netz.
+            **Ablauf:** Der Trainer (oder ein Mitspieler) wirft den Ball präzise vor die Schlagschulter an. Die Kinder machen **keinen Anlauf und keinen Sprung**, sondern schlagen den Ball aus dem sicheren, hüftbreiten Stand über das Netz.
+            **Trainer-Fokus:** Volle Konzentration auf den isolierten Armzug. Der Ellenbogen muss hoch bleiben, der Ball wird am höchsten Punkt vor dem Körper getroffen und das Handgelenk klappt aktiv ("peitschenartig") ab, damit der Ball nach unten ins Feld fliegt.
             """)
             
-        with st.expander("🧠 5. Taktik II (15 Min): Annahme unter Aufschlagdruck"):
+        with st.expander("🧠 5. Taktik II (15 Min): Stemmschritt über Hindernis (ohne Ball)"):
             st.markdown("""
-            **Ablauf:** Aufschläge von der Grundlinie mit dosiertem Druck. Annahme auf den einlaufenden Steller auf Pos III, der den Ball auf Pos IV weiterleitet.
-            **Trainer-Details:** Ruhe im Spielbrett – keine ausholende Armbewegung bei schnellen Bällen!
+            **Organisation:** Als flaches Hindernis dienen flache Hütchen oder kleine Markierungsscheiben auf dem Boden.
+            **Ablauf:** Die Kinder starten mit einem Bein in der Luft. Der erste Schritt geht gezielt über das flache Hindernis in Richtung Netz. Direkt danach folgen die letzten beiden Schritte im Stemmschritt ("Links-Rechts" bei Rechtshändern).
+            **Trainer-Fokus:** Voller Doppelarmschwung nach hinten-oben, explosive Bremsbewegung. Kein Ball!
             """)
             
         with st.expander("🏆 6. Abschlussspiel (20 Min): Druck-Turnier (3v3 / 4v4)"):
@@ -337,7 +339,7 @@ elif monat == "Monat 2: Grundtechnik Angriff & Aufschlag":
     w1, w2, w3, w4 = st.tabs(["Woche 1", "Woche 2", "Woche 3", "Woche 4"])
     
     with w1:
-        st.subheader("TE 1 (90 Min): Der Armzug & Stemmschritt")
+        st.subheader("TE 1 (90 Min): Der Armzug (ohne Netz / an der Wand)")
         with st.expander("🏃‍♂️ 1. Warm-up (10 Min): Schulter-Aktivierung (ohne Netz)"):
             st.markdown("**Ablauf:** Baseball-Würfe in Paaren. Fokus auf Aufdrehen der Schulterachse.")
             
