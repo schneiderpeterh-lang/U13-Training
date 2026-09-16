@@ -340,20 +340,24 @@ elif monat == "Monat 2: Grundtechnik Angriff & Aufschlag":
         st.subheader("TE 1 (90 Min): Der Armzug & Stemmschritt")
         with st.expander("🏃‍♂️ 1. Warm-up (10 Min): Schulter-Aktivierung (ohne Netz)"):
             st.markdown("**Ablauf:** Baseball-Würfe in Paaren. Fokus auf Aufdrehen der Schulterachse.")
+            
         with st.expander("🎯 2. Technik (30 Min): Wand-Schlagen (ohne Netz)"):
             st.markdown("**Ablauf:** Vor der Wand: Hoher Ellenbogen, Handgelenk klappt aktiv ab, Ball tippt vor der Wand auf den Boden.")
-        with st.expander("🧠 3. Taktik I (15 Min): Stemmschritt über Hindernis (ohne Ball)"):
+            
+        with st.expander("🧠 3. Taktik I (15 Min): Reiner Schlag ohne Sprung (niedriges Netz)"):
             st.markdown("""
-            **Organisation:** Als flaches Hindernis dienen flache Hütchen oder kleine Markierungsscheiben auf dem Boden.
-            **Ablauf:** Die Kinder starten mit einem Bein in der Luft. Der erste Schritt geht gezielt über das flache Hindernis in Richtung Netz. Direkt danach folgen die letzten beiden Schritte im Stemmschritt ("Links-Rechts" bei Rechtshändern).
-            **Trainer-Fokus:** Voller Doppelarmschwung nach hinten-oben, explosive Bremsbewegung. Kein Ball!
+            **Organisation:** Das Netz wird deutlich niedriger gespannt (z.B. auf Kopfhöhe oder leicht darüber). Die Spieler stellen sich nah ans Netz.
+            **Ablauf:** Der Trainer (oder ein Mitspieler) wirft den Ball präzise vor die Schlagschulter an. Die Kinder machen **keinen Anlauf und keinen Sprung**, sondern schlagen den Ball aus dem sicheren, hüftbreiten Stand über das Netz.
+            **Trainer-Fokus:** Volle Konzentration auf den isolierten Armzug. Der Ellenbogen muss hoch bleiben, der Ball wird am höchsten Punkt vor dem Körper getroffen und das Handgelenk klappt aktiv ("peitschenartig") ab, damit der Ball nach unten ins Feld fliegt.
             """)
+            
         with st.expander("🧠 4. Taktik II (15 Min): Einschlagen mit Ball & Stemmschritt"):
             st.markdown("""
-            **Organisation:** Trainer oder Zuspieler steht auf Pos III mit Ballwagen. Angreifer in Reihe auf Pos IV.
-            **Ablauf:** Hoher Bogenpass auf Pos IV. Die Kinder wenden das "unsichtbare Hindernis" aus Taktik I nun live auf den anfliegenden Ball an, führen den Stemmschritt aus und schlagen über das Netz.
+            **Organisation:** Netz wieder auf normaler Höhe. Trainer oder Zuspieler steht auf Pos III mit Ballwagen. Angreifer in Reihe auf Pos IV.
+            **Ablauf:** Hoher Bogenpass auf Pos IV. Die Kinder fokussieren sich auf den Stemmschritt, springen ab und übertragen den isolierten Armzug aus Taktik I nun live auf den anfliegenden Ball.
             **Trainer-Fokus:** Rhythmus übertragen! Der Ball muss am höchsten Punkt vor der Schlag-Schulter getroffen werden.
             """)
+            
         with st.expander("🏆 5. Abschlussspiel (20 Min): Angriffs-Bingo"):
             st.markdown("**Punkte-Regel:** Punkte zählen nur bei geschlagenem Ball oder aggressivem Angriff.")
 
