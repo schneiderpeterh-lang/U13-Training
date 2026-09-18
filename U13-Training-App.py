@@ -73,7 +73,7 @@ if monat == "Monat 1: Annahme-Plattform, Beinarbeit & Basis-Aufschlag":
         with st.expander("🧠 5. Taktik II (15 Min): Annahme am Netz auf Pos III"):
             st.markdown("""
             **Ablauf (mit Netz):** Spieler starten auf Pos I bzw. Pos IV. Trainer wirft kontrollierte Bälle über das Netz.
-            * Spieler erlaufen den Ball mit schnellen Schritte nach vorne/innen und baggern gezielt auf Pos III (wo ein Korb oder Fänger steht).
+            * Spieler erlaufen den Ball mit schnellen Schritten nach vorne/innen und baggern gezielt auf Pos III (wo ein Korb oder Fänger steht).
             **Trainer-Details:** Lautes Rufen ('Ich!') vor der Ballberührung einfordern.
             """)
             
@@ -245,18 +245,16 @@ if monat == "Monat 1: Annahme-Plattform, Beinarbeit & Basis-Aufschlag":
             **Trainer-Details:** Ständiges Nachfedern auf den Fußballen (Ready Position).
             """)
             
-        with st.expander("🧠 4. Taktik I (15 Min): Reiner Schlag ohne Sprung (niedriges Netz)"):
+        with st.expander("🧠 4. Taktik I (15 Min): Reiner Schlag am niedrigen Netz (ohne Sprung)"):
             st.markdown("""
-            **Organisation:** Das Netz wird deutlich niedriger gespannt (z.B. auf Kopfhöhe oder leicht darüber). Die Spieler stellen sich nah ans Netz.
-            **Ablauf:** Der Trainer (oder ein Mitspieler) wirft den Ball präzise vor die Schlagschulter an. Die Kinder machen **keinen Anlauf und keinen Sprung**, sondern schlagen den Ball aus dem sicheren, hüftbreiten Stand über das Netz.
-            **Trainer-Fokus:** Volle Konzentration auf den isolierten Armzug. Der Ellenbogen muss hoch bleiben, der Ball wird am höchsten Punkt vor dem Körper getroffen und das Handgelenk klappt aktiv ("peitschenartig") ab, damit der Ball nach unten ins Feld fliegt.
+            **Ablauf:** Das Netz wird deutlich niedriger gespannt. Die Spieler stehen am Netz und schlagen den zugeworfenen Ball aus dem Stand (ohne Sprung) über das Netz.
+            **Trainer-Details:** Isoliert den reinen Armzug und die Schulterrotation. Fokus auf den Treffpunkt vor dem Körper und das aktive Abklappen des Handgelenks, ohne durch das komplexe Timing des Anlaufs überfordert zu werden.
             """)
             
-        with st.expander("🧠 5. Taktik II (15 Min): Stemmschritt über Hindernis (ohne Ball)"):
+        with st.expander("🧠 5. Taktik II (15 Min): Stemmschritt über ein flaches Hindernis"):
             st.markdown("""
-            **Organisation:** Als flaches Hindernis dienen flache Hütchen oder kleine Markierungsscheiben auf dem Boden.
-            **Ablauf:** Die Kinder starten mit einem Bein in der Luft. Der erste Schritt geht gezielt über das flache Hindernis in Richtung Netz. Direkt danach folgen die letzten beiden Schritte im Stemmschritt ("Links-Rechts" bei Rechtshändern).
-            **Trainer-Fokus:** Voller Doppelarmschwung nach hinten-oben, explosive Bremsbewegung. Kein Ball!
+            **Ablauf (ohne Ball):** Als Hindernis (ca. 10–20 cm hoch) dienen flache Hütchen oder eine Wurfleine. Die Kinder starten mit einem Bein in der Luft. Der erste Schritt geht über das flache Hindernis, danach folgen die letzten beiden Schritte als explosiver Stemmschritt ("Links-Rechts").
+            **Trainer-Details:** Vorwärtsbewegung abrupt in eine reine Vertikalbewegung umwandeln. Doppelarmschwung aktiv nach hinten-oben mitnehmen! Der Rhythmus ist "Schritt... hopp-stopp!".
             """)
             
         with st.expander("🏆 6. Abschlussspiel (20 Min): Druck-Turnier (3v3 / 4v4)"):
@@ -267,42 +265,54 @@ if monat == "Monat 1: Annahme-Plattform, Beinarbeit & Basis-Aufschlag":
 
         st.divider()
 
-        st.subheader("TE 6 - Freitag (120 Min): Transition & Abwehr-Beinarbeit")
+        st.subheader("TE 6 - Freitag (120 Min): Spieltag-Simulation (Max. Ballkontakte)")
         
-        with st.expander("🏃‍♂️ 1. Warm-up (15 Min): 1v1 Volley-Tennis (ohne Netz / Kleinfeld)"):
-            st.markdown("**Ablauf:** 1v1 mit 1x Bodenkontakt. Schult periphere Sicht, Antizipation und Beinarbeit.")
-            
-        with st.expander("⚡ 2. Athletik I (15 Min): Quickness & Rumpf"):
-            st.markdown("**Ablauf:** Linien-Skippings, kurze 3m-Sprints und Plank-Variationen mit Handtipps.")
-            
-        with st.expander("🎯 3. Technik I (15 Min): Not-Annahme & Hechtbagger"):
+        with st.expander("🎾 1. Warm-up (15 Min): 1v1 Volley-Tennis (Fokus: Kurze Bälle)"):
             st.markdown("""
-            **Ablauf:** Trainer schlägt kontrolliert in den Raum. Spieler bewegen sich explosiv zum Ball und bringen ihn mit stabiler Plattform als hohen Notball ins Zentrum.
-            **Trainer-Details:** Flüssiges Wiederaufstehen direkt nach dem Bodenkontakt fordern.
+            **Ablauf:** Spielfeld in kleine Schläuche unterteilen. 1-gegen-1 mit 1x Bodenkontakt erlaubt.
+            **Trainer-Details:** Schult periphere Sicht. Explizite Aufgabe: Den Gegner durch **kurz hinter das Netz gespielte Bälle** (Tipps/Lobs) zum Laufen bringen! Viele schnelle Ballkontakte!
             """)
             
-        with st.expander("🎯 4. Technik II (15 Min): Einarmige Rettungsaktionen"):
+        with st.expander("🎯 2. Wettkampf I (15 Min): Dauerfeuer Aufschlag & Annahme"):
             st.markdown("""
-            **Ablauf:** Weit abweichende Bälle mit sauberer einarmiger Führung hoch ins Feld zurückretten.
-            **Trainer-Details:** Körperspannung halten, damit der Notball nicht verspringt.
+            **Ablauf:** Reine Wettkampfsituation, keine Laufübungen mehr! Aufschläger servieren in extrem hoher Frequenz auf den Annahmeriegel (Pos I, IV, II). 
+            **Trainer-Details:** Maximale Ballkontakte garantieren. Wer annimmt, formiert sich sofort neu für den nächsten Aufschlag. Der Ball muss exakt auf Pos III gebracht werden.
             """)
             
-        with st.expander("🧠 5. Taktik I (15 Min): Umschalten von Abwehr auf Spielaufbau"):
+        with st.expander("🎯 3. Technik I (15 Min): Rettungsbälle kratzen & Hechtbagger"):
             st.markdown("""
-            **Ablauf:** Nach der ersten Feldabwehr formiert sich das Team sofort für den 2. Ball (Zuspieler rückt nach Pos III, Angreifer lösen sich vom Netz).
-            **Trainer-Details:** Lautes Coachen unter den Spielern ('Ich übernehme!' / 'Hilfe!').
+            **Ablauf:** Trainer schlägt kontrolliert, aber hart in den Raum. Spieler bewegen sich explosiv zum Ball und kratzen ihn mit Hechtbagger oder stabiler Plattform als hohen Notball (Rettungsball) ins Zentrum.
+            **Trainer-Details:** Wettkampf-Mentalität fordern! Kein Ball fällt ohne Berührung auf den Boden.
             """)
             
-        with st.expander("🧠 6. Taktik II (15 Min): Transition unter Wettkampf-Bedingungen"):
+        with st.expander("🎯 4. Technik II (15 Min): Kurze Bälle & Netzroller erlaufen"):
             st.markdown("""
-            **Ablauf:** Endlos-Rallye-Drill. Ball muss nach erfolgreicher Abwehr sofort in einen geordneten Angriff über Pos IV/II umgewandelt werden.
+            **Ablauf:** Trainer wirft abwechselnd harte Bälle und extrem **kurze Bälle direkt hinter das Netz**.
+            **Trainer-Details:** Die Spieler müssen aus der tiefen Abwehrhaltung blitzschnell nach vorne sprinten und die kurz gespielten Bälle sauber nach oben ablegen.
             """)
             
-        with st.expander("⚡ 7. Athletik II (10 Min): Ermüdungs-Aufschlag"):
-            st.markdown("**Ablauf:** 3x Linien-Pendelsprints, danach sofort 5 Aufschläge fehlerfrei ins gegnerische Zielfeld bringen.")
+        with st.expander("🧠 5. Taktik I (15 Min): Out-of-System (Notball-Verwertung)"):
+            st.markdown("""
+            **Ablauf:** Simulation von schlechten Annahmen in der echten Spielsituation. Trainer wirft den Ball extrem ungünstig (ans Netz oder weit weg) ein. Das Team muss den Ball im Spiel halten und hoch über das Netz bringen.
+            **Trainer-Details:** Kommunikation ('Hilfe!') und kreative Lösungen unter Wettkampfstress finden.
+            """)
             
-        with st.expander("🏆 8. Abschlussspiel (20 Min): Transition-Match (3v3 / 4v4)"):
-            st.markdown("**Ablauf:** Wash-Match. Punkte zählen nur, wenn der Ballwechsel über eine erfolgreiche Abwehr-Transition gewonnen wurde.")
+        with st.expander("🧠 6. Taktik II (15 Min): Wash-Game (Aufschlag vs. Annahme)"):
+            st.markdown("""
+            **Ablauf:** Wettkampfform. Ein Punkt wird nur erzielt, wenn nach einem starken Aufschlag eine fehlerfreie Annahme und ein erfolgreicher Angriff folgen.
+            **Trainer-Details:** Simuliert exakt den Druck eines echten Spieltags.
+            """)
+            
+        with st.expander("⚡ 7. Wettkampf II (10 Min): Crunch-Time Aufschläge"):
+            st.markdown("""
+            **Ablauf:** Spielstand '13:14' Simulation. Jeder Spieler hat 3 Versuche, unter vollem Druck einen fehlerfreien und gezielten Aufschlag ins gegnerische Feld zu bringen.
+            **Trainer-Details:** Voller Fokus auf den Ball, keine athletische Vorbelastung mehr!
+            """)
+            
+        with st.expander("🏆 8. Abschlussspiel (20 Min): Match-Day Simulation (3v3 / 4v4)"):
+            st.markdown("""
+            **Ablauf:** Echtes Match unter Turnierbedingungen. Punkte zählen nur nach sauberen Ballwechseln. Bonuspunkte für stark erlaufene kurze Bälle und spektakuläre Rettungsbälle!
+            """)
 
     # ---------------- WOCHE 4 ----------------
     with w4:
@@ -325,7 +335,7 @@ if monat == "Monat 1: Annahme-Plattform, Beinarbeit & Basis-Aufschlag":
             st.markdown("**Ablauf:** Duelle Aufschläger vs. Annahmeriegel (Pos I, IV, II).")
         with st.expander("🧠 3. Taktik (35 Min): Spielaufbau unter Wettkampfstress"):
             st.markdown("**Ablauf:** Simulation von Drucksituationen (z. B. Spielstand '13:13').")
-        with st.expander("⚡ 4. Athletik & Auslockern (15 Min)"):
+        with st.expander("⚡ 4. Athletik & Auslockern (15 Min):"):
             st.markdown("**Ablauf:** Kurze Sprungserien (3x5 Hocksprünge) + ausgiebiges Partner-Dehnen.")
         with st.expander("🏆 5. Abschlussspiel (20 Min): Monats-Finale"):
             st.markdown("**Wettkampf:** 2 Gewinnsätze bis 15 Punkte unter voller Anwendung aller Annahme- und Läuferregeln.")
@@ -342,25 +352,11 @@ elif monat == "Monat 2: Grundtechnik Angriff & Aufschlag":
         st.subheader("TE 1 (90 Min): Der Armzug (ohne Netz / an der Wand)")
         with st.expander("🏃‍♂️ 1. Warm-up (10 Min): Schulter-Aktivierung (ohne Netz)"):
             st.markdown("**Ablauf:** Baseball-Würfe in Paaren. Fokus auf Aufdrehen der Schulterachse.")
-            
         with st.expander("🎯 2. Technik (30 Min): Wand-Schlagen (ohne Netz)"):
-            st.markdown("**Ablauf:** Vor der Wand: Hoher Ellenbogen, Handgelenk klappt aktiv ab, Ball tippt vor der Wand auf den Boden.")
-            
-        with st.expander("🧠 3. Taktik I (15 Min): Reiner Schlag ohne Sprung (niedriges Netz)"):
-            st.markdown("""
-            **Organisation:** Das Netz wird deutlich niedriger gespannt (z.B. auf Kopfhöhe oder leicht darüber). Die Spieler stellen sich nah ans Netz.
-            **Ablauf:** Der Trainer (oder ein Mitspieler) wirft den Ball präzise vor die Schlagschulter an. Die Kinder machen **keinen Anlauf und keinen Sprung**, sondern schlagen den Ball aus dem sicheren, hüftbreiten Stand über das Netz.
-            **Trainer-Fokus:** Volle Konzentration auf den isolierten Armzug. Der Ellenbogen muss hoch bleiben, der Ball wird am höchsten Punkt vor dem Körper getroffen und das Handgelenk klappt aktiv ("peitschenartig") ab, damit der Ball nach unten ins Feld fliegt.
-            """)
-            
-        with st.expander("🧠 4. Taktik II (15 Min): Einschlagen mit Ball & Stemmschritt"):
-            st.markdown("""
-            **Organisation:** Netz wieder auf normaler Höhe. Trainer oder Zuspieler steht auf Pos III mit Ballwagen. Angreifer in Reihe auf Pos IV.
-            **Ablauf:** Hoher Bogenpass auf Pos IV. Die Kinder fokussieren sich auf den Stemmschritt, springen ab und übertragen den isolierten Armzug aus Taktik I nun live auf den anfliegenden Ball.
-            **Trainer-Fokus:** Rhythmus übertragen! Der Ball muss am höchsten Punkt vor der Schlag-Schulter getroffen werden.
-            """)
-            
-        with st.expander("🏆 5. Abschlussspiel (20 Min): Angriffs-Bingo"):
+            st.markdown("**Ablauf:** Vor der Wand: Hoher Ellenbogen, Handgelenk klappt aktiv ab, Ball tippt vor der Wand auf Boden.")
+        with st.expander("🧠 3. Taktik/Technik (30 Min): Schlagen aus dem Stand am Netz"):
+            st.markdown("**Ablauf:** Trainer wirft auf Pos IV. Spieler machen Stemmschritt aus dem Stand und schlagen mit Handgelenkseinsatz über das Netz.")
+        with st.expander("🏆 4. Abschlussspiel (20 Min): Angriffs-Bingo"):
             st.markdown("**Punkte-Regel:** Punkte zählen nur bei geschlagenem Ball oder aggressivem Angriff.")
 
         st.divider()
