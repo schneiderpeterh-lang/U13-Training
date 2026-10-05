@@ -195,47 +195,6 @@ elif monat == "Monat 2: Angriff, Aufschlag & Basics-Integration":
 
         st.divider()
 
-st.subheader("TE Mittwoch (90 Min): Games Approach – Fokus Spielpraxis")
-st.markdown("**Organisation:** U13 & U14 gemischt auf einem Feld. Fokus auf Positionen I bis IV.")
-
-with st.expander("🎾 1. Warm-up (15 Min): 1v1 Kreatives Volley-Tennis"):
-    st.markdown("""
-    **Organisation:** Das Spielfeld in schmale "Schläuche" unterteilen.
-    **Ablauf:** 
-    * Die Spieler spielen 1-gegen-1. 
-    * Der Ball darf pro Spielzug exakt ein Mal auf dem eigenen Feld aufkommen. 
-    * Es sind alle Ballberührungen (auch Fuß oder Kopf) erlaubt.
-    **Ziel:** Garantiert maximale Ballkontakte für jeden Einzelnen vom ersten Moment an und schult die periphere Sicht.
-    """)
-
-with st.expander("👑 2. Spielnaher Drill (20 Min): Kaiserplatz im Wellenprinzip"):
-    st.markdown("""
-    **Organisation:** 3v3 (Pos I, III, IV) oder 4v4 (Pos I, II, III, IV). Eine Seite ist die "Kaiserseite", auf der anderen warten die Herausforderer.
-    **Ablauf:** 
-    * Der Trainer wirft den Ball in extrem hoher Frequenz bei den Herausforderern ein. 
-    * Punkten sie, wechseln sie jubelnd unter dem Netz durch auf die Kaiserseite. 
-    * Punktet die Kaiserseite, rückt sofort das nächste Herausforderer-Team nach.
-    **Ziel:** Das Wellenprinzip verhindert Warteschlangen und zwingt die Kinder durch den schnellen Einwurf zu pausenloser Aufmerksamkeit.
-    """)
-
-with st.expander("🎯 3. System-Spielform (25 Min): Zusatzpunkt-Spiel (Läufer-Bingo)"):
-    st.markdown("""
-    **Organisation:** Normales 3v3 / 4v4 Match auf Zeit (z. B. 4 Minuten pro Runde).
-    **Ablauf:** 
-    * Es wird frei gegeneinander gespielt. Einen normalen Punkt gibt es für einen Fehler des Gegners. 
-    * Einen **Zusatzpunkt** (bzw. "Bingo") gibt es, wenn der Punkt durch einen sauberen 3er-Aufbau über den Zuspieler auf Position III erzielt wird.
-    **Ziel:** Die Spieler werden taktisch belohnt, das erlernte System in der echten Spielpraxis anzuwenden, anstatt den Ball unkontrolliert "rüberzuretten".
-    """)
-
-with st.expander("🦸‍♂️ 4. Abschluss-Event (30 Min): Das Superkraft-Turnier"):
-    st.markdown("""
-    **Organisation:** U13- und U14-Spieler werden bunt durchgemischt; gespielt wird ein Jeder-gegen-Jeden-Kurzturnier.
-    **Ablauf:** 
-    * Jedes Team erhält laminierte "Superkraft-Karten", die einmal pro Match durch lautes Rufen vor dem Aufschlag aktiviert werden können. 
-    * Beispiele: "Gummi-Wand" (Team darf den Ball viermal berühren) oder "Bodenhaftung" (Gegner darf in diesem Ballwechsel nicht abspringen).
-    **Ziel:** Purer Spielspaß am Ende der Einheit. Die Gamification nimmt den Stress aus der Wettkampfsituation und stärkt den Teamgeist.
-    """)
-        
         st.subheader("TE 4 - Freitag (120 Min): Aufschlagdruck & Block")
         
         with st.expander("🏃‍♂️ 1. Warm-up (15 Min): Hechten & Block-Schatten"):
