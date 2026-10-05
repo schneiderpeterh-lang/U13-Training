@@ -149,104 +149,91 @@ elif monat == "Monat 2: Angriff, Aufschlag & Basics-Integration":
             * **🚀 PRO-Level:** Dürfen nur ins hintere Felddrittel (Pos 1, 5, 6) angreifen. Wenn sie ins Netz aufschlagen, gibt es Minuspunkt.
             """)
 
-    # ---------------- WOCHE 2 ----------------
+   # ---------------- WOCHE 2 ----------------
     with w2:
-        st.subheader("TE 3 (90 Min): Härte, Abwehr & Zuspiel")
-        
-        with st.expander("🏃‍♂️ 1. Warm-up (15 Min): Ball-Handling-Staffel"):
+        st.subheader("TE 3 - Mittwoch (90 Min): Games Approach – Fokus Spielpraxis")
+        st.markdown("**Organisation:** U13 & U14 gemischt auf einem Feld. Fokus auf Positionen I bis IV.")
+
+        with st.expander("🎾 1. Warm-up (15 Min): 1v1 Kreatives Volley-Tennis"):
             st.markdown("""
-            **Ablauf:** Staffel mit Dribbeln und Richtungswechseln.
-            * **🎯 Basis-Level:** Normaler Vorwärtslauf durch den Parcours.
-            * **🚀 PRO-Level:** Müssen die Staffel rückwärts dribbelnd absolvieren.
+            **Organisation:** Das Spielfeld in schmale "Schläuche" unterteilen.
+            **Ablauf:** 
+            * Die Spieler spielen 1-gegen-1. 
+            * Der Ball darf pro Spielzug exakt ein Mal auf dem eigenen Feld aufkommen. 
+            * Es sind alle Ballberührungen (auch Fuß oder Kopf) erlaubt.
+            **Ziel:** Garantiert maximale Ballkontakte für jeden Einzelnen vom ersten Moment an und schult die periphere Sicht.
             """)
-            
-        with st.expander("🎯 2. Technik I (15 Min): Schlaghärte gegen Matte"):
+
+        with st.expander("👑 2. Spielnaher Drill (20 Min): Kaiserplatz im Wellenprinzip"):
             st.markdown("""
-            **Ablauf:** Spieler schlagen Bälle aus dem Stand mit maximaler Härte senkrecht auf eine Matte.
-            * **🎯 Basis-Level:** Werfen den Ball mit beiden Händen auf die Matte (Bogenspannung üben).
-            * **🚀 PRO-Level:** Harter, einarmiger Peitschenschlag mit aktivem Handgelenk.
+            **Organisation:** 3v3 (Pos I, III, IV) oder 4v4 (Pos I, II, III, IV). Eine Seite ist die "Kaiserseite", auf der anderen warten die Herausforderer.
+            **Ablauf:** 
+            * Der Trainer wirft den Ball in extrem hoher Frequenz bei den Herausforderern ein. 
+            * Punkten sie, wechseln sie jubelnd unter dem Netz durch auf die Kaiserseite. 
+            * Punktet die Kaiserseite, rückt sofort das nächste Herausforderer-Team nach.
+            **Ziel:** Das Wellenprinzip verhindert Warteschlangen und zwingt die Kinder durch den schnellen Einwurf zu pausenloser Aufmerksamkeit.
             """)
-            
-        with st.expander("🎯 3. Technik II (15 Min): Zuspiel aus der Bewegung"):
+
+        with st.expander("🎯 3. System-Spielform (25 Min): Zusatzpunkt-Spiel (Läufer-Bingo)"):
             st.markdown("""
-            **Ablauf:** Zuspieler pendelt zwischen Netz und Pos 3.
-            * **🎯 Basis-Level:** Läuft ein, fängt den Ball über der Stirn, stabilisiert den Stand.
-            * **🚀 PRO-Level:** Läuft ein und pritscht den Ball direkt aus der Bewegung ohne Fangen weiter.
+            **Organisation:** Normales 3v3 / 4v4 Match auf Zeit (z. B. 4 Minuten pro Runde).
+            **Ablauf:** 
+            * Es wird frei gegeneinander gespielt. Einen normalen Punkt gibt es für einen Fehler des Gegners. 
+            * Einen **Zusatzpunkt** (bzw. "Bingo") gibt es, wenn der Punkt durch einen sauberen 3er-Aufbau über den Zuspieler auf Position III erzielt wird.
+            **Ziel:** Die Spieler werden taktisch belohnt, das erlernte System in der echten Spielpraxis anzuwenden, anstatt den Ball unkontrolliert "rüberzuretten".
             """)
-            
-        with st.expander("🧠 4. Taktik I (15 Min): Schmetter-Abwehr"):
+
+        with st.expander("🦸‍♂️️ 4. Abschluss-Event (30 Min): Das Superkraft-Turnier"):
             st.markdown("""
-            **Ablauf:** Trainer schlägt gezielt von Kästen auf Abwehrspieler an.
-            * **🎯 Basis-Level:** Arme ruhig hinhalten, Ball nur abprallen lassen. Kein Wegziehen, keine Angst vor dem Ball!
-            * **🚀 PRO-Level:** Harte Schläge kontrolliert auf eine Zielhöhe von 3 Metern in die Feldmitte dämpfen.
-            """)
-            
-        with st.expander("🧠 5. Taktik II (15 Min): System-Integration (Live)"):
-            st.markdown("""
-            **Ablauf:** Komplette Kette vom Aufschlag bis zum Angriff.
-            * **Trainer-Details:** Jeder Spieler bekommt eine auf sein Niveau zugeschnittene Aufgabe (z. B. Einsteiger = sicherer erster Bagger, PRO = harter Abschluss).
-            """)
-            
-        with st.expander("🏆 6. Abschlussspiel (15 Min): Wash-Game (2 Rallyes)"):
-            st.markdown("""
-            **Ablauf:** 2 gewonnene Ballwechsel in Folge geben 1 Punkt. 
-            * Einsteiger-Fehler beim Aufschlag werden ignoriert (sie dürfen sofort wiederholen), um den Spielfluss für alle zu erhalten.
+            **Organisation:** U13- und U14-Spieler werden bunt durchgemischt; gespielt wird ein Jeder-gegen-Jeden-Kurzturnier.
+            **Ablauf:** 
+            * Jedes Team erhält laminierte "Superkraft-Karten", die einmal pro Match durch lautes Rufen vor dem Aufschlag aktiviert werden können. 
+            * Beispiele: "Gummi-Wand" (Team darf den Ball viermal berühren) oder "Bodenhaftung" (Gegner darf in diesem Ballwechsel nicht abspringen).
+            **Ziel:** Purer Spielspaß am Ende der Einheit. Die Gamification nimmt den Stress aus der Wettkampfsituation und stärkt den Teamgeist.
             """)
 
         st.divider()
 
-        st.subheader("TE 4 - Freitag (120 Min): Aufschlagdruck & Block")
-        
-        with st.expander("🏃‍♂️ 1. Warm-up (15 Min): Hechten & Block-Schatten"):
+        st.subheader("TE 4 - Freitag (120 Min): System-Festigung")
+        with st.expander("🏃‍♂️ 1. Warm-up (15 Min): Aufschlag-Staffel"):
             st.markdown("""
-            **Ablauf:** Blocksprung am Netz, landen, rückwärts ausweichen, Abwehrhecht.
-            * **🎯 Basis-Level:** Hecht-Gleiten aus dem Kniestand (flach abrutschen).
-            * **🚀 PRO-Level:** Hechtbagger aus dem vollen Lauf.
+            **Ablauf:** Staffel mit Ball prellen und Anwurf-Simulation am Netz.
+            **Trainer-Details:** Ball muss vor der Schlag-Schulter angeworfen werden.
             """)
-            
-        with st.expander("⚡ 2. Athletik (15 Min): Sprung & Schulter"):
+        with st.expander("🎯 2. Technik I (15 Min): Zonen-Aufschlag"):
             st.markdown("""
-            **Ablauf:** Medizinball-Würfe über das Netz und seitliche Block-Sprünge.
+            **Ablauf:** U14 schlägt gezielt auf Turnmatten in den Ecken.
+            **Trainer-Details:** Handgelenk muss abklappen für den nötigen Druck.
             """)
-            
-        with st.expander("🎯 3. Technik I (15 Min): Zonen-Aufschlag"):
+        with st.expander("🎯 3. Technik II (15 Min): Annahme-Verschiebung"):
             st.markdown("""
-            **Ablauf:** Aufschläge auf Turnmatten.
-            * **🎯 Basis-Level:** Von unten von der 6m-Linie. Ziel ist das sichere Treffen der großen Mattenfläche.
-            * **🚀 PRO-Level:** Von oben von der Grundlinie. Matten werden halbiert (Ziel wird kleiner).
+            **Ablauf:** Aufschläger wechselt permanent die Position (Mitte, Seite). Annahmeriegel muss rotieren.
+            **Trainer-Details:** Den Kreuzwinkel abdecken!
             """)
-            
-        with st.expander("🎯 4. Technik II (15 Min): Der 1er- und 2er-Block"):
+        with st.expander("🧠 4. Taktik I (15 Min): Rette das System (Trocken)"):
             st.markdown("""
-            **Ablauf:** Timing beim Absprung am Netz, Hände übergreifen.
-            * **🎯 Basis-Level:** Fokus liegt auf dem zeitgleichen, beidbeinigen Absprung ohne Netzberührung.
-            * **🚀 PRO-Level:** Hände aktiv über das Netz schieben und Handgelenke starr machen.
+            **Ablauf:** Trainer wirft Ball absichtlich ins Aus. Spieler rufen 'Hilfe' und fangen den Ball.
+            **Trainer-Details:** Es geht rein um die auditive Kommunikation (wer ruft?).
             """)
-            
-        with st.expander("🧠 5. Taktik I (15 Min): Lobs erlaufen"):
+        with st.expander("🧠 5. Taktik II (15 Min): Rette das System (Live)"):
             st.markdown("""
-            **Ablauf:** Trainer tippt Bälle kurz hinter den Block.
-            * **🎯 Basis-Level:** Schneller Antritt, Ball vor dem Boden fangen.
-            * **🚀 PRO-Level:** Ball aus dem tiefen Lauf heraus einarmig kratzen.
+            **Ablauf:** Notzuspiel aus dem Chaos (Out-of-System) zum Angreifer.
+            **Trainer-Details:** Der Notpass muss hoch an die Antenne gespielt werden, damit der Angreifer Zeit hat.
             """)
-            
-        with st.expander("🧠 6. Taktik II (15 Min): Out-of-System Notpass"):
+        with st.expander("⚡ 6. Athletik I (15 Min): Quickness & Leiter"):
             st.markdown("""
-            **Ablauf:** Ball fliegt ins Aus. Spieler ruft 'Hilfe'.
-            * **🎯 Basis-Level:** Notpass wird als hoher Bagger sicher über das Netz gespielt.
-            * **🚀 PRO-Level:** Notpass wird hoch an die Antenne gelegt, Mitspieler greift aus dem Hinterfeld an.
+            **Ablauf:** Koordinationsleiter für schnelle Fußarbeit.
+            **Trainer-Details:** Fersen bleiben in der Luft (Vorfuß-Lauf).
             """)
-            
-        with st.expander("🧠 7. Taktik III (15 Min): Block-Abwehr Dreieck"):
+        with st.expander("⚡ 7. Athletik II (10 Min): Core-Rotation"):
             st.markdown("""
-            **Ablauf:** U14 stellt Block, Abwehr positioniert sich V-förmig dahinter.
-            * **Trainer-Details:** Einsteiger sichern die leichten Abpraller im Raum, Profis erlaufen die schnellen diagonalen Linien-Schläge.
+            **Ablauf:** Medizinball-Würfe (seitlich).
+            **Trainer-Details:** Imitiert die Rumpf-Rotation beim Schlag.
             """)
-            
-        with st.expander("🏆 8. Abschlussspiel (15 Min): Block-König"):
+        with st.expander("🏆 8. Abschlussspiel (20 Min): System-Kaiser"):
             st.markdown("""
-            **Ablauf:** 3v3 / 4v4. 
-            * **Punkte-Regel:** Kill-Blocks oder gerettete Lobs zählen doppelt. Aufschläge für Einsteiger ab der 6m-Linie.
+            **Ablauf:** Herausforderer rücken nur bei 3er-System-Aufbau auf die Kaiserseite.
+            **Trainer-Details:** Lobe auch den Versuch, wenn der finale Ball im Aus landet!
             """)
             
     with w3:
