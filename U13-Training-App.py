@@ -4,7 +4,7 @@ import streamlit as st
 st.set_page_config(page_title="U13/U14 PRO Trainingsplan", page_icon="🏐", layout="centered")
 
 st.title("🏐 U13/U14 Trainingsplan – TuB Bocholt")
-st.markdown("Fokus: Grundlagenausbildung, Binnendifferenzierung (Einsteiger & Fortgeschrittene) | 1 Feld")
+st.markdown("Fokus: Grundlagenausbildung, Annahmeplattform, Beinarbeit & 1:2/Quadrat-System (Pos I bis IV) | 1 Feld / Hallenfreiraum")
 
 # Dynamische Navigation & Teilnehmersteuerung
 col1, col2 = st.columns(2)
@@ -13,7 +13,7 @@ with col1:
         "Wähle den Trainingsmonat:", 
         [
             "Monat 1: Annahme-Plattform, Beinarbeit & Basis-Aufschlag", 
-            "Monat 2: Angriff, Aufschlag & Basics-Integration", 
+            "Monat 2: Grundtechnik Angriff & Aufschlag", 
             "Monat 3: Out-of-System & Match-Speed",
             "System-Spezial: 3v3 meets 4v4"
         ]
@@ -27,216 +27,551 @@ with col2:
 st.divider()
 
 # =========================================================
-# MONAT 1 & 3 (PLATZHALTER FÜR ÜBERSICHTLICHKEIT)
+# MONAT 1: Annahme-Plattform, Beinarbeit & Basis-Aufschlag
 # =========================================================
 if monat == "Monat 1: Annahme-Plattform, Beinarbeit & Basis-Aufschlag":
-    st.info("Monat 1 ist im System hinterlegt. Wechsle zu Monat 2 für die neuen, binnendifferenzierten 15-Minuten-Einheiten.")
-elif monat == "Monat 3: Out-of-System & Match-Speed":
-    st.info("Monat 3 ist im System hinterlegt.")
-elif monat == "System-Spezial: 3v3 meets 4v4":
-    st.info("System-Spezial ist im System hinterlegt.")
-
-# =========================================================
-# MONAT 2: GRUNDTECHNIK ANGRIFF, AUFSCHLAG & BASICS
-# =========================================================
-elif monat == "Monat 2: Angriff, Aufschlag & Basics-Integration":
-    st.header("Monat 2: Schlagen über das Netz & Integration aller Leistungsstufen")
+    st.header("Monat 1: Annahmebrett, Beinarbeit & kontrollierte Angaben")
     
     w1, w2, w3, w4 = st.tabs(["Woche 1", "Woche 2", "Woche 3", "Woche 4"])
     
     # ---------------- WOCHE 1 ----------------
     with w1:
-        st.subheader("TE 1 (90 Min): Armzug, Bagger-Basics & Stemmschritt")
+        st.subheader("TE 1 (90 Min): Annahmeplattform & Beinarbeit ohne Netz")
         
-        with st.expander("🏃‍♂️ 1. Warm-up (15 Min): Ballgewöhnung & Linien-Drill"):
+        with st.expander("🏃‍♂️ 1. Warm-up (10 Min): Linien-Tappings & Richtungswechsel"):
             st.markdown("""
-            **Ablauf:** Kurze Linien-Tappings. Danach schnelles Zuwerfen des Balls in Paaren im Seitgalopp quer durch die Halle.
-            * **🎯 Basis-Level (Einsteiger):** Ball beidhändig fangen und aus der tiefen Hocke zurückwerfen (Beinarbeit fokussieren).
-            * **🚀 PRO-Level:** Ball darf nicht gefangen werden, sondern muss direkt im sauberen Bagger oder Pritsch zurückgespielt werden.
+            **Ablauf (ohne Netz):** Spieler verteilen sich an Hallenlinien. 
+            * 30 Sek. schnelle Linien-Tappings auf den Fußballen (Vor-Vor-Rück-Rück).
+            * Auf Trainerpfiff sofort tiefe Volleyball-Grundstellung (Ready Position).
+            * Kurze 3-Meter-Antritte im tiefen Schwerpunkt.
+            **Trainer-Details:** Knie gebeugt, Fersen berühren den Boden kaum!
             """)
             
-        with st.expander("🎯 2. Technik I (15 Min): Das Spielbrett & Bagger-Kontakt"):
+        with st.expander("🎯 2. Technik I (15 Min): Wand-Druck & Plattform-Stabilität (ohne Netz)"):
             st.markdown("""
-            **Ablauf:** 2er-Paare. Spieler A wirft den Ball, Spieler B baggert zurück. 
-            * **🎯 Basis-Level:** Der Ball wird absichtlich leicht und im hohen Bogen genau auf die Arme geworfen. Einsteiger stoppen ab, pressen die Schultern zusammen und lassen den Ball nur vom "klatschenden Spielbrett" abprallen, ohne Schwung zu holen.
-            * **🚀 PRO-Level:** Spieler A wirft flache, harte Bälle leicht seitlich. Spieler B muss einen schnellen Sidestep machen und den Ball kontrollieren.
+            **Ablauf (ohne Netz):** Spieler stehen ca. 50 cm vor einer freien Hallenwand. Hände überstrecken, Daumen parallel, Unterarme zusammenpressen und mit vollem Druck gegen die Wand drücken.
+            * Bewegung: Arme langsam mit Druck an der Wand von Hüfthöhe bis auf Brusthöhe schieben und wieder absenken.
+            **Trainer-Details:** Schultern bewusst nach vorne-innen zusammenpressen. Die Arme dürfen nicht einknicken!
             """)
             
-        with st.expander("🎯 3. Technik II (15 Min): Pritschen-Grundhaltung"):
+        with st.expander("🎯 3. Technik II (15 Min): Beinarbeit-Bagger in 2er-Gruppen (ohne Netz)"):
             st.markdown("""
-            **Ablauf:** Paarweise am Netz. Zuspiel-Bewegung üben.
-            * **🎯 Basis-Level:** Ball über der Stirn fangen (Hand-Dreieck kontrollieren, rechtes Bein vorne). Aus den Knien heraus den Ball hoch an die Antenne stoßen.
-            * **🚀 PRO-Level:** Ball direkt und ohne Halten sauber aus den Fingern pritschen.
+            **Ablauf (ohne Netz):** 2er-Paare im Hallenfreiraum (Abstand 3-4 m). 
+            * Spieler A wirft Bälle 1-2 Schritte links oder rechts neben Spieler B.
+            * Spieler B macht 2 schnelle Sidesteps, **stoppt komplett ab**, formt erst dann das Brett und baggert präzise zurück zu A.
+            **Trainer-Details:** Erst stehen – dann spielen! Kein Schwingen aus den Armen; Kraft kommt aus der Beinstreckung.
             """)
             
-        with st.expander("🧠 4. Taktik I (15 Min): Wandschlag & Armzug (ohne Netz)"):
+        with st.expander("🧠 4. Taktik I (15 Min): Zielbagger in 3er-Gruppen (ohne Netz)"):
             st.markdown("""
-            **Ablauf:** Spieler stehen vor einer freien Wand und üben die Schlagbewegung (Peitscheneffekt).
-            * **🎯 Basis-Level:** Ball mit gestrecktem Arm anwerfen, fangen und Stand korrigieren. Erst wenn der Anwurf exakt vor der Schlagschulter ist, mit offener Hand gegen die Wand schlagen, sodass er vorher auf dem Boden aufkommt.
-            * **🚀 PRO-Level:** Fließende Bewegung mit extrem hartem Handgelenks-Einsatz.
+            **Ablauf (ohne Netz):** 3er-Gruppen in Reihe (A = Anwerfer, B = Annahme, C = Fänger als Steller-Ziel).
+            * A wirft aus 5 m Entfernung an. B bewegt sich zum Ball, baggert im hohen Bogen genau zu C. 
+            * Rotation nach 8 Durchgängen: A -> B -> C -> A.
+            **Trainer-Details:** B muss die Schulterachse bereits vor dem Kontakt komplett auf C ausrichten.
             """)
             
-        with st.expander("🧠 5. Taktik II (15 Min): Stemmschritt am Netz"):
+        with st.expander("🧠 5. Taktik II (15 Min): Annahme am Netz auf Pos III"):
             st.markdown("""
-            **Ablauf:** Der Stemmschritt wird direkt am Netz angewendet. Trainer wirft Bälle hoch auf Pos IV.
-            * **🎯 Basis-Level:** Spielen den Stemmschritt ohne Ball über ein flaches Hindernis auf dem Boden, um den Rhythmus ("Schritt... hopp-stopp!") zu verinnerlichen.
-            * **🚀 PRO-Level:** Führen den Stemmschritt mit anfliegendem Ball aus, springen hoch und schlagen über das Netz.
+            **Ablauf (mit Netz):** Spieler starten auf Pos I bzw. Pos IV. Trainer wirft kontrollierte Bälle über das Netz.
+            * Spieler erlaufen den Ball mit schnellen Schritten nach vorne/innen und baggern gezielt auf Pos III (wo ein Korb oder Fänger steht).
+            **Trainer-Details:** Lautes Rufen ('Ich!') vor der Ballberührung einfordern.
             """)
             
-        with st.expander("🏆 6. Abschlussspiel (15 Min): Angriffs-Bingo (Mix-Teams)"):
+        with st.expander("🏆 6. Abschlussspiel (20 Min): Annahme-Bingo (3v3 / 4v4)"):
             st.markdown("""
-            **Ablauf:** 3v3 oder 4v4. Die Teams werden bewusst gemischt (stark + schwach). 
-            * **🎯 Basis-Level:** Dürfen den 2. Ball (Zuspiel) fangen und spielen. Ihr Angriff darf ein gezielter Stand-Schlag oder Bagger sein.
-            * **🚀 PRO-Level:** Dürfen Bälle nicht fangen. Ihr eigener Angriff muss zwingend gesprungen und hart geschlagen werden.
+            **Ablauf:** Gespielt wird 3v3 (Pos I, IV, III) oder 4v4 (Pos I, II, III, IV).
+            * Aufschläge werden anfangs von unten oder aus 6 m Entfernung serviert.
+            * **Punkte-Regel:** Normaler Punkt = 1. Punkt aus einem Spielzug, bei dem die Annahme sauber auf Pos III landete = 2 Punkte.
             """)
 
         st.divider()
 
-        st.subheader("TE 2 - Freitag (120 Min): Aufschlag-Basics & System-Integration")
+        st.subheader("TE 2 - Freitag (120 Min): Beinarbeit, Angaben-Kontrolle & Läufersystem")
         
-        with st.expander("🏃‍♂️ 1. Warm-up (15 Min): Baggertennis (1v1 / 2v2)"):
+        with st.expander("🏃‍♂️ 1. Warm-up (15 Min): Baggertennis im Kleinfeld"):
             st.markdown("""
-            **Ablauf:** Kleinfelder markieren.
-            * **🎯 Basis-Level:** Der Ball darf 1x auf dem Boden aufkommen. Gefördert wird die Bewegung zum Ball.
-            * **🚀 PRO-Level:** Direkter Volley-Modus. Ball darf nicht aufkommen.
+            **Ablauf (ohne Netz oder über 3m-Linie):** Minifelder markieren. 1v1 oder 2v2. Ball darf genau 1x aufkommen.
+            * Es darf ausschließlich gebaggert werden.
+            **Trainer-Details:** Schnelle Beinarbeit und Antizipation fordern.
             """)
             
-        with st.expander("⚡ 2. Athletik (15 Min): Fußarbeit & Rumpf"):
+        with st.expander("🧠 2. Läufersystem I (15 Min): Trockenlauf Pos I -> III"):
             st.markdown("""
-            **Ablauf:** Schnelle Linien-Drills (Tappings, Scheren-Sprünge) und Planks (Unterarmstütz).
-            * **Trainer-Details:** Einsteiger konzentrieren sich auf saubere Ausführung der Planks (gerader Rücken), Fortgeschrittene heben abwechselnd Arm und Bein.
+            **Ablauf (ohne Netz):** 
+            * Zuspieler startet auf Position I. Trainer steht auf der Gegenseite und wirft den Ball an (simulierter Aufschlag).
+            * Erst wenn der Ball geschlagen wird, sprintet der Läufer auf Position III. 
+            **Trainer-Details:** Fokus liegt auf dem Timing. Zu frühes Loslaufen führt zur Wiederholung.
             """)
             
-        with st.expander("🎯 3. Technik I (15 Min): Aufschlag-Progression"):
+        with st.expander("🎯 3. Technik I (15 Min): Drucklose vs. druckvolle Angaben kontrollieren"):
             st.markdown("""
-            **Ablauf:** Aufschlag-Training in Reihen. 
-            * **🎯 Basis-Level:** Pendel-Aufschlag von unten ab der 4,50m- oder 6m-Linie. Ball liegt auf der flachen Hand, wird *nicht* hochgeworfen, sondern direkt mit dem Pendelarm sicher rübergeschlagen.
-            * **🚀 PRO-Level:** Tennis-Aufschlag von oben von der Grundlinie mit flacher Flugkurve.
+            **Ablauf:** Aufschläger stehen auf der Gegenseite an Pos I und servieren zunächst von der 4,50m-/6m-Linie von unten.
+            * Annahmespieler auf Pos I und Pos IV.
+            * Schrittweise Steigerung: Wechsel zum dosierten Tennis-Aufschlag von oben.
+            **Trainer-Details:** Bei harten Angaben Arme komplett ruhig halten (Ball nur abprallen lassen). Nicht schlagen!
             """)
             
-        with st.expander("🎯 4. Technik II (15 Min): Annahme der Aufschläge"):
+        with st.expander("🎯 4. Technik II (15 Min): Tiefen-Staffelung erlaufen (Vor & Zurück)"):
             st.markdown("""
-            **Ablauf:** Spieler auf der Gegenseite nehmen die Aufschläge aus Übung 3 an.
-            * **🎯 Basis-Level:** Positionieren sich rechtzeitig, frieren ein und fangen den Ball in der tiefen Abwehrhaltung.
-            * **🚀 PRO-Level:** Baggern den Aufschlag exakt in den Zielkreis auf Position III.
+            **Ablauf:** Trainer wirft abwechselnd kurze Bälle direkt hinters Netz und lange Bälle an die Grundlinie.
+            * Annahmespieler auf Pos I bzw. IV müssen explosive Vorwärts- und Rückwärtsschritte machen.
+            **Trainer-Details:** Beim Rückwärtslaufen nicht stolpern – Sidesteps oder Kreuzschritte nach hinten nutzen.
             """)
             
-        with st.expander("🧠 5. Taktik I (15 Min): Der Systemaufbau (Pos I -> III -> IV)"):
+        with st.expander("🧠 5. Taktik I (15 Min): 2er- und 3er-Riegel Ausrichtung (Pos I, IV, II)"):
             st.markdown("""
-            **Ablauf:** Dankeball vom Trainer wird im 3er-Riegel angenommen, zugespielt und angegriffen.
-            * **🎯 Basis-Level:** Der Zuspieler auf Pos III fängt die Annahme, richtet die Schulterachse zu Pos IV aus und wirft den Ball im hohen Bogen zum Angreifer.
-            * **🚀 PRO-Level:** Der Zuspieler pritscht den Ball fließend (ggf. im Sprung) zu Pos IV.
+            **Ablauf:** Aufschläger wechselt die Aufschlagzone auf der Gegenseite (von Pos I nach Pos II).
+            * Annahmespieler (Pos I und IV in der U13 bzw. Pos I, IV, II in der U14) passen ihren Winkel an.
+            **Trainer-Details:** Äußere Schulter leicht vorschieben, damit der Abprallwinkel immer zur Netzmitte (Pos III) zeigt.
             """)
             
-        with st.expander("🧠 6. Taktik II (15 Min): Freeball-Kill"):
+        with st.expander("🧠 6. Taktik II (15 Min): Serve & Pass im Wellenbetrieb"):
             st.markdown("""
-            **Ablauf:** Ball wird über das Netz geworfen.
-            * **🎯 Basis-Level:** Einsteiger fokussieren sich auf den lauten Ruf ("Ich!") und den ersten sauberen Bagger zur Mitte.
-            * **🚀 PRO-Level:** Erfahrene Spieler fokussieren sich auf den sofortigen Stemmschritt-Anlauf, sobald der Ball ihren Zuspieler verlässt.
+            **Ablauf:** 3 Aufschläge pro Durchgang. Annahme muss hoch auf Pos III gebracht werden, wo der Zuspieler den Ball fängt oder auf Pos IV ablegt.
+            **Trainer-Details:** Klare Absprache an den Schnittstellen ('Mein Ball!').
             """)
             
-        with st.expander("🧠 7. Taktik III (15 Min): Blocksicherung (Am Boden)"):
+        with st.expander("🧠 7. Läufersystem II (10 Min): Zuspiel-Karussell"):
             st.markdown("""
-            **Ablauf:** Trainer schlägt hart gegen eine Matte am Netz (simulierter Block-Abpraller).
-            * **🎯 Basis-Level:** Spieler werfen sich auf den Boden (Hechtbagger-Gleiten aus dem Kniestand) und fangen den Ball.
-            * **🚀 PRO-Level:** Spieler stehen in tiefer Ready-Position, rutschen blitzschnell unter den Ball und kratzen ihn einarmig hoch.
+            **Ablauf:** 3 Zuspieler hintereinander auf Pos I. Einlaufen auf Pos III, Ball vom Trainer hoch pritscheln auf Pos IV, sofort zurück auf Pos I.
+            **Trainer-Details:** Dauerhafte Bewegung, schnelles Umschalten nach dem Zuspiel.
             """)
             
-        with st.expander("🏆 8. Abschlussspiel (15 Min): Handicap-Match"):
+        with st.expander("🏆 8. Abschlussspiel (20 Min): Handicap-Match"):
             st.markdown("""
-            **Ablauf:** 3v3 oder 4v4. 
-            * **🎯 Basis-Level:** Dürfen ihre Angaben von der 6m-Linie von unten machen.
-            * **🚀 PRO-Level:** Dürfen nur ins hintere Felddrittel (Pos 1, 5, 6) angreifen. Wenn sie ins Netz aufschlagen, gibt es Minuspunkt.
+            **Ablauf:** 3v3 / 4v4 Wettkampf. 
+            * Wenn Angaben zu oft im Netz landen, rücken die Aufschläger 2 Meter ins Feld vor, um erfolgreiche Ballwechsel zu garantieren.
             """)
 
-   # ---------------- WOCHE 2 ----------------
+    # ---------------- WOCHE 2 ----------------
     with w2:
-        st.subheader("TE 3 - Mittwoch (90 Min): Games Approach – Fokus Spielpraxis")
-        st.markdown("**Organisation:** U13 & U14 gemischt auf einem Feld. Fokus auf Positionen I bis IV.")
-
-        with st.expander("🎾 1. Warm-up (15 Min): 1v1 Kreatives Volley-Tennis"):
+        st.subheader("TE 3 (90 Min): Beinarbeit & Zuspiel-Kopplung")
+        
+        with st.expander("🏃‍♂️ 1. Warm-up (10 Min): Baggertennis 2v2 (ohne Netz)"):
+            st.markdown("**Ablauf:** 2er-Teams baggern sich den Ball über eine Bodenlinie zu (1x Bodenkontakt erlaubt).")
+            
+        with st.expander("🎯 2. Technik I (15 Min): Dreieck-Baggern in 3er-Gruppen (ohne Netz)"):
             st.markdown("""
-            **Organisation:** Das Spielfeld in schmale "Schläuche" unterteilen.
-            **Ablauf:** 
-            * Die Spieler spielen 1-gegen-1. 
-            * Der Ball darf pro Spielzug exakt ein Mal auf dem eigenen Feld aufkommen. 
-            * Es sind alle Ballberührungen (auch Fuß oder Kopf) erlaubt.
-            **Ziel:** Garantiert maximale Ballkontakte für jeden Einzelnen vom ersten Moment an und schult die periphere Sicht.
+            **Ablauf (ohne Netz):** 3 Spieler bilden ein Dreieck (Abstand je 3-4 m).
+            * Ball wird im Bagger im Uhrzeigersinn weitergespielt.
+            * Vor jedem Ballkontakt muss der Spieler einen schnellen Ausfallschritt zum Ball machen und die Schulterachse zum nächsten Ziel eindrehen.
+            **Trainer-Details:** Blickkontakt und Eindrehen des Körpers schulen.
             """)
-
-        with st.expander("👑 2. Spielnaher Drill (20 Min): Kaiserplatz im Wellenprinzip"):
+            
+        with st.expander("🎯 3. Technik II (15 Min): Stemmschritt & Bagger-Kontrolle"):
             st.markdown("""
-            **Organisation:** 3v3 (Pos I, III, IV) oder 4v4 (Pos I, II, III, IV). Eine Seite ist die "Kaiserseite", auf der anderen warten die Herausforderer.
-            **Ablauf:** 
-            * Der Trainer wirft den Ball in extrem hoher Frequenz bei den Herausforderern ein. 
-            * Punkten sie, wechseln sie jubelnd unter dem Netz durch auf die Kaiserseite. 
-            * Punktet die Kaiserseite, rückt sofort das nächste Herausforderer-Team nach.
-            **Ziel:** Das Wellenprinzip verhindert Warteschlangen und zwingt die Kinder durch den schnellen Einwurf zu pausenloser Aufmerksamkeit.
+            **Ablauf:** Spieler starten an Pos I, laufen diagonal nach vorne zu Pos III, stoppen mit festem Stemmschritt und baggern den zugeworfenen Ball hoch zu Pos IV.
+            **Trainer-Details:** Kein Nachfedern oder Weiterlaufen im Moment des Ballkontakts.
             """)
-
-        with st.expander("🎯 3. System-Spielform (25 Min): Zusatzpunkt-Spiel (Läufer-Bingo)"):
+            
+        with st.expander("🧠 4. Taktik I (15 Min): Läufer-Timing von Pos I auf Pos III"):
             st.markdown("""
-            **Organisation:** Normales 3v3 / 4v4 Match auf Zeit (z. B. 4 Minuten pro Runde).
-            **Ablauf:** 
-            * Es wird frei gegeneinander gespielt. Einen normalen Punkt gibt es für einen Fehler des Gegners. 
-            * Einen **Zusatzpunkt** (bzw. "Bingo") gibt es, wenn der Punkt durch einen sauberen 3er-Aufbau über den Zuspieler auf Position III erzielt wird.
-            **Ziel:** Die Spieler werden taktisch belohnt, das erlernte System in der echten Spielpraxis anzuwenden, anstatt den Ball unkontrolliert "rüberzuretten".
+            **Ablauf:** Zuspieler steht hinten auf Pos I. Annahme steht auf Pos IV. 
+            * Trainer schlägt/wirft ein. Erst beim Ballabgang sprintet der Zuspieler von Pos I auf Pos III vor und pritscht/fängt den Annahmeball.
+            **Trainer-Details:** Zuspieler darf nicht zu früh starten (kein Überlappen).
             """)
-
-        with st.expander("🦸‍♂️️ 4. Abschluss-Event (30 Min): Das Superkraft-Turnier"):
+            
+        with st.expander("🧠 5. Taktik II (15 Min): Annahme-Zuspiel Kette live"):
             st.markdown("""
-            **Organisation:** U13- und U14-Spieler werden bunt durchgemischt; gespielt wird ein Jeder-gegen-Jeden-Kurzturnier.
-            **Ablauf:** 
-            * Jedes Team erhält laminierte "Superkraft-Karten", die einmal pro Match durch lautes Rufen vor dem Aufschlag aktiviert werden können. 
-            * Beispiele: "Gummi-Wand" (Team darf den Ball viermal berühren) oder "Bodenhaftung" (Gegner darf in diesem Ballwechsel nicht abspringen).
-            **Ziel:** Purer Spielspaß am Ende der Einheit. Die Gamification nimmt den Stress aus der Wettkampfsituation und stärkt den Teamgeist.
+            **Ablauf:** Aufschlag von drüben -> Annahme Pos I/IV zu Pos III -> Zuspieler stellt hoch auf Pos IV -> Angreifer spielt kontrollierten Dankeball zurück.
+            **Trainer-Details:** Ballflugbahn muss hoch sein, um Hektik zu vermeiden.
+            """)
+            
+        with st.expander("🏆 6. Abschlussspiel (20 Min): Wash-Game (2 Rallyes)"):
+            st.markdown("**Ablauf:** Ein Punkt wird nur vergeben, wenn 2 aufeinanderfolgende Ballwechsel über Pos III aufgebaut und gewonnen werden.")
+
+        st.divider()
+
+        st.subheader("TE 4 - Freitag (120 Min): Druckaufbau & Läufersystem-Fokus")
+        
+        with st.expander("🏃‍♂️ 1. Warm-up (15 Min): Ball-Handling Staffel & Richtungswechsel"):
+            st.markdown("**Ablauf:** Dribbeln, Richtungswechsel um Hütchen und saubere Anwurfsimulation vor der Schlagschulter.")
+            
+        with st.expander("🧠 2. Läufersystem I (15 Min): Ampel-Start"):
+            st.markdown("""
+            **Ablauf:** Der Trainer simuliert Aufschläge (Rote/Grüne Ampel). Fake-Aufschlag: Läufer darf nicht loslaufen. Echter Aufschlag: Explosiver Antritt von Pos I nach III.
+            """)
+            
+        with st.expander("🎯 3. Technik I (15 Min): Gezielte Angaben auf Zielzonen"):
+            st.markdown("""
+            **Ablauf:** Aufschläge von Pos I gezielt in markierte Zonen (z. B. auf Matten an Pos I oder IV auf der Gegenseite).
+            **Trainer-Details:** Stabiler Stand, Handgelenk fest abklappen.
+            """)
+            
+        with st.expander("🎯 4. Technik II (15 Min): Annahme nach vorne schieben"):
+            st.markdown("""
+            **Ablauf:** Kurze, drucklose Angaben aktiv mit den Beinen nach vorne auf Pos III drücken.
+            **Trainer-Details:** Nicht die Arme nach vorne reißen, sondern den ganzen Körper durch Beinstreckung nach vorne bewegen.
+            """)
+            
+        with st.expander("🧠 5. Taktik I (15 Min): Schnittstellen-Kommunikation"):
+            st.markdown("""
+            **Ablauf:** Bälle werden exakt zwischen Pos I und Pos IV geschlagen.
+            * Wer zuerst 'Ich!' ruft, nimmt den Ball; der andere sichert ab.
+            **Trainer-Details:** Zögern sofort korrigieren.
+            """)
+            
+        with st.expander("🧠 6. Taktik II (15 Min): Notball-Zuspiel (Out-of-System)"):
+            st.markdown("""
+            **Ablauf:** Annahme gerät ungenau weit weg von Pos III. Nächststehender Spieler ruft 'Hilfe' und spielt einen hohen Notpass zu Pos IV.
+            """)
+            
+        with st.expander("🧠 7. Läufersystem II (10 Min): Transition-Läufer"):
+            st.markdown("""
+            **Ablauf:** Der Läufer steht auf Pos I. Trainer schlägt harten Ball auf den Läufer. Läufer wehrt ab, Mitspieler von Pos IV übernimmt das Zuspiel.
+            """)
+            
+        with st.expander("🏆 8. Abschlussspiel (20 Min): System-Kaiser"):
+            st.markdown("**Ablauf:** Kaiserplatz-Turnier mit 3v3 / 4v4 Teams. Rotation bei Fehler.")
+
+    # ---------------- WOCHE 3 ----------------
+    with w3:
+        st.subheader("TE 5 (90 Min): Annahme-Konstanz & Beinarbeit")
+        
+        with st.expander("🏃‍♂️ 1. Warm-up (10 Min): Reaktions-Sprints (ohne Netz)"):
+            st.markdown("""
+            **Ablauf (ohne Netz):** Bauchlage. Auf Pfiff: Explosives Aufstehen, 3 m Rückwärtslauf im tiefen Schwerpunkt, Richtungswechsel und Vorwärtssprint.
+            **Trainer-Details:** Schnelle Beinarbeit und tiefer Schwerpunkt beim Abstoppen.
+            """)
+            
+        with st.expander("🎯 2. Technik I (15 Min): Defense-Beinarbeit (Tennisbälle)"):
+            st.markdown("""
+            **Ablauf (ohne Netz):** 2er-Teams arbeiten im Freiraum der Halle. Der Werfer hat zwei Tennis- oder Unihockeybälle.
+            * Der Werfer wirft nacheinander zwei Bälle tief und leicht versetzt auf den Boden. 
+            * Der Abwehrspieler bleibt durchgehend in der tiefen Grundposition, verschiebt sich mit schnellen Sideshuffles zur Seite und holt beide Bälle.
+            **Trainer-Details:** Der Fokus liegt auf dem Schwerpunkt! Der Spieler darf sich zwischen den Bällen **auf keinen Fall aufrichten**. Wer hochkommt, muss danach wieder runter und verliert die entscheidenden Millisekunden.
+            """)
+            
+        with st.expander("🎯 3. Technik II (15 Min): Kurze und lange Bälle kontrollieren"):
+            st.markdown("""
+            **Ablauf (am Netz):** Spieler auf Pos I bzw. IV. Trainer variiert zwischen kurzen Bällen hinters Netz und langen Bällen zur Grundlinie.
+            * Ziel bleibt die präzise Bogenannahme auf Pos III.
+            **Trainer-Details:** Ständiges Nachfedern auf den Fußballen (Ready Position).
+            """)
+            
+        with st.expander("🧠 4. Taktik I (15 Min): Reiner Schlag am niedrigen Netz (ohne Sprung)"):
+            st.markdown("""
+            **Ablauf:** Das Netz wird deutlich niedriger gespannt. Die Spieler stehen am Netz und schlagen den zugeworfenen Ball aus dem Stand (ohne Sprung) über das Netz.
+            **Trainer-Details:** Isoliert den reinen Armzug und die Schulterrotation. Fokus auf den Treffpunkt vor dem Körper und das aktive Abklappen des Handgelenks, ohne durch das komplexe Timing des Anlaufs überfordert zu werden.
+            """)
+            
+        with st.expander("🧠 5. Taktik II (15 Min): Stemmschritt über ein flaches Hindernis"):
+            st.markdown("""
+            **Ablauf (ohne Ball):** Als Hindernis (ca. 10–20 cm hoch) dienen flache Hütchen oder eine Wurfleine. Die Kinder starten mit einem Bein in der Luft. Der erste Schritt geht über das flache Hindernis, danach folgen die letzten beiden Schritte als explosiver Stemmschritt ("Links-Rechts").
+            **Trainer-Details:** Vorwärtsbewegung abrupt in eine reine Vertikalbewegung umwandeln. Doppelarmschwung aktiv nach hinten-oben mitnehmen! Der Rhythmus ist "Schritt... hopp-stopp!".
+            """)
+            
+        with st.expander("🏆 6. Abschlussspiel (20 Min): Druck-Turnier (3v3 / 4v4)"):
+            st.markdown("""
+            **Ablauf:** 3v3 / 4v4 auf Zeit. 
+            * **Punkte-Regel:** Annahmefehler gibt 2 Punkte für das Aufschlagteam. Punkt aus perfektem 3er-Aufbau zählt 2 Punkte.
             """)
 
         st.divider()
 
-        st.subheader("TE 4 - Freitag (120 Min): System-Festigung")
-        with st.expander("🏃‍♂️ 1. Warm-up (15 Min): Aufschlag-Staffel"):
+        st.subheader("TE 6 - Freitag (120 Min): Transition & Läufersystem unter Druck")
+        
+        with st.expander("🏃‍♂️ 1. Warm-up (15 Min): 1v1 Volley-Tennis (ohne Netz / Kleinfeld)"):
+            st.markdown("**Ablauf:** 1v1 mit 1x Bodenkontakt. Schult periphere Sicht, Antizipation und Beinarbeit.")
+            
+        with st.expander("🧠 2. Läufersystem I (15 Min): Der Chaos-Läufer"):
             st.markdown("""
-            **Ablauf:** Staffel mit Ball prellen und Anwurf-Simulation am Netz.
-            **Trainer-Details:** Ball muss vor der Schlag-Schulter angeworfen werden.
-            """)
-        with st.expander("🎯 2. Technik I (15 Min): Zonen-Aufschlag"):
-            st.markdown("""
-            **Ablauf:** U14 schlägt gezielt auf Turnmatten in den Ecken.
-            **Trainer-Details:** Handgelenk muss abklappen für den nötigen Druck.
-            """)
-        with st.expander("🎯 3. Technik II (15 Min): Annahme-Verschiebung"):
-            st.markdown("""
-            **Ablauf:** Aufschläger wechselt permanent die Position (Mitte, Seite). Annahmeriegel muss rotieren.
-            **Trainer-Details:** Den Kreuzwinkel abdecken!
-            """)
-        with st.expander("🧠 4. Taktik I (15 Min): Rette das System (Trocken)"):
-            st.markdown("""
-            **Ablauf:** Trainer wirft Ball absichtlich ins Aus. Spieler rufen 'Hilfe' und fangen den Ball.
-            **Trainer-Details:** Es geht rein um die auditive Kommunikation (wer ruft?).
-            """)
-        with st.expander("🧠 5. Taktik II (15 Min): Rette das System (Live)"):
-            st.markdown("""
-            **Ablauf:** Notzuspiel aus dem Chaos (Out-of-System) zum Angreifer.
-            **Trainer-Details:** Der Notpass muss hoch an die Antenne gespielt werden, damit der Angreifer Zeit hat.
-            """)
-        with st.expander("⚡ 6. Athletik I (15 Min): Quickness & Leiter"):
-            st.markdown("""
-            **Ablauf:** Koordinationsleiter für schnelle Fußarbeit.
-            **Trainer-Details:** Fersen bleiben in der Luft (Vorfuß-Lauf).
-            """)
-        with st.expander("⚡ 7. Athletik II (10 Min): Core-Rotation"):
-            st.markdown("""
-            **Ablauf:** Medizinball-Würfe (seitlich).
-            **Trainer-Details:** Imitiert die Rumpf-Rotation beim Schlag.
-            """)
-        with st.expander("🏆 8. Abschlussspiel (20 Min): System-Kaiser"):
-            st.markdown("""
-            **Ablauf:** Herausforderer rücken nur bei 3er-System-Aufbau auf die Kaiserseite.
-            **Trainer-Details:** Lobe auch den Versuch, wenn der finale Ball im Aus landet!
+            **Ablauf:** Trainer wirft absichtlich schlechte Annahmen (ins Netz, zu kurz). Der Läufer muss sprinten, den Ball erlaufen und hoch an die Antenne stellen. 
+            **Trainer-Details:** Kommunikation schulen ("Hilfe!"), falls der Ball nicht mehr erreichbar ist.
             """)
             
-    with w3:
-        st.info("Woche 3 vertieft die Angriffs-Technik am Netz und integriert die Fehlerkompensation.")
+        with st.expander("🎯 3. Technik I (15 Min): Not-Annahme & Hechtbagger"):
+            st.markdown("""
+            **Ablauf:** Trainer schlägt kontrolliert in den Raum. Spieler bewegen sich explosiv zum Ball und bringen ihn mit stabiler Plattform als hohen Notball ins Zentrum.
+            **Trainer-Details:** Flüssiges Wiederaufstehen direkt nach dem Bodenkontakt fordern.
+            """)
+            
+        with st.expander("🎯 4. Technik II (15 Min): Einarmige Rettungsaktionen"):
+            st.markdown("""
+            **Ablauf:** Weit abweichende Bälle mit sauberer einarmiger Führung hoch ins Feld zurückretten.
+            **Trainer-Details:** Körperspannung halten, damit der Notball nicht verspringt.
+            """)
+            
+        with st.expander("🧠 5. Taktik I (15 Min): Umschalten von Abwehr auf Spielaufbau"):
+            st.markdown("""
+            **Ablauf:** Nach der ersten Feldabwehr formiert sich das Team sofort für den 2. Ball (Zuspieler rückt nach Pos III, Angreifer lösen sich vom Netz).
+            **Trainer-Details:** Lautes Coachen unter den Spielern ('Ich übernehme!' / 'Hilfe!').
+            """)
+            
+        with st.expander("🧠 6. Taktik II (15 Min): Transition unter Wettkampf-Bedingungen"):
+            st.markdown("""
+            **Ablauf:** Endlos-Rallye-Drill. Ball muss nach erfolgreicher Abwehr sofort in einen geordneten Angriff über Pos IV/II umgewandelt werden.
+            """)
+            
+        with st.expander("🧠 7. Läufersystem II (10 Min): Scanner-Zuspiel"):
+            st.markdown("""
+            **Ablauf:** Der Zuspieler pritscht auf Position III. Trainer hebt linke oder rechte Hand. Zuspieler pritscht dorthin, wo die Hand *unten* ist.
+            """)
+            
+        with st.expander("🏆 8. Abschlussspiel (20 Min): Transition-Match (3v3 / 4v4)"):
+            st.markdown("**Ablauf:** Wash-Match. Punkte zählen nur, wenn der Ballwechsel über eine erfolgreiche Abwehr-Transition gewonnen wurde.")
+
+    # ---------------- WOCHE 4 ----------------
     with w4:
-        st.info("Woche 4 bereitet auf den Match-Day vor (Max. 15-Minuten-Einheiten).")
+        st.subheader("TE 7 (90 Min): Annahme-Präzisionstest")
+        with st.expander("🏃‍♂️ 1. Warm-up (10 Min): Pre-Game Einspielen in Paaren (ohne Netz)"):
+            st.markdown("**Ablauf:** Paarweises Warmspielen mit Fokus auf präzisem Baggerkontakt und sauberer Beinarbeit.")
+        with st.expander("🎯 2. Technik (30 Min): Annahme-Präzisionstest"):
+            st.markdown("**Ablauf:** Jeder Spieler nimmt 10 Aufschläge an; gezählt wird, wie viele im markierten Zielkreis an Pos III landen.")
+        with st.expander("🧠 3. Taktik (30 Min): Abstimmung U13 (3v3) & U14 (4v4)"):
+            st.markdown("**Split:** Feste Schnittstellen-Absprachen zwischen Pos I, IV und II.")
+        with st.expander("🏆 4. Abschlussspiel (20 Min): TuB Bocholt Liga"):
+            st.markdown("**Turnier:** 3v3 / 4v4 Kurzspiele auf Zeit (4 Min pro Match).")
+
+        st.divider()
+
+        st.subheader("TE 8 - Freitag (120 Min): Der große Monatstest")
+        with st.expander("🏃‍♂️ 1. Warm-up (15 Min): Turnier-Warm-up & Einschlagen"):
+            st.markdown("**Ablauf:** Dynamisches Dehnen, Einschlagen am Netz mit Zuspiel aus der Annahme.")
+        with st.expander("🎯 2. Technik (35 Min): Aufschlag & Annahme Feinschliff"):
+            st.markdown("**Ablauf:** Duelle Aufschläger vs. Annahmeriegel (Pos I, IV, II).")
+        with st.expander("🧠 3. Taktik (35 Min): Spielaufbau unter Wettkampfstress"):
+            st.markdown("**Ablauf:** Simulation von Drucksituationen (z. B. Spielstand '13:13').")
+        with st.expander("🧠 4. Läufersystem-Check & Cool-down (15 Min):"):
+            st.markdown("**Ablauf:** Finale Überprüfung der Laufwege unter simulierter Block-Sicht + ausgiebiges Partner-Dehnen.")
+        with st.expander("🏆 5. Abschlussspiel (20 Min): Monats-Finale"):
+            st.markdown("**Wettkampf:** 2 Gewinnsätze bis 15 Punkte unter voller Anwendung aller Annahme- und Läuferregeln.")
+
+# =========================================================
+# MONAT 2: Grundtechnik Angriff & Aufschlag
+# =========================================================
+elif monat == "Monat 2: Grundtechnik Angriff & Aufschlag":
+    st.header("Monat 2: Schlagen über das Netz & gezielter Aufschlag")
+    
+    w1, w2, w3, w4 = st.tabs(["Woche 1", "Woche 2", "Woche 3", "Woche 4"])
+    
+    with w1:
+        st.subheader("TE 1 (90 Min): Der Armzug (ohne Netz / an der Wand)")
+        with st.expander("🏃‍♂️ 1. Warm-up (10 Min): Schulter-Aktivierung (ohne Netz)"):
+            st.markdown("**Ablauf:** Baseball-Würfe in Paaren. Fokus auf Aufdrehen der Schulterachse.")
+        with st.expander("🎯 2. Technik (30 Min): Wand-Schlagen (ohne Netz)"):
+            st.markdown("**Ablauf:** Vor der Wand: Hoher Ellenbogen, Handgelenk klappt aktiv ab, Ball tippt vor der Wand auf den Boden.")
+        with st.expander("🧠 3. Taktik/Technik (30 Min): Schlagen aus dem Stand am Netz"):
+            st.markdown("**Ablauf:** Trainer wirft auf Pos IV. Spieler machen Stemmschritt aus dem Stand und schlagen mit Handgelenkseinsatz über das Netz.")
+        with st.expander("🏆 4. Abschlussspiel (20 Min): Angriffs-Bingo"):
+            st.markdown("**Punkte-Regel:** Punkte zählen nur bei geschlagenem Ball oder aggressivem Angriff.")
+
+        st.divider()
+
+        st.subheader("TE 2 - Freitag (120 Min): Der 3er-Anlauf & Läufer-Integration")
+        with st.expander("🏃‍♂️ 1. Warm-up (15 Min): Rhythmus-Schulung (ohne Netz)"):
+            st.markdown("**Ablauf:** Anlauf-Rhythmus trocken ('Links... Rechts-Links!'). Explosiver Doppelarmschwung nach oben.")
+        with st.expander("🎯 2. Technik (35 Min): Anlauf, Absprung & Schlag"):
+            st.markdown("**Ablauf:** Zuspieler stellt Bogenbälle von Pos III auf Pos IV. Angreifer läuft aus 3m-Distanz an, springt beidbeinig ab und schlägt über das Netz.")
+        with st.expander("🧠 3. Taktik (35 Min): Hit or Lob"):
+            st.markdown("**Ablauf:** Trainer signalisiert Block. Hand oben = gezielter Lob; Hand unten = voller Schlag.")
+        with st.expander("🧠 4. Läufersystem (15 Min): Laufweg & Angriffskombination"):
+            st.markdown("**Ablauf:** Läufer sprintet aus Pos I an, stellt auf den anlaufenden Angreifer (Pos IV) und sichert den Angreifer anschließend ab.")
+        with st.expander("🏆 5. Abschlussspiel (20 Min): Angriffs-Turnier"):
+            st.markdown("**Modus:** 3v3 / 4v4. Erfolgreiche Angriffsschläge zählen doppelt.")
+
+    with w2:
+        st.subheader("TE 3 (90 Min): Aufschlag-Härte")
+        with st.expander("🏃‍♂️ 1. Warm-up (10 Min): Hechten & Block-Schatten"):
+            st.markdown("**Ablauf:** Blocksprung am Netz, landen, rückwärts ausweichen, Abwehrhecht.")
+        with st.expander("🎯 2. Technik (30 Min): Tennis-Aufschlag"):
+            st.markdown("**Ablauf:** Aufschlag von oben ab 3m-Linie. Bei 3 Treffern 1 Meter nach hinten rücken.")
+        with st.expander("🧠 3. Taktik (30 Min): Aufschlag vs. Riegel"):
+            st.markdown("**Ablauf:** Team A serviert von oben. Team B kontrolliert die Annahme auf Pos III.")
+        with st.expander("🏆 4. Abschlussspiel (20 Min): Aufschlag-Kaiser"):
+            st.markdown("**Ablauf:** Kaiserplatz-Turnier mit direktem Wechsel bei Aufschlag-Ass.")
+
+        st.divider()
+
+        st.subheader("TE 4 - Freitag (120 Min): Komplex-Training & Sicherung")
+        with st.expander("🏃‍♂️ 1. Warm-up (15 Min): Reaktions-Baggern & Sprints (ohne Netz)"):
+            st.markdown("**Ablauf:** Schnelle Sidesteps, Spielbrett stabilisieren, Antritte.")
+        with st.expander("🎯 2. Technik (35 Min): Freeball-Kill im Ablauf"):
+            st.markdown("**Ablauf:** Dankeball -> Annahme Pos I/IV zu Pos III -> Zuspiel auf Pos IV/II -> Schlagangriff.")
+        with st.expander("🧠 3. Taktik (35 Min): Die Angriffssicherung"):
+            st.markdown("**Ablauf:** Angreifer schlägt in Kasten-Block. Mitspieler sichern tief am Boden ab.")
+        with st.expander("🧠 4. Läufersystem (15 Min): Out-of-System Zuspieler"):
+            st.markdown("**Ablauf:** Läufer sprintet auf ungenauen Ball, muss sich im Lauf auf den Angreifer neu ausrichten und das Zuspiel aus der Distanz stellen.")
+        with st.expander("🏆 5. Abschlussspiel (20 Min): Wash-Game Extrem"):
+            st.markdown("**Ablauf:** 2 Rallyes in Folge für Punktgewinn.")
+
+    with w3:
+        st.subheader("TE 5 (90 Min): Reaktion & Abwehr")
+        with st.expander("🎾 1. Warm-up (10 Min): 1v1 Kreatives Tennis Game"):
+            st.markdown("**Ablauf:** 1v1 mit 1x Bodenkontakt in Kleinfeldschläuchen.")
+        with st.expander("🎯 2. Technik (30 Min): Schmetter-Abwehr"):
+            st.markdown("**Ablauf:** Spieler stehen tief auf Pos I/IV. Trainer schlägt gezielt an. Ruhiges Brett halten.")
+        with st.expander("🧠 3. Taktik (30 Min): Abwehr -> Transition"):
+            st.markdown("**Ablauf:** Harter Angriff -> Abwehr auf Pos III -> Zuspiel -> Gegenangriff über Pos IV.")
+        with st.expander("🏆 4. Abschlussspiel (20 Min): Abwehr-König"):
+            st.markdown("**Sonderregel:** Abwehraktionen mit erfolgreichem Gegenangriff geben 2 Punkte.")
+
+        st.divider()
+
+        st.subheader("TE 6 - Freitag (120 Min): Block-Timing & Feldverteidigung")
+        with st.expander("🏃‍♂️ 1. Warm-up (15 Min): 1v1 Tennis Auf-/Absteiger"):
+            st.markdown("**Ablauf:** Kreatives Tennis-Game im Turniermodus.")
+        with st.expander("🎯 2. Technik (35 Min): Der 1er- und 2er-Block"):
+            st.markdown("**Ablauf:** Timing beim Absprung am Netz (Pos III/II), Hände übergreifen.")
+        with st.expander("🧠 3. Taktik (35 Min): Block-Abwehr Abstimmung"):
+            st.markdown("**Ablauf:** U14 stellt Doppelblock, U13 stellt 1er-Block mit Feldabwehr dahinter (Pos I und IV).")
+        with st.expander("🧠 4. Läufersystem (15 Min): Transition nach Block"):
+            st.markdown("**Ablauf:** Läufer sichert hinter dem Block. Nach gegnerischem Angriff sofortiges Vorlaufen an Netz zur Spielgestaltung.")
+        with st.expander("🏆 5. Abschlussspiel (20 Min): Block & Defense Match"):
+            st.markdown("**Modus:** 3v3 / 4v4. Kill-Blocks zählen doppelt.")
+
+    with w4:
+        st.subheader("TE 7 (90 Min): Entscheidungsfindung")
+        with st.expander("🏃‍♂️ 1. Warm-up (10 Min): 1v1 Tennis Game"):
+            st.markdown("**Ablauf:** Schnelles Warm-up im 1-gegen-1.")
+        with st.expander("🎯 2. Technik (30 Min): Hit or Lob Präzision"):
+            st.markdown("**Ablauf:** Blitzschnelle Entscheidung: Harter Schlag oder Lob über den Block.")
+        with st.expander("🧠 3. Taktik (30 Min): Systemprüfung unter Druck"):
+            st.markdown("**Ablauf:** Annahme -> Zuspiel -> Angriff fehlerfrei durchbringen.")
+        with st.expander("🏆 4. Abschlussspiel (20 Min): TuB Bocholt Liga"):
+            st.markdown("**Turnier:** Reiner Wettkampf 3v3 / 4v4.")
+
+        st.divider()
+
+        st.subheader("TE 8 - Freitag (120 Min): Das große Finale")
+        with st.expander("🏃‍♂️ 1. Warm-up (15 Min): Pre-Game Routine & Einschlagen"):
+            st.markdown("**Ablauf:** Offizieller Spieltags-Ablauf.")
+        with st.expander("🎯 2. Technik (35 Min): Nervenstarker Aufschlag"):
+            st.markdown("**Ablauf:** 5 harte Aufschläge fehlerfrei ins Zielfeld platzieren.")
+        with st.expander("🧠 3. Taktik (35 Min): Match-Taktik & Coaching"):
+            st.markdown("**Ablauf:** Teams analysieren Lücken selbstständig.")
+        with st.expander("🧠 4. System-Check & Cool-down (15 Min):"):
+            st.markdown("**Ablauf:** Finale Läufer-Besprechung, Block-Absprachen und Cool-down.")
+        with st.expander("🏆 5. Abschlussspiel (20 Min): Meisterschaft"):
+            st.markdown("**Wettkampf:** 2 Gewinnsätze bis 15 Punkte.")
+
+# =========================================================
+# MONAT 3: Out-of-System & Match-Speed
+# =========================================================
+elif monat == "Monat 3: Out-of-System & Match-Speed":
+    st.header("Monat 3: Lösungen unter Stress & hohes Tempo")
+    
+    w1, w2, w3, w4 = st.tabs(["Woche 1", "Woche 2", "Woche 3", "Woche 4"])
+    
+    with w1:
+        st.subheader("TE 1 (90 Min): Chaos-Management")
+        with st.expander("🏃‍♂️ 1. Warm-up (10 Min): Blickkontrolle (ohne Netz)"):
+            st.markdown("**Ablauf:** Paarweises Baggern mit Fingereigenzeige für periphere Sicht.")
+        with st.expander("🎯 2. Technik (30 Min): Out-of-System Notpass"):
+            st.markdown("**Ablauf:** Trainer wirft tief ins Hinterfeld (Pos I). Hoher Not-Bagger an die Antenne zu Pos IV.")
+        with st.expander("🧠 3. Taktik (30 Min): Freeball-Kill unter Zeitdruck"):
+            st.markdown("**Ablauf:** Annahme, Zuspiel und Angriff innerhalb von 3-4 Sekunden abschließen.")
+        with st.expander("🏆 4. Abschlussspiel (20 Min): Profi-Kaiserplatz"):
+            st.markdown("**Ablauf:** Kaiserplatz mit vollen Aufschlägen.")
+
+        st.divider()
+
+        st.subheader("TE 2 - Freitag (120 Min): Not-Pässe & System-Speed")
+        with st.expander("🏃‍♂️ 1. Warm-up (15 Min): Reaktions-Chaos in 3er-Gruppen (ohne Netz)"):
+            st.markdown("**Ablauf:** 2 Bälle gleichzeitig im 3er-Team jonglieren.")
+        with st.expander("🎯 2. Technik (35 Min): Schlechte Pässe erlaufen"):
+            st.markdown("**Ablauf:** Streuende Bälle erlaufen, komplett abstoppen und Notpass spielen.")
+        with st.expander("🧠 3. Taktik (35 Min): Butterfly unter Druck"):
+            st.markdown("**Ablauf:** Endlos-System mit fliegendem Einrücken.")
+        with st.expander("🧠 4. Läufersystem (15 Min): Dauerläufer im Sprint"):
+            st.markdown("**Ablauf:** Sprints vom Hinterfeld (Pos I) auf Pos III unter hohem Tempo, direkt stellen und wieder zurückfallen.")
+        with st.expander("🏆 5. Abschlussspiel (20 Min): Out-of-System Bonus"):
+            st.markdown("**Punkte-Regel:** Punkte nach geretteten Notbällen zählen doppelt.")
+
+    with w2:
+        st.subheader("TE 3 (90 Min): Angriff aus unsauberer Annahme")
+        with st.expander("🏃‍♂️ 1. Warm-up (10 Min): Ball-Klau (ohne Netz)"):
+            st.markdown("**Ablauf:** Dribbeln und Bälle wegschlagen.")
+        with st.expander("🎯 2. Technik (30 Min): Angriff aus 3m-Distanz"):
+            st.markdown("**Ablauf:** Bälle von hinter der 3m-Linie kontrolliert und lang ins gegnerische Feld drücken.")
+        with st.expander("🧠 3. Taktik (30 Min): Rettungsaktion -> Angriff"):
+            st.markdown("**Ablauf:** Ball kratzen -> hoher Notpass -> gezielter Lob/Schlag.")
+        with st.expander("🏆 4. Abschlussspiel (20 Min): Kein Dankeball"):
+            st.markdown("**Regel:** Wer unkontrollierte Bälle 'einfach so' rüberspielt, verliert den Punkt.")
+
+        st.divider()
+
+        st.subheader("TE 4 - Freitag (120 Min): Fehlerkompensation & Sicherung")
+        with st.expander("🏃‍♂️ 1. Warm-up (15 Min): Koordinations-Sprints (ohne Netz)"):
+            st.markdown("**Ablauf:** Sprints aus dem Sitzen/Liegen auf Kommando.")
+        with st.expander("🎯 2. Technik (35 Min): Tip/Lob aus der Not"):
+            st.markdown("**Ablauf:** Ball klebt am Netz -> gezielter Tip über den Block.")
+        with st.expander("🧠 3. Taktik (35 Min): Sicherung bei schlechten Pässen"):
+            st.markdown("**Ablauf:** Mannschaft rückt geschlossen zur Blocksicherung nach.")
+        with st.expander("🧠 4. Läufersystem (15 Min): Sicherung des Läufers"):
+            st.markdown("**Ablauf:** Läufer muss sich nach dem Zuspiel aktiv in den freien Raum fallen lassen, um abgeblockte Angriffe als erster zu sichern.")
+        with st.expander("🏆 5. Abschlussspiel (20 Min): Wash-Game Extrem"):
+            st.markdown("**Turnier:** 3 Rallyes am Stück gewinnen.")
+
+    with w3:
+        st.subheader("TE 5 (90 Min): High-Speed Transition")
+        with st.expander("🎾 1. Warm-up (10 Min): Volley-Tennis (ohne Netz)"):
+            st.markdown("**Ablauf:** 1v1 Chaos-Tennis.")
+        with st.expander("🎯 2. Technik (30 Min): Abwehr -> Sofort-Angriff"):
+            st.markdown("**Ablauf:** Bagger-Abwehr auf Pos I -> sofortiger Anlauf und Angriff über Pos IV.")
+        with st.expander("🧠 3. Taktik (30 Min): Dauerfeuer"):
+            st.markdown("**Ablauf:** Trainer bringt 5 Bälle pro Team in 10 Sekunden ins Spiel.")
+        with st.expander("🏆 4. Abschlussspiel (20 Min): Speed-Turnier"):
+            st.markdown("**Modus:** Neuer Ball kommt ohne Pause sofort ins Spiel.")
+
+        st.divider()
+
+        st.subheader("TE 6 - Freitag (120 Min): Wettkampfhärte & Laufwege")
+        with st.expander("🏃‍♂️ 1. Warm-up (15 Min): 1v1 Auf-/Absteiger"):
+            st.markdown("**Ablauf:** Volley-Tennis im Turniermodus.")
+        with st.expander("🎯 2. Technik (35 Min): Aufschlagdruck vs. Transition"):
+            st.markdown("**Ablauf:** Gezielte Aufschläge von Pos I auf Pos IV, sofortige Transition.")
+        with st.expander("🧠 3. Taktik (35 Min): Rallye aufrechterhalten"):
+            st.markdown("**Ablauf:** Bälle durch Lobs und Blocksicherung im Spiel halten.")
+        with st.expander("🧠 4. Läufersystem (15 Min): Schnelle Mitte aus der Bewegung"):
+            st.markdown("**Ablauf:** Läufer spielt bei U14 schnelle Pässe auf Pos II, während er noch in der Fließbewegung aus Pos I ist.")
+        with st.expander("🏆 5. Abschlussspiel (20 Min): Transition-König"):
+            st.markdown("**Modus:** Punkte zählen erst nach mindestens 3 Netzüberquerungen.")
+
+    with w4:
+        st.subheader("TE 7 (90 Min): Match-Day Vorbereitung")
+        with st.expander("🏃‍♂️ 1. Warm-up (10 Min): Pre-Game Routine"):
+            st.markdown("**Ablauf:** Vollständiges Einschlagen.")
+        with st.expander("🎯 2. Technik (30 Min): Sicherer Not-Aufschlag"):
+            st.markdown("**Ablauf:** 100% Quote bei Angaben von unten/leichtem Float.")
+        with st.expander("🧠 3. Taktik (30 Min): Raumaufteilung Pos I bis IV"):
+            st.markdown("**Ablauf:** Feste Absprachen im 3v3 und 4v4.")
+        with st.expander("🏆 4. Abschlussspiel (20 Min): Liga Hinrunde"):
+            st.markdown("**Turnier:** Jeder gegen Jeden.")
+
+        st.divider()
+
+        st.subheader("TE 8 - Freitag (120 Min): Das Saison-Finale")
+        with st.expander("🏃‍♂️ 1. Warm-up (15 Min): Turnier-Warm-up"):
+            st.markdown("**Ablauf:** Dynamisches Einspielen.")
+        with st.expander("🎯 2. Technik (35 Min): Direkte Duelle"):
+            st.markdown("**Ablauf:** Angreifer vs. Block, Aufschläger vs. Annahme.")
+        with st.expander("🧠 3. Taktik (35 Min): Timeout-Coaching"):
+            st.markdown("**Ablauf:** Teams lösen taktische Probleme im Timeout selbst.")
+        with st.expander("🧠 4. System-Check & Cool-down (15 Min):"):
+            st.markdown("**Ablauf:** Fehleranalyse von Laufwegen und Cool-Down Routinen.")
+        with st.expander("🏆 5. Abschlussspiel (20 Min): Liga Finale"):
+            st.markdown("**Das große Finale:** 2 Gewinnsätze unter vollen Wettkampfbedingungen.")
+
+# =========================================================
+# SYSTEM-SPEZIAL
+# =========================================================
+elif monat == "System-Spezial: 3v3 meets 4v4":
+    st.header("System-Spezial: Transition & Kognition (Pos I bis IV)")
+    
+    with st.expander("⏱️ 1. Der Transition-Läufer (15 Min)"):
+        st.markdown("""
+        **Aus der Abwehr ins Zuspiel (Pos I -> Pos III):** 
+        Trainer schlägt auf den Zuspieler. Zuspieler wehrt ab, Mitspieler von Pos IV übernimmt das Zuspiel.
+        * **U13 (3v3):** Läufer startet von hinten (Pos I) und läuft nach Pos III ein.
+        * **U14 (4v4):** Zuspieler lässt sich aus Pos II/I in die Abwehr fallen und wird vertreten.
+        """)
+    with st.expander("👀 2. Das Scanner-Zuspiel (20 Min)"):
+        st.markdown("**Block lesen:** Trainer hebt linke oder rechte Hand. Zuspieler auf Pos III pritscht dorthin, wo die Hand *unten* ist.")
+    with st.expander("🌪️ 3. Der Dauerläufer (20 Min)"):
+        st.markdown("""
+        **Laufwege & Beinarbeit automatisieren:**
+        * Sprint Pos I -> Pos III -> Zuspiel auf Pos IV. Zurück zu Pos I. 8x am Stück wiederholen.
+        """)
+    with st.expander("🏆 4. Spielform: Der Libero-Joker (20 Min)"):
+        st.markdown("**3v3 / 4v4 Match:** Ein Spieler sichert auf der Grundlinie (hinter Pos I und IV) ab und rettet Notbälle.")
