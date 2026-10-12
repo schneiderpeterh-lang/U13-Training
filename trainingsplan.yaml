@@ -812,6 +812,7 @@ monate:
         phase: Warm-up
         dauer: 10
         titel: 'Ballschule: Jeder hat einen Ball'
+        bild: bilder/ballschule.svg
         inhalt: |-
           **Ablauf:** Jedes Kind mit eigenem Ball frei in der Halle, auf Pfiff wechselt die Aufgabe alle 45–60 Sekunden.
 
@@ -828,6 +829,7 @@ monate:
         phase: Technik I
         dauer: 10
         titel: Pritschen allein (Kontakte zählen)
+        bild: bilder/pritschen-allein.svg
         inhalt: |-
           **Ablauf:** Jedes Kind mit eigenem Ball, Platz an Wand oder frei in der Halle. Nach jedem Versuch laut zählen.
 
@@ -841,6 +843,7 @@ monate:
         phase: Technik I
         dauer: 20
         titel: Aufschlag von unten mit Ziel
+        bild: bilder/aufschlag-ziel.svg
         inhalt: |-
           **Ablauf:** Paare an beiden Seiten des Netzes (bzw. Leine), je ein Ball pro Paar. Aufschlag aus der Distanz, die zur Stufe passt.
 
@@ -857,6 +860,7 @@ monate:
         phase: Technik II
         dauer: 20
         titel: Annahme zum Zuspieler
+        bild: bilder/annahme-zuspieler.svg
         inhalt: |-
           **Ablauf:** 3er-Gruppen: A schlägt von unten auf (oder wirft über das Netz), B nimmt mit Bagger an, C steht als Zuspieler am Netz und fängt.
 
@@ -873,6 +877,7 @@ monate:
         phase: Abschlussspiel
         dauer: 25
         titel: 2:2 mit Aufschlag
+        bild: bilder/2v2-aufschlag.svg
         inhalt: |-
           **Ablauf:** 2:2 auf Kleinfeld (ca. 4,5 × 4,5 m pro Seite), Netz 2,00–2,10 m oder Leine.
 
@@ -904,6 +909,7 @@ monate:
         phase: Warm-up
         dauer: 15
         titel: Aufschlag-Fangen
+        bild: bilder/fang-aufschlag.svg
         inhalt: |-
           **Ablauf:** Fangspiel in einem Volleyballfeld, 2 Fänger mit Leibchen.
 
@@ -916,6 +922,7 @@ monate:
         phase: Technik I
         dauer: 15
         titel: Baggern allein (Brett bauen)
+        bild: bilder/baggern-allein.svg
         inhalt: |-
           **Ablauf:** Jedes Kind mit eigenem Ball. Erst 1 Minute Brett zeigen: Hände ineinander, Daumen parallel, Arme gestreckt, Schultern nach vorn.
 
@@ -929,6 +936,7 @@ monate:
         phase: Technik II
         dauer: 20
         titel: Annahme-Zielwurf
+        bild: bilder/annahme-zielwurf.svg
         inhalt: |-
           **Ablauf:** 3er-Gruppen ohne Netz: A wirft auf B, B baggert hoch in einen Reifen/zu C (Zuspielerposition).
 
@@ -944,6 +952,7 @@ monate:
         phase: Technik III
         dauer: 15
         titel: Aufschlag in Zonen
+        bild: bilder/aufschlag-zonen.svg
         inhalt: |-
           **Ablauf:** Paare an beiden Seiten des Netzes (bzw. Leine), je ein Ball pro Paar. Aufschlag aus der Distanz, die zur Stufe passt.
 
@@ -960,6 +969,7 @@ monate:
         phase: Spielform
         dauer: 20
         titel: Aufschlag gegen Annahme (Mini-Duell)
+        bild: bilder/annahme-duell.svg
         inhalt: |-
           **Ablauf:** Auf jedem Kleinfeld: 2 Aufschläger gegen 2 Annehmer + 1 Zuspieler am Netz.
 
@@ -975,6 +985,7 @@ monate:
         phase: Abschlussspiel
         dauer: 25
         titel: 2:2 „Annahme zählt doppelt“
+        bild: bilder/2v2-annahme-doppelt.svg
         inhalt: |-
           **Ablauf:** 2:2 auf Kleinfeld (ca. 4,5 × 4,5 m pro Seite), Netz 2,00–2,10 m oder Leine.
 
@@ -1007,6 +1018,7 @@ monate:
         phase: Warm-up
         dauer: 10
         titel: 'Ballschule: Jeder hat einen Ball'
+        bild: bilder/ballschule.svg
         inhalt: |-
           **Ablauf:** Jedes Kind mit eigenem Ball frei in der Halle, auf Pfiff wechselt die Aufgabe alle 45–60 Sekunden.
 
@@ -1023,6 +1035,7 @@ monate:
         phase: Technik I
         dauer: 15
         titel: Zuspiel am Netz
+        bild: bilder/zuspiel-netz.svg
         inhalt: |-
           **Ablauf:** 3er-Gruppen: A wirft vom Feldmittelpunkt zum Netz, B (Zuspieler) läuft von rechts hinten nach Pos III und pritscht hoch zu C auf Pos IV, C fängt.
 
@@ -1038,6 +1051,7 @@ monate:
         phase: Technik II
         dauer: 20
         titel: Annahme – Zuspiel – Fangen
+        bild: bilder/zuspiel-kette.svg
         inhalt: |-
           **Ablauf:** 3er-Gruppen am Netz: Trainer/Werfer von der anderen Seite, A nimmt an, B spielt zu, C fängt auf Pos IV.
 
@@ -1053,6 +1067,7 @@ monate:
         phase: Spielform
         dauer: 20
         titel: 2:2 mit Zuspielerregel
+        bild: bilder/2v2-zuspielerregel.svg
         inhalt: |-
           **Ablauf:** 2:2 auf Kleinfeld (ca. 4,5 × 4,5 m pro Seite), Netz 2,00–2,10 m oder Leine.
 
@@ -1068,6 +1083,7 @@ monate:
         phase: Abschlussspiel
         dauer: 20
         titel: Kaiserturnier 2:2
+        bild: bilder/kaiser-2v2.svg
         inhalt: |-
           **Ablauf:** Mehrere Kleinfelder nebeneinander (2:2). Feld 1 = Kaiserfeld, letztes Feld = Einsteigerfeld. Runden à 3 Minuten.
 
@@ -1099,6 +1115,7 @@ monate:
         phase: Warm-up
         dauer: 15
         titel: Pritsch-Staffel
+        bild: bilder/pritsch-staffel.svg
         inhalt: |-
           **Ablauf:** Gruppen à 3 Kinder an der Grundlinie, Hütchen bei 9 m. Danach 3 Minuten Mobilisation.
 
@@ -1111,6 +1128,7 @@ monate:
         phase: Technik I
         dauer: 15
         titel: Pritschen im Paar mit Netz
+        bild: bilder/paar-netz.svg
         inhalt: |-
           **Ablauf:** Paare über das Netz, 2 Kontakte pro Seite (Selbstpass + rüber).
 
@@ -1124,6 +1142,7 @@ monate:
         phase: Technik II
         dauer: 20
         titel: Rund um die Positionen
+        bild: bilder/zuspiel-positionen.svg
         inhalt: |-
           **Ablauf:** 3er-Gruppen: Annahme (Pos V) – Zuspiel (Pos III) – Pass zurück über das Netz (Pos IV). Nach jedem Ball eine Position weiter.
 
@@ -1139,6 +1158,7 @@ monate:
         phase: Technik III
         dauer: 15
         titel: Aufschlag-Challenge
+        bild: bilder/aufschlag-challenge.svg
         inhalt: |-
           **Ablauf:** Paare an beiden Seiten des Netzes (bzw. Leine), je ein Ball pro Paar. Aufschlag aus der Distanz, die zur Stufe passt.
 
@@ -1155,6 +1175,7 @@ monate:
         phase: Spielform
         dauer: 20
         titel: 2:2 nur mit 3 Kontakten
+        bild: bilder/2v2-drei-kontakte.svg
         inhalt: |-
           **Ablauf:** 2:2 auf Kleinfeld (ca. 4,5 × 4,5 m pro Seite), Netz 2,00–2,10 m oder Leine.
 
@@ -1169,6 +1190,7 @@ monate:
         phase: Abschlussspiel
         dauer: 25
         titel: 3:3 kennenlernen
+        bild: bilder/3v3-kennenlernen.svg
         inhalt: |-
           **Ablauf:** 3:3 auf Feld ca. 6 × 6 m pro Seite. Ein Spieler vorn (Zuspieler), zwei hinten.
 
@@ -1200,6 +1222,7 @@ monate:
         phase: Warm-up
         dauer: 10
         titel: 'Ballschule: Jeder hat einen Ball'
+        bild: bilder/ballschule.svg
         inhalt: |-
           **Ablauf:** Jedes Kind mit eigenem Ball frei in der Halle, auf Pfiff wechselt die Aufgabe alle 45–60 Sekunden.
 
@@ -1216,6 +1239,7 @@ monate:
         phase: Technik I
         dauer: 20
         titel: Vom Schlagwurf zum Tennisaufschlag
+        bild: bilder/tennisaufschlag.svg
         inhalt: |-
           **Ablauf:** Paare, 6 m Abstand, ohne Netz.
 
@@ -1231,6 +1255,7 @@ monate:
         phase: Technik II
         dauer: 15
         titel: Annahme von oben geschlagenen Bällen
+        bild: bilder/annahme-oben.svg
         inhalt: |-
           **Ablauf:** 3er-Gruppen: A schlägt auf (von unten oder oben nach Stufe), B nimmt an, C fängt als Zuspieler.
 
@@ -1244,6 +1269,7 @@ monate:
         phase: Spielform
         dauer: 20
         titel: 3:3 mit Zuspieler vorn
+        bild: bilder/3v3-zuspieler.svg
         inhalt: |-
           **Ablauf:** 3:3 auf Feld ca. 6 × 6 m pro Seite. Der vordere Spieler macht immer das Zuspiel.
 
@@ -1258,6 +1284,7 @@ monate:
         phase: Abschlussspiel
         dauer: 20
         titel: Kaiserturnier 3:3
+        bild: bilder/kaiser-3v3.svg
         inhalt: |-
           **Ablauf:** Mehrere Kleinfelder nebeneinander (3:3). Feld 1 = Kaiserfeld, letztes Feld = Einsteigerfeld. Runden à 3 Minuten.
 
@@ -1289,6 +1316,7 @@ monate:
         phase: Warm-up
         dauer: 15
         titel: Zonenfangen
+        bild: bilder/zonenfangen.svg
         inhalt: |-
           **Ablauf:** Fangspiel in einem Volleyballfeld, 2 Fänger mit Leibchen.
 
@@ -1301,6 +1329,7 @@ monate:
         phase: Technik II
         dauer: 15
         titel: Einspielen Bagger/Pritsche
+        bild: bilder/paare-halle.svg
         inhalt: |-
           **Ablauf:** Paare, freies Einspielen, Trainer gibt Wechsel vor.
 
@@ -1314,6 +1343,7 @@ monate:
         phase: Technik II
         dauer: 15
         titel: Aufschlag-Serien
+        bild: bilder/aufschlag-serien.svg
         inhalt: |-
           **Ablauf:** Paare an beiden Seiten des Netzes (bzw. Leine), je ein Ball pro Paar. Aufschlag aus der Distanz, die zur Stufe passt.
 
@@ -1330,6 +1360,7 @@ monate:
         phase: Technik II
         dauer: 20
         titel: Annahme im 3er-Riegel
+        bild: bilder/annahme-riegel.svg
         inhalt: |-
           **Ablauf:** Auf jedem Feld: 3 Annehmer (Pos I, VI, V) gegen Aufschläger, ein Zuspieler am Netz.
 
@@ -1344,6 +1375,7 @@ monate:
         phase: Spielform
         dauer: 20
         titel: 3:3 Kontakt-Bonus
+        bild: bilder/3v3-kontakt.svg
         inhalt: |-
           **Ablauf:** 3:3 auf Kleinfeld.
 
@@ -1358,6 +1390,7 @@ monate:
         phase: Abschlussspiel
         dauer: 25
         titel: 3:3 Turnier (Kurzspiele)
+        bild: bilder/3v3-turnier.svg
         inhalt: |-
           **Ablauf:** Teams für heute fest, Spiele auf Zeit (5 Minuten), danach Gegner wechseln.
 
@@ -1389,6 +1422,7 @@ monate:
         phase: Warm-up
         dauer: 10
         titel: 'Ballschule: Jeder hat einen Ball'
+        bild: bilder/ballschule.svg
         inhalt: |-
           **Ablauf:** Jedes Kind mit eigenem Ball frei in der Halle, auf Pfiff wechselt die Aufgabe alle 45–60 Sekunden.
 
@@ -1405,6 +1439,7 @@ monate:
         phase: Technik I
         dauer: 25
         titel: Abzeichen Aufschlag & Annahme
+        bild: bilder/abzeichen-aufschlag.svg
         inhalt: |-
           **Ablauf:** Stationen mit Zähler-Kindern, Ergebnisse auf die Liste vom Monat 1.
 
@@ -1421,6 +1456,7 @@ monate:
         phase: Technik II
         dauer: 15
         titel: Freies Üben der schwächsten Station
+        bild: bilder/paare-halle.svg
         inhalt: |-
           **Ablauf:** Jedes Kind übt in einer 3er-Gruppe die Station, die ihm am schwersten fiel.
 
@@ -1434,6 +1470,7 @@ monate:
         phase: Abschlussspiel
         dauer: 35
         titel: Kaiserturnier 3:3
+        bild: bilder/kaiser-3v3.svg
         inhalt: |-
           **Ablauf:** Mehrere Kleinfelder nebeneinander (3:3). Feld 1 = Kaiserfeld, letztes Feld = Einsteigerfeld. Runden à 3 Minuten.
 
@@ -1465,6 +1502,7 @@ monate:
         phase: Warm-up
         dauer: 15
         titel: Lieblings-Fangspiel
+        bild: bilder/lieblings-fangspiel.svg
         inhalt: |-
           **Ablauf:** Fangspiel in einem Volleyballfeld, 2 Fänger mit Leibchen.
 
@@ -1477,6 +1515,7 @@ monate:
         phase: Technik I
         dauer: 15
         titel: Einspielen wie vor einem Spiel
+        bild: bilder/paare-halle.svg
         inhalt: |-
           **Ablauf:** Paare: Pritschen, Baggern, dann Aufschläge über das Netz.
 
@@ -1488,6 +1527,7 @@ monate:
         phase: Technik II
         dauer: 15
         titel: Kooperativ-Rekord 3:3
+        bild: bilder/3v3-kooperativ.svg
         inhalt: |-
           **Ablauf:** Zwei 3er-Teams spielen kooperativ über das Netz, je Seite 3 Kontakte. Wie viele Überquerungen?
 
@@ -1501,6 +1541,7 @@ monate:
         phase: Abschlussspiel
         dauer: 60
         titel: Monatsturnier 3:3
+        bild: bilder/3v3-turnier.svg
         inhalt: |-
           **Ablauf:** Ausgeloste, gemischte 3er-Teams. Gruppenphase (5 Minuten pro Spiel), dann Platzierungsspiele.
 
@@ -1537,6 +1578,7 @@ monate:
         phase: Warm-up
         dauer: 10
         titel: 'Ballschule: Jeder hat einen Ball'
+        bild: bilder/ballschule.svg
         inhalt: |-
           **Ablauf:** Jedes Kind mit eigenem Ball frei in der Halle, auf Pfiff wechselt die Aufgabe alle 45–60 Sekunden.
 
@@ -1553,6 +1595,7 @@ monate:
         phase: Technik I
         dauer: 20
         titel: Schlagwurf zum Schlag
+        bild: bilder/schlag-paar.svg
         inhalt: |-
           **Ablauf:** Paare, 5 m Abstand, Wand oder über das Netz.
 
@@ -1568,6 +1611,7 @@ monate:
         phase: Technik II
         dauer: 20
         titel: Angriff aus dem Stand über das Netz
+        bild: bilder/angriff-stand.svg
         inhalt: |-
           **Ablauf:** Netz eher niedrig (2,00 m). Angreifer auf Pos IV, Zuwerfer daneben. Zwei Reihen.
 
@@ -1583,6 +1627,7 @@ monate:
         phase: Spielform
         dauer: 20
         titel: 'Angriff oder Lob: 2:2'
+        bild: bilder/2v2-angriff.svg
         inhalt: |-
           **Ablauf:** 2:2 auf Kleinfeld, der 3. Ball muss angegriffen werden.
 
@@ -1598,6 +1643,7 @@ monate:
         phase: Abschlussspiel
         dauer: 15
         titel: Kaiserturnier 2:2
+        bild: bilder/kaiser-2v2.svg
         inhalt: |-
           **Ablauf:** Mehrere Kleinfelder nebeneinander (2:2). Feld 1 = Kaiserfeld, letztes Feld = Einsteigerfeld. Runden à 3 Minuten.
 
@@ -1629,6 +1675,7 @@ monate:
         phase: Warm-up
         dauer: 15
         titel: Anlauf-Rhythmus
+        bild: bilder/anlauf.svg
         inhalt: |-
           **Ablauf:** Alle an der Grundlinie, Anlauf bis zur 3-m-Linie, zurückgehen, wieder anlaufen. Danach Ball-Aufgaben.
 
@@ -1642,6 +1689,7 @@ monate:
         phase: Technik I
         dauer: 15
         titel: Schlag-Wiederholung im Paar
+        bild: bilder/schlag-paar.svg
         inhalt: |-
           **Ablauf:** Paare, Schlag aus dem Stand wie in TE 1.
 
@@ -1655,6 +1703,7 @@ monate:
         phase: Technik II
         dauer: 20
         titel: Anlauf mit Fangen
+        bild: bilder/anlauf-fangen.svg
         inhalt: |-
           **Ablauf:** Angreifer laufen an Pos IV an, springen ab und fangen den hochgeworfenen Ball im höchsten Punkt mit beiden Händen über dem Kopf.
 
@@ -1670,6 +1719,7 @@ monate:
         phase: Technik III
         dauer: 15
         titel: Annahme – Zuspiel – Angriff (kooperativ)
+        bild: bilder/kette-angriff.svg
         inhalt: |-
           **Ablauf:** 3er-Gruppen am Netz: A nimmt einen Wurf an, B spielt zu, C greift an (Stufe nach Wahl).
 
@@ -1683,6 +1733,7 @@ monate:
         phase: Spielform
         dauer: 25
         titel: 3:3 mit Angriffspflicht
+        bild: bilder/3v3-angriff.svg
         inhalt: |-
           **Ablauf:** 3:3 auf Kleinfeld. Der 3. Ball muss angegriffen werden (Stufe frei wählbar).
 
@@ -1697,6 +1748,7 @@ monate:
         phase: Abschlussspiel
         dauer: 20
         titel: 3:3 freies Spiel
+        bild: bilder/3v3-frei.svg
         inhalt: |-
           **Ablauf:** 3:3 auf Kleinfeld, normale Regeln (Aufschlag nach Wahl, kein Fangen).
 
@@ -1727,6 +1779,7 @@ monate:
         phase: Warm-up
         dauer: 10
         titel: Anlauf-Rhythmus
+        bild: bilder/anlauf.svg
         inhalt: |-
           **Ablauf:** Alle an der Grundlinie, Anlauf bis zur 3-m-Linie, zurückgehen, wieder anlaufen. Danach Ball-Aufgaben.
 
@@ -1740,6 +1793,7 @@ monate:
         phase: Technik I
         dauer: 15
         titel: Schlag im Paar mit Kontrolle
+        bild: bilder/schlag-kontrolle.svg
         inhalt: |-
           **Ablauf:** Paare, 6 m Abstand. A schlägt den Ball auf den Boden vor B, B baggert hoch zurück, A fängt.
 
@@ -1753,6 +1807,7 @@ monate:
         phase: Technik II
         dauer: 25
         titel: Angriff nach Zuspiel
+        bild: bilder/angriff-zuspiel.svg
         inhalt: |-
           **Ablauf:** Zuspieler (Trainer oder starkes Kind) auf Pos III, Angreifer laufen von Pos IV an.
 
@@ -1768,6 +1823,7 @@ monate:
         phase: Spielform
         dauer: 20
         titel: 3:3 Abwehr-Bonus
+        bild: bilder/3v3-abwehr.svg
         inhalt: |-
           **Ablauf:** 3:3 auf Kleinfeld. Der Ballwechsel startet mit einem Angriff vom Trainer/Startteam.
 
@@ -1782,6 +1838,7 @@ monate:
         phase: Abschlussspiel
         dauer: 15
         titel: Kaiserturnier 3:3
+        bild: bilder/kaiser-3v3.svg
         inhalt: |-
           **Ablauf:** Mehrere Kleinfelder nebeneinander (3:3). Feld 1 = Kaiserfeld, letztes Feld = Einsteigerfeld. Runden à 3 Minuten.
 
@@ -1813,6 +1870,7 @@ monate:
         phase: Warm-up
         dauer: 15
         titel: Ball-Hüter
+        bild: bilder/ball-hueter.svg
         inhalt: |-
           **Ablauf:** Fangspiel in einem Volleyballfeld, 2 Fänger mit Leibchen.
 
@@ -1825,6 +1883,7 @@ monate:
         phase: Technik II
         dauer: 15
         titel: Abwehr im Paar
+        bild: bilder/abwehr-paar.svg
         inhalt: |-
           **Ablauf:** Paare, 5 m Abstand. A schlägt/wirft hart auf B, B wehrt hoch ab.
 
@@ -1838,6 +1897,7 @@ monate:
         phase: Technik II
         dauer: 20
         titel: Abwehr – Zuspiel – Angriff
+        bild: bilder/abwehr-zuspiel-angriff.svg
         inhalt: |-
           **Ablauf:** 3er-Gruppen: Trainer schlägt auf A (Abwehr), B spielt zu, C greift an.
 
@@ -1851,6 +1911,7 @@ monate:
         phase: Technik III
         dauer: 15
         titel: Aufschlag-Wiederholung
+        bild: bilder/aufschlag-zonen.svg
         inhalt: |-
           **Ablauf:** Aufschläge in Zonen, Distanz und Technik nach Stufe aus Monat 2.
 
@@ -1864,6 +1925,7 @@ monate:
         phase: Spielform
         dauer: 25
         titel: 4:4 kennenlernen
+        bild: bilder/4v4-kennenlernen.svg
         inhalt: |-
           **Ablauf:** 4:4 auf Feld ca. 7 × 7 m pro Seite. Aufstellung: 2 vorn, 2 hinten (oder Raute).
 
@@ -1878,6 +1940,7 @@ monate:
         phase: Abschlussspiel
         dauer: 20
         titel: 3:3 oder 4:4 frei
+        bild: bilder/4v4-frei.svg
         inhalt: |-
           **Ablauf:** Freies Spiel in der Form, die zur Anzahl der Kinder passt.
 
@@ -1908,6 +1971,7 @@ monate:
         phase: Warm-up
         dauer: 10
         titel: 'Ballschule: Jeder hat einen Ball'
+        bild: bilder/ballschule.svg
         inhalt: |-
           **Ablauf:** Jedes Kind mit eigenem Ball frei in der Halle, auf Pfiff wechselt die Aufgabe alle 45–60 Sekunden.
 
@@ -1924,6 +1988,7 @@ monate:
         phase: Technik I
         dauer: 15
         titel: Einspielen-Kette
+        bild: bilder/paare-halle.svg
         inhalt: |-
           **Ablauf:** Paare: 3 Minuten Pritschen, 3 Minuten Baggern, 3 Minuten Schlag–Abwehr, 3 Minuten freies Spiel über das Netz.
 
@@ -1935,6 +2000,7 @@ monate:
         phase: Technik II
         dauer: 20
         titel: Angriffs-Serie
+        bild: bilder/angriff-serie.svg
         inhalt: |-
           **Ablauf:** Zwei Reihen: Annahme vom Trainer, Zuspiel durch ein Kind, Angriff.
 
@@ -1948,6 +2014,7 @@ monate:
         phase: Spielform
         dauer: 25
         titel: 4:4 „Jeder greift an“
+        bild: bilder/4v4-jeder.svg
         inhalt: |-
           **Ablauf:** 4:4 auf Kleinfeld, gemischte Teams.
 
@@ -1962,6 +2029,7 @@ monate:
         phase: Abschlussspiel
         dauer: 15
         titel: Kaiserturnier 3:3
+        bild: bilder/kaiser-3v3.svg
         inhalt: |-
           **Ablauf:** Mehrere Kleinfelder nebeneinander (3:3). Feld 1 = Kaiserfeld, letztes Feld = Einsteigerfeld. Runden à 3 Minuten.
 
@@ -1993,6 +2061,7 @@ monate:
         phase: Warm-up
         dauer: 15
         titel: Zonenfangen
+        bild: bilder/zonenfangen.svg
         inhalt: |-
           **Ablauf:** Fangspiel in einem Volleyballfeld, 2 Fänger mit Leibchen.
 
@@ -2005,6 +2074,7 @@ monate:
         phase: Technik I
         dauer: 15
         titel: Einspielen-Kette
+        bild: bilder/paare-halle.svg
         inhalt: |-
           **Ablauf:** Paare: Pritschen, Baggern, Schlag–Abwehr, Aufschlag.
 
@@ -2016,6 +2086,7 @@ monate:
         phase: Technik II
         dauer: 20
         titel: Aufschlag – Annahme – Angriff
+        bild: bilder/sideout.svg
         inhalt: |-
           **Ablauf:** Aufschläger gegen ein 3er- oder 4er-Team. Das Team nimmt an, spielt zu, greift an.
 
@@ -2030,6 +2101,7 @@ monate:
         phase: Technik III
         dauer: 15
         titel: Notbälle
+        bild: bilder/notbaelle.svg
         inhalt: |-
           **Ablauf:** Trainer spielt ungenaue Bälle (zu weit, zu kurz, ins Netz) ins Feld. Team muss den Ball irgendwie über das Netz retten.
 
@@ -2043,6 +2115,7 @@ monate:
         phase: Spielform
         dauer: 20
         titel: Spielstand-Spiele
+        bild: bilder/4v4-spielstand.svg
         inhalt: |-
           **Ablauf:** 4:4 (oder 3:3) mit vorgegebenen Spielständen: 12:12, 13:14, 14:14. Zwei Sätze pro Paarung.
 
@@ -2056,6 +2129,7 @@ monate:
         phase: Abschlussspiel
         dauer: 25
         titel: 4:4 Liga-Spiel
+        bild: bilder/4v4-liga.svg
         inhalt: |-
           **Ablauf:** 4:4 nach Wettkampfregeln (Aufschlag nach Stufe), zwei Sätze bis 15.
 
@@ -2086,6 +2160,7 @@ monate:
         phase: Warm-up
         dauer: 10
         titel: 'Ballschule: Jeder hat einen Ball'
+        bild: bilder/ballschule.svg
         inhalt: |-
           **Ablauf:** Jedes Kind mit eigenem Ball frei in der Halle, auf Pfiff wechselt die Aufgabe alle 45–60 Sekunden.
 
@@ -2102,6 +2177,7 @@ monate:
         phase: Technik I
         dauer: 30
         titel: Großes Basics-Abzeichen
+        bild: bilder/abzeichen-gross.svg
         inhalt: |-
           **Ablauf:** Stationen mit Zähler-Kindern; Ergebnisse auf die Liste aus Monat 1 und 2.
 
@@ -2119,6 +2195,7 @@ monate:
         phase: Spielform
         dauer: 15
         titel: Kooperativ-Rekord 4:4
+        bild: bilder/4v4-kooperativ.svg
         inhalt: |-
           **Ablauf:** Zwei Teams kooperativ über das Netz, je Seite 3 Kontakte. Hallenrekord aus Monat 1 und 2 knacken.
 
@@ -2130,6 +2207,7 @@ monate:
         phase: Abschlussspiel
         dauer: 30
         titel: Kaiserturnier 3:3
+        bild: bilder/kaiser-3v3.svg
         inhalt: |-
           **Ablauf:** Mehrere Kleinfelder nebeneinander (3:3). Feld 1 = Kaiserfeld, letztes Feld = Einsteigerfeld. Runden à 3 Minuten.
 
@@ -2161,6 +2239,7 @@ monate:
         phase: Warm-up
         dauer: 10
         titel: Lieblings-Fangspiel
+        bild: bilder/lieblings-fangspiel.svg
         inhalt: |-
           **Ablauf:** Fangspiel in einem Volleyballfeld, 2 Fänger mit Leibchen.
 
@@ -2173,6 +2252,7 @@ monate:
         phase: Technik I
         dauer: 15
         titel: Einspielen wie im Wettkampf
+        bild: bilder/paare-halle.svg
         inhalt: |-
           **Ablauf:** Einspielen-Kette in Paaren, danach Einschlagen am Netz mit Zuspiel.
 
@@ -2184,6 +2264,7 @@ monate:
         phase: Abschlussspiel
         dauer: 80
         titel: Abschlussturnier 4:4 (bzw. 3:3)
+        bild: bilder/4v4-turnier.svg
         inhalt: |-
           **Ablauf:** Ausgeloste, gemischte Teams. Gruppenphase (6 Minuten pro Spiel), dann Halbfinale und Finale.
 
