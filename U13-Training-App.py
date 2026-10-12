@@ -185,6 +185,28 @@ def zeige_variante(uebung):
         st.info(f"**Bei {SPIELER[ss.spieler]}:** {variante}")
 
 
+def datei_oder_link(pfad):
+    pfad = str(pfad)
+    return pfad if pfad.startswith(("http://", "https://")) else str(PLAN_DATEI.parent / pfad)
+
+
+def zeige_medien(uebung):
+    # Optionale Felder in der YAML-Datei: bild, video, link
+    if uebung.get("bild"):
+        bild = datei_oder_link(uebung["bild"])
+        try:
+            if bild.endswith(".svg") and not bild.startswith("http"):
+                st.image(Path(bild).read_text(encoding="utf-8"), width="stretch")
+            else:
+                st.image(bild, width="stretch")
+        except (OSError, ValueError):
+            st.caption(f"Bild nicht gefunden: {uebung['bild']}")
+    if uebung.get("video"):
+        st.video(datei_oder_link(uebung["video"]))
+    if uebung.get("link"):
+        st.markdown(f"🔗 [Zur Quelle]({uebung['link']})")
+
+
 def uebung_titel(uebung):
     titel = f"{uebung['icon']} {uebung['phase']} ({uebung['dauer']} Min)"
     if uebung.get("titel"):
@@ -240,6 +262,8 @@ if ss.ansicht == "training":
     else:
         st.button("▶️ Timer starten", on_click=gehe_zu, args=(ss.i,), use_container_width=True)
 
+    zeige_medien(u)
+
     with st.container(border=True):
         st.markdown(u["inhalt"])
         zeige_variante(u)
@@ -281,6 +305,7 @@ else:
                 st.markdown(f"#### {einheit_name(e)}: {e['titel']}")
                 for x in e["uebungen"]:
                     with st.expander(uebung_titel(x)):
+                        zeige_medien(x)
                         st.markdown(x["inhalt"])
                         zeige_variante(x)
                 st.button(
