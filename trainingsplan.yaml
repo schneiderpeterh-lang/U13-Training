@@ -1,0 +1,933 @@
+# Trainingsplan U13/U14 – TuB Bocholt
+#
+# Aufbau: monate -> wochen -> einheiten -> uebungen
+# Jede Übung: icon, phase, dauer (Minuten), titel (optional), inhalt (Markdown).
+# Optional pro Übung:
+#   varianten:
+#     "6-8": "Was bei 6-8 Spielern anders läuft"
+#     "9-12": "Was bei 9-12 Spielern anders läuft"
+# Wichtig in "inhalt": vor einer Aufzählung (* ...) und vor **Trainer-Details:** eine Leerzeile lassen.
+
+monate:
+- name: Monat 1
+  thema: Annahme-Plattform, Beinarbeit & Basis-Aufschlag
+  titel: Annahmebrett, Beinarbeit & kontrollierte Angaben
+  wochen:
+  - name: Woche 1
+    einheiten:
+    - name: TE 1
+      dauer: 90
+      titel: Annahmeplattform & Beinarbeit ohne Netz
+      uebungen:
+      - icon: 🏃‍♂️
+        phase: Warm-up
+        dauer: 10
+        titel: Linien-Tappings & Richtungswechsel
+        inhalt: |-
+          **Ablauf (ohne Netz):** Spieler verteilen sich an Hallenlinien.
+
+          * 30 Sek. schnelle Linien-Tappings auf den Fußballen (Vor-Vor-Rück-Rück).
+          * Auf Trainerpfiff sofort tiefe Volleyball-Grundstellung (Ready Position).
+          * Kurze 3-Meter-Antritte im tiefen Schwerpunkt.
+
+          **Trainer-Details:** Knie gebeugt, Fersen berühren den Boden kaum!
+      - icon: 🎯
+        phase: Technik I
+        dauer: 15
+        titel: Wand-Druck & Plattform-Stabilität (ohne Netz)
+        inhalt: |-
+          **Ablauf (ohne Netz):** Spieler stehen ca. 50 cm vor einer freien Hallenwand. Hände überstrecken, Daumen parallel, Unterarme zusammenpressen und mit vollem Druck gegen die Wand drücken.
+
+          * Bewegung: Arme langsam mit Druck an der Wand von Hüfthöhe bis auf Brusthöhe schieben und wieder absenken.
+
+          **Trainer-Details:** Schultern bewusst nach vorne-innen zusammenpressen. Die Arme dürfen nicht einknicken!
+      - icon: 🎯
+        phase: Technik II
+        dauer: 15
+        titel: Beinarbeit-Bagger in 2er-Gruppen (ohne Netz)
+        inhalt: |-
+          **Ablauf (ohne Netz):** 2er-Paare im Hallenfreiraum (Abstand 3-4 m).
+
+          * Spieler A wirft Bälle 1-2 Schritte links oder rechts neben Spieler B.
+          * Spieler B macht 2 schnelle Sidesteps, **stoppt komplett ab**, formt erst dann das Brett und baggert präzise zurück zu A.
+
+          **Trainer-Details:** Erst stehen – dann spielen! Kein Schwingen aus den Armen; Kraft kommt aus der Beinstreckung.
+      - icon: 🧠
+        phase: Taktik I
+        dauer: 15
+        titel: Zielbagger in 3er-Gruppen (ohne Netz)
+        inhalt: |-
+          **Ablauf (ohne Netz):** 3er-Gruppen in Reihe (A = Anwerfer, B = Annahme, C = Fänger als Steller-Ziel).
+
+          * A wirft aus 5 m Entfernung an. B bewegt sich zum Ball, baggert im hohen Bogen genau zu C.
+          * Rotation nach 8 Durchgängen: A -> B -> C -> A.
+
+          **Trainer-Details:** B muss die Schulterachse bereits vor dem Kontakt komplett auf C ausrichten.
+      - icon: 🧠
+        phase: Taktik II
+        dauer: 15
+        titel: Annahme am Netz auf Pos III
+        inhalt: |-
+          **Ablauf (mit Netz):** Spieler starten auf Pos I bzw. Pos IV. Trainer wirft kontrollierte Bälle über das Netz.
+
+          * Spieler erlaufen den Ball mit schnellen Schritten nach vorne/innen und baggern gezielt auf Pos III (wo ein Korb oder Fänger steht).
+
+          **Trainer-Details:** Lautes Rufen ('Ich!') vor der Ballberührung einfordern.
+      - icon: 🏆
+        phase: Abschlussspiel
+        dauer: 20
+        titel: Annahme-Bingo (3v3 / 4v4)
+        inhalt: |-
+          **Ablauf:** Gespielt wird 3v3 (Pos I, IV, III) oder 4v4 (Pos I, II, III, IV).
+
+          * Aufschläge werden anfangs von unten oder aus 6 m Entfernung serviert.
+          * **Punkte-Regel:** Normaler Punkt = 1. Punkt aus einem Spielzug, bei dem die Annahme sauber auf Pos III landete = 2 Punkte.
+    - name: TE 2
+      tag: Freitag
+      dauer: 120
+      titel: Beinarbeit, Angaben-Kontrolle & Läufersystem
+      uebungen:
+      - icon: 🏃‍♂️
+        phase: Warm-up
+        dauer: 15
+        titel: Baggertennis im Kleinfeld
+        inhalt: |-
+          **Ablauf (ohne Netz oder über 3m-Linie):** Minifelder markieren. 1v1 oder 2v2. Ball darf genau 1x aufkommen.
+
+          * Es darf ausschließlich gebaggert werden.
+
+          **Trainer-Details:** Schnelle Beinarbeit und Antizipation fordern.
+      - icon: 🧠
+        phase: Läufersystem I
+        dauer: 15
+        titel: Trockenlauf Pos I -> III
+        inhalt: |-
+          **Ablauf (ohne Netz):**
+
+          * Zuspieler startet auf Position I. Trainer steht auf der Gegenseite und wirft den Ball an (simulierter Aufschlag).
+          * Erst wenn der Ball geschlagen wird, sprintet der Läufer auf Position III.
+
+          **Trainer-Details:** Fokus liegt auf dem Timing. Zu frühes Loslaufen führt zur Wiederholung.
+      - icon: 🎯
+        phase: Technik I
+        dauer: 15
+        titel: Drucklose vs. druckvolle Angaben kontrollieren
+        inhalt: |-
+          **Ablauf:** Aufschläger stehen auf der Gegenseite an Pos I und servieren zunächst von der 4,50m-/6m-Linie von unten.
+
+          * Annahmespieler auf Pos I und Pos IV.
+          * Schrittweise Steigerung: Wechsel zum dosierten Tennis-Aufschlag von oben.
+
+          **Trainer-Details:** Bei harten Angaben Arme komplett ruhig halten (Ball nur abprallen lassen). Nicht schlagen!
+      - icon: 🎯
+        phase: Technik II
+        dauer: 15
+        titel: Tiefen-Staffelung erlaufen (Vor & Zurück)
+        inhalt: |-
+          **Ablauf:** Trainer wirft abwechselnd kurze Bälle direkt hinters Netz und lange Bälle an die Grundlinie.
+
+          * Annahmespieler auf Pos I bzw. IV müssen explosive Vorwärts- und Rückwärtsschritte machen.
+
+          **Trainer-Details:** Beim Rückwärtslaufen nicht stolpern – Sidesteps oder Kreuzschritte nach hinten nutzen.
+      - icon: 🧠
+        phase: Taktik I
+        dauer: 15
+        titel: 2er- und 3er-Riegel Ausrichtung (Pos I, IV, II)
+        inhalt: |-
+          **Ablauf:** Aufschläger wechselt die Aufschlagzone auf der Gegenseite (von Pos I nach Pos II).
+
+          * Annahmespieler (Pos I und IV in der U13 bzw. Pos I, IV, II in der U14) passen ihren Winkel an.
+
+          **Trainer-Details:** Äußere Schulter leicht vorschieben, damit der Abprallwinkel immer zur Netzmitte (Pos III) zeigt.
+      - icon: 🧠
+        phase: Taktik II
+        dauer: 15
+        titel: Serve & Pass im Wellenbetrieb
+        inhalt: |-
+          **Ablauf:** 3 Aufschläge pro Durchgang. Annahme muss hoch auf Pos III gebracht werden, wo der Zuspieler den Ball fängt oder auf Pos IV ablegt.
+
+          **Trainer-Details:** Klare Absprache an den Schnittstellen ('Mein Ball!').
+      - icon: 🧠
+        phase: Läufersystem II
+        dauer: 10
+        titel: Zuspiel-Karussell
+        inhalt: |-
+          **Ablauf:** 3 Zuspieler hintereinander auf Pos I. Einlaufen auf Pos III, Ball vom Trainer hoch pritscheln auf Pos IV, sofort zurück auf Pos I.
+
+          **Trainer-Details:** Dauerhafte Bewegung, schnelles Umschalten nach dem Zuspiel.
+      - icon: 🏆
+        phase: Abschlussspiel
+        dauer: 20
+        titel: Handicap-Match
+        inhalt: |-
+          **Ablauf:** 3v3 / 4v4 Wettkampf.
+
+          * Wenn Angaben zu oft im Netz landen, rücken die Aufschläger 2 Meter ins Feld vor, um erfolgreiche Ballwechsel zu garantieren.
+  - name: Woche 2
+    einheiten:
+    - name: TE 3
+      dauer: 90
+      titel: Beinarbeit & Zuspiel-Kopplung
+      uebungen:
+      - icon: 🏃‍♂️
+        phase: Warm-up
+        dauer: 10
+        titel: Baggertennis 2v2 (ohne Netz)
+        inhalt: '**Ablauf:** 2er-Teams baggern sich den Ball über eine Bodenlinie zu (1x Bodenkontakt erlaubt).'
+      - icon: 🎯
+        phase: Technik I
+        dauer: 15
+        titel: Dreieck-Baggern in 3er-Gruppen (ohne Netz)
+        inhalt: |-
+          **Ablauf (ohne Netz):** 3 Spieler bilden ein Dreieck (Abstand je 3-4 m).
+
+          * Ball wird im Bagger im Uhrzeigersinn weitergespielt.
+          * Vor jedem Ballkontakt muss der Spieler einen schnellen Ausfallschritt zum Ball machen und die Schulterachse zum nächsten Ziel eindrehen.
+
+          **Trainer-Details:** Blickkontakt und Eindrehen des Körpers schulen.
+      - icon: 🎯
+        phase: Technik II
+        dauer: 15
+        titel: Stemmschritt & Bagger-Kontrolle
+        inhalt: |-
+          **Ablauf:** Spieler starten an Pos I, laufen diagonal nach vorne zu Pos III, stoppen mit festem Stemmschritt und baggern den zugeworfenen Ball hoch zu Pos IV.
+
+          **Trainer-Details:** Kein Nachfedern oder Weiterlaufen im Moment des Ballkontakts.
+      - icon: 🧠
+        phase: Taktik I
+        dauer: 15
+        titel: Läufer-Timing von Pos I auf Pos III
+        inhalt: |-
+          **Ablauf:** Zuspieler steht hinten auf Pos I. Annahme steht auf Pos IV.
+
+          * Trainer schlägt/wirft ein. Erst beim Ballabgang sprintet der Zuspieler von Pos I auf Pos III vor und pritscht/fängt den Annahmeball.
+
+          **Trainer-Details:** Zuspieler darf nicht zu früh starten (kein Überlappen).
+      - icon: 🧠
+        phase: Taktik II
+        dauer: 15
+        titel: Annahme-Zuspiel Kette live
+        inhalt: |-
+          **Ablauf:** Aufschlag von drüben -> Annahme Pos I/IV zu Pos III -> Zuspieler stellt hoch auf Pos IV -> Angreifer spielt kontrollierten Dankeball zurück.
+
+          **Trainer-Details:** Ballflugbahn muss hoch sein, um Hektik zu vermeiden.
+      - icon: 🏆
+        phase: Abschlussspiel
+        dauer: 20
+        titel: Wash-Game (2 Rallyes)
+        inhalt: '**Ablauf:** Ein Punkt wird nur vergeben, wenn 2 aufeinanderfolgende Ballwechsel über Pos III aufgebaut und gewonnen werden.'
+    - name: TE 4
+      tag: Freitag
+      dauer: 120
+      titel: Druckaufbau & Läufersystem-Fokus
+      uebungen:
+      - icon: 🏃‍♂️
+        phase: Warm-up
+        dauer: 15
+        titel: Ball-Handling Staffel & Richtungswechsel
+        inhalt: '**Ablauf:** Dribbeln, Richtungswechsel um Hütchen und saubere Anwurfsimulation vor der Schlagschulter.'
+      - icon: 🧠
+        phase: Läufersystem I
+        dauer: 15
+        titel: Ampel-Start
+        inhalt: '**Ablauf:** Der Trainer simuliert Aufschläge (Rote/Grüne Ampel). Fake-Aufschlag: Läufer darf nicht loslaufen. Echter Aufschlag: Explosiver Antritt von Pos I nach III.'
+      - icon: 🎯
+        phase: Technik I
+        dauer: 15
+        titel: Gezielte Angaben auf Zielzonen
+        inhalt: |-
+          **Ablauf:** Aufschläge von Pos I gezielt in markierte Zonen (z. B. auf Matten an Pos I oder IV auf der Gegenseite).
+
+          **Trainer-Details:** Stabiler Stand, Handgelenk fest abklappen.
+      - icon: 🎯
+        phase: Technik II
+        dauer: 15
+        titel: Annahme nach vorne schieben
+        inhalt: |-
+          **Ablauf:** Kurze, drucklose Angaben aktiv mit den Beinen nach vorne auf Pos III drücken.
+
+          **Trainer-Details:** Nicht die Arme nach vorne reißen, sondern den ganzen Körper durch Beinstreckung nach vorne bewegen.
+      - icon: 🧠
+        phase: Taktik I
+        dauer: 15
+        titel: Schnittstellen-Kommunikation
+        inhalt: |-
+          **Ablauf:** Bälle werden exakt zwischen Pos I und Pos IV geschlagen.
+
+          * Wer zuerst 'Ich!' ruft, nimmt den Ball; der andere sichert ab.
+
+          **Trainer-Details:** Zögern sofort korrigieren.
+      - icon: 🧠
+        phase: Taktik II
+        dauer: 15
+        titel: Notball-Zuspiel (Out-of-System)
+        inhalt: '**Ablauf:** Annahme gerät ungenau weit weg von Pos III. Nächststehender Spieler ruft ''Hilfe'' und spielt einen hohen Notpass zu Pos IV.'
+      - icon: 🧠
+        phase: Läufersystem II
+        dauer: 10
+        titel: Transition-Läufer
+        inhalt: '**Ablauf:** Der Läufer steht auf Pos I. Trainer schlägt harten Ball auf den Läufer. Läufer wehrt ab, Mitspieler von Pos IV übernimmt das Zuspiel.'
+      - icon: 🏆
+        phase: Abschlussspiel
+        dauer: 20
+        titel: System-Kaiser
+        inhalt: '**Ablauf:** Kaiserplatz-Turnier mit 3v3 / 4v4 Teams. Rotation bei Fehler.'
+  - name: Woche 3
+    einheiten:
+    - name: TE 5
+      dauer: 90
+      titel: Annahme-Konstanz & Beinarbeit
+      uebungen:
+      - icon: 🏃‍♂️
+        phase: Warm-up
+        dauer: 10
+        titel: Reaktions-Sprints (ohne Netz)
+        inhalt: |-
+          **Ablauf (ohne Netz):** Bauchlage. Auf Pfiff: Explosives Aufstehen, 3 m Rückwärtslauf im tiefen Schwerpunkt, Richtungswechsel und Vorwärtssprint.
+
+          **Trainer-Details:** Schnelle Beinarbeit und tiefer Schwerpunkt beim Abstoppen.
+      - icon: 🎯
+        phase: Technik I
+        dauer: 15
+        titel: Defense-Beinarbeit (Tennisbälle)
+        inhalt: |-
+          **Ablauf (ohne Netz):** 2er-Teams arbeiten im Freiraum der Halle. Der Werfer hat zwei Tennis- oder Unihockeybälle.
+
+          * Der Werfer wirft nacheinander zwei Bälle tief und leicht versetzt auf den Boden.
+          * Der Abwehrspieler bleibt durchgehend in der tiefen Grundposition, verschiebt sich mit schnellen Sideshuffles zur Seite und holt beide Bälle.
+
+          **Trainer-Details:** Der Fokus liegt auf dem Schwerpunkt! Der Spieler darf sich zwischen den Bällen **auf keinen Fall aufrichten**. Wer hochkommt, muss danach wieder runter und verliert die entscheidenden Millisekunden.
+      - icon: 🎯
+        phase: Technik II
+        dauer: 15
+        titel: Kurze und lange Bälle kontrollieren
+        inhalt: |-
+          **Ablauf (am Netz):** Spieler auf Pos I bzw. IV. Trainer variiert zwischen kurzen Bällen hinters Netz und langen Bällen zur Grundlinie.
+
+          * Ziel bleibt die präzise Bogenannahme auf Pos III.
+
+          **Trainer-Details:** Ständiges Nachfedern auf den Fußballen (Ready Position).
+      - icon: 🧠
+        phase: Taktik I
+        dauer: 15
+        titel: Reiner Schlag am niedrigen Netz (ohne Sprung)
+        inhalt: |-
+          **Ablauf:** Das Netz wird deutlich niedriger gespannt. Die Spieler stehen am Netz und schlagen den zugeworfenen Ball aus dem Stand (ohne Sprung) über das Netz.
+
+          **Trainer-Details:** Isoliert den reinen Armzug und die Schulterrotation. Fokus auf den Treffpunkt vor dem Körper und das aktive Abklappen des Handgelenks, ohne durch das komplexe Timing des Anlaufs überfordert zu werden.
+      - icon: 🧠
+        phase: Taktik II
+        dauer: 15
+        titel: Stemmschritt über ein flaches Hindernis
+        inhalt: |-
+          **Ablauf (ohne Ball):** Als Hindernis (ca. 10–20 cm hoch) dienen flache Hütchen oder eine Wurfleine. Die Kinder starten mit einem Bein in der Luft. Der erste Schritt geht über das flache Hindernis, danach folgen die letzten beiden Schritte als explosiver Stemmschritt ("Links-Rechts").
+
+          **Trainer-Details:** Vorwärtsbewegung abrupt in eine reine Vertikalbewegung umwandeln. Doppelarmschwung aktiv nach hinten-oben mitnehmen! Der Rhythmus ist "Schritt... hopp-stopp!".
+      - icon: 🏆
+        phase: Abschlussspiel
+        dauer: 20
+        titel: Druck-Turnier (3v3 / 4v4)
+        inhalt: |-
+          **Ablauf:** 3v3 / 4v4 auf Zeit.
+
+          * **Punkte-Regel:** Annahmefehler gibt 2 Punkte für das Aufschlagteam. Punkt aus perfektem 3er-Aufbau zählt 2 Punkte.
+    - name: TE 6
+      tag: Freitag
+      dauer: 120
+      titel: Transition & Läufersystem unter Druck
+      uebungen:
+      - icon: 🏃‍♂️
+        phase: Warm-up
+        dauer: 15
+        titel: 1v1 Volley-Tennis (ohne Netz / Kleinfeld)
+        inhalt: '**Ablauf:** 1v1 mit 1x Bodenkontakt. Schult periphere Sicht, Antizipation und Beinarbeit.'
+      - icon: 🧠
+        phase: Läufersystem I
+        dauer: 15
+        titel: Der Chaos-Läufer
+        inhalt: |-
+          **Ablauf:** Trainer wirft absichtlich schlechte Annahmen (ins Netz, zu kurz). Der Läufer muss sprinten, den Ball erlaufen und hoch an die Antenne stellen.
+
+          **Trainer-Details:** Kommunikation schulen ("Hilfe!"), falls der Ball nicht mehr erreichbar ist.
+      - icon: 🎯
+        phase: Technik I
+        dauer: 15
+        titel: Not-Annahme & Hechtbagger
+        inhalt: |-
+          **Ablauf:** Trainer schlägt kontrolliert in den Raum. Spieler bewegen sich explosiv zum Ball und bringen ihn mit stabiler Plattform als hohen Notball ins Zentrum.
+
+          **Trainer-Details:** Flüssiges Wiederaufstehen direkt nach dem Bodenkontakt fordern.
+      - icon: 🎯
+        phase: Technik II
+        dauer: 15
+        titel: Einarmige Rettungsaktionen
+        inhalt: |-
+          **Ablauf:** Weit abweichende Bälle mit sauberer einarmiger Führung hoch ins Feld zurückretten.
+
+          **Trainer-Details:** Körperspannung halten, damit der Notball nicht verspringt.
+      - icon: 🧠
+        phase: Taktik I
+        dauer: 15
+        titel: Umschalten von Abwehr auf Spielaufbau
+        inhalt: |-
+          **Ablauf:** Nach der ersten Feldabwehr formiert sich das Team sofort für den 2. Ball (Zuspieler rückt nach Pos III, Angreifer lösen sich vom Netz).
+
+          **Trainer-Details:** Lautes Coachen unter den Spielern ('Ich übernehme!' / 'Hilfe!').
+      - icon: 🧠
+        phase: Taktik II
+        dauer: 15
+        titel: Transition unter Wettkampf-Bedingungen
+        inhalt: '**Ablauf:** Endlos-Rallye-Drill. Ball muss nach erfolgreicher Abwehr sofort in einen geordneten Angriff über Pos IV/II umgewandelt werden.'
+      - icon: 🧠
+        phase: Läufersystem II
+        dauer: 10
+        titel: Scanner-Zuspiel
+        inhalt: '**Ablauf:** Der Zuspieler pritscht auf Position III. Trainer hebt linke oder rechte Hand. Zuspieler pritscht dorthin, wo die Hand *unten* ist.'
+      - icon: 🏆
+        phase: Abschlussspiel
+        dauer: 20
+        titel: Transition-Match (3v3 / 4v4)
+        inhalt: '**Ablauf:** Wash-Match. Punkte zählen nur, wenn der Ballwechsel über eine erfolgreiche Abwehr-Transition gewonnen wurde.'
+  - name: Woche 4
+    einheiten:
+    - name: TE 7
+      dauer: 90
+      titel: Annahme-Präzisionstest
+      uebungen:
+      - icon: 🏃‍♂️
+        phase: Warm-up
+        dauer: 10
+        titel: Pre-Game Einspielen in Paaren (ohne Netz)
+        inhalt: '**Ablauf:** Paarweises Warmspielen mit Fokus auf präzisem Baggerkontakt und sauberer Beinarbeit.'
+      - icon: 🎯
+        phase: Technik
+        dauer: 30
+        titel: Annahme-Präzisionstest
+        inhalt: '**Ablauf:** Jeder Spieler nimmt 10 Aufschläge an; gezählt wird, wie viele im markierten Zielkreis an Pos III landen.'
+      - icon: 🧠
+        phase: Taktik
+        dauer: 30
+        titel: Abstimmung U13 (3v3) & U14 (4v4)
+        inhalt: '**Split:** Feste Schnittstellen-Absprachen zwischen Pos I, IV und II.'
+      - icon: 🏆
+        phase: Abschlussspiel
+        dauer: 20
+        titel: TuB Bocholt Liga
+        inhalt: '**Turnier:** 3v3 / 4v4 Kurzspiele auf Zeit (4 Min pro Match).'
+    - name: TE 8
+      tag: Freitag
+      dauer: 120
+      titel: Der große Monatstest
+      uebungen:
+      - icon: 🏃‍♂️
+        phase: Warm-up
+        dauer: 15
+        titel: Turnier-Warm-up & Einschlagen
+        inhalt: '**Ablauf:** Dynamisches Dehnen, Einschlagen am Netz mit Zuspiel aus der Annahme.'
+      - icon: 🎯
+        phase: Technik
+        dauer: 35
+        titel: Aufschlag & Annahme Feinschliff
+        inhalt: '**Ablauf:** Duelle Aufschläger vs. Annahmeriegel (Pos I, IV, II).'
+      - icon: 🧠
+        phase: Taktik
+        dauer: 35
+        titel: Spielaufbau unter Wettkampfstress
+        inhalt: '**Ablauf:** Simulation von Drucksituationen (z. B. Spielstand ''13:13'').'
+      - icon: 🧠
+        phase: Läufersystem-Check & Cool-down
+        dauer: 15
+        inhalt: '**Ablauf:** Finale Überprüfung der Laufwege unter simulierter Block-Sicht + ausgiebiges Partner-Dehnen.'
+      - icon: 🏆
+        phase: Abschlussspiel
+        dauer: 20
+        titel: Monats-Finale
+        inhalt: '**Wettkampf:** 2 Gewinnsätze bis 15 Punkte unter voller Anwendung aller Annahme- und Läuferregeln.'
+- name: Monat 2
+  thema: Grundtechnik Angriff & Aufschlag
+  titel: Schlagen über das Netz & gezielter Aufschlag
+  wochen:
+  - name: Woche 1
+    einheiten:
+    - name: TE 1
+      dauer: 90
+      titel: Der Armzug (ohne Netz / an der Wand)
+      uebungen:
+      - icon: 🏃‍♂️
+        phase: Warm-up
+        dauer: 10
+        titel: Schulter-Aktivierung (ohne Netz)
+        inhalt: '**Ablauf:** Baseball-Würfe in Paaren. Fokus auf Aufdrehen der Schulterachse.'
+      - icon: 🎯
+        phase: Technik
+        dauer: 30
+        titel: Wand-Schlagen (ohne Netz)
+        inhalt: '**Ablauf:** Vor der Wand: Hoher Ellenbogen, Handgelenk klappt aktiv ab, Ball tippt vor der Wand auf den Boden.'
+      - icon: 🧠
+        phase: Taktik/Technik
+        dauer: 30
+        titel: Schlagen aus dem Stand am Netz
+        inhalt: '**Ablauf:** Trainer wirft auf Pos IV. Spieler machen Stemmschritt aus dem Stand und schlagen mit Handgelenkseinsatz über das Netz.'
+      - icon: 🏆
+        phase: Abschlussspiel
+        dauer: 20
+        titel: Angriffs-Bingo
+        inhalt: '**Punkte-Regel:** Punkte zählen nur bei geschlagenem Ball oder aggressivem Angriff.'
+    - name: TE 2
+      tag: Freitag
+      dauer: 120
+      titel: Der 3er-Anlauf & Läufer-Integration
+      uebungen:
+      - icon: 🏃‍♂️
+        phase: Warm-up
+        dauer: 15
+        titel: Rhythmus-Schulung (ohne Netz)
+        inhalt: '**Ablauf:** Anlauf-Rhythmus trocken (''Links... Rechts-Links!''). Explosiver Doppelarmschwung nach oben.'
+      - icon: 🎯
+        phase: Technik
+        dauer: 35
+        titel: Anlauf, Absprung & Schlag
+        inhalt: '**Ablauf:** Zuspieler stellt Bogenbälle von Pos III auf Pos IV. Angreifer läuft aus 3m-Distanz an, springt beidbeinig ab und schlägt über das Netz.'
+      - icon: 🧠
+        phase: Taktik
+        dauer: 35
+        titel: Hit or Lob
+        inhalt: '**Ablauf:** Trainer signalisiert Block. Hand oben = gezielter Lob; Hand unten = voller Schlag.'
+      - icon: 🧠
+        phase: Läufersystem
+        dauer: 15
+        titel: Laufweg & Angriffskombination
+        inhalt: '**Ablauf:** Läufer sprintet aus Pos I an, stellt auf den anlaufenden Angreifer (Pos IV) und sichert den Angreifer anschließend ab.'
+      - icon: 🏆
+        phase: Abschlussspiel
+        dauer: 20
+        titel: Angriffs-Turnier
+        inhalt: '**Modus:** 3v3 / 4v4. Erfolgreiche Angriffsschläge zählen doppelt.'
+  - name: Woche 2
+    einheiten:
+    - name: TE 3
+      dauer: 90
+      titel: Aufschlag-Härte
+      uebungen:
+      - icon: 🏃‍♂️
+        phase: Warm-up
+        dauer: 10
+        titel: Hechten & Block-Schatten
+        inhalt: '**Ablauf:** Blocksprung am Netz, landen, rückwärts ausweichen, Abwehrhecht.'
+      - icon: 🎯
+        phase: Technik
+        dauer: 30
+        titel: Tennis-Aufschlag
+        inhalt: '**Ablauf:** Aufschlag von oben ab 3m-Linie. Bei 3 Treffern 1 Meter nach hinten rücken.'
+      - icon: 🧠
+        phase: Taktik
+        dauer: 30
+        titel: Aufschlag vs. Riegel
+        inhalt: '**Ablauf:** Team A serviert von oben. Team B kontrolliert die Annahme auf Pos III.'
+      - icon: 🏆
+        phase: Abschlussspiel
+        dauer: 20
+        titel: Aufschlag-Kaiser
+        inhalt: '**Ablauf:** Kaiserplatz-Turnier mit direktem Wechsel bei Aufschlag-Ass.'
+    - name: TE 4
+      tag: Freitag
+      dauer: 120
+      titel: Komplex-Training & Sicherung
+      uebungen:
+      - icon: 🏃‍♂️
+        phase: Warm-up
+        dauer: 15
+        titel: Reaktions-Baggern & Sprints (ohne Netz)
+        inhalt: '**Ablauf:** Schnelle Sidesteps, Spielbrett stabilisieren, Antritte.'
+      - icon: 🎯
+        phase: Technik
+        dauer: 35
+        titel: Freeball-Kill im Ablauf
+        inhalt: '**Ablauf:** Dankeball -> Annahme Pos I/IV zu Pos III -> Zuspiel auf Pos IV/II -> Schlagangriff.'
+      - icon: 🧠
+        phase: Taktik
+        dauer: 35
+        titel: Die Angriffssicherung
+        inhalt: '**Ablauf:** Angreifer schlägt in Kasten-Block. Mitspieler sichern tief am Boden ab.'
+      - icon: 🧠
+        phase: Läufersystem
+        dauer: 15
+        titel: Out-of-System Zuspieler
+        inhalt: '**Ablauf:** Läufer sprintet auf ungenauen Ball, muss sich im Lauf auf den Angreifer neu ausrichten und das Zuspiel aus der Distanz stellen.'
+      - icon: 🏆
+        phase: Abschlussspiel
+        dauer: 20
+        titel: Wash-Game Extrem
+        inhalt: '**Ablauf:** 2 Rallyes in Folge für Punktgewinn.'
+  - name: Woche 3
+    einheiten:
+    - name: TE 5
+      dauer: 90
+      titel: Reaktion & Abwehr
+      uebungen:
+      - icon: 🎾
+        phase: Warm-up
+        dauer: 10
+        titel: 1v1 Kreatives Tennis Game
+        inhalt: '**Ablauf:** 1v1 mit 1x Bodenkontakt in Kleinfeldschläuchen.'
+      - icon: 🎯
+        phase: Technik
+        dauer: 30
+        titel: Schmetter-Abwehr
+        inhalt: '**Ablauf:** Spieler stehen tief auf Pos I/IV. Trainer schlägt gezielt an. Ruhiges Brett halten.'
+      - icon: 🧠
+        phase: Taktik
+        dauer: 30
+        titel: Abwehr -> Transition
+        inhalt: '**Ablauf:** Harter Angriff -> Abwehr auf Pos III -> Zuspiel -> Gegenangriff über Pos IV.'
+      - icon: 🏆
+        phase: Abschlussspiel
+        dauer: 20
+        titel: Abwehr-König
+        inhalt: '**Sonderregel:** Abwehraktionen mit erfolgreichem Gegenangriff geben 2 Punkte.'
+    - name: TE 6
+      tag: Freitag
+      dauer: 120
+      titel: Block-Timing & Feldverteidigung
+      uebungen:
+      - icon: 🏃‍♂️
+        phase: Warm-up
+        dauer: 15
+        titel: 1v1 Tennis Auf-/Absteiger
+        inhalt: '**Ablauf:** Kreatives Tennis-Game im Turniermodus.'
+      - icon: 🎯
+        phase: Technik
+        dauer: 35
+        titel: Der 1er- und 2er-Block
+        inhalt: '**Ablauf:** Timing beim Absprung am Netz (Pos III/II), Hände übergreifen.'
+      - icon: 🧠
+        phase: Taktik
+        dauer: 35
+        titel: Block-Abwehr Abstimmung
+        inhalt: '**Ablauf:** U14 stellt Doppelblock, U13 stellt 1er-Block mit Feldabwehr dahinter (Pos I und IV).'
+      - icon: 🧠
+        phase: Läufersystem
+        dauer: 15
+        titel: Transition nach Block
+        inhalt: '**Ablauf:** Läufer sichert hinter dem Block. Nach gegnerischem Angriff sofortiges Vorlaufen an Netz zur Spielgestaltung.'
+      - icon: 🏆
+        phase: Abschlussspiel
+        dauer: 20
+        titel: Block & Defense Match
+        inhalt: '**Modus:** 3v3 / 4v4. Kill-Blocks zählen doppelt.'
+  - name: Woche 4
+    einheiten:
+    - name: TE 7
+      dauer: 90
+      titel: Entscheidungsfindung
+      uebungen:
+      - icon: 🏃‍♂️
+        phase: Warm-up
+        dauer: 10
+        titel: 1v1 Tennis Game
+        inhalt: '**Ablauf:** Schnelles Warm-up im 1-gegen-1.'
+      - icon: 🎯
+        phase: Technik
+        dauer: 30
+        titel: Hit or Lob Präzision
+        inhalt: '**Ablauf:** Blitzschnelle Entscheidung: Harter Schlag oder Lob über den Block.'
+      - icon: 🧠
+        phase: Taktik
+        dauer: 30
+        titel: Systemprüfung unter Druck
+        inhalt: '**Ablauf:** Annahme -> Zuspiel -> Angriff fehlerfrei durchbringen.'
+      - icon: 🏆
+        phase: Abschlussspiel
+        dauer: 20
+        titel: TuB Bocholt Liga
+        inhalt: '**Turnier:** Reiner Wettkampf 3v3 / 4v4.'
+    - name: TE 8
+      tag: Freitag
+      dauer: 120
+      titel: Das große Finale
+      uebungen:
+      - icon: 🏃‍♂️
+        phase: Warm-up
+        dauer: 15
+        titel: Pre-Game Routine & Einschlagen
+        inhalt: '**Ablauf:** Offizieller Spieltags-Ablauf.'
+      - icon: 🎯
+        phase: Technik
+        dauer: 35
+        titel: Nervenstarker Aufschlag
+        inhalt: '**Ablauf:** 5 harte Aufschläge fehlerfrei ins Zielfeld platzieren.'
+      - icon: 🧠
+        phase: Taktik
+        dauer: 35
+        titel: Match-Taktik & Coaching
+        inhalt: '**Ablauf:** Teams analysieren Lücken selbstständig.'
+      - icon: 🧠
+        phase: System-Check & Cool-down
+        dauer: 15
+        inhalt: '**Ablauf:** Finale Läufer-Besprechung, Block-Absprachen und Cool-down.'
+      - icon: 🏆
+        phase: Abschlussspiel
+        dauer: 20
+        titel: Meisterschaft
+        inhalt: '**Wettkampf:** 2 Gewinnsätze bis 15 Punkte.'
+- name: Monat 3
+  thema: Out-of-System & Match-Speed
+  titel: Lösungen unter Stress & hohes Tempo
+  wochen:
+  - name: Woche 1
+    einheiten:
+    - name: TE 1
+      dauer: 90
+      titel: Chaos-Management
+      uebungen:
+      - icon: 🏃‍♂️
+        phase: Warm-up
+        dauer: 10
+        titel: Blickkontrolle (ohne Netz)
+        inhalt: '**Ablauf:** Paarweises Baggern mit Fingerzeichen für periphere Sicht.'
+      - icon: 🎯
+        phase: Technik
+        dauer: 30
+        titel: Out-of-System Notpass
+        inhalt: '**Ablauf:** Trainer wirft tief ins Hinterfeld (Pos I). Hoher Not-Bagger an die Antenne zu Pos IV.'
+      - icon: 🧠
+        phase: Taktik
+        dauer: 30
+        titel: Freeball-Kill unter Zeitdruck
+        inhalt: '**Ablauf:** Annahme, Zuspiel und Angriff innerhalb von 3-4 Sekunden abschließen.'
+      - icon: 🏆
+        phase: Abschlussspiel
+        dauer: 20
+        titel: Profi-Kaiserplatz
+        inhalt: '**Ablauf:** Kaiserplatz mit vollen Aufschlägen.'
+    - name: TE 2
+      tag: Freitag
+      dauer: 120
+      titel: Not-Pässe & System-Speed
+      uebungen:
+      - icon: 🏃‍♂️
+        phase: Warm-up
+        dauer: 15
+        titel: Reaktions-Chaos in 3er-Gruppen (ohne Netz)
+        inhalt: '**Ablauf:** 2 Bälle gleichzeitig im 3er-Team jonglieren.'
+      - icon: 🎯
+        phase: Technik
+        dauer: 35
+        titel: Schlechte Pässe erlaufen
+        inhalt: '**Ablauf:** Streuende Bälle erlaufen, komplett abstoppen und Notpass spielen.'
+      - icon: 🧠
+        phase: Taktik
+        dauer: 35
+        titel: Butterfly unter Druck
+        inhalt: '**Ablauf:** Endlos-System mit fliegendem Einrücken.'
+      - icon: 🧠
+        phase: Läufersystem
+        dauer: 15
+        titel: Dauerläufer im Sprint
+        inhalt: '**Ablauf:** Sprints vom Hinterfeld (Pos I) auf Pos III unter hohem Tempo, direkt stellen und wieder zurückfallen.'
+      - icon: 🏆
+        phase: Abschlussspiel
+        dauer: 20
+        titel: Out-of-System Bonus
+        inhalt: '**Punkte-Regel:** Punkte nach geretteten Notbällen zählen doppelt.'
+  - name: Woche 2
+    einheiten:
+    - name: TE 3
+      dauer: 90
+      titel: Angriff aus unsauberer Annahme
+      uebungen:
+      - icon: 🏃‍♂️
+        phase: Warm-up
+        dauer: 10
+        titel: Ball-Klau (ohne Netz)
+        inhalt: '**Ablauf:** Dribbeln und Bälle wegschlagen.'
+      - icon: 🎯
+        phase: Technik
+        dauer: 30
+        titel: Angriff aus 3m-Distanz
+        inhalt: '**Ablauf:** Bälle von hinter der 3m-Linie kontrolliert und lang ins gegnerische Feld drücken.'
+      - icon: 🧠
+        phase: Taktik
+        dauer: 30
+        titel: Rettungsaktion -> Angriff
+        inhalt: '**Ablauf:** Ball kratzen -> hoher Notpass -> gezielter Lob/Schlag.'
+      - icon: 🏆
+        phase: Abschlussspiel
+        dauer: 20
+        titel: Kein Dankeball
+        inhalt: '**Regel:** Wer unkontrollierte Bälle ''einfach so'' rüberspielt, verliert den Punkt.'
+    - name: TE 4
+      tag: Freitag
+      dauer: 120
+      titel: Fehlerkompensation & Sicherung
+      uebungen:
+      - icon: 🏃‍♂️
+        phase: Warm-up
+        dauer: 15
+        titel: Koordinations-Sprints (ohne Netz)
+        inhalt: '**Ablauf:** Sprints aus dem Sitzen/Liegen auf Kommando.'
+      - icon: 🎯
+        phase: Technik
+        dauer: 35
+        titel: Tip/Lob aus der Not
+        inhalt: '**Ablauf:** Ball klebt am Netz -> gezielter Tip über den Block.'
+      - icon: 🧠
+        phase: Taktik
+        dauer: 35
+        titel: Sicherung bei schlechten Pässen
+        inhalt: '**Ablauf:** Mannschaft rückt geschlossen zur Blocksicherung nach.'
+      - icon: 🧠
+        phase: Läufersystem
+        dauer: 15
+        titel: Sicherung des Läufers
+        inhalt: '**Ablauf:** Läufer muss sich nach dem Zuspiel aktiv in den freien Raum fallen lassen, um abgeblockte Angriffe als erster zu sichern.'
+      - icon: 🏆
+        phase: Abschlussspiel
+        dauer: 20
+        titel: Wash-Game Extrem
+        inhalt: '**Turnier:** 3 Rallyes am Stück gewinnen.'
+  - name: Woche 3
+    einheiten:
+    - name: TE 5
+      dauer: 90
+      titel: High-Speed Transition
+      uebungen:
+      - icon: 🎾
+        phase: Warm-up
+        dauer: 10
+        titel: Volley-Tennis (ohne Netz)
+        inhalt: '**Ablauf:** 1v1 Chaos-Tennis.'
+      - icon: 🎯
+        phase: Technik
+        dauer: 30
+        titel: Abwehr -> Sofort-Angriff
+        inhalt: '**Ablauf:** Bagger-Abwehr auf Pos I -> sofortiger Anlauf und Angriff über Pos IV.'
+      - icon: 🧠
+        phase: Taktik
+        dauer: 30
+        titel: Dauerfeuer
+        inhalt: '**Ablauf:** Trainer bringt 5 Bälle pro Team in 10 Sekunden ins Spiel.'
+      - icon: 🏆
+        phase: Abschlussspiel
+        dauer: 20
+        titel: Speed-Turnier
+        inhalt: '**Modus:** Neuer Ball kommt ohne Pause sofort ins Spiel.'
+    - name: TE 6
+      tag: Freitag
+      dauer: 120
+      titel: Wettkampfhärte & Laufwege
+      uebungen:
+      - icon: 🏃‍♂️
+        phase: Warm-up
+        dauer: 15
+        titel: 1v1 Auf-/Absteiger
+        inhalt: '**Ablauf:** Volley-Tennis im Turniermodus.'
+      - icon: 🎯
+        phase: Technik
+        dauer: 35
+        titel: Aufschlagdruck vs. Transition
+        inhalt: '**Ablauf:** Gezielte Aufschläge von Pos I auf Pos IV, sofortige Transition.'
+      - icon: 🧠
+        phase: Taktik
+        dauer: 35
+        titel: Rallye aufrechterhalten
+        inhalt: '**Ablauf:** Bälle durch Lobs und Blocksicherung im Spiel halten.'
+      - icon: 🧠
+        phase: Läufersystem
+        dauer: 15
+        titel: Schnelle Mitte aus der Bewegung
+        inhalt: '**Ablauf:** Läufer spielt bei U14 schnelle Pässe auf Pos II, während er noch in der Fließbewegung aus Pos I ist.'
+      - icon: 🏆
+        phase: Abschlussspiel
+        dauer: 20
+        titel: Transition-König
+        inhalt: '**Modus:** Punkte zählen erst nach mindestens 3 Netzüberquerungen.'
+  - name: Woche 4
+    einheiten:
+    - name: TE 7
+      dauer: 90
+      titel: Match-Day Vorbereitung
+      uebungen:
+      - icon: 🏃‍♂️
+        phase: Warm-up
+        dauer: 10
+        titel: Pre-Game Routine
+        inhalt: '**Ablauf:** Vollständiges Einschlagen.'
+      - icon: 🎯
+        phase: Technik
+        dauer: 30
+        titel: Sicherer Not-Aufschlag
+        inhalt: '**Ablauf:** 100% Quote bei Angaben von unten/leichtem Float.'
+      - icon: 🧠
+        phase: Taktik
+        dauer: 30
+        titel: Raumaufteilung Pos I bis IV
+        inhalt: '**Ablauf:** Feste Absprachen im 3v3 und 4v4.'
+      - icon: 🏆
+        phase: Abschlussspiel
+        dauer: 20
+        titel: Liga Hinrunde
+        inhalt: '**Turnier:** Jeder gegen Jeden.'
+    - name: TE 8
+      tag: Freitag
+      dauer: 120
+      titel: Das Saison-Finale
+      uebungen:
+      - icon: 🏃‍♂️
+        phase: Warm-up
+        dauer: 15
+        titel: Turnier-Warm-up
+        inhalt: '**Ablauf:** Dynamisches Einspielen.'
+      - icon: 🎯
+        phase: Technik
+        dauer: 35
+        titel: Direkte Duelle
+        inhalt: '**Ablauf:** Angreifer vs. Block, Aufschläger vs. Annahme.'
+      - icon: 🧠
+        phase: Taktik
+        dauer: 35
+        titel: Timeout-Coaching
+        inhalt: '**Ablauf:** Teams lösen taktische Probleme im Timeout selbst.'
+      - icon: 🧠
+        phase: System-Check & Cool-down
+        dauer: 15
+        inhalt: '**Ablauf:** Fehleranalyse von Laufwegen und Cool-Down Routinen.'
+      - icon: 🏆
+        phase: Abschlussspiel
+        dauer: 20
+        titel: Liga Finale
+        inhalt: '**Das große Finale:** 2 Gewinnsätze unter vollen Wettkampfbedingungen.'
+- name: System-Spezial
+  thema: 3v3 meets 4v4
+  titel: Transition & Kognition (Pos I bis IV)
+  wochen:
+  - name: Einheit
+    einheiten:
+    - name: Spezial-Einheit
+      dauer: 75
+      titel: Transition & Kognition (Pos I bis IV)
+      uebungen:
+      - icon: ⏱️
+        phase: Der Transition-Läufer
+        dauer: 15
+        inhalt: |-
+          **Aus der Abwehr ins Zuspiel (Pos I -> Pos III):**
+          Trainer schlägt auf den Zuspieler. Zuspieler wehrt ab, Mitspieler von Pos IV übernimmt das Zuspiel.
+
+          * **U13 (3v3):** Läufer startet von hinten (Pos I) und läuft nach Pos III ein.
+          * **U14 (4v4):** Zuspieler lässt sich aus Pos II/I in die Abwehr fallen und wird vertreten.
+      - icon: 👀
+        phase: Das Scanner-Zuspiel
+        dauer: 20
+        inhalt: '**Block lesen:** Trainer hebt linke oder rechte Hand. Zuspieler auf Pos III pritscht dorthin, wo die Hand *unten* ist.'
+      - icon: 🌪️
+        phase: Der Dauerläufer
+        dauer: 20
+        inhalt: |-
+          **Laufwege & Beinarbeit automatisieren:**
+
+          * Sprint Pos I -> Pos III -> Zuspiel auf Pos IV. Zurück zu Pos I. 8x am Stück wiederholen.
+      - icon: 🏆
+        phase: 'Spielform: Der Libero-Joker'
+        dauer: 20
+        inhalt: '**3v3 / 4v4 Match:** Ein Spieler sichert auf der Grundlinie (hinter Pos I und IV) ab und rettet Notbälle.'
