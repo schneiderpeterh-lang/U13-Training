@@ -16,6 +16,10 @@
 #   * Woche 4 jedes Monats: Basics-Abzeichen (Kontakte zählen) und Turnier.
 #   * Netz 2,00-2,15 m oder Leine; Feldgrößen sind Richtwerte.
 # "varianten" passen eine Übung an die Anzahl anwesender Spieler an (wie in der App).
+# Optional pro Übung, für Bilder und Videos:
+#   bild: bilder/datei.svg      (Skizze oder Foto im Ordner "bilder", oder ein https-Link)
+#   video: https://youtu.be/... (YouTube-Link oder eigenes Video im Ordner "bilder")
+#   link: https://...           (Quelle zum Nachlesen, z. B. eine Übung auf einer Trainerseite)
 
 monate:
 - name: Monat 1
@@ -32,6 +36,7 @@ monate:
         phase: Warm-up
         dauer: 10
         titel: 'Ballschule: Jeder hat einen Ball'
+        bild: bilder/ballschule.svg
         inhalt: |-
           **Ablauf:** Jedes Kind mit eigenem Ball frei in der Halle, auf Pfiff wechselt die Aufgabe alle 45–60 Sekunden.
 
@@ -48,6 +53,7 @@ monate:
         phase: Technik I
         dauer: 15
         titel: Pritschen allein (Kontakte zählen)
+        bild: bilder/pritschen-allein.svg
         inhalt: |-
           **Ablauf:** Jedes Kind mit eigenem Ball, Platz an Wand oder frei in der Halle. Nach jedem Versuch laut zählen.
 
@@ -61,6 +67,7 @@ monate:
         phase: Technik II
         dauer: 20
         titel: 'Pritschen im Paar: Werfen – Pritschen'
+        bild: bilder/pritschen-paar.svg
         inhalt: |-
           **Ablauf:** Paare, 3 m Abstand. A wirft hoch zu B, B pritscht zurück. Nach 10 Würfen wechseln.
 
@@ -76,6 +83,7 @@ monate:
         phase: Spielform
         dauer: 20
         titel: 1:1 Pritschen über die Leine
+        bild: bilder/1v1-leine.svg
         inhalt: |-
           **Ablauf:** Spielreihe nach RTK: 1:1 auf Kleinfeld (ca. 3 × 4,5 m pro Seite) über Leine, Langbank oder niedriges Netz (ca. 2,00 m).
 
@@ -92,6 +100,7 @@ monate:
         phase: Abschlussspiel
         dauer: 20
         titel: Kaiserturnier 1:1
+        bild: bilder/kaiser-1v1.svg
         inhalt: |-
           **Ablauf:** Mehrere Kleinfelder nebeneinander (1:1). Feld 1 = Kaiserfeld, letztes Feld = Einsteigerfeld. Runden à 3 Minuten.
 
@@ -123,6 +132,7 @@ monate:
         phase: Warm-up
         dauer: 15
         titel: Ball-Retter
+        bild: bilder/ball-retter.svg
         inhalt: |-
           **Ablauf:** Fangspiel in einem Volleyballfeld, 2 Fänger mit Leibchen.
 
@@ -135,6 +145,7 @@ monate:
         phase: Technik I
         dauer: 15
         titel: Baggern allein (Brett bauen)
+        bild: bilder/baggern-allein.svg
         inhalt: |-
           **Ablauf:** Jedes Kind mit eigenem Ball. Erst 1 Minute Brett zeigen: Hände ineinander, Daumen parallel, Arme gestreckt, Schultern nach vorn.
 
@@ -148,6 +159,7 @@ monate:
         phase: Technik II
         dauer: 20
         titel: 'Baggern im Paar: Zuwurf – Bagger'
+        bild: bilder/baggern-paar.svg
         inhalt: |-
           **Ablauf:** Paare, 3–4 m Abstand. A wirft von unten auf den Bauch von B, B baggert zurück. 10 Würfe, dann Wechsel.
 
@@ -163,6 +175,7 @@ monate:
         phase: Technik III
         dauer: 15
         titel: 'Pritschen-Wiederholung: Selbstpass und Pass'
+        bild: bilder/selbstpass-pass.svg
         inhalt: |-
           **Ablauf:** Paare, 3–4 m Abstand, ein Ball.
 
@@ -178,6 +191,7 @@ monate:
         phase: Spielform
         dauer: 20
         titel: 1:1 mit zwei Kontakten
+        bild: bilder/1v1-zwei-kontakte.svg
         inhalt: |-
           **Ablauf:** Spielreihe nach RTK: 1:1 auf Kleinfeld (ca. 3 × 4,5 m pro Seite) über Leine, Langbank oder niedriges Netz (ca. 2,00 m).
 
@@ -194,6 +208,7 @@ monate:
         phase: Abschlussspiel
         dauer: 25
         titel: 2:2 Fang-Volleyball
+        bild: bilder/2v2-fang.svg
         inhalt: |-
           **Ablauf:** 2:2 auf Kleinfeld (ca. 4,5 × 4,5 m pro Seite), Netz 2,00–2,10 m oder Leine.
 
@@ -228,6 +243,7 @@ monate:
         phase: Warm-up
         dauer: 10
         titel: 'Ballschule: Jeder hat einen Ball'
+        bild: bilder/ballschule.svg
         inhalt: |-
           **Ablauf:** Jedes Kind mit eigenem Ball frei in der Halle, auf Pfiff wechselt die Aufgabe alle 45–60 Sekunden.
 
@@ -244,6 +260,7 @@ monate:
         phase: Technik I
         dauer: 15
         titel: Pritschen allein (Kontakte zählen)
+        bild: bilder/pritschen-allein.svg
         inhalt: |-
           **Ablauf:** Jedes Kind mit eigenem Ball, Platz an Wand oder frei in der Halle. Nach jedem Versuch laut zählen.
 
@@ -257,6 +274,7 @@ monate:
         phase: Technik II
         dauer: 20
         titel: Pritschen nach Laufen
+        bild: bilder/pritschen-laufen.svg
         inhalt: |-
           **Ablauf:** Paare, 4 m Abstand. A wirft kurz, lang, links oder rechts. B läuft hin, stoppt in Schrittstellung, pritscht zurück.
 
@@ -272,6 +290,7 @@ monate:
         phase: Spielform
         dauer: 20
         titel: 1:1 mit Bewegung
+        bild: bilder/1v1-bewegung.svg
         inhalt: |-
           **Ablauf:** Spielreihe nach RTK: 1:1 auf Kleinfeld (ca. 3 × 4,5 m pro Seite) über Leine, Langbank oder niedriges Netz (ca. 2,00 m).
 
@@ -288,6 +307,7 @@ monate:
         phase: Abschlussspiel
         dauer: 20
         titel: Kaiserturnier 1:1
+        bild: bilder/kaiser-1v1.svg
         inhalt: |-
           **Ablauf:** Mehrere Kleinfelder nebeneinander (1:1). Feld 1 = Kaiserfeld, letztes Feld = Einsteigerfeld. Runden à 3 Minuten.
 
@@ -319,6 +339,7 @@ monate:
         phase: Warm-up
         dauer: 15
         titel: Brücken-Fangen
+        bild: bilder/bruecken-fangen.svg
         inhalt: |-
           **Ablauf:** Fangspiel in einem Volleyballfeld, 2 Fänger mit Leibchen.
 
@@ -331,6 +352,7 @@ monate:
         phase: Technik I
         dauer: 15
         titel: Baggern allein (Brett bauen)
+        bild: bilder/baggern-allein.svg
         inhalt: |-
           **Ablauf:** Jedes Kind mit eigenem Ball. Erst 1 Minute Brett zeigen: Hände ineinander, Daumen parallel, Arme gestreckt, Schultern nach vorn.
 
@@ -344,6 +366,7 @@ monate:
         phase: Technik II
         dauer: 20
         titel: Bagger aus Bewegung
+        bild: bilder/bagger-bewegung.svg
         inhalt: |-
           **Ablauf:** Paare, 4 m Abstand. A wirft 1–3 Schritte vor, links oder rechts von B. B läuft, stoppt, baggert zurück.
 
@@ -359,6 +382,7 @@ monate:
         phase: Technik III
         dauer: 15
         titel: '3er-Dreieck: Bagger – Pritsche – Fangen'
+        bild: bilder/dreieck-bpf.svg
         inhalt: |-
           **Ablauf:** 3er-Gruppen im Dreieck, 4 m Abstand. A wirft zu B, B baggert zu C, C pritscht zu A.
 
@@ -374,6 +398,7 @@ monate:
         phase: Spielform
         dauer: 20
         titel: 1:1 Baggerduell
+        bild: bilder/1v1-baggerduell.svg
         inhalt: |-
           **Ablauf:** Spielreihe nach RTK: 1:1 auf Kleinfeld (ca. 3 × 4,5 m pro Seite) über Leine, Langbank oder niedriges Netz (ca. 2,00 m).
 
@@ -390,6 +415,7 @@ monate:
         phase: Abschlussspiel
         dauer: 25
         titel: 2:2 mit Pflichtpass
+        bild: bilder/2v2-pflichtpass.svg
         inhalt: |-
           **Ablauf:** 2:2 auf Kleinfeld (ca. 4,5 × 4,5 m pro Seite), Netz 2,00–2,10 m oder Leine.
 
@@ -424,6 +450,7 @@ monate:
         phase: Warm-up
         dauer: 10
         titel: 'Ballschule: Jeder hat einen Ball'
+        bild: bilder/ballschule.svg
         inhalt: |-
           **Ablauf:** Jedes Kind mit eigenem Ball frei in der Halle, auf Pfiff wechselt die Aufgabe alle 45–60 Sekunden.
 
@@ -440,6 +467,7 @@ monate:
         phase: Technik I
         dauer: 15
         titel: Pritschen allein (Kontakte zählen)
+        bild: bilder/pritschen-allein.svg
         inhalt: |-
           **Ablauf:** Jedes Kind mit eigenem Ball, Platz an Wand oder frei in der Halle. Nach jedem Versuch laut zählen.
 
@@ -453,6 +481,7 @@ monate:
         phase: Technik II
         dauer: 20
         titel: Pritschen im Dreieck
+        bild: bilder/dreieck-pritschen.svg
         inhalt: |-
           **Ablauf:** 3er-Gruppen im Dreieck, 3–4 m Abstand, Ball läuft im Uhrzeigersinn, nach 1 Minute gegen den Uhrzeigersinn.
 
@@ -468,6 +497,7 @@ monate:
         phase: Spielform
         dauer: 20
         titel: 1:1 diagonal
+        bild: bilder/1v1-diagonal.svg
         inhalt: |-
           **Ablauf:** Spielreihe nach RTK: 1:1 auf Kleinfeld (ca. 3 × 4,5 m pro Seite) über Leine, Langbank oder niedriges Netz (ca. 2,00 m).
 
@@ -484,6 +514,7 @@ monate:
         phase: Abschlussspiel
         dauer: 20
         titel: 2:2 Königsfeld
+        bild: bilder/2v2-koenigsfeld.svg
         inhalt: |-
           **Ablauf:** 2:2 auf Kleinfeld (ca. 4,5 × 4,5 m pro Seite), Netz 2,00–2,10 m oder Leine.
 
@@ -516,6 +547,7 @@ monate:
         phase: Warm-up
         dauer: 15
         titel: Kettenfangen mit Ball
+        bild: bilder/kettenfangen.svg
         inhalt: |-
           **Ablauf:** Fangspiel in einem Volleyballfeld, 2 Fänger mit Leibchen.
 
@@ -528,6 +560,7 @@ monate:
         phase: Technik I
         dauer: 15
         titel: Baggern allein (Brett bauen)
+        bild: bilder/baggern-allein.svg
         inhalt: |-
           **Ablauf:** Jedes Kind mit eigenem Ball. Erst 1 Minute Brett zeigen: Hände ineinander, Daumen parallel, Arme gestreckt, Schultern nach vorn.
 
@@ -541,6 +574,7 @@ monate:
         phase: Technik II
         dauer: 20
         titel: Wechselspiel Pritsche/Bagger
+        bild: bilder/wechselspiel.svg
         inhalt: |-
           **Ablauf:** Paare, 4 m Abstand. A spielt abwechselnd hoch (Pritschball) und kurz/tief (Baggerball).
 
@@ -556,6 +590,7 @@ monate:
         phase: Technik III
         dauer: 15
         titel: 'Ball über die Leine: Paar gegen Paar kooperativ'
+        bild: bilder/2v2-kooperativ.svg
         inhalt: |-
           **Ablauf:** Zwei Paare spielen sich über eine Leine den Ball zu, **ohne** Punkte. Jede Seite 2 Kontakte.
 
@@ -571,6 +606,7 @@ monate:
         phase: Spielform
         dauer: 20
         titel: 1:1 Wahlweise
+        bild: bilder/1v1-wahlweise.svg
         inhalt: |-
           **Ablauf:** Spielreihe nach RTK: 1:1 auf Kleinfeld (ca. 3 × 4,5 m pro Seite) über Leine, Langbank oder niedriges Netz (ca. 2,00 m).
 
@@ -587,6 +623,7 @@ monate:
         phase: Abschlussspiel
         dauer: 25
         titel: 2:2 Turnier „Jeder gegen jeden“
+        bild: bilder/2v2-turnier.svg
         inhalt: |-
           **Ablauf:** 2:2 auf Kleinfeld (ca. 4,5 × 4,5 m pro Seite), Netz 2,00–2,10 m oder Leine.
 
@@ -618,6 +655,7 @@ monate:
         phase: Warm-up
         dauer: 10
         titel: 'Ballschule: Jeder hat einen Ball'
+        bild: bilder/ballschule.svg
         inhalt: |-
           **Ablauf:** Jedes Kind mit eigenem Ball frei in der Halle, auf Pfiff wechselt die Aufgabe alle 45–60 Sekunden.
 
@@ -634,6 +672,7 @@ monate:
         phase: Technik I
         dauer: 25
         titel: Basics-Abzeichen Pritschen & Baggern
+        bild: bilder/abzeichen-stationen.svg
         inhalt: |-
           **Ablauf:** Stationen mit je einem Kind als Zähler. Jedes Kind hat 2 Versuche pro Station. Ergebnis auf eine Liste.
 
@@ -651,6 +690,7 @@ monate:
         phase: Technik II
         dauer: 15
         titel: Lücken schließen
+        bild: bilder/paare-halle.svg
         inhalt: |-
           **Ablauf:** Freie Übungszeit in Paaren: Jedes Kind übt die Station, die ihm am schwersten fiel.
 
@@ -664,6 +704,7 @@ monate:
         phase: Abschlussspiel
         dauer: 35
         titel: Kaiserturnier 2:2
+        bild: bilder/kaiser-2v2.svg
         inhalt: |-
           **Ablauf:** Mehrere Kleinfelder nebeneinander (2:2). Feld 1 = Kaiserfeld, letztes Feld = Einsteigerfeld. Runden à 3 Minuten.
 
@@ -695,6 +736,7 @@ monate:
         phase: Warm-up
         dauer: 15
         titel: Ball-Retter (Lieblingsspiel)
+        bild: bilder/ball-retter.svg
         inhalt: |-
           **Ablauf:** Fangspiel in einem Volleyballfeld, 2 Fänger mit Leibchen.
 
@@ -707,6 +749,7 @@ monate:
         phase: Technik I
         dauer: 15
         titel: Einspielen im Paar
+        bild: bilder/paare-halle.svg
         inhalt: |-
           **Ablauf:** Paare, freies Einspielen: 3 Minuten Pritschen, 3 Minuten Baggern, 3 Minuten Wechsel, dann über die Leine.
 
@@ -718,6 +761,7 @@ monate:
         phase: Technik II
         dauer: 15
         titel: Kooperativ-Rekord über die Leine
+        bild: bilder/2v2-kooperativ.svg
         inhalt: |-
           **Ablauf:** Zwei Paare über die Leine, ohne Punkte: Wie viele Überquerungen schafft ihr? Drei Durchgänge, der beste zählt.
 
@@ -731,6 +775,7 @@ monate:
         phase: Abschlussspiel
         dauer: 60
         titel: Monatsturnier 2:2
+        bild: bilder/2v2-turnier.svg
         inhalt: |-
           **Ablauf:** 2:2 auf Kleinfeld (ca. 4,5 × 4,5 m pro Seite), Netz 2,00–2,10 m oder Leine.
 
