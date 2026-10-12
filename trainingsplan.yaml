@@ -1,933 +1,2163 @@
-# Trainingsplan U13/U14 – TuB Bocholt
+# Trainingsplan 3 Monate – RTK-Spielreihe & Basics (U13)
 #
-# Aufbau: monate -> wochen -> einheiten -> uebungen
-# Jede Übung: icon, phase, dauer (Minuten), titel (optional), inhalt (Markdown).
-# Optional pro Übung:
-#   varianten:
-#     "6-8": "Was bei 6-8 Spielern anders läuft"
-#     "9-12": "Was bei 9-12 Spielern anders läuft"
-# Wichtig in "inhalt": vor einer Aufzählung (* ...) und vor **Trainer-Details:** eine Leerzeile lassen.
+# Gleiches Format wie trainingsplan.yaml (monate -> wochen -> einheiten -> uebungen).
+# Zum Benutzen: diese Datei als trainingsplan.yaml neben die App legen, oder die
+# Einträge unter "monate:" an die bestehende trainingsplan.yaml anhängen.
+#
+# Leitideen (DVV-Rahmentrainingskonzeption, RTK, und Best Practice Jugendvolleyball):
+#   * Spielgemäß lernen: Spielreihe 1:1 -> 2:2 -> 3:3 -> 4:4 auf Kleinfeldern,
+#     jede Einheit endet mit Spielen.
+#   * Viele Ballkontakte: höchstens 2-3 Kinder pro Ball, kurze Reihen, keine Wartezeit
+#     über 30 Sekunden, Wartende werfen zu, zählen oder holen Bälle.
+#   * Basics zuerst: Pritschen und Baggern (Monat 1), Aufschlag, Annahme, Zuspiel
+#     (Monat 2), Angriff und Abwehr (Monat 3). Jede Woche wird Gelerntes wiederholt.
+#   * Differenzierung in drei Stufen, die Kinder wählen selbst und steigen auf:
+#       🟢 Stufe 1 = Einsteiger   🔵 Stufe 2 = Mittel   🔴 Stufe 3 = Fortgeschrittene
+#   * Woche 4 jedes Monats: Basics-Abzeichen (Kontakte zählen) und Turnier.
+#   * Netz 2,00-2,15 m oder Leine; Feldgrößen sind Richtwerte.
+# "varianten" passen eine Übung an die Anzahl anwesender Spieler an (wie in der App).
 
 monate:
 - name: Monat 1
-  thema: Annahme-Plattform, Beinarbeit & Basis-Aufschlag
-  titel: Annahmebrett, Beinarbeit & kontrollierte Angaben
+  thema: 'Pritschen & Baggern: den Ball kontrollieren (Spielreihe 1:1 → 2:2)'
+  titel: Ballkontrolle im Kleinfeld
   wochen:
   - name: Woche 1
     einheiten:
     - name: TE 1
       dauer: 90
-      titel: Annahmeplattform & Beinarbeit ohne Netz
+      titel: 'Pritschen: Ball über die Stirn'
       uebungen:
       - icon: 🏃‍♂️
         phase: Warm-up
         dauer: 10
-        titel: Linien-Tappings & Richtungswechsel
+        titel: 'Ballschule: Jeder hat einen Ball'
         inhalt: |-
-          **Ablauf (ohne Netz):** Spieler verteilen sich an Hallenlinien.
+          **Ablauf:** Jedes Kind mit eigenem Ball frei in der Halle, auf Pfiff wechselt die Aufgabe alle 45–60 Sekunden.
 
-          * 30 Sek. schnelle Linien-Tappings auf den Fußballen (Vor-Vor-Rück-Rück).
-          * Auf Trainerpfiff sofort tiefe Volleyball-Grundstellung (Ready Position).
-          * Kurze 3-Meter-Antritte im tiefen Schwerpunkt.
+          * Laufen und Ball beidhändig prellen, auf Pfiff tiefe Grundstellung, Ball dabei weiterprellen.
+          * Ball hochwerfen, darunterlaufen und **über der Stirn** fangen (Pritsch-Dreieck mit Daumen und Zeigefingern).
+          * Ball hochwerfen, hinsetzen, aufstehen, fangen. Danach: einmal klatschen, umdrehen, Boden berühren.
+          * Ball über Kopf hochwerfen und mit Pritschbewegung wieder nach oben drücken, ohne zu fangen.
 
-          **Trainer-Details:** Knie gebeugt, Fersen berühren den Boden kaum!
+          **Trainer-Details:** Immer mit Ball: Im Kinder-Volleyball ist jedes Aufwärmen auch Ballgewöhnung. Kurze Aufgaben, viel Abwechslung, keine Runden ohne Ball.
+        varianten:
+          6-8: Trainer macht mit und gibt Tempo vor.
+          9-12: Zwei Kinder dürfen abwechselnd eine Aufgabe ansagen.
       - icon: 🎯
         phase: Technik I
         dauer: 15
-        titel: Wand-Druck & Plattform-Stabilität (ohne Netz)
+        titel: Pritschen allein (Kontakte zählen)
         inhalt: |-
-          **Ablauf (ohne Netz):** Spieler stehen ca. 50 cm vor einer freien Hallenwand. Hände überstrecken, Daumen parallel, Unterarme zusammenpressen und mit vollem Druck gegen die Wand drücken.
+          **Ablauf:** Jedes Kind mit eigenem Ball, Platz an Wand oder frei in der Halle. Nach jedem Versuch laut zählen.
 
-          * Bewegung: Arme langsam mit Druck an der Wand von Hüfthöhe bis auf Brusthöhe schieben und wieder absenken.
+          * 🟢 Ball hochwerfen, über der Stirn fangen, sofort wieder hochdrücken (Fang-Pritschen). Ziel: 10 in Folge.
+          * 🔵 Pritschen über dem Kopf, Ball mind. 1 m hoch. Ziel: 20 in Folge.
+          * 🔴 Abwechselnd hoch (3 m) und niedrig (1 m) pritschen, oder pritschen gegen die Wand aus 2 m. Ziel: 30 in Folge.
+          * Bonus: Wer schafft es, beim Pritschen langsam in die Hocke und wieder hoch zu gehen?
 
-          **Trainer-Details:** Schultern bewusst nach vorne-innen zusammenpressen. Die Arme dürfen nicht einknicken!
+          **Trainer-Details:** Wichtigste Merkpunkte: Hände **vor** der Stirn, Ball kommt von oben in die Hände, Beine strecken mit. Wer das Ziel zweimal schafft, steigt eine Stufe auf.
       - icon: 🎯
         phase: Technik II
-        dauer: 15
-        titel: Beinarbeit-Bagger in 2er-Gruppen (ohne Netz)
+        dauer: 20
+        titel: 'Pritschen im Paar: Werfen – Pritschen'
         inhalt: |-
-          **Ablauf (ohne Netz):** 2er-Paare im Hallenfreiraum (Abstand 3-4 m).
+          **Ablauf:** Paare, 3 m Abstand. A wirft hoch zu B, B pritscht zurück. Nach 10 Würfen wechseln.
 
-          * Spieler A wirft Bälle 1-2 Schritte links oder rechts neben Spieler B.
-          * Spieler B macht 2 schnelle Sidesteps, **stoppt komplett ab**, formt erst dann das Brett und baggert präzise zurück zu A.
+          * 🟢 B fängt über der Stirn und drückt sofort zurück (kein Ausholen).
+          * 🔵 B pritscht direkt zurück, A fängt. Ziel: 10 von 10 fangbar.
+          * 🔴 Durchgehend pritschen, 4 m Abstand. Ziel: 20 in Folge.
 
-          **Trainer-Details:** Erst stehen – dann spielen! Kein Schwingen aus den Armen; Kraft kommt aus der Beinstreckung.
+          **Trainer-Details:** Unter den Ball laufen, **vor** dem Kontakt stehen. Zielt auf Stirnhöhe des Partners.
+        varianten:
+          6-8: Alle gleichzeitig in Paaren, Trainer wirft bei Bedarf selbst einem Paar zu.
+          9-12: Paare an Wand, Netz und Hallenmitte verteilen. Bei Ballmangel 3er-Gruppen mit fliegendem Wechsel nach 10 Kontakten.
       - icon: 🧠
-        phase: Taktik I
-        dauer: 15
-        titel: Zielbagger in 3er-Gruppen (ohne Netz)
+        phase: Spielform
+        dauer: 20
+        titel: 1:1 Pritschen über die Leine
         inhalt: |-
-          **Ablauf (ohne Netz):** 3er-Gruppen in Reihe (A = Anwerfer, B = Annahme, C = Fänger als Steller-Ziel).
+          **Ablauf:** Spielreihe nach RTK: 1:1 auf Kleinfeld (ca. 3 × 4,5 m pro Seite) über Leine, Langbank oder niedriges Netz (ca. 2,00 m).
 
-          * A wirft aus 5 m Entfernung an. B bewegt sich zum Ball, baggert im hohen Bogen genau zu C.
-          * Rotation nach 8 Durchgängen: A -> B -> C -> A.
+          * Ball wird von oben eingeworfen. Punkt, wenn der Ball im gegnerischen Feld den Boden berührt.
+          * 🟢 Ball darf nach dem 1. Kontakt gefangen und pritschend „zurückgeworfen“ werden.
+          * 🔵 Erst Selbstpass (pritschen oder baggern), dann über die Leine pritschen.
+          * 🔴 Wie 🔵, aber der Ball muss hinter einer Markierung (hintere Feldhälfte) landen.
 
-          **Trainer-Details:** B muss die Schulterachse bereits vor dem Kontakt komplett auf C ausrichten.
-      - icon: 🧠
-        phase: Taktik II
-        dauer: 15
-        titel: Annahme am Netz auf Pos III
-        inhalt: |-
-          **Ablauf (mit Netz):** Spieler starten auf Pos I bzw. Pos IV. Trainer wirft kontrollierte Bälle über das Netz.
-
-          * Spieler erlaufen den Ball mit schnellen Schritten nach vorne/innen und baggern gezielt auf Pos III (wo ein Korb oder Fänger steht).
-
-          **Trainer-Details:** Lautes Rufen ('Ich!') vor der Ballberührung einfordern.
+          **Trainer-Details:** Das 1:1 ist die beste Schule für Ballkontrolle: Jedes Kind spielt jeden Ball. Spiele auf 5 Punkte, dann rotieren.
+        varianten:
+          6-8: 2–3 Kleinfelder; wer gerade frei ist, zählt Punkte oder spielt Ballholer und wechselt nach jedem Spiel ein.
+          9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
       - icon: 🏆
         phase: Abschlussspiel
         dauer: 20
-        titel: Annahme-Bingo (3v3 / 4v4)
+        titel: Kaiserturnier 1:1
         inhalt: |-
-          **Ablauf:** Gespielt wird 3v3 (Pos I, IV, III) oder 4v4 (Pos I, II, III, IV).
+          **Ablauf:** Mehrere Kleinfelder nebeneinander (1:1). Feld 1 = Kaiserfeld, letztes Feld = Einsteigerfeld. Runden à 3 Minuten.
 
-          * Aufschläge werden anfangs von unten oder aus 6 m Entfernung serviert.
-          * **Punkte-Regel:** Normaler Punkt = 1. Punkt aus einem Spielzug, bei dem die Annahme sauber auf Pos III landete = 2 Punkte.
+          * Gewinner rutscht ein Feld hoch, Verlierer ein Feld runter.
+          * Gespielt wird mit den Regeln aus der Spielform; jedes Kind wählt seine Stufe.
+          * Im Einsteigerfeld darf ein Ball pro Ballwechsel gefangen werden.
+
+          **Trainer-Details:** Nach 2–3 Runden spielen alle gegen ähnlich Starke, ohne dass jemand eingeteilt werden muss.
+        varianten:
+          6-8: 2–3 Kleinfelder; wer gerade frei ist, zählt Punkte oder spielt Ballholer und wechselt nach jedem Spiel ein.
+          9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
+      - icon: 🧘
+        phase: Abschluss
+        dauer: 5
+        titel: Kontakt-Rekord & Stufen-Check
+        inhalt: |-
+          **Ablauf:** Kurz im Kreis sitzen.
+
+          * Jedes Kind nennt seinen besten Rekord von heute (z. B. „17 Pritschen in Folge“) und seine Stufe.
+          * Hausaufgabe: 5 Minuten zuhause Fang-Pritschen oder Pritschen gegen die Wand.
+
+          **Trainer-Details:** Rekorde und Aufsteiger kurz notieren. Lob für Verbesserung, nicht nur für die Besten.
     - name: TE 2
       tag: Freitag
       dauer: 120
-      titel: Beinarbeit, Angaben-Kontrolle & Läufersystem
+      titel: 'Baggern: das Brett bauen'
       uebungen:
       - icon: 🏃‍♂️
         phase: Warm-up
         dauer: 15
-        titel: Baggertennis im Kleinfeld
+        titel: Ball-Retter
         inhalt: |-
-          **Ablauf (ohne Netz oder über 3m-Linie):** Minifelder markieren. 1v1 oder 2v2. Ball darf genau 1x aufkommen.
+          **Ablauf:** Fangspiel in einem Volleyballfeld, 2 Fänger mit Leibchen.
 
-          * Es darf ausschließlich gebaggert werden.
+          * Wer einen Ball in Pritschhaltung über dem Kopf hält, kann nicht gefangen werden. Es gibt nur halb so viele Bälle wie Kinder: Ball an Mitspieler weiterwerfen, um sie zu retten.
+          * Nach 2 Minuten neue Fänger. Danach 3 Minuten Mobilisation: Armkreisen, Ausfallschritte, Hampelmann, Hopserlauf.
+          * Zum Schluss jedes Kind mit Ball: 20x hochwerfen und in Pritschhaltung fangen.
 
-          **Trainer-Details:** Schnelle Beinarbeit und Antizipation fordern.
-      - icon: 🧠
-        phase: Läufersystem I
-        dauer: 15
-        titel: Trockenlauf Pos I -> III
-        inhalt: |-
-          **Ablauf (ohne Netz):**
-
-          * Zuspieler startet auf Position I. Trainer steht auf der Gegenseite und wirft den Ball an (simulierter Aufschlag).
-          * Erst wenn der Ball geschlagen wird, sprintet der Läufer auf Position III.
-
-          **Trainer-Details:** Fokus liegt auf dem Timing. Zu frühes Loslaufen führt zur Wiederholung.
+          **Trainer-Details:** Laufen, Reagieren und Ball in einem. Fänger wechseln oft, damit niemand lange „dran“ bleibt.
       - icon: 🎯
         phase: Technik I
         dauer: 15
-        titel: Drucklose vs. druckvolle Angaben kontrollieren
+        titel: Baggern allein (Brett bauen)
         inhalt: |-
-          **Ablauf:** Aufschläger stehen auf der Gegenseite an Pos I und servieren zunächst von der 4,50m-/6m-Linie von unten.
+          **Ablauf:** Jedes Kind mit eigenem Ball. Erst 1 Minute Brett zeigen: Hände ineinander, Daumen parallel, Arme gestreckt, Schultern nach vorn.
 
-          * Annahmespieler auf Pos I und Pos IV.
-          * Schrittweise Steigerung: Wechsel zum dosierten Tennis-Aufschlag von oben.
+          * 🟢 Ball aus 1 m auf das Brett fallen lassen, hochspringen lassen, fangen. Ziel: 10x sauber.
+          * 🔵 Bagger über dem Kopf, Ball mind. auf Kopfhöhe. Ziel: 15 in Folge.
+          * 🔴 Wechsel Bagger – Pritsche – Bagger. Ziel: 20 in Folge.
+          * Bonus: Ball auf dem Brett 5 Sekunden balancieren, ohne dass er runterfällt.
 
-          **Trainer-Details:** Bei harten Angaben Arme komplett ruhig halten (Ball nur abprallen lassen). Nicht schlagen!
+          **Trainer-Details:** Arme bleiben fast still, gespielt wird aus den Beinen. Ball trifft die Unterarme oberhalb der Handgelenke.
       - icon: 🎯
         phase: Technik II
+        dauer: 20
+        titel: 'Baggern im Paar: Zuwurf – Bagger'
+        inhalt: |-
+          **Ablauf:** Paare, 3–4 m Abstand. A wirft von unten auf den Bauch von B, B baggert zurück. 10 Würfe, dann Wechsel.
+
+          * 🟢 Ball darf einmal aufspringen, dann baggern.
+          * 🔵 Direkt baggern, A soll ohne Schritt fangen können.
+          * 🔴 A wirft 1 Schritt links/rechts, B macht Sidestep, stoppt und baggert.
+
+          **Trainer-Details:** Erst stehen, dann spielen! Brett früh bilden, Schultern zum Partner drehen.
+        varianten:
+          6-8: Alle gleichzeitig in Paaren, Trainer wirft bei Bedarf selbst einem Paar zu.
+          9-12: Paare an Wand, Netz und Hallenmitte verteilen. Bei Ballmangel 3er-Gruppen mit fliegendem Wechsel nach 10 Kontakten.
+      - icon: 🎯
+        phase: Technik III
         dauer: 15
-        titel: Tiefen-Staffelung erlaufen (Vor & Zurück)
+        titel: 'Pritschen-Wiederholung: Selbstpass und Pass'
         inhalt: |-
-          **Ablauf:** Trainer wirft abwechselnd kurze Bälle direkt hinters Netz und lange Bälle an die Grundlinie.
+          **Ablauf:** Paare, 3–4 m Abstand, ein Ball.
 
-          * Annahmespieler auf Pos I bzw. IV müssen explosive Vorwärts- und Rückwärtsschritte machen.
+          * 🟢 Fangen – hochwerfen – pritschen zum Partner.
+          * 🔵 Selbstpass pritschen, dann zum Partner.
+          * 🔴 Selbstpass baggern, dann zum Partner pritschen.
 
-          **Trainer-Details:** Beim Rückwärtslaufen nicht stolpern – Sidesteps oder Kreuzschritte nach hinten nutzen.
+          **Trainer-Details:** Der Selbstpass gibt Zeit, unter den Ball zu kommen. Er wird später im 1:1 und 2:2 gebraucht.
+        varianten:
+          6-8: Alle gleichzeitig in Paaren, Trainer wirft bei Bedarf selbst einem Paar zu.
+          9-12: Paare an Wand, Netz und Hallenmitte verteilen. Bei Ballmangel 3er-Gruppen mit fliegendem Wechsel nach 10 Kontakten.
       - icon: 🧠
-        phase: Taktik I
-        dauer: 15
-        titel: 2er- und 3er-Riegel Ausrichtung (Pos I, IV, II)
+        phase: Spielform
+        dauer: 20
+        titel: 1:1 mit zwei Kontakten
         inhalt: |-
-          **Ablauf:** Aufschläger wechselt die Aufschlagzone auf der Gegenseite (von Pos I nach Pos II).
+          **Ablauf:** Spielreihe nach RTK: 1:1 auf Kleinfeld (ca. 3 × 4,5 m pro Seite) über Leine, Langbank oder niedriges Netz (ca. 2,00 m).
 
-          * Annahmespieler (Pos I und IV in der U13 bzw. Pos I, IV, II in der U14) passen ihren Winkel an.
+          * Jeder Ball wird zweimal gespielt: erst Bagger oder Pritsche zu sich selbst, dann rüber.
+          * 🟢 Ball darf nach dem 1. Kontakt gefangen und pritschend „zurückgeworfen“ werden.
+          * 🔵 Erst Selbstpass (pritschen oder baggern), dann über die Leine pritschen.
+          * 🔴 Wie 🔵, aber der Ball muss hinter einer Markierung (hintere Feldhälfte) landen.
 
-          **Trainer-Details:** Äußere Schulter leicht vorschieben, damit der Abprallwinkel immer zur Netzmitte (Pos III) zeigt.
-      - icon: 🧠
-        phase: Taktik II
-        dauer: 15
-        titel: Serve & Pass im Wellenbetrieb
-        inhalt: |-
-          **Ablauf:** 3 Aufschläge pro Durchgang. Annahme muss hoch auf Pos III gebracht werden, wo der Zuspieler den Ball fängt oder auf Pos IV ablegt.
-
-          **Trainer-Details:** Klare Absprache an den Schnittstellen ('Mein Ball!').
-      - icon: 🧠
-        phase: Läufersystem II
-        dauer: 10
-        titel: Zuspiel-Karussell
-        inhalt: |-
-          **Ablauf:** 3 Zuspieler hintereinander auf Pos I. Einlaufen auf Pos III, Ball vom Trainer hoch pritscheln auf Pos IV, sofort zurück auf Pos I.
-
-          **Trainer-Details:** Dauerhafte Bewegung, schnelles Umschalten nach dem Zuspiel.
+          **Trainer-Details:** Das 1:1 ist die beste Schule für Ballkontrolle: Jedes Kind spielt jeden Ball. Spiele auf 5 Punkte, dann rotieren.
+        varianten:
+          6-8: 2–3 Kleinfelder; wer gerade frei ist, zählt Punkte oder spielt Ballholer und wechselt nach jedem Spiel ein.
+          9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
       - icon: 🏆
         phase: Abschlussspiel
-        dauer: 20
-        titel: Handicap-Match
+        dauer: 25
+        titel: 2:2 Fang-Volleyball
         inhalt: |-
-          **Ablauf:** 3v3 / 4v4 Wettkampf.
+          **Ablauf:** 2:2 auf Kleinfeld (ca. 4,5 × 4,5 m pro Seite), Netz 2,00–2,10 m oder Leine.
 
-          * Wenn Angaben zu oft im Netz landen, rücken die Aufschläger 2 Meter ins Feld vor, um erfolgreiche Ballwechsel zu garantieren.
+          * Annahme: Ball wird gefangen und zum Partner geworfen, Partner pritscht oder wirft (aus Pritschhaltung) rüber.
+          * 🟢 Beide Kontakte dürfen gefangen werden.
+          * 🔵 Nur der 1. Kontakt darf gefangen werden.
+          * 🔴 Kein Fangen; 2. Kontakt muss gepritscht werden.
+          * Spiele auf 7 Punkte, Gewinner rotiert ein Feld weiter.
+
+          **Trainer-Details:** Teams in jedem Feld dürfen ihre Stufe gemeinsam wählen. Bei langen Ballwechseln laut loben.
+        varianten:
+          6-8: 2–3 Kleinfelder; wer gerade frei ist, zählt Punkte oder spielt Ballholer und wechselt nach jedem Spiel ein.
+          9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
+      - icon: 🧘
+        phase: Abschluss
+        dauer: 10
+        titel: Kontakt-Rekord & Stufen-Check
+        inhalt: |-
+          **Ablauf:** Kurz im Kreis sitzen.
+
+          * Jedes Kind nennt seinen besten Rekord von heute (z. B. „17 Pritschen in Folge“) und seine Stufe.
+          * Kurze Frage an die Gruppe: Wann pritsche ich, wann baggere ich? (hoch = pritschen, unter Brust = baggern)
+
+          **Trainer-Details:** Rekorde und Aufsteiger kurz notieren. Lob für Verbesserung, nicht nur für die Besten.
   - name: Woche 2
     einheiten:
     - name: TE 3
       dauer: 90
-      titel: Beinarbeit & Zuspiel-Kopplung
+      titel: Unter den Ball laufen
       uebungen:
       - icon: 🏃‍♂️
         phase: Warm-up
         dauer: 10
-        titel: Baggertennis 2v2 (ohne Netz)
-        inhalt: '**Ablauf:** 2er-Teams baggern sich den Ball über eine Bodenlinie zu (1x Bodenkontakt erlaubt).'
+        titel: 'Ballschule: Jeder hat einen Ball'
+        inhalt: |-
+          **Ablauf:** Jedes Kind mit eigenem Ball frei in der Halle, auf Pfiff wechselt die Aufgabe alle 45–60 Sekunden.
+
+          * Laufen und Ball beidhändig prellen, auf Pfiff tiefe Grundstellung, Ball dabei weiterprellen.
+          * Ball hochwerfen, darunterlaufen und **über der Stirn** fangen (Pritsch-Dreieck mit Daumen und Zeigefingern).
+          * Ball hochwerfen, hinsetzen, aufstehen, fangen. Danach: einmal klatschen, umdrehen, Boden berühren.
+          * Ball hochwerfen, 3 Schritte laufen, umdrehen, Ball über der Stirn fangen.
+
+          **Trainer-Details:** Immer mit Ball: Im Kinder-Volleyball ist jedes Aufwärmen auch Ballgewöhnung. Kurze Aufgaben, viel Abwechslung, keine Runden ohne Ball.
+        varianten:
+          6-8: Trainer macht mit und gibt Tempo vor.
+          9-12: Zwei Kinder dürfen abwechselnd eine Aufgabe ansagen.
       - icon: 🎯
         phase: Technik I
         dauer: 15
-        titel: Dreieck-Baggern in 3er-Gruppen (ohne Netz)
+        titel: Pritschen allein (Kontakte zählen)
         inhalt: |-
-          **Ablauf (ohne Netz):** 3 Spieler bilden ein Dreieck (Abstand je 3-4 m).
+          **Ablauf:** Jedes Kind mit eigenem Ball, Platz an Wand oder frei in der Halle. Nach jedem Versuch laut zählen.
 
-          * Ball wird im Bagger im Uhrzeigersinn weitergespielt.
-          * Vor jedem Ballkontakt muss der Spieler einen schnellen Ausfallschritt zum Ball machen und die Schulterachse zum nächsten Ziel eindrehen.
+          * 🟢 Ball hochwerfen, über der Stirn fangen, sofort wieder hochdrücken (Fang-Pritschen). Ziel: 10 in Folge.
+          * 🔵 Pritschen über dem Kopf, Ball mind. 1 m hoch. Ziel: 20 in Folge.
+          * 🔴 Abwechselnd hoch (3 m) und niedrig (1 m) pritschen, oder pritschen gegen die Wand aus 2 m. Ziel: 30 in Folge.
+          * Neu: Pritschen im Gehen durch die Halle, ohne dass der Ball fällt.
 
-          **Trainer-Details:** Blickkontakt und Eindrehen des Körpers schulen.
+          **Trainer-Details:** Wichtigste Merkpunkte: Hände **vor** der Stirn, Ball kommt von oben in die Hände, Beine strecken mit. Wer das Ziel zweimal schafft, steigt eine Stufe auf.
       - icon: 🎯
         phase: Technik II
-        dauer: 15
-        titel: Stemmschritt & Bagger-Kontrolle
+        dauer: 20
+        titel: Pritschen nach Laufen
         inhalt: |-
-          **Ablauf:** Spieler starten an Pos I, laufen diagonal nach vorne zu Pos III, stoppen mit festem Stemmschritt und baggern den zugeworfenen Ball hoch zu Pos IV.
+          **Ablauf:** Paare, 4 m Abstand. A wirft kurz, lang, links oder rechts. B läuft hin, stoppt in Schrittstellung, pritscht zurück.
 
-          **Trainer-Details:** Kein Nachfedern oder Weiterlaufen im Moment des Ballkontakts.
+          * 🟢 Ein Schritt in eine Richtung, Ball wird hoch geworfen.
+          * 🔵 2–3 Schritte, alle Richtungen.
+          * 🔴 A pritscht statt zu werfen; durchgehend spielen, 15 in Folge.
+
+          **Trainer-Details:** Rechter Fuß leicht vorn, Körper zum Ziel drehen **bevor** der Ball kommt. Nicht unter dem Ball „stochern“.
+        varianten:
+          6-8: Alle gleichzeitig in Paaren, Trainer wirft bei Bedarf selbst einem Paar zu.
+          9-12: Paare an Wand, Netz und Hallenmitte verteilen. Bei Ballmangel 3er-Gruppen mit fliegendem Wechsel nach 10 Kontakten.
       - icon: 🧠
-        phase: Taktik I
-        dauer: 15
-        titel: Läufer-Timing von Pos I auf Pos III
+        phase: Spielform
+        dauer: 20
+        titel: 1:1 mit Bewegung
         inhalt: |-
-          **Ablauf:** Zuspieler steht hinten auf Pos I. Annahme steht auf Pos IV.
+          **Ablauf:** Spielreihe nach RTK: 1:1 auf Kleinfeld (ca. 3 × 4,5 m pro Seite) über Leine, Langbank oder niedriges Netz (ca. 2,00 m).
 
-          * Trainer schlägt/wirft ein. Erst beim Ballabgang sprintet der Zuspieler von Pos I auf Pos III vor und pritscht/fängt den Annahmeball.
+          * Wer den Ball rüberspielt, muss danach die Grundlinie berühren.
+          * 🟢 Ball darf nach dem 1. Kontakt gefangen und pritschend „zurückgeworfen“ werden.
+          * 🔵 Erst Selbstpass (pritschen oder baggern), dann über die Leine pritschen.
+          * 🔴 Wie 🔵, aber der Ball muss hinter einer Markierung (hintere Feldhälfte) landen.
 
-          **Trainer-Details:** Zuspieler darf nicht zu früh starten (kein Überlappen).
-      - icon: 🧠
-        phase: Taktik II
-        dauer: 15
-        titel: Annahme-Zuspiel Kette live
-        inhalt: |-
-          **Ablauf:** Aufschlag von drüben -> Annahme Pos I/IV zu Pos III -> Zuspieler stellt hoch auf Pos IV -> Angreifer spielt kontrollierten Dankeball zurück.
-
-          **Trainer-Details:** Ballflugbahn muss hoch sein, um Hektik zu vermeiden.
+          **Trainer-Details:** Das 1:1 ist die beste Schule für Ballkontrolle: Jedes Kind spielt jeden Ball. Spiele auf 5 Punkte, dann rotieren.
+        varianten:
+          6-8: 2–3 Kleinfelder; wer gerade frei ist, zählt Punkte oder spielt Ballholer und wechselt nach jedem Spiel ein.
+          9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
       - icon: 🏆
         phase: Abschlussspiel
         dauer: 20
-        titel: Wash-Game (2 Rallyes)
-        inhalt: '**Ablauf:** Ein Punkt wird nur vergeben, wenn 2 aufeinanderfolgende Ballwechsel über Pos III aufgebaut und gewonnen werden.'
+        titel: Kaiserturnier 1:1
+        inhalt: |-
+          **Ablauf:** Mehrere Kleinfelder nebeneinander (1:1). Feld 1 = Kaiserfeld, letztes Feld = Einsteigerfeld. Runden à 3 Minuten.
+
+          * Gewinner rutscht ein Feld hoch, Verlierer ein Feld runter.
+          * Kaiserfeld: Ball muss mindestens 2 m hoch über die Leine.
+          * Im Einsteigerfeld darf ein Ball pro Ballwechsel gefangen werden.
+
+          **Trainer-Details:** Nach 2–3 Runden spielen alle gegen ähnlich Starke, ohne dass jemand eingeteilt werden muss.
+        varianten:
+          6-8: 2–3 Kleinfelder; wer gerade frei ist, zählt Punkte oder spielt Ballholer und wechselt nach jedem Spiel ein.
+          9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
+      - icon: 🧘
+        phase: Abschluss
+        dauer: 5
+        titel: Kontakt-Rekord & Stufen-Check
+        inhalt: |-
+          **Ablauf:** Kurz im Kreis sitzen.
+
+          * Jedes Kind nennt seinen besten Rekord von heute (z. B. „17 Pritschen in Folge“) und seine Stufe.
+          * Wer hat seine Stufe von letzter Woche verbessert?
+
+          **Trainer-Details:** Rekorde und Aufsteiger kurz notieren. Lob für Verbesserung, nicht nur für die Besten.
     - name: TE 4
       tag: Freitag
       dauer: 120
-      titel: Druckaufbau & Läufersystem-Fokus
+      titel: Baggern zur Seite und nach vorn
       uebungen:
       - icon: 🏃‍♂️
         phase: Warm-up
         dauer: 15
-        titel: Ball-Handling Staffel & Richtungswechsel
-        inhalt: '**Ablauf:** Dribbeln, Richtungswechsel um Hütchen und saubere Anwurfsimulation vor der Schlagschulter.'
-      - icon: 🧠
-        phase: Läufersystem I
-        dauer: 15
-        titel: Ampel-Start
-        inhalt: '**Ablauf:** Der Trainer simuliert Aufschläge (Rote/Grüne Ampel). Fake-Aufschlag: Läufer darf nicht loslaufen. Echter Aufschlag: Explosiver Antritt von Pos I nach III.'
+        titel: Brücken-Fangen
+        inhalt: |-
+          **Ablauf:** Fangspiel in einem Volleyballfeld, 2 Fänger mit Leibchen.
+
+          * Gefangene stellen sich breitbeinig in Grundstellung hin und zeigen das Bagger-Brett. Befreit wird, wer von einem Mitspieler einen Ball aufs Brett geworfen bekommt und ihn zurückbaggert.
+          * Nach 2 Minuten neue Fänger. Danach 3 Minuten Mobilisation: Armkreisen, Ausfallschritte, Hampelmann, Hopserlauf.
+          * Zum Schluss jedes Kind mit Ball: 20x hochwerfen und in Pritschhaltung fangen.
+
+          **Trainer-Details:** Laufen, Reagieren und Ball in einem. Fänger wechseln oft, damit niemand lange „dran“ bleibt.
       - icon: 🎯
         phase: Technik I
         dauer: 15
-        titel: Gezielte Angaben auf Zielzonen
+        titel: Baggern allein (Brett bauen)
         inhalt: |-
-          **Ablauf:** Aufschläge von Pos I gezielt in markierte Zonen (z. B. auf Matten an Pos I oder IV auf der Gegenseite).
+          **Ablauf:** Jedes Kind mit eigenem Ball. Erst 1 Minute Brett zeigen: Hände ineinander, Daumen parallel, Arme gestreckt, Schultern nach vorn.
 
-          **Trainer-Details:** Stabiler Stand, Handgelenk fest abklappen.
+          * 🟢 Ball aus 1 m auf das Brett fallen lassen, hochspringen lassen, fangen. Ziel: 10x sauber.
+          * 🔵 Bagger über dem Kopf, Ball mind. auf Kopfhöhe. Ziel: 15 in Folge.
+          * 🔴 Wechsel Bagger – Pritsche – Bagger. Ziel: 20 in Folge.
+          * Neu: Baggern im langsamen Gehen vorwärts und seitwärts.
+
+          **Trainer-Details:** Arme bleiben fast still, gespielt wird aus den Beinen. Ball trifft die Unterarme oberhalb der Handgelenke.
       - icon: 🎯
         phase: Technik II
-        dauer: 15
-        titel: Annahme nach vorne schieben
+        dauer: 20
+        titel: Bagger aus Bewegung
         inhalt: |-
-          **Ablauf:** Kurze, drucklose Angaben aktiv mit den Beinen nach vorne auf Pos III drücken.
+          **Ablauf:** Paare, 4 m Abstand. A wirft 1–3 Schritte vor, links oder rechts von B. B läuft, stoppt, baggert zurück.
 
-          **Trainer-Details:** Nicht die Arme nach vorne reißen, sondern den ganzen Körper durch Beinstreckung nach vorne bewegen.
-      - icon: 🧠
-        phase: Taktik I
+          * 🟢 Nur nach vorn, Ball kommt hoch.
+          * 🔵 Vorn, links, rechts im Wechsel.
+          * 🔴 A baggert statt zu werfen, durchgehend 15 in Folge.
+
+          **Trainer-Details:** Beim Ball zur Seite: Brett schräg stellen (äußere Schulter tiefer), damit der Ball zum Partner zurück geht.
+        varianten:
+          6-8: Alle gleichzeitig in Paaren, Trainer wirft bei Bedarf selbst einem Paar zu.
+          9-12: Paare an Wand, Netz und Hallenmitte verteilen. Bei Ballmangel 3er-Gruppen mit fliegendem Wechsel nach 10 Kontakten.
+      - icon: 🎯
+        phase: Technik III
         dauer: 15
-        titel: Schnittstellen-Kommunikation
+        titel: '3er-Dreieck: Bagger – Pritsche – Fangen'
         inhalt: |-
-          **Ablauf:** Bälle werden exakt zwischen Pos I und Pos IV geschlagen.
+          **Ablauf:** 3er-Gruppen im Dreieck, 4 m Abstand. A wirft zu B, B baggert zu C, C pritscht zu A.
 
-          * Wer zuerst 'Ich!' ruft, nimmt den Ball; der andere sichert ab.
+          * 🟢 C fängt und wirft weiter.
+          * 🔵 Alle Kontakte gespielt; nach 10 Bällen Positionen wechseln.
+          * 🔴 Ohne Werfen: durchgehend spielen, 10 Runden in Folge.
 
-          **Trainer-Details:** Zögern sofort korrigieren.
+          **Trainer-Details:** Das ist schon der Ablauf aus dem Spiel: Annahme – Zuspiel. Ziel: Bagger hoch zu C (über Kopfhöhe).
+        varianten:
+          6-8: Zwei 3er-Gruppen plus ein Paar; das Paar spielt die gleiche Aufgabe ohne Mittelmann.
+          9-12: Drei bis vier 3er-Gruppen gleichzeitig, jede mit eigenem Ball.
       - icon: 🧠
-        phase: Taktik II
-        dauer: 15
-        titel: Notball-Zuspiel (Out-of-System)
-        inhalt: '**Ablauf:** Annahme gerät ungenau weit weg von Pos III. Nächststehender Spieler ruft ''Hilfe'' und spielt einen hohen Notpass zu Pos IV.'
-      - icon: 🧠
-        phase: Läufersystem II
-        dauer: 10
-        titel: Transition-Läufer
-        inhalt: '**Ablauf:** Der Läufer steht auf Pos I. Trainer schlägt harten Ball auf den Läufer. Läufer wehrt ab, Mitspieler von Pos IV übernimmt das Zuspiel.'
+        phase: Spielform
+        dauer: 20
+        titel: 1:1 Baggerduell
+        inhalt: |-
+          **Ablauf:** Spielreihe nach RTK: 1:1 auf Kleinfeld (ca. 3 × 4,5 m pro Seite) über Leine, Langbank oder niedriges Netz (ca. 2,00 m).
+
+          * Rüber geht es nur mit dem Bagger. Selbstpass darf gepritscht werden.
+          * 🟢 Ball darf nach dem 1. Kontakt gefangen und pritschend „zurückgeworfen“ werden.
+          * 🔵 Erst Selbstpass (pritschen oder baggern), dann über die Leine pritschen.
+          * 🔴 Wie 🔵, aber der Ball muss hinter einer Markierung (hintere Feldhälfte) landen.
+
+          **Trainer-Details:** Das 1:1 ist die beste Schule für Ballkontrolle: Jedes Kind spielt jeden Ball. Spiele auf 5 Punkte, dann rotieren.
+        varianten:
+          6-8: 2–3 Kleinfelder; wer gerade frei ist, zählt Punkte oder spielt Ballholer und wechselt nach jedem Spiel ein.
+          9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
       - icon: 🏆
         phase: Abschlussspiel
-        dauer: 20
-        titel: System-Kaiser
-        inhalt: '**Ablauf:** Kaiserplatz-Turnier mit 3v3 / 4v4 Teams. Rotation bei Fehler.'
+        dauer: 25
+        titel: 2:2 mit Pflichtpass
+        inhalt: |-
+          **Ablauf:** 2:2 auf Kleinfeld (ca. 4,5 × 4,5 m pro Seite), Netz 2,00–2,10 m oder Leine.
+
+          * Jedes Team muss den Ball mindestens zweimal spielen, einmal davon zum Partner.
+          * 🟢 1. Kontakt darf gefangen werden.
+          * 🔵 Kein Fangen.
+          * 🔴 Drei Kontakte Pflicht (Bagger – Pritsche – rüber).
+          * Spiele auf 7, danach Gegner wechseln.
+
+          **Trainer-Details:** Gemischte Paare (stark + schwächer) bilden. Punkt zählt doppelt, wenn das schwächere Kind den Ball rüberspielt.
+        varianten:
+          6-8: 2–3 Kleinfelder; wer gerade frei ist, zählt Punkte oder spielt Ballholer und wechselt nach jedem Spiel ein.
+          9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
+      - icon: 🧘
+        phase: Abschluss
+        dauer: 10
+        titel: Kontakt-Rekord & Stufen-Check
+        inhalt: |-
+          **Ablauf:** Kurz im Kreis sitzen.
+
+          * Jedes Kind nennt seinen besten Rekord von heute (z. B. „17 Pritschen in Folge“) und seine Stufe.
+          * Hausaufgabe: Baggern gegen eine Hauswand, 3x 2 Minuten.
+
+          **Trainer-Details:** Rekorde und Aufsteiger kurz notieren. Lob für Verbesserung, nicht nur für die Besten.
   - name: Woche 3
     einheiten:
     - name: TE 5
       dauer: 90
-      titel: Annahme-Konstanz & Beinarbeit
+      titel: Pritschen mit Richtungswechsel
       uebungen:
       - icon: 🏃‍♂️
         phase: Warm-up
         dauer: 10
-        titel: Reaktions-Sprints (ohne Netz)
+        titel: 'Ballschule: Jeder hat einen Ball'
         inhalt: |-
-          **Ablauf (ohne Netz):** Bauchlage. Auf Pfiff: Explosives Aufstehen, 3 m Rückwärtslauf im tiefen Schwerpunkt, Richtungswechsel und Vorwärtssprint.
+          **Ablauf:** Jedes Kind mit eigenem Ball frei in der Halle, auf Pfiff wechselt die Aufgabe alle 45–60 Sekunden.
 
-          **Trainer-Details:** Schnelle Beinarbeit und tiefer Schwerpunkt beim Abstoppen.
+          * Laufen und Ball beidhändig prellen, auf Pfiff tiefe Grundstellung, Ball dabei weiterprellen.
+          * Ball hochwerfen, darunterlaufen und **über der Stirn** fangen (Pritsch-Dreieck mit Daumen und Zeigefingern).
+          * Ball hochwerfen, hinsetzen, aufstehen, fangen. Danach: einmal klatschen, umdrehen, Boden berühren.
+          * Ball hochwerfen, halbe Drehung, fangen. Danach: Ball nach hinten über den Kopf werfen und unter den Ball drehen.
+
+          **Trainer-Details:** Immer mit Ball: Im Kinder-Volleyball ist jedes Aufwärmen auch Ballgewöhnung. Kurze Aufgaben, viel Abwechslung, keine Runden ohne Ball.
+        varianten:
+          6-8: Trainer macht mit und gibt Tempo vor.
+          9-12: Zwei Kinder dürfen abwechselnd eine Aufgabe ansagen.
       - icon: 🎯
         phase: Technik I
         dauer: 15
-        titel: Defense-Beinarbeit (Tennisbälle)
+        titel: Pritschen allein (Kontakte zählen)
         inhalt: |-
-          **Ablauf (ohne Netz):** 2er-Teams arbeiten im Freiraum der Halle. Der Werfer hat zwei Tennis- oder Unihockeybälle.
+          **Ablauf:** Jedes Kind mit eigenem Ball, Platz an Wand oder frei in der Halle. Nach jedem Versuch laut zählen.
 
-          * Der Werfer wirft nacheinander zwei Bälle tief und leicht versetzt auf den Boden.
-          * Der Abwehrspieler bleibt durchgehend in der tiefen Grundposition, verschiebt sich mit schnellen Sideshuffles zur Seite und holt beide Bälle.
+          * 🟢 Ball hochwerfen, über der Stirn fangen, sofort wieder hochdrücken (Fang-Pritschen). Ziel: 10 in Folge.
+          * 🔵 Pritschen über dem Kopf, Ball mind. 1 m hoch. Ziel: 20 in Folge.
+          * 🔴 Abwechselnd hoch (3 m) und niedrig (1 m) pritschen, oder pritschen gegen die Wand aus 2 m. Ziel: 30 in Folge.
+          * Neu: Pritschen mit Vierteldrehung nach jedem Kontakt (Ball bleibt am Platz).
 
-          **Trainer-Details:** Der Fokus liegt auf dem Schwerpunkt! Der Spieler darf sich zwischen den Bällen **auf keinen Fall aufrichten**. Wer hochkommt, muss danach wieder runter und verliert die entscheidenden Millisekunden.
+          **Trainer-Details:** Wichtigste Merkpunkte: Hände **vor** der Stirn, Ball kommt von oben in die Hände, Beine strecken mit. Wer das Ziel zweimal schafft, steigt eine Stufe auf.
       - icon: 🎯
         phase: Technik II
-        dauer: 15
-        titel: Kurze und lange Bälle kontrollieren
+        dauer: 20
+        titel: Pritschen im Dreieck
         inhalt: |-
-          **Ablauf (am Netz):** Spieler auf Pos I bzw. IV. Trainer variiert zwischen kurzen Bällen hinters Netz und langen Bällen zur Grundlinie.
+          **Ablauf:** 3er-Gruppen im Dreieck, 3–4 m Abstand, Ball läuft im Uhrzeigersinn, nach 1 Minute gegen den Uhrzeigersinn.
 
-          * Ziel bleibt die präzise Bogenannahme auf Pos III.
+          * 🟢 Fangen – drehen – zum Nächsten pritschen.
+          * 🔵 Direkt pritschen, Körper zum Ziel drehen.
+          * 🔴 Zusätzlich Selbstpass vor jedem Weiterspielen; Ziel 15 Runden ohne Fehler.
 
-          **Trainer-Details:** Ständiges Nachfedern auf den Fußballen (Ready Position).
+          **Trainer-Details:** Zum Ziel drehen, **bevor** der Ball ankommt. Wer sich während des Kontakts dreht, spielt ungenau.
+        varianten:
+          6-8: Zwei 3er-Gruppen plus ein Paar; das Paar spielt die gleiche Aufgabe ohne Mittelmann.
+          9-12: Drei bis vier 3er-Gruppen gleichzeitig, jede mit eigenem Ball.
       - icon: 🧠
-        phase: Taktik I
-        dauer: 15
-        titel: Reiner Schlag am niedrigen Netz (ohne Sprung)
+        phase: Spielform
+        dauer: 20
+        titel: 1:1 diagonal
         inhalt: |-
-          **Ablauf:** Das Netz wird deutlich niedriger gespannt. Die Spieler stehen am Netz und schlagen den zugeworfenen Ball aus dem Stand (ohne Sprung) über das Netz.
+          **Ablauf:** Spielreihe nach RTK: 1:1 auf Kleinfeld (ca. 3 × 4,5 m pro Seite) über Leine, Langbank oder niedriges Netz (ca. 2,00 m).
 
-          **Trainer-Details:** Isoliert den reinen Armzug und die Schulterrotation. Fokus auf den Treffpunkt vor dem Körper und das aktive Abklappen des Handgelenks, ohne durch das komplexe Timing des Anlaufs überfordert zu werden.
-      - icon: 🧠
-        phase: Taktik II
-        dauer: 15
-        titel: Stemmschritt über ein flaches Hindernis
-        inhalt: |-
-          **Ablauf (ohne Ball):** Als Hindernis (ca. 10–20 cm hoch) dienen flache Hütchen oder eine Wurfleine. Die Kinder starten mit einem Bein in der Luft. Der erste Schritt geht über das flache Hindernis, danach folgen die letzten beiden Schritte als explosiver Stemmschritt ("Links-Rechts").
+          * Feld wird diagonal geteilt; Punkt zählt doppelt, wenn der Ball in der Ecke (Reifen/Markierung) landet.
+          * 🟢 Ball darf nach dem 1. Kontakt gefangen und pritschend „zurückgeworfen“ werden.
+          * 🔵 Erst Selbstpass (pritschen oder baggern), dann über die Leine pritschen.
+          * 🔴 Wie 🔵, aber der Ball muss hinter einer Markierung (hintere Feldhälfte) landen.
 
-          **Trainer-Details:** Vorwärtsbewegung abrupt in eine reine Vertikalbewegung umwandeln. Doppelarmschwung aktiv nach hinten-oben mitnehmen! Der Rhythmus ist "Schritt... hopp-stopp!".
+          **Trainer-Details:** Das 1:1 ist die beste Schule für Ballkontrolle: Jedes Kind spielt jeden Ball. Spiele auf 5 Punkte, dann rotieren.
+        varianten:
+          6-8: 2–3 Kleinfelder; wer gerade frei ist, zählt Punkte oder spielt Ballholer und wechselt nach jedem Spiel ein.
+          9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
       - icon: 🏆
         phase: Abschlussspiel
         dauer: 20
-        titel: Druck-Turnier (3v3 / 4v4)
+        titel: 2:2 Königsfeld
         inhalt: |-
-          **Ablauf:** 3v3 / 4v4 auf Zeit.
+          **Ablauf:** 2:2 auf Kleinfeld (ca. 4,5 × 4,5 m pro Seite), Netz 2,00–2,10 m oder Leine.
 
-          * **Punkte-Regel:** Annahmefehler gibt 2 Punkte für das Aufschlagteam. Punkt aus perfektem 3er-Aufbau zählt 2 Punkte.
+          * Ein Königsfeld, Herausforderer-Teams warten hinten (max. 1 Team).
+          * Herausforderer schlagen von unten ein. Holen sie den Punkt, sind sie König.
+          * Königsteam muss 3 Punkte in Folge machen, um einen Bonuspunkt zu bekommen.
+          * 🟢/🔵/🔴 wie in der letzten Woche, jedes Team wählt.
+
+          **Trainer-Details:** Schnelle Wechsel, kurze Ballwechsel, hoher Spaß. Bei 9–12 Kindern lieber 2 Königsfelder.
+        varianten:
+          6-8: 2–3 Kleinfelder; wer gerade frei ist, zählt Punkte oder spielt Ballholer und wechselt nach jedem Spiel ein.
+          9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
+      - icon: 🧘
+        phase: Abschluss
+        dauer: 5
+        titel: Kontakt-Rekord & Stufen-Check
+        inhalt: |-
+          **Ablauf:** Kurz im Kreis sitzen.
+
+          * Jedes Kind nennt seinen besten Rekord von heute (z. B. „17 Pritschen in Folge“) und seine Stufe.
+          * Nächste Woche ist Check-Woche: Jeder überlegt, welche Stufe er schaffen will.
+
+          **Trainer-Details:** Rekorde und Aufsteiger kurz notieren. Lob für Verbesserung, nicht nur für die Besten.
     - name: TE 6
       tag: Freitag
       dauer: 120
-      titel: Transition & Läufersystem unter Druck
+      titel: Pritschen und Baggern im Wechsel
       uebungen:
       - icon: 🏃‍♂️
         phase: Warm-up
         dauer: 15
-        titel: 1v1 Volley-Tennis (ohne Netz / Kleinfeld)
-        inhalt: '**Ablauf:** 1v1 mit 1x Bodenkontakt. Schult periphere Sicht, Antizipation und Beinarbeit.'
-      - icon: 🧠
-        phase: Läufersystem I
-        dauer: 15
-        titel: Der Chaos-Läufer
+        titel: Kettenfangen mit Ball
         inhalt: |-
-          **Ablauf:** Trainer wirft absichtlich schlechte Annahmen (ins Netz, zu kurz). Der Läufer muss sprinten, den Ball erlaufen und hoch an die Antenne stellen.
+          **Ablauf:** Fangspiel in einem Volleyballfeld, 2 Fänger mit Leibchen.
 
-          **Trainer-Details:** Kommunikation schulen ("Hilfe!"), falls der Ball nicht mehr erreichbar ist.
+          * Die Fänger-Kette darf nur fangen, solange sie sich einen Ball zupritscht oder zuwirft (aus Pritschhaltung).
+          * Nach 2 Minuten neue Fänger. Danach 3 Minuten Mobilisation: Armkreisen, Ausfallschritte, Hampelmann, Hopserlauf.
+          * Zum Schluss jedes Kind mit Ball: 20x hochwerfen und in Pritschhaltung fangen.
+
+          **Trainer-Details:** Laufen, Reagieren und Ball in einem. Fänger wechseln oft, damit niemand lange „dran“ bleibt.
       - icon: 🎯
         phase: Technik I
         dauer: 15
-        titel: Not-Annahme & Hechtbagger
+        titel: Baggern allein (Brett bauen)
         inhalt: |-
-          **Ablauf:** Trainer schlägt kontrolliert in den Raum. Spieler bewegen sich explosiv zum Ball und bringen ihn mit stabiler Plattform als hohen Notball ins Zentrum.
+          **Ablauf:** Jedes Kind mit eigenem Ball. Erst 1 Minute Brett zeigen: Hände ineinander, Daumen parallel, Arme gestreckt, Schultern nach vorn.
 
-          **Trainer-Details:** Flüssiges Wiederaufstehen direkt nach dem Bodenkontakt fordern.
+          * 🟢 Ball aus 1 m auf das Brett fallen lassen, hochspringen lassen, fangen. Ziel: 10x sauber.
+          * 🔵 Bagger über dem Kopf, Ball mind. auf Kopfhöhe. Ziel: 15 in Folge.
+          * 🔴 Wechsel Bagger – Pritsche – Bagger. Ziel: 20 in Folge.
+          * Neu: Bagger hoch – Ball fällt auf Boden – aufspringen lassen – wieder baggern.
+
+          **Trainer-Details:** Arme bleiben fast still, gespielt wird aus den Beinen. Ball trifft die Unterarme oberhalb der Handgelenke.
       - icon: 🎯
         phase: Technik II
-        dauer: 15
-        titel: Einarmige Rettungsaktionen
+        dauer: 20
+        titel: Wechselspiel Pritsche/Bagger
         inhalt: |-
-          **Ablauf:** Weit abweichende Bälle mit sauberer einarmiger Führung hoch ins Feld zurückretten.
+          **Ablauf:** Paare, 4 m Abstand. A spielt abwechselnd hoch (Pritschball) und kurz/tief (Baggerball).
 
-          **Trainer-Details:** Körperspannung halten, damit der Notball nicht verspringt.
-      - icon: 🧠
-        phase: Taktik I
+          * 🟢 A wirft, B entscheidet: hoch = Pritsche, tief = Bagger.
+          * 🔵 A pritscht und baggert, B spielt zurück.
+          * 🔴 Durchgehend, ohne Fangen, 20 in Folge.
+
+          **Trainer-Details:** Entscheidung früh treffen. Häufiger Fehler: Pritschball wird gebaggert, weil die Beine zu spät kommen.
+        varianten:
+          6-8: Alle gleichzeitig in Paaren, Trainer wirft bei Bedarf selbst einem Paar zu.
+          9-12: Paare an Wand, Netz und Hallenmitte verteilen. Bei Ballmangel 3er-Gruppen mit fliegendem Wechsel nach 10 Kontakten.
+      - icon: 🎯
+        phase: Technik III
         dauer: 15
-        titel: Umschalten von Abwehr auf Spielaufbau
+        titel: 'Ball über die Leine: Paar gegen Paar kooperativ'
         inhalt: |-
-          **Ablauf:** Nach der ersten Feldabwehr formiert sich das Team sofort für den 2. Ball (Zuspieler rückt nach Pos III, Angreifer lösen sich vom Netz).
+          **Ablauf:** Zwei Paare spielen sich über eine Leine den Ball zu, **ohne** Punkte. Jede Seite 2 Kontakte.
 
-          **Trainer-Details:** Lautes Coachen unter den Spielern ('Ich übernehme!' / 'Hilfe!').
+          * 🟢 1. Kontakt fangen erlaubt.
+          * 🔵 Kein Fangen, 10 Überquerungen in Folge.
+          * 🔴 3 Kontakte pro Seite, 10 Überquerungen.
+
+          **Trainer-Details:** Kooperativ heißt: Ziel ist ein langer Ballwechsel. Das gibt Einsteigern viele Kontakte ohne Druck.
+        varianten:
+          6-8: 2–3 Kleinfelder; wer gerade frei ist, zählt Punkte oder spielt Ballholer und wechselt nach jedem Spiel ein.
+          9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
       - icon: 🧠
-        phase: Taktik II
-        dauer: 15
-        titel: Transition unter Wettkampf-Bedingungen
-        inhalt: '**Ablauf:** Endlos-Rallye-Drill. Ball muss nach erfolgreicher Abwehr sofort in einen geordneten Angriff über Pos IV/II umgewandelt werden.'
-      - icon: 🧠
-        phase: Läufersystem II
-        dauer: 10
-        titel: Scanner-Zuspiel
-        inhalt: '**Ablauf:** Der Zuspieler pritscht auf Position III. Trainer hebt linke oder rechte Hand. Zuspieler pritscht dorthin, wo die Hand *unten* ist.'
+        phase: Spielform
+        dauer: 20
+        titel: 1:1 Wahlweise
+        inhalt: |-
+          **Ablauf:** Spielreihe nach RTK: 1:1 auf Kleinfeld (ca. 3 × 4,5 m pro Seite) über Leine, Langbank oder niedriges Netz (ca. 2,00 m).
+
+          * Ball darf mit Bagger oder Pritsche rüber; ein Kontakt muss Bagger sein.
+          * 🟢 Ball darf nach dem 1. Kontakt gefangen und pritschend „zurückgeworfen“ werden.
+          * 🔵 Erst Selbstpass (pritschen oder baggern), dann über die Leine pritschen.
+          * 🔴 Wie 🔵, aber der Ball muss hinter einer Markierung (hintere Feldhälfte) landen.
+
+          **Trainer-Details:** Das 1:1 ist die beste Schule für Ballkontrolle: Jedes Kind spielt jeden Ball. Spiele auf 5 Punkte, dann rotieren.
+        varianten:
+          6-8: 2–3 Kleinfelder; wer gerade frei ist, zählt Punkte oder spielt Ballholer und wechselt nach jedem Spiel ein.
+          9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
       - icon: 🏆
         phase: Abschlussspiel
-        dauer: 20
-        titel: Transition-Match (3v3 / 4v4)
-        inhalt: '**Ablauf:** Wash-Match. Punkte zählen nur, wenn der Ballwechsel über eine erfolgreiche Abwehr-Transition gewonnen wurde.'
+        dauer: 25
+        titel: 2:2 Turnier „Jeder gegen jeden“
+        inhalt: |-
+          **Ablauf:** 2:2 auf Kleinfeld (ca. 4,5 × 4,5 m pro Seite), Netz 2,00–2,10 m oder Leine.
+
+          * Feste Paare für heute, jeder spielt einmal gegen jedes andere Paar, 4 Minuten pro Spiel.
+          * Stufen wie in Woche 2. Ein Punkt Bonus für einen Ballwechsel mit mehr als 6 Kontakten.
+
+          **Trainer-Details:** Paare mischen (stark + schwächer). Spielstände an der Wand notieren, Sieger am Ende ehren.
+        varianten:
+          6-8: 2–3 Kleinfelder; wer gerade frei ist, zählt Punkte oder spielt Ballholer und wechselt nach jedem Spiel ein.
+          9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
+      - icon: 🧘
+        phase: Abschluss
+        dauer: 10
+        titel: Kontakt-Rekord & Stufen-Check
+        inhalt: |-
+          **Ablauf:** Kurz im Kreis sitzen.
+
+          * Jedes Kind nennt seinen besten Rekord von heute (z. B. „17 Pritschen in Folge“) und seine Stufe.
+          * Hausaufgabe: Den eigenen Pritsch- und Baggerrekord zuhause probieren.
+
+          **Trainer-Details:** Rekorde und Aufsteiger kurz notieren. Lob für Verbesserung, nicht nur für die Besten.
   - name: Woche 4
     einheiten:
     - name: TE 7
       dauer: 90
-      titel: Annahme-Präzisionstest
+      titel: 'Check-Woche: Basics-Abzeichen'
       uebungen:
       - icon: 🏃‍♂️
         phase: Warm-up
         dauer: 10
-        titel: Pre-Game Einspielen in Paaren (ohne Netz)
-        inhalt: '**Ablauf:** Paarweises Warmspielen mit Fokus auf präzisem Baggerkontakt und sauberer Beinarbeit.'
+        titel: 'Ballschule: Jeder hat einen Ball'
+        inhalt: |-
+          **Ablauf:** Jedes Kind mit eigenem Ball frei in der Halle, auf Pfiff wechselt die Aufgabe alle 45–60 Sekunden.
+
+          * Laufen und Ball beidhändig prellen, auf Pfiff tiefe Grundstellung, Ball dabei weiterprellen.
+          * Ball hochwerfen, darunterlaufen und **über der Stirn** fangen (Pritsch-Dreieck mit Daumen und Zeigefingern).
+          * Ball hochwerfen, hinsetzen, aufstehen, fangen. Danach: einmal klatschen, umdrehen, Boden berühren.
+          * Alle Aufgaben aus dem Monat einmal wiederholen.
+
+          **Trainer-Details:** Immer mit Ball: Im Kinder-Volleyball ist jedes Aufwärmen auch Ballgewöhnung. Kurze Aufgaben, viel Abwechslung, keine Runden ohne Ball.
+        varianten:
+          6-8: Trainer macht mit und gibt Tempo vor.
+          9-12: Zwei Kinder dürfen abwechselnd eine Aufgabe ansagen.
       - icon: 🎯
-        phase: Technik
-        dauer: 30
-        titel: Annahme-Präzisionstest
-        inhalt: '**Ablauf:** Jeder Spieler nimmt 10 Aufschläge an; gezählt wird, wie viele im markierten Zielkreis an Pos III landen.'
-      - icon: 🧠
-        phase: Taktik
-        dauer: 30
-        titel: Abstimmung U13 (3v3) & U14 (4v4)
-        inhalt: '**Split:** Feste Schnittstellen-Absprachen zwischen Pos I, IV und II.'
+        phase: Technik I
+        dauer: 25
+        titel: Basics-Abzeichen Pritschen & Baggern
+        inhalt: |-
+          **Ablauf:** Stationen mit je einem Kind als Zähler. Jedes Kind hat 2 Versuche pro Station. Ergebnis auf eine Liste.
+
+          * Station 1: Pritschen allein über Kopf (in Folge).
+          * Station 2: Baggern allein über Kopf (in Folge).
+          * Station 3: Pritschen gegen die Wand aus 2 m (in Folge).
+          * Station 4: Paar-Bagger, 10 Zuwürfe, wie viele kommen fangbar zurück?
+          * 🟢 Abzeichen: 10 / 🔵 Abzeichen: 20 / 🔴 Abzeichen: 30 (Stationen 1–3).
+
+          **Trainer-Details:** Kein Wettkampf gegeneinander, sondern gegen den eigenen Rekord. Die Liste ist die Grundlage für die Stufen im nächsten Monat.
+        varianten:
+          6-8: Zwei Kinder pro Station, eines spielt, eines zählt.
+          9-12: Drei Kinder pro Station, rotieren nach jedem Durchgang.
+      - icon: 🎯
+        phase: Technik II
+        dauer: 15
+        titel: Lücken schließen
+        inhalt: |-
+          **Ablauf:** Freie Übungszeit in Paaren: Jedes Kind übt die Station, die ihm am schwersten fiel.
+
+          * Trainer geht herum und korrigiert genau **einen** Punkt pro Kind.
+
+          **Trainer-Details:** Individuelles Feedback ist hier wichtiger als ein neues Spiel.
+        varianten:
+          6-8: Alle gleichzeitig in Paaren, Trainer wirft bei Bedarf selbst einem Paar zu.
+          9-12: Paare an Wand, Netz und Hallenmitte verteilen. Bei Ballmangel 3er-Gruppen mit fliegendem Wechsel nach 10 Kontakten.
       - icon: 🏆
         phase: Abschlussspiel
-        dauer: 20
-        titel: TuB Bocholt Liga
-        inhalt: '**Turnier:** 3v3 / 4v4 Kurzspiele auf Zeit (4 Min pro Match).'
+        dauer: 35
+        titel: Kaiserturnier 2:2
+        inhalt: |-
+          **Ablauf:** Mehrere Kleinfelder nebeneinander (2:2). Feld 1 = Kaiserfeld, letztes Feld = Einsteigerfeld. Runden à 3 Minuten.
+
+          * Gewinner rutscht ein Feld hoch, Verlierer ein Feld runter.
+          * Regeln aus Woche 3; im Kaiserfeld kein Fangen.
+          * Im Einsteigerfeld darf ein Ball pro Ballwechsel gefangen werden.
+
+          **Trainer-Details:** Nach 2–3 Runden spielen alle gegen ähnlich Starke, ohne dass jemand eingeteilt werden muss.
+        varianten:
+          6-8: 2–3 Kleinfelder; wer gerade frei ist, zählt Punkte oder spielt Ballholer und wechselt nach jedem Spiel ein.
+          9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
+      - icon: 🧘
+        phase: Abschluss
+        dauer: 5
+        titel: Kontakt-Rekord & Stufen-Check
+        inhalt: |-
+          **Ablauf:** Kurz im Kreis sitzen.
+
+          * Jedes Kind nennt seinen besten Rekord von heute (z. B. „17 Pritschen in Folge“) und seine Stufe.
+          * Abzeichen verkünden und loben.
+
+          **Trainer-Details:** Rekorde und Aufsteiger kurz notieren. Lob für Verbesserung, nicht nur für die Besten.
     - name: TE 8
       tag: Freitag
       dauer: 120
-      titel: Der große Monatstest
+      titel: Monatsturnier 2:2
       uebungen:
       - icon: 🏃‍♂️
         phase: Warm-up
         dauer: 15
-        titel: Turnier-Warm-up & Einschlagen
-        inhalt: '**Ablauf:** Dynamisches Dehnen, Einschlagen am Netz mit Zuspiel aus der Annahme.'
+        titel: Ball-Retter (Lieblingsspiel)
+        inhalt: |-
+          **Ablauf:** Fangspiel in einem Volleyballfeld, 2 Fänger mit Leibchen.
+
+          * Wie in Woche 1: Wer den Ball in Pritschhaltung über dem Kopf hält, ist sicher.
+          * Nach 2 Minuten neue Fänger. Danach 3 Minuten Mobilisation: Armkreisen, Ausfallschritte, Hampelmann, Hopserlauf.
+          * Zum Schluss jedes Kind mit Ball: 20x hochwerfen und in Pritschhaltung fangen.
+
+          **Trainer-Details:** Laufen, Reagieren und Ball in einem. Fänger wechseln oft, damit niemand lange „dran“ bleibt.
       - icon: 🎯
-        phase: Technik
-        dauer: 35
-        titel: Aufschlag & Annahme Feinschliff
-        inhalt: '**Ablauf:** Duelle Aufschläger vs. Annahmeriegel (Pos I, IV, II).'
-      - icon: 🧠
-        phase: Taktik
-        dauer: 35
-        titel: Spielaufbau unter Wettkampfstress
-        inhalt: '**Ablauf:** Simulation von Drucksituationen (z. B. Spielstand ''13:13'').'
-      - icon: 🧠
-        phase: Läufersystem-Check & Cool-down
+        phase: Technik I
         dauer: 15
-        inhalt: '**Ablauf:** Finale Überprüfung der Laufwege unter simulierter Block-Sicht + ausgiebiges Partner-Dehnen.'
+        titel: Einspielen im Paar
+        inhalt: |-
+          **Ablauf:** Paare, freies Einspielen: 3 Minuten Pritschen, 3 Minuten Baggern, 3 Minuten Wechsel, dann über die Leine.
+
+          **Trainer-Details:** Wie vor einem echten Spiel. Kinder sollen den Ablauf lernen, sich selbst einzuspielen.
+        varianten:
+          6-8: Alle gleichzeitig in Paaren, Trainer wirft bei Bedarf selbst einem Paar zu.
+          9-12: Paare an Wand, Netz und Hallenmitte verteilen. Bei Ballmangel 3er-Gruppen mit fliegendem Wechsel nach 10 Kontakten.
+      - icon: 🎯
+        phase: Technik II
+        dauer: 15
+        titel: Kooperativ-Rekord über die Leine
+        inhalt: |-
+          **Ablauf:** Zwei Paare über die Leine, ohne Punkte: Wie viele Überquerungen schafft ihr? Drei Durchgänge, der beste zählt.
+
+          * 🟢 1. Kontakt fangen erlaubt. 🔵 Kein Fangen. 🔴 3 Kontakte pro Seite.
+
+          **Trainer-Details:** Hallenrekord an die Tafel schreiben – im nächsten Monat wird er geknackt.
+        varianten:
+          6-8: 2–3 Kleinfelder; wer gerade frei ist, zählt Punkte oder spielt Ballholer und wechselt nach jedem Spiel ein.
+          9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
       - icon: 🏆
         phase: Abschlussspiel
-        dauer: 20
-        titel: Monats-Finale
-        inhalt: '**Wettkampf:** 2 Gewinnsätze bis 15 Punkte unter voller Anwendung aller Annahme- und Läuferregeln.'
+        dauer: 60
+        titel: Monatsturnier 2:2
+        inhalt: |-
+          **Ablauf:** 2:2 auf Kleinfeld (ca. 4,5 × 4,5 m pro Seite), Netz 2,00–2,10 m oder Leine.
+
+          * Gemischte, ausgeloste Paare. Gruppenphase (jeder gegen jeden, 5 Minuten), dann Platzierungsspiele.
+          * Jedes Paar wählt vor jedem Spiel seine Stufe; Stufe 🔴 gibt bei Sieg 1 Zusatzpunkt.
+          * Pausierende Paare pfeifen und zählen.
+
+          **Trainer-Details:** Kinder schiedsrichtern lassen: Sie lernen Regeln und bleiben aktiv.
+        varianten:
+          6-8: 2–3 Kleinfelder; wer gerade frei ist, zählt Punkte oder spielt Ballholer und wechselt nach jedem Spiel ein.
+          9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
+      - icon: 🧘
+        phase: Abschluss
+        dauer: 15
+        titel: Kontakt-Rekord & Stufen-Check
+        inhalt: |-
+          **Ablauf:** Kurz im Kreis sitzen.
+
+          * Jedes Kind nennt seinen besten Rekord von heute (z. B. „17 Pritschen in Folge“) und seine Stufe.
+          * Monatsrückblick: Was kann ich jetzt, was ich vor 4 Wochen nicht konnte? Siegerehrung.
+
+          **Trainer-Details:** Rekorde und Aufsteiger kurz notieren. Lob für Verbesserung, nicht nur für die Besten.
 - name: Monat 2
-  thema: Grundtechnik Angriff & Aufschlag
-  titel: Schlagen über das Netz & gezielter Aufschlag
+  thema: 'Aufschlag, Annahme & Zuspiel: das Drei-Kontakte-Spiel im 2:2 und 3:3'
+  titel: Drei Kontakte
   wochen:
   - name: Woche 1
     einheiten:
     - name: TE 1
       dauer: 90
-      titel: Der Armzug (ohne Netz / an der Wand)
+      titel: Aufschlag von unten
       uebungen:
       - icon: 🏃‍♂️
         phase: Warm-up
         dauer: 10
-        titel: Schulter-Aktivierung (ohne Netz)
-        inhalt: '**Ablauf:** Baseball-Würfe in Paaren. Fokus auf Aufdrehen der Schulterachse.'
+        titel: 'Ballschule: Jeder hat einen Ball'
+        inhalt: |-
+          **Ablauf:** Jedes Kind mit eigenem Ball frei in der Halle, auf Pfiff wechselt die Aufgabe alle 45–60 Sekunden.
+
+          * Laufen und Ball beidhändig prellen, auf Pfiff tiefe Grundstellung, Ball dabei weiterprellen.
+          * Ball hochwerfen, darunterlaufen und **über der Stirn** fangen (Pritsch-Dreieck mit Daumen und Zeigefingern).
+          * Ball hochwerfen, hinsetzen, aufstehen, fangen. Danach: einmal klatschen, umdrehen, Boden berühren.
+          * Ball mit einer Hand von unten gegen die Wand schlagen, fangen (Aufschlag-Gefühl).
+
+          **Trainer-Details:** Immer mit Ball: Im Kinder-Volleyball ist jedes Aufwärmen auch Ballgewöhnung. Kurze Aufgaben, viel Abwechslung, keine Runden ohne Ball.
+        varianten:
+          6-8: Trainer macht mit und gibt Tempo vor.
+          9-12: Zwei Kinder dürfen abwechselnd eine Aufgabe ansagen.
       - icon: 🎯
-        phase: Technik
-        dauer: 30
-        titel: Wand-Schlagen (ohne Netz)
-        inhalt: '**Ablauf:** Vor der Wand: Hoher Ellenbogen, Handgelenk klappt aktiv ab, Ball tippt vor der Wand auf den Boden.'
-      - icon: 🧠
-        phase: Taktik/Technik
-        dauer: 30
-        titel: Schlagen aus dem Stand am Netz
-        inhalt: '**Ablauf:** Trainer wirft auf Pos IV. Spieler machen Stemmschritt aus dem Stand und schlagen mit Handgelenkseinsatz über das Netz.'
+        phase: Technik I
+        dauer: 10
+        titel: Pritschen allein (Kontakte zählen)
+        inhalt: |-
+          **Ablauf:** Jedes Kind mit eigenem Ball, Platz an Wand oder frei in der Halle. Nach jedem Versuch laut zählen.
+
+          * 🟢 Ball hochwerfen, über der Stirn fangen, sofort wieder hochdrücken (Fang-Pritschen). Ziel: 10 in Folge.
+          * 🔵 Pritschen über dem Kopf, Ball mind. 1 m hoch. Ziel: 20 in Folge.
+          * 🔴 Abwechselnd hoch (3 m) und niedrig (1 m) pritschen, oder pritschen gegen die Wand aus 2 m. Ziel: 30 in Folge.
+          * Kurz-Wiederholung: Jeder versucht seinen Abzeichen-Rekord zu verbessern.
+
+          **Trainer-Details:** Wichtigste Merkpunkte: Hände **vor** der Stirn, Ball kommt von oben in die Hände, Beine strecken mit. Wer das Ziel zweimal schafft, steigt eine Stufe auf.
+      - icon: 🎯
+        phase: Technik I
+        dauer: 20
+        titel: Aufschlag von unten mit Ziel
+        inhalt: |-
+          **Ablauf:** Paare an beiden Seiten des Netzes (bzw. Leine), je ein Ball pro Paar. Aufschlag aus der Distanz, die zur Stufe passt.
+
+          * 🟢 Aufschlag von unten aus 4–5 m Entfernung vom Netz.
+          * 🔵 Aufschlag von unten aus 6–7 m.
+          * 🔴 Aufschlag von unten von der Grundlinie, oder Einstieg Aufschlag von oben (Tennisaufschlag) aus 6 m.
+          * Ziel: Partner auf der anderen Seite soll den Ball fangen können, ohne mehr als einen Schritt zu machen.
+
+          **Trainer-Details:** Ball ruhig in der Hand halten, nicht hochwerfen. Schlagarm pendelt gerade nach vorn, Gewicht auf den vorderen Fuß. Wer 8 von 10 trifft, geht 1 m zurück.
+        varianten:
+          6-8: Alle gleichzeitig in Paaren, Trainer wirft bei Bedarf selbst einem Paar zu.
+          9-12: Paare an Wand, Netz und Hallenmitte verteilen. Bei Ballmangel 3er-Gruppen mit fliegendem Wechsel nach 10 Kontakten.
+      - icon: 🎯
+        phase: Technik II
+        dauer: 20
+        titel: Annahme zum Zuspieler
+        inhalt: |-
+          **Ablauf:** 3er-Gruppen: A schlägt von unten auf (oder wirft über das Netz), B nimmt mit Bagger an, C steht als Zuspieler am Netz und fängt.
+
+          * 🟢 A wirft über das Netz, Annahme darf einmal aufspringen.
+          * 🔵 A schlägt von unten auf, B nimmt direkt an.
+          * 🔴 C pritscht den angenommenen Ball zu B zurück, B fängt.
+          * Nach 6 Bällen rotieren: A → B → C → A.
+
+          **Trainer-Details:** Annahme hoch und in Richtung Netzmitte (Pos III). Lieber zu hoch als zu flach.
+        varianten:
+          6-8: Zwei 3er-Gruppen plus ein Paar; das Paar spielt die gleiche Aufgabe ohne Mittelmann.
+          9-12: Drei bis vier 3er-Gruppen gleichzeitig, jede mit eigenem Ball.
       - icon: 🏆
         phase: Abschlussspiel
-        dauer: 20
-        titel: Angriffs-Bingo
-        inhalt: '**Punkte-Regel:** Punkte zählen nur bei geschlagenem Ball oder aggressivem Angriff.'
+        dauer: 25
+        titel: 2:2 mit Aufschlag
+        inhalt: |-
+          **Ablauf:** 2:2 auf Kleinfeld (ca. 4,5 × 4,5 m pro Seite), Netz 2,00–2,10 m oder Leine.
+
+          * Jeder Ballwechsel beginnt mit Aufschlag von unten (Distanz nach Stufe).
+          * Aufschlagfehler: Aufschläger darf einmal wiederholen (2. Chance).
+          * 🟢 1. Kontakt fangen erlaubt. 🔵 Kein Fangen. 🔴 Drei Kontakte Pflicht.
+
+          **Trainer-Details:** Die „2. Chance“ sorgt dafür, dass das Spiel läuft und Einsteiger nicht frustriert sind.
+        varianten:
+          6-8: 2–3 Kleinfelder; wer gerade frei ist, zählt Punkte oder spielt Ballholer und wechselt nach jedem Spiel ein.
+          9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
+      - icon: 🧘
+        phase: Abschluss
+        dauer: 5
+        titel: Kontakt-Rekord & Stufen-Check
+        inhalt: |-
+          **Ablauf:** Kurz im Kreis sitzen.
+
+          * Jedes Kind nennt seinen besten Rekord von heute (z. B. „17 Pritschen in Folge“) und seine Stufe.
+          * Wer hat 8 von 10 Aufschlägen getroffen?
+
+          **Trainer-Details:** Rekorde und Aufsteiger kurz notieren. Lob für Verbesserung, nicht nur für die Besten.
     - name: TE 2
       tag: Freitag
       dauer: 120
-      titel: Der 3er-Anlauf & Läufer-Integration
+      titel: 'Annahme: hoch zur Mitte'
       uebungen:
       - icon: 🏃‍♂️
         phase: Warm-up
         dauer: 15
-        titel: Rhythmus-Schulung (ohne Netz)
-        inhalt: '**Ablauf:** Anlauf-Rhythmus trocken (''Links... Rechts-Links!''). Explosiver Doppelarmschwung nach oben.'
+        titel: Aufschlag-Fangen
+        inhalt: |-
+          **Ablauf:** Fangspiel in einem Volleyballfeld, 2 Fänger mit Leibchen.
+
+          * Die Fänger dürfen nur fangen, wenn sie dabei einen Ball von unten (Aufschlagbewegung) prellen. Geht auch mit Softball.
+          * Nach 2 Minuten neue Fänger. Danach 3 Minuten Mobilisation: Armkreisen, Ausfallschritte, Hampelmann, Hopserlauf.
+          * Zum Schluss jedes Kind mit Ball: 20x hochwerfen und in Pritschhaltung fangen.
+
+          **Trainer-Details:** Laufen, Reagieren und Ball in einem. Fänger wechseln oft, damit niemand lange „dran“ bleibt.
       - icon: 🎯
-        phase: Technik
-        dauer: 35
-        titel: Anlauf, Absprung & Schlag
-        inhalt: '**Ablauf:** Zuspieler stellt Bogenbälle von Pos III auf Pos IV. Angreifer läuft aus 3m-Distanz an, springt beidbeinig ab und schlägt über das Netz.'
-      - icon: 🧠
-        phase: Taktik
-        dauer: 35
-        titel: Hit or Lob
-        inhalt: '**Ablauf:** Trainer signalisiert Block. Hand oben = gezielter Lob; Hand unten = voller Schlag.'
-      - icon: 🧠
-        phase: Läufersystem
+        phase: Technik I
         dauer: 15
-        titel: Laufweg & Angriffskombination
-        inhalt: '**Ablauf:** Läufer sprintet aus Pos I an, stellt auf den anlaufenden Angreifer (Pos IV) und sichert den Angreifer anschließend ab.'
+        titel: Baggern allein (Brett bauen)
+        inhalt: |-
+          **Ablauf:** Jedes Kind mit eigenem Ball. Erst 1 Minute Brett zeigen: Hände ineinander, Daumen parallel, Arme gestreckt, Schultern nach vorn.
+
+          * 🟢 Ball aus 1 m auf das Brett fallen lassen, hochspringen lassen, fangen. Ziel: 10x sauber.
+          * 🔵 Bagger über dem Kopf, Ball mind. auf Kopfhöhe. Ziel: 15 in Folge.
+          * 🔴 Wechsel Bagger – Pritsche – Bagger. Ziel: 20 in Folge.
+          * Kurz-Wiederholung: Abzeichen-Rekord verbessern.
+
+          **Trainer-Details:** Arme bleiben fast still, gespielt wird aus den Beinen. Ball trifft die Unterarme oberhalb der Handgelenke.
+      - icon: 🎯
+        phase: Technik II
+        dauer: 20
+        titel: Annahme-Zielwurf
+        inhalt: |-
+          **Ablauf:** 3er-Gruppen ohne Netz: A wirft auf B, B baggert hoch in einen Reifen/zu C (Zuspielerposition).
+
+          * 🟢 Ball wird auf den Bauch geworfen.
+          * 🔵 Ball wird 1–2 Schritte seitlich geworfen.
+          * 🔴 A spielt von unten auf (Aufschlag aus 6 m).
+
+          **Trainer-Details:** Schultern Richtung Ziel, Brett früh. Ein Punkt für jeden Ball, den C ohne Schritt fangen kann.
+        varianten:
+          6-8: Zwei 3er-Gruppen plus ein Paar; das Paar spielt die gleiche Aufgabe ohne Mittelmann.
+          9-12: Drei bis vier 3er-Gruppen gleichzeitig, jede mit eigenem Ball.
+      - icon: 🎯
+        phase: Technik III
+        dauer: 15
+        titel: Aufschlag in Zonen
+        inhalt: |-
+          **Ablauf:** Paare an beiden Seiten des Netzes (bzw. Leine), je ein Ball pro Paar. Aufschlag aus der Distanz, die zur Stufe passt.
+
+          * 🟢 Aufschlag von unten aus 4–5 m Entfernung vom Netz.
+          * 🔵 Aufschlag von unten aus 6–7 m.
+          * 🔴 Aufschlag von unten von der Grundlinie, oder Einstieg Aufschlag von oben (Tennisaufschlag) aus 6 m.
+          * Ziel: Feld in vorne/hinten geteilt. Ansage „kurz“ oder „lang“, dann aufschlagen.
+
+          **Trainer-Details:** Ball ruhig in der Hand halten, nicht hochwerfen. Schlagarm pendelt gerade nach vorn, Gewicht auf den vorderen Fuß. Wer 8 von 10 trifft, geht 1 m zurück.
+        varianten:
+          6-8: Alle gleichzeitig in Paaren, Trainer wirft bei Bedarf selbst einem Paar zu.
+          9-12: Paare an Wand, Netz und Hallenmitte verteilen. Bei Ballmangel 3er-Gruppen mit fliegendem Wechsel nach 10 Kontakten.
+      - icon: 🧠
+        phase: Spielform
+        dauer: 20
+        titel: Aufschlag gegen Annahme (Mini-Duell)
+        inhalt: |-
+          **Ablauf:** Auf jedem Kleinfeld: 2 Aufschläger gegen 2 Annehmer + 1 Zuspieler am Netz.
+
+          * Annahme zum Zuspieler, der fängt: 1 Punkt für Annahme-Team.
+          * Aufschlag-Ass oder Annahmefehler: 1 Punkt für Aufschläger.
+          * Nach 8 Aufschlägen tauschen.
+
+          **Trainer-Details:** Stufen über die Aufschlagdistanz: Aufschläger wählen die Distanz so, dass sie treffen.
+        varianten:
+          6-8: 2–3 Kleinfelder; wer gerade frei ist, zählt Punkte oder spielt Ballholer und wechselt nach jedem Spiel ein.
+          9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
       - icon: 🏆
         phase: Abschlussspiel
-        dauer: 20
-        titel: Angriffs-Turnier
-        inhalt: '**Modus:** 3v3 / 4v4. Erfolgreiche Angriffsschläge zählen doppelt.'
+        dauer: 25
+        titel: 2:2 „Annahme zählt doppelt“
+        inhalt: |-
+          **Ablauf:** 2:2 auf Kleinfeld (ca. 4,5 × 4,5 m pro Seite), Netz 2,00–2,10 m oder Leine.
+
+          * Normales 2:2 mit Aufschlag.
+          * Punkt nach guter Annahme (Partner kann pritschen) zählt doppelt.
+          * Stufen wie in TE 1.
+
+          **Trainer-Details:** Damit wird die Annahme belohnt, nicht nur der Punkt.
+        varianten:
+          6-8: 2–3 Kleinfelder; wer gerade frei ist, zählt Punkte oder spielt Ballholer und wechselt nach jedem Spiel ein.
+          9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
+      - icon: 🧘
+        phase: Abschluss
+        dauer: 10
+        titel: Kontakt-Rekord & Stufen-Check
+        inhalt: |-
+          **Ablauf:** Kurz im Kreis sitzen.
+
+          * Jedes Kind nennt seinen besten Rekord von heute (z. B. „17 Pritschen in Folge“) und seine Stufe.
+          * Merksatz der Woche: „Annahme hoch zur Mitte.“
+
+          **Trainer-Details:** Rekorde und Aufsteiger kurz notieren. Lob für Verbesserung, nicht nur für die Besten.
   - name: Woche 2
     einheiten:
     - name: TE 3
       dauer: 90
-      titel: Aufschlag-Härte
+      titel: 'Zuspiel: der zweite Ball'
       uebungen:
       - icon: 🏃‍♂️
         phase: Warm-up
         dauer: 10
-        titel: Hechten & Block-Schatten
-        inhalt: '**Ablauf:** Blocksprung am Netz, landen, rückwärts ausweichen, Abwehrhecht.'
+        titel: 'Ballschule: Jeder hat einen Ball'
+        inhalt: |-
+          **Ablauf:** Jedes Kind mit eigenem Ball frei in der Halle, auf Pfiff wechselt die Aufgabe alle 45–60 Sekunden.
+
+          * Laufen und Ball beidhändig prellen, auf Pfiff tiefe Grundstellung, Ball dabei weiterprellen.
+          * Ball hochwerfen, darunterlaufen und **über der Stirn** fangen (Pritsch-Dreieck mit Daumen und Zeigefingern).
+          * Ball hochwerfen, hinsetzen, aufstehen, fangen. Danach: einmal klatschen, umdrehen, Boden berühren.
+          * Ball hochwerfen, darunter laufen, zum Netz drehen und pritschen.
+
+          **Trainer-Details:** Immer mit Ball: Im Kinder-Volleyball ist jedes Aufwärmen auch Ballgewöhnung. Kurze Aufgaben, viel Abwechslung, keine Runden ohne Ball.
+        varianten:
+          6-8: Trainer macht mit und gibt Tempo vor.
+          9-12: Zwei Kinder dürfen abwechselnd eine Aufgabe ansagen.
       - icon: 🎯
-        phase: Technik
-        dauer: 30
-        titel: Tennis-Aufschlag
-        inhalt: '**Ablauf:** Aufschlag von oben ab 3m-Linie. Bei 3 Treffern 1 Meter nach hinten rücken.'
+        phase: Technik I
+        dauer: 15
+        titel: Zuspiel am Netz
+        inhalt: |-
+          **Ablauf:** 3er-Gruppen: A wirft vom Feldmittelpunkt zum Netz, B (Zuspieler) läuft von rechts hinten nach Pos III und pritscht hoch zu C auf Pos IV, C fängt.
+
+          * 🟢 B fängt über der Stirn, dreht sich zu C und pritscht.
+          * 🔵 B pritscht direkt zu C.
+          * 🔴 Ziel: Ball 2 m über die Netzkante, 1 m vom Netz entfernt.
+
+          **Trainer-Details:** Zuspieler steht mit der rechten Schulter zum Netz, Gesicht zu Pos IV. Hoher Ball = Zeit für den Angreifer.
+        varianten:
+          6-8: Zwei 3er-Gruppen plus ein Paar; das Paar spielt die gleiche Aufgabe ohne Mittelmann.
+          9-12: Drei bis vier 3er-Gruppen gleichzeitig, jede mit eigenem Ball.
+      - icon: 🎯
+        phase: Technik II
+        dauer: 20
+        titel: Annahme – Zuspiel – Fangen
+        inhalt: |-
+          **Ablauf:** 3er-Gruppen am Netz: Trainer/Werfer von der anderen Seite, A nimmt an, B spielt zu, C fängt auf Pos IV.
+
+          * 🟢 Wurf über das Netz, Annahme darf gefangen und zum Zuspieler geworfen werden.
+          * 🔵 Volle Kette ohne Fangen.
+          * 🔴 C pritscht oder spielt den Ball über das Netz zurück (3. Kontakt).
+
+          **Trainer-Details:** Dies ist der Kern des Volleyballs. Nach 5 Bällen Positionen wechseln.
+        varianten:
+          6-8: Zwei 3er-Gruppen plus ein Paar; das Paar spielt die gleiche Aufgabe ohne Mittelmann.
+          9-12: Drei bis vier 3er-Gruppen gleichzeitig, jede mit eigenem Ball.
       - icon: 🧠
-        phase: Taktik
-        dauer: 30
-        titel: Aufschlag vs. Riegel
-        inhalt: '**Ablauf:** Team A serviert von oben. Team B kontrolliert die Annahme auf Pos III.'
+        phase: Spielform
+        dauer: 20
+        titel: 2:2 mit Zuspielerregel
+        inhalt: |-
+          **Ablauf:** 2:2 auf Kleinfeld (ca. 4,5 × 4,5 m pro Seite), Netz 2,00–2,10 m oder Leine.
+
+          * Der 2. Kontakt muss immer ein Pritschball sein.
+          * Wer nicht annimmt, spielt zu.
+          * 🟢 Zuspiel darf gefangen und geworfen werden. 🔵 Pritsche Pflicht. 🔴 3 Kontakte Pflicht.
+
+          **Trainer-Details:** Laut rufen: „Ich!“ bei der Annahme, „Hier!“ beim Zuspieler.
+        varianten:
+          6-8: 2–3 Kleinfelder; wer gerade frei ist, zählt Punkte oder spielt Ballholer und wechselt nach jedem Spiel ein.
+          9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
       - icon: 🏆
         phase: Abschlussspiel
         dauer: 20
-        titel: Aufschlag-Kaiser
-        inhalt: '**Ablauf:** Kaiserplatz-Turnier mit direktem Wechsel bei Aufschlag-Ass.'
+        titel: Kaiserturnier 2:2
+        inhalt: |-
+          **Ablauf:** Mehrere Kleinfelder nebeneinander (2:2). Feld 1 = Kaiserfeld, letztes Feld = Einsteigerfeld. Runden à 3 Minuten.
+
+          * Gewinner rutscht ein Feld hoch, Verlierer ein Feld runter.
+          * Kaiserfeld: Drei Kontakte Pflicht.
+          * Im Einsteigerfeld darf ein Ball pro Ballwechsel gefangen werden.
+
+          **Trainer-Details:** Nach 2–3 Runden spielen alle gegen ähnlich Starke, ohne dass jemand eingeteilt werden muss.
+        varianten:
+          6-8: 2–3 Kleinfelder; wer gerade frei ist, zählt Punkte oder spielt Ballholer und wechselt nach jedem Spiel ein.
+          9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
+      - icon: 🧘
+        phase: Abschluss
+        dauer: 5
+        titel: Kontakt-Rekord & Stufen-Check
+        inhalt: |-
+          **Ablauf:** Kurz im Kreis sitzen.
+
+          * Jedes Kind nennt seinen besten Rekord von heute (z. B. „17 Pritschen in Folge“) und seine Stufe.
+          * Wer hat heute die meisten Zuspiele gemacht?
+
+          **Trainer-Details:** Rekorde und Aufsteiger kurz notieren. Lob für Verbesserung, nicht nur für die Besten.
     - name: TE 4
       tag: Freitag
       dauer: 120
-      titel: Komplex-Training & Sicherung
+      titel: Drei Kontakte im 2:2
       uebungen:
       - icon: 🏃‍♂️
         phase: Warm-up
         dauer: 15
-        titel: Reaktions-Baggern & Sprints (ohne Netz)
-        inhalt: '**Ablauf:** Schnelle Sidesteps, Spielbrett stabilisieren, Antritte.'
+        titel: Pritsch-Staffel
+        inhalt: |-
+          **Ablauf:** Gruppen à 3 Kinder an der Grundlinie, Hütchen bei 9 m. Danach 3 Minuten Mobilisation.
+
+          * Runde 1: Ball über der Stirn in Pritschhaltung tragen, ums Hütchen, zurück.
+          * Runde 2: Ball unterwegs 3x hochwerfen und über der Stirn fangen.
+          * 🟢/🔵/🔴 Runde 3: Fang-Pritschen, Pritschen im Gehen oder Pritschen im Laufen.
+
+          **Trainer-Details:** Kleine Gruppen, damit niemand lange wartet. Lieber 5 kurze Runden als 2 lange.
       - icon: 🎯
-        phase: Technik
-        dauer: 35
-        titel: Freeball-Kill im Ablauf
-        inhalt: '**Ablauf:** Dankeball -> Annahme Pos I/IV zu Pos III -> Zuspiel auf Pos IV/II -> Schlagangriff.'
-      - icon: 🧠
-        phase: Taktik
-        dauer: 35
-        titel: Die Angriffssicherung
-        inhalt: '**Ablauf:** Angreifer schlägt in Kasten-Block. Mitspieler sichern tief am Boden ab.'
-      - icon: 🧠
-        phase: Läufersystem
+        phase: Technik I
         dauer: 15
-        titel: Out-of-System Zuspieler
-        inhalt: '**Ablauf:** Läufer sprintet auf ungenauen Ball, muss sich im Lauf auf den Angreifer neu ausrichten und das Zuspiel aus der Distanz stellen.'
+        titel: Pritschen im Paar mit Netz
+        inhalt: |-
+          **Ablauf:** Paare über das Netz, 2 Kontakte pro Seite (Selbstpass + rüber).
+
+          * 🟢 Selbstpass darf gefangen werden. 🔵 Durchgehend. 🔴 3 Kontakte allein (Bagger – Pritsche – rüber).
+
+          **Trainer-Details:** Das ist die Brücke zum Spiel: kontrollieren, dann spielen.
+        varianten:
+          6-8: Alle gleichzeitig in Paaren, Trainer wirft bei Bedarf selbst einem Paar zu.
+          9-12: Paare an Wand, Netz und Hallenmitte verteilen. Bei Ballmangel 3er-Gruppen mit fliegendem Wechsel nach 10 Kontakten.
+      - icon: 🎯
+        phase: Technik II
+        dauer: 20
+        titel: Rund um die Positionen
+        inhalt: |-
+          **Ablauf:** 3er-Gruppen: Annahme (Pos V) – Zuspiel (Pos III) – Pass zurück über das Netz (Pos IV). Nach jedem Ball eine Position weiter.
+
+          * 🟢 Werfen über das Netz, jeder Kontakt darf einmal gefangen werden.
+          * 🔵 Aufschlag von unten, kein Fangen.
+          * 🔴 3. Kontakt muss gezielt in eine Zone gespielt werden.
+
+          **Trainer-Details:** Jedes Kind kommt auf jede Position. Positionsspezialisierung ist in der U13 nicht das Ziel.
+        varianten:
+          6-8: Zwei 3er-Gruppen plus ein Paar; das Paar spielt die gleiche Aufgabe ohne Mittelmann.
+          9-12: Drei bis vier 3er-Gruppen gleichzeitig, jede mit eigenem Ball.
+      - icon: 🎯
+        phase: Technik III
+        dauer: 15
+        titel: Aufschlag-Challenge
+        inhalt: |-
+          **Ablauf:** Paare an beiden Seiten des Netzes (bzw. Leine), je ein Ball pro Paar. Aufschlag aus der Distanz, die zur Stufe passt.
+
+          * 🟢 Aufschlag von unten aus 4–5 m Entfernung vom Netz.
+          * 🔵 Aufschlag von unten aus 6–7 m.
+          * 🔴 Aufschlag von unten von der Grundlinie, oder Einstieg Aufschlag von oben (Tennisaufschlag) aus 6 m.
+          * Ziel: 10 Aufschläge, jeder Treffer in die hintere Feldhälfte zählt 2 Punkte, vordere Hälfte 1 Punkt.
+
+          **Trainer-Details:** Ball ruhig in der Hand halten, nicht hochwerfen. Schlagarm pendelt gerade nach vorn, Gewicht auf den vorderen Fuß. Wer 8 von 10 trifft, geht 1 m zurück.
+        varianten:
+          6-8: Alle gleichzeitig in Paaren, Trainer wirft bei Bedarf selbst einem Paar zu.
+          9-12: Paare an Wand, Netz und Hallenmitte verteilen. Bei Ballmangel 3er-Gruppen mit fliegendem Wechsel nach 10 Kontakten.
+      - icon: 🧠
+        phase: Spielform
+        dauer: 20
+        titel: 2:2 nur mit 3 Kontakten
+        inhalt: |-
+          **Ablauf:** 2:2 auf Kleinfeld (ca. 4,5 × 4,5 m pro Seite), Netz 2,00–2,10 m oder Leine.
+
+          * Punkt zählt nur, wenn das Team 3 Kontakte gespielt hat (sonst Wiederholung).
+          * 🟢 Ein Kontakt darf gefangen werden.
+
+          **Trainer-Details:** Fehler beim 3-Kontakte-Versuch werden nicht bestraft. Lange Ballwechsel = viele Kontakte.
+        varianten:
+          6-8: 2–3 Kleinfelder; wer gerade frei ist, zählt Punkte oder spielt Ballholer und wechselt nach jedem Spiel ein.
+          9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
       - icon: 🏆
         phase: Abschlussspiel
-        dauer: 20
-        titel: Wash-Game Extrem
-        inhalt: '**Ablauf:** 2 Rallyes in Folge für Punktgewinn.'
+        dauer: 25
+        titel: 3:3 kennenlernen
+        inhalt: |-
+          **Ablauf:** 3:3 auf Feld ca. 6 × 6 m pro Seite. Ein Spieler vorn (Zuspieler), zwei hinten.
+
+          * Nach jedem Aufschlagwechsel des eigenen Teams eine Position weiterrotieren.
+          * 🟢 Annahme darf gefangen werden. 🔵 Kein Fangen. 🔴 3 Kontakte Pflicht.
+
+          **Trainer-Details:** Erstes Kennenlernen des 3:3 aus der RTK-Spielreihe: Wer ist vorn, wer hinten? Viele kurze Spiele bis 7.
+        varianten:
+          6-8: Ein Feld 3:3, übrige Kinder spielen 1:1 nebenan und wechseln nach jedem Spiel.
+          9-12: Zwei Felder 3:3, Teams gemischt.
+      - icon: 🧘
+        phase: Abschluss
+        dauer: 10
+        titel: Kontakt-Rekord & Stufen-Check
+        inhalt: |-
+          **Ablauf:** Kurz im Kreis sitzen.
+
+          * Jedes Kind nennt seinen besten Rekord von heute (z. B. „17 Pritschen in Folge“) und seine Stufe.
+          * Frage: Wer steht im 3:3 vorne und was macht er?
+
+          **Trainer-Details:** Rekorde und Aufsteiger kurz notieren. Lob für Verbesserung, nicht nur für die Besten.
   - name: Woche 3
     einheiten:
     - name: TE 5
       dauer: 90
-      titel: Reaktion & Abwehr
+      titel: Aufschlag von oben (Einführung)
       uebungen:
-      - icon: 🎾
+      - icon: 🏃‍♂️
         phase: Warm-up
         dauer: 10
-        titel: 1v1 Kreatives Tennis Game
-        inhalt: '**Ablauf:** 1v1 mit 1x Bodenkontakt in Kleinfeldschläuchen.'
+        titel: 'Ballschule: Jeder hat einen Ball'
+        inhalt: |-
+          **Ablauf:** Jedes Kind mit eigenem Ball frei in der Halle, auf Pfiff wechselt die Aufgabe alle 45–60 Sekunden.
+
+          * Laufen und Ball beidhändig prellen, auf Pfiff tiefe Grundstellung, Ball dabei weiterprellen.
+          * Ball hochwerfen, darunterlaufen und **über der Stirn** fangen (Pritsch-Dreieck mit Daumen und Zeigefingern).
+          * Ball hochwerfen, hinsetzen, aufstehen, fangen. Danach: einmal klatschen, umdrehen, Boden berühren.
+          * Ball mit einer Hand hochwerfen (Ballwurf für den Aufschlag), Ball soll vor dem Schlagarm landen.
+
+          **Trainer-Details:** Immer mit Ball: Im Kinder-Volleyball ist jedes Aufwärmen auch Ballgewöhnung. Kurze Aufgaben, viel Abwechslung, keine Runden ohne Ball.
+        varianten:
+          6-8: Trainer macht mit und gibt Tempo vor.
+          9-12: Zwei Kinder dürfen abwechselnd eine Aufgabe ansagen.
       - icon: 🎯
-        phase: Technik
-        dauer: 30
-        titel: Schmetter-Abwehr
-        inhalt: '**Ablauf:** Spieler stehen tief auf Pos I/IV. Trainer schlägt gezielt an. Ruhiges Brett halten.'
+        phase: Technik I
+        dauer: 20
+        titel: Vom Schlagwurf zum Tennisaufschlag
+        inhalt: |-
+          **Ablauf:** Paare, 6 m Abstand, ohne Netz.
+
+          * 🟢 Schlagwurf: Ball mit einer Hand über Kopf zum Partner werfen, Ellbogen hoch.
+          * 🔵 Ball hochwerfen (Hochwurf ca. 50 cm über Kopf) und mit flacher Hand zum Partner schlagen.
+          * 🔴 Wie 🔵, aber über das Netz aus 6–7 m, Ziel Zone hinten.
+
+          **Trainer-Details:** Hochwurf vor die Schlagschulter, Treffpunkt vor dem Kopf mit gestrecktem Arm. Wer von oben noch nicht trifft, bleibt beim sicheren Aufschlag von unten im Spiel.
+        varianten:
+          6-8: Alle gleichzeitig in Paaren, Trainer wirft bei Bedarf selbst einem Paar zu.
+          9-12: Paare an Wand, Netz und Hallenmitte verteilen. Bei Ballmangel 3er-Gruppen mit fliegendem Wechsel nach 10 Kontakten.
+      - icon: 🎯
+        phase: Technik II
+        dauer: 15
+        titel: Annahme von oben geschlagenen Bällen
+        inhalt: |-
+          **Ablauf:** 3er-Gruppen: A schlägt auf (von unten oder oben nach Stufe), B nimmt an, C fängt als Zuspieler.
+
+          * 🟢 Aufschlag von unten. 🔵 Gemischt. 🔴 Aufschlag von oben, Annahme muss C ohne Schritt erreichen.
+
+          **Trainer-Details:** Annahmespieler steht tief, Gewicht vorne, Brett früh.
+        varianten:
+          6-8: Zwei 3er-Gruppen plus ein Paar; das Paar spielt die gleiche Aufgabe ohne Mittelmann.
+          9-12: Drei bis vier 3er-Gruppen gleichzeitig, jede mit eigenem Ball.
       - icon: 🧠
-        phase: Taktik
-        dauer: 30
-        titel: Abwehr -> Transition
-        inhalt: '**Ablauf:** Harter Angriff -> Abwehr auf Pos III -> Zuspiel -> Gegenangriff über Pos IV.'
+        phase: Spielform
+        dauer: 20
+        titel: 3:3 mit Zuspieler vorn
+        inhalt: |-
+          **Ablauf:** 3:3 auf Feld ca. 6 × 6 m pro Seite. Der vordere Spieler macht immer das Zuspiel.
+
+          * Annahme von hinten zum Zuspieler, Zuspiel zum hinteren Spieler, der rüberspielt.
+          * 🟢 Annahme darf gefangen werden. 🔵 Kein Fangen. 🔴 3. Ball muss geschlagen werden (Schlag aus dem Stand oder Lob).
+
+          **Trainer-Details:** Wenn der Zuspieler annehmen muss, spielt ein Hinterspieler zu. Laut rufen!
+        varianten:
+          6-8: 2–3 Kleinfelder; wer gerade frei ist, zählt Punkte oder spielt Ballholer und wechselt nach jedem Spiel ein.
+          9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
       - icon: 🏆
         phase: Abschlussspiel
         dauer: 20
-        titel: Abwehr-König
-        inhalt: '**Sonderregel:** Abwehraktionen mit erfolgreichem Gegenangriff geben 2 Punkte.'
+        titel: Kaiserturnier 3:3
+        inhalt: |-
+          **Ablauf:** Mehrere Kleinfelder nebeneinander (3:3). Feld 1 = Kaiserfeld, letztes Feld = Einsteigerfeld. Runden à 3 Minuten.
+
+          * Gewinner rutscht ein Feld hoch, Verlierer ein Feld runter.
+          * Aufschlag wählt jedes Kind selbst (von unten oder oben).
+          * Im Einsteigerfeld darf ein Ball pro Ballwechsel gefangen werden.
+
+          **Trainer-Details:** Nach 2–3 Runden spielen alle gegen ähnlich Starke, ohne dass jemand eingeteilt werden muss.
+        varianten:
+          6-8: 2–3 Kleinfelder; wer gerade frei ist, zählt Punkte oder spielt Ballholer und wechselt nach jedem Spiel ein.
+          9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
+      - icon: 🧘
+        phase: Abschluss
+        dauer: 5
+        titel: Kontakt-Rekord & Stufen-Check
+        inhalt: |-
+          **Ablauf:** Kurz im Kreis sitzen.
+
+          * Jedes Kind nennt seinen besten Rekord von heute (z. B. „17 Pritschen in Folge“) und seine Stufe.
+          * Wer hat seinen ersten Aufschlag von oben über das Netz geschlagen?
+
+          **Trainer-Details:** Rekorde und Aufsteiger kurz notieren. Lob für Verbesserung, nicht nur für die Besten.
     - name: TE 6
       tag: Freitag
       dauer: 120
-      titel: Block-Timing & Feldverteidigung
+      titel: 3:3 mit Aufschlag und Annahme
       uebungen:
       - icon: 🏃‍♂️
         phase: Warm-up
         dauer: 15
-        titel: 1v1 Tennis Auf-/Absteiger
-        inhalt: '**Ablauf:** Kreatives Tennis-Game im Turniermodus.'
+        titel: Zonenfangen
+        inhalt: |-
+          **Ablauf:** Fangspiel in einem Volleyballfeld, 2 Fänger mit Leibchen.
+
+          * Feld ist in 6 Zonen (wie die Positionen) geteilt. Fänger ruft eine Zone, alle müssen dorthin laufen, wer zuletzt kommt, wird Fänger.
+          * Nach 2 Minuten neue Fänger. Danach 3 Minuten Mobilisation: Armkreisen, Ausfallschritte, Hampelmann, Hopserlauf.
+          * Zum Schluss jedes Kind mit Ball: 20x hochwerfen und in Pritschhaltung fangen.
+
+          **Trainer-Details:** Laufen, Reagieren und Ball in einem. Fänger wechseln oft, damit niemand lange „dran“ bleibt.
       - icon: 🎯
-        phase: Technik
-        dauer: 35
-        titel: Der 1er- und 2er-Block
-        inhalt: '**Ablauf:** Timing beim Absprung am Netz (Pos III/II), Hände übergreifen.'
-      - icon: 🧠
-        phase: Taktik
-        dauer: 35
-        titel: Block-Abwehr Abstimmung
-        inhalt: '**Ablauf:** U14 stellt Doppelblock, U13 stellt 1er-Block mit Feldabwehr dahinter (Pos I und IV).'
-      - icon: 🧠
-        phase: Läufersystem
+        phase: Technik II
         dauer: 15
-        titel: Transition nach Block
-        inhalt: '**Ablauf:** Läufer sichert hinter dem Block. Nach gegnerischem Angriff sofortiges Vorlaufen an Netz zur Spielgestaltung.'
+        titel: Einspielen Bagger/Pritsche
+        inhalt: |-
+          **Ablauf:** Paare, freies Einspielen, Trainer gibt Wechsel vor.
+
+          * 🟢/🔵/🔴 nach Abzeichen aus Monat 1.
+
+          **Trainer-Details:** Kurze Wiederholung der Basics; jedes Kind versucht 5 Kontakte mehr als beim Abzeichen.
+        varianten:
+          6-8: Alle gleichzeitig in Paaren, Trainer wirft bei Bedarf selbst einem Paar zu.
+          9-12: Paare an Wand, Netz und Hallenmitte verteilen. Bei Ballmangel 3er-Gruppen mit fliegendem Wechsel nach 10 Kontakten.
+      - icon: 🎯
+        phase: Technik II
+        dauer: 15
+        titel: Aufschlag-Serien
+        inhalt: |-
+          **Ablauf:** Paare an beiden Seiten des Netzes (bzw. Leine), je ein Ball pro Paar. Aufschlag aus der Distanz, die zur Stufe passt.
+
+          * 🟢 Aufschlag von unten aus 4–5 m Entfernung vom Netz.
+          * 🔵 Aufschlag von unten aus 6–7 m.
+          * 🔴 Aufschlag von unten von der Grundlinie, oder Einstieg Aufschlag von oben (Tennisaufschlag) aus 6 m.
+          * Ziel: 5 Aufschläge in Folge ohne Fehler. Wer es schafft, wählt eine schwierigere Zone oder Aufschlag von oben.
+
+          **Trainer-Details:** Ball ruhig in der Hand halten, nicht hochwerfen. Schlagarm pendelt gerade nach vorn, Gewicht auf den vorderen Fuß. Wer 8 von 10 trifft, geht 1 m zurück.
+        varianten:
+          6-8: Alle gleichzeitig in Paaren, Trainer wirft bei Bedarf selbst einem Paar zu.
+          9-12: Paare an Wand, Netz und Hallenmitte verteilen. Bei Ballmangel 3er-Gruppen mit fliegendem Wechsel nach 10 Kontakten.
+      - icon: 🎯
+        phase: Technik II
+        dauer: 20
+        titel: Annahme im 3er-Riegel
+        inhalt: |-
+          **Ablauf:** Auf jedem Feld: 3 Annehmer (Pos I, VI, V) gegen Aufschläger, ein Zuspieler am Netz.
+
+          * Annehmer rufen „Ich!“, wer nicht annimmt, öffnet sich zum Annehmer.
+          * 🟢 Zuspieler fängt. 🔵 Zuspieler pritscht zu Pos IV. 🔴 Zuspiel wird verwertet (über das Netz).
+
+          **Trainer-Details:** Absprache: Bälle zwischen zwei Spielern nimmt der, der weiter zur Mitte steht.
+        varianten:
+          6-8: Zwei 3er-Gruppen plus ein Paar; das Paar spielt die gleiche Aufgabe ohne Mittelmann.
+          9-12: Drei bis vier 3er-Gruppen gleichzeitig, jede mit eigenem Ball.
+      - icon: 🧠
+        phase: Spielform
+        dauer: 20
+        titel: 3:3 Kontakt-Bonus
+        inhalt: |-
+          **Ablauf:** 3:3 auf Kleinfeld.
+
+          * Punkt zählt 2, wenn alle drei Spieler den Ball berührt haben.
+          * Einsteiger dürfen den ersten Ball fangen.
+
+          **Trainer-Details:** Der Bonus bringt Starke dazu, Schwächere einzubinden statt alles selbst zu spielen.
+        varianten:
+          6-8: 2–3 Kleinfelder; wer gerade frei ist, zählt Punkte oder spielt Ballholer und wechselt nach jedem Spiel ein.
+          9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
       - icon: 🏆
         phase: Abschlussspiel
-        dauer: 20
-        titel: Block & Defense Match
-        inhalt: '**Modus:** 3v3 / 4v4. Kill-Blocks zählen doppelt.'
+        dauer: 25
+        titel: 3:3 Turnier (Kurzspiele)
+        inhalt: |-
+          **Ablauf:** Teams für heute fest, Spiele auf Zeit (5 Minuten), danach Gegner wechseln.
+
+          * Aufschlag von unten oder oben nach Wahl.
+          * Stufen-Regeln wie in TE 5.
+
+          **Trainer-Details:** Spielstände notieren. Fair-Play-Punkt für das Team, das am lautesten kommuniziert.
+        varianten:
+          6-8: 2–3 Kleinfelder; wer gerade frei ist, zählt Punkte oder spielt Ballholer und wechselt nach jedem Spiel ein.
+          9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
+      - icon: 🧘
+        phase: Abschluss
+        dauer: 10
+        titel: Kontakt-Rekord & Stufen-Check
+        inhalt: |-
+          **Ablauf:** Kurz im Kreis sitzen.
+
+          * Jedes Kind nennt seinen besten Rekord von heute (z. B. „17 Pritschen in Folge“) und seine Stufe.
+          * Nächste Woche ist Check-Woche. Jedes Kind wählt sein Aufschlag-Ziel.
+
+          **Trainer-Details:** Rekorde und Aufsteiger kurz notieren. Lob für Verbesserung, nicht nur für die Besten.
   - name: Woche 4
     einheiten:
     - name: TE 7
       dauer: 90
-      titel: Entscheidungsfindung
+      titel: 'Check-Woche: Aufschlag & Annahme'
       uebungen:
       - icon: 🏃‍♂️
         phase: Warm-up
         dauer: 10
-        titel: 1v1 Tennis Game
-        inhalt: '**Ablauf:** Schnelles Warm-up im 1-gegen-1.'
+        titel: 'Ballschule: Jeder hat einen Ball'
+        inhalt: |-
+          **Ablauf:** Jedes Kind mit eigenem Ball frei in der Halle, auf Pfiff wechselt die Aufgabe alle 45–60 Sekunden.
+
+          * Laufen und Ball beidhändig prellen, auf Pfiff tiefe Grundstellung, Ball dabei weiterprellen.
+          * Ball hochwerfen, darunterlaufen und **über der Stirn** fangen (Pritsch-Dreieck mit Daumen und Zeigefingern).
+          * Ball hochwerfen, hinsetzen, aufstehen, fangen. Danach: einmal klatschen, umdrehen, Boden berühren.
+          * Alle Ballschul-Aufgaben des Monats.
+
+          **Trainer-Details:** Immer mit Ball: Im Kinder-Volleyball ist jedes Aufwärmen auch Ballgewöhnung. Kurze Aufgaben, viel Abwechslung, keine Runden ohne Ball.
+        varianten:
+          6-8: Trainer macht mit und gibt Tempo vor.
+          9-12: Zwei Kinder dürfen abwechselnd eine Aufgabe ansagen.
       - icon: 🎯
-        phase: Technik
-        dauer: 30
-        titel: Hit or Lob Präzision
-        inhalt: '**Ablauf:** Blitzschnelle Entscheidung: Harter Schlag oder Lob über den Block.'
-      - icon: 🧠
-        phase: Taktik
-        dauer: 30
-        titel: Systemprüfung unter Druck
-        inhalt: '**Ablauf:** Annahme -> Zuspiel -> Angriff fehlerfrei durchbringen.'
+        phase: Technik I
+        dauer: 25
+        titel: Abzeichen Aufschlag & Annahme
+        inhalt: |-
+          **Ablauf:** Stationen mit Zähler-Kindern, Ergebnisse auf die Liste vom Monat 1.
+
+          * Station 1: 10 Aufschläge von der gewählten Distanz – Treffer zählen.
+          * Station 2: 10 Annahmen (Zuwurf/Aufschlag) – wie viele erreicht der Zuspieler?
+          * Station 3: 10 Zuspiele vom Netz zu Pos IV – wie viele sind hoch und fangbar?
+          * 🟢 5 / 🔵 7 / 🔴 9 Treffer pro Station.
+
+          **Trainer-Details:** Die Distanz beim Aufschlag gehört zum Ergebnis (z. B. „7 von 10 aus 6 m“).
+        varianten:
+          6-8: Zwei Stationen gleichzeitig, Trainer an Station 3.
+          9-12: Drei Stationen gleichzeitig.
+      - icon: 🎯
+        phase: Technik II
+        dauer: 15
+        titel: Freies Üben der schwächsten Station
+        inhalt: |-
+          **Ablauf:** Jedes Kind übt in einer 3er-Gruppe die Station, die ihm am schwersten fiel.
+
+          * Trainer korrigiert genau einen Punkt pro Kind.
+
+          **Trainer-Details:** Individuelles Feedback geht vor neuer Übung.
+        varianten:
+          6-8: Zwei 3er-Gruppen plus ein Paar; das Paar spielt die gleiche Aufgabe ohne Mittelmann.
+          9-12: Drei bis vier 3er-Gruppen gleichzeitig, jede mit eigenem Ball.
       - icon: 🏆
         phase: Abschlussspiel
-        dauer: 20
-        titel: TuB Bocholt Liga
-        inhalt: '**Turnier:** Reiner Wettkampf 3v3 / 4v4.'
+        dauer: 35
+        titel: Kaiserturnier 3:3
+        inhalt: |-
+          **Ablauf:** Mehrere Kleinfelder nebeneinander (3:3). Feld 1 = Kaiserfeld, letztes Feld = Einsteigerfeld. Runden à 3 Minuten.
+
+          * Gewinner rutscht ein Feld hoch, Verlierer ein Feld runter.
+          * Kaiserfeld: Drei Kontakte Pflicht, Aufschlag von oben gibt einen Bonuspunkt bei Treffer.
+          * Im Einsteigerfeld darf ein Ball pro Ballwechsel gefangen werden.
+
+          **Trainer-Details:** Nach 2–3 Runden spielen alle gegen ähnlich Starke, ohne dass jemand eingeteilt werden muss.
+        varianten:
+          6-8: 2–3 Kleinfelder; wer gerade frei ist, zählt Punkte oder spielt Ballholer und wechselt nach jedem Spiel ein.
+          9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
+      - icon: 🧘
+        phase: Abschluss
+        dauer: 5
+        titel: Kontakt-Rekord & Stufen-Check
+        inhalt: |-
+          **Ablauf:** Kurz im Kreis sitzen.
+
+          * Jedes Kind nennt seinen besten Rekord von heute (z. B. „17 Pritschen in Folge“) und seine Stufe.
+          * Abzeichen verkünden.
+
+          **Trainer-Details:** Rekorde und Aufsteiger kurz notieren. Lob für Verbesserung, nicht nur für die Besten.
     - name: TE 8
       tag: Freitag
       dauer: 120
-      titel: Das große Finale
+      titel: Monatsturnier 3:3
       uebungen:
       - icon: 🏃‍♂️
         phase: Warm-up
         dauer: 15
-        titel: Pre-Game Routine & Einschlagen
-        inhalt: '**Ablauf:** Offizieller Spieltags-Ablauf.'
+        titel: Lieblings-Fangspiel
+        inhalt: |-
+          **Ablauf:** Fangspiel in einem Volleyballfeld, 2 Fänger mit Leibchen.
+
+          * Kinder wählen eines der Fangspiele aus den letzten Wochen.
+          * Nach 2 Minuten neue Fänger. Danach 3 Minuten Mobilisation: Armkreisen, Ausfallschritte, Hampelmann, Hopserlauf.
+          * Zum Schluss jedes Kind mit Ball: 20x hochwerfen und in Pritschhaltung fangen.
+
+          **Trainer-Details:** Laufen, Reagieren und Ball in einem. Fänger wechseln oft, damit niemand lange „dran“ bleibt.
       - icon: 🎯
-        phase: Technik
-        dauer: 35
-        titel: Nervenstarker Aufschlag
-        inhalt: '**Ablauf:** 5 harte Aufschläge fehlerfrei ins Zielfeld platzieren.'
-      - icon: 🧠
-        phase: Taktik
-        dauer: 35
-        titel: Match-Taktik & Coaching
-        inhalt: '**Ablauf:** Teams analysieren Lücken selbstständig.'
-      - icon: 🧠
-        phase: System-Check & Cool-down
+        phase: Technik I
         dauer: 15
-        inhalt: '**Ablauf:** Finale Läufer-Besprechung, Block-Absprachen und Cool-down.'
+        titel: Einspielen wie vor einem Spiel
+        inhalt: |-
+          **Ablauf:** Paare: Pritschen, Baggern, dann Aufschläge über das Netz.
+
+          **Trainer-Details:** Ablauf merken: Diesen Einspiel-Ablauf nutzen wir ab jetzt vor jedem Turnier.
+        varianten:
+          6-8: Alle gleichzeitig in Paaren, Trainer wirft bei Bedarf selbst einem Paar zu.
+          9-12: Paare an Wand, Netz und Hallenmitte verteilen. Bei Ballmangel 3er-Gruppen mit fliegendem Wechsel nach 10 Kontakten.
+      - icon: 🎯
+        phase: Technik II
+        dauer: 15
+        titel: Kooperativ-Rekord 3:3
+        inhalt: |-
+          **Ablauf:** Zwei 3er-Teams spielen kooperativ über das Netz, je Seite 3 Kontakte. Wie viele Überquerungen?
+
+          * Hallenrekord aus Monat 1 knacken (dort im 2:2).
+
+          **Trainer-Details:** Kinder feiern lassen, wenn der Rekord fällt.
+        varianten:
+          6-8: 2–3 Kleinfelder; wer gerade frei ist, zählt Punkte oder spielt Ballholer und wechselt nach jedem Spiel ein.
+          9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
       - icon: 🏆
         phase: Abschlussspiel
-        dauer: 20
-        titel: Meisterschaft
-        inhalt: '**Wettkampf:** 2 Gewinnsätze bis 15 Punkte.'
+        dauer: 60
+        titel: Monatsturnier 3:3
+        inhalt: |-
+          **Ablauf:** Ausgeloste, gemischte 3er-Teams. Gruppenphase (5 Minuten pro Spiel), dann Platzierungsspiele.
+
+          * Aufschlag nach Stufe (von unten oder oben).
+          * Punkt mit 3 Kontakten zählt 2.
+          * Pausierende Teams pfeifen und zählen.
+
+          **Trainer-Details:** Kinder als Schiedsrichter einsetzen. Am Ende Siegerehrung und Fair-Play-Preis.
+        varianten:
+          6-8: 2–3 Kleinfelder; wer gerade frei ist, zählt Punkte oder spielt Ballholer und wechselt nach jedem Spiel ein.
+          9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
+      - icon: 🧘
+        phase: Abschluss
+        dauer: 15
+        titel: Kontakt-Rekord & Stufen-Check
+        inhalt: |-
+          **Ablauf:** Kurz im Kreis sitzen.
+
+          * Jedes Kind nennt seinen besten Rekord von heute (z. B. „17 Pritschen in Folge“) und seine Stufe.
+          * Monatsrückblick: Welche Aufschlag-Distanz schaffe ich jetzt? Siegerehrung.
+
+          **Trainer-Details:** Rekorde und Aufsteiger kurz notieren. Lob für Verbesserung, nicht nur für die Besten.
 - name: Monat 3
-  thema: Out-of-System & Match-Speed
-  titel: Lösungen unter Stress & hohes Tempo
+  thema: 'Angreifen & Spielen: Schlagwurf, Angriff und Abwehr im 3:3 und 4:4'
+  titel: Angreifen und Spielen
   wochen:
   - name: Woche 1
     einheiten:
     - name: TE 1
       dauer: 90
-      titel: Chaos-Management
+      titel: Schlagwurf und Schlag aus dem Stand
       uebungen:
       - icon: 🏃‍♂️
         phase: Warm-up
         dauer: 10
-        titel: Blickkontrolle (ohne Netz)
-        inhalt: '**Ablauf:** Paarweises Baggern mit Fingerzeichen für periphere Sicht.'
+        titel: 'Ballschule: Jeder hat einen Ball'
+        inhalt: |-
+          **Ablauf:** Jedes Kind mit eigenem Ball frei in der Halle, auf Pfiff wechselt die Aufgabe alle 45–60 Sekunden.
+
+          * Laufen und Ball beidhändig prellen, auf Pfiff tiefe Grundstellung, Ball dabei weiterprellen.
+          * Ball hochwerfen, darunterlaufen und **über der Stirn** fangen (Pritsch-Dreieck mit Daumen und Zeigefingern).
+          * Ball hochwerfen, hinsetzen, aufstehen, fangen. Danach: einmal klatschen, umdrehen, Boden berühren.
+          * Ball einhändig über Kopf hochwerfen und mit der anderen Hand über Kopf fangen (Schlagarm-Gefühl).
+
+          **Trainer-Details:** Immer mit Ball: Im Kinder-Volleyball ist jedes Aufwärmen auch Ballgewöhnung. Kurze Aufgaben, viel Abwechslung, keine Runden ohne Ball.
+        varianten:
+          6-8: Trainer macht mit und gibt Tempo vor.
+          9-12: Zwei Kinder dürfen abwechselnd eine Aufgabe ansagen.
       - icon: 🎯
-        phase: Technik
-        dauer: 30
-        titel: Out-of-System Notpass
-        inhalt: '**Ablauf:** Trainer wirft tief ins Hinterfeld (Pos I). Hoher Not-Bagger an die Antenne zu Pos IV.'
+        phase: Technik I
+        dauer: 20
+        titel: Schlagwurf zum Schlag
+        inhalt: |-
+          **Ablauf:** Paare, 5 m Abstand, Wand oder über das Netz.
+
+          * 🟢 Schlagwurf: Ball über Kopf mit Schlagarm zum Partner werfen, Ellbogen hoch.
+          * 🔵 Ball selbst hochwerfen und aus dem Stand mit flacher Hand vor den Partner auf den Boden schlagen (Ball springt zum Partner).
+          * 🔴 Dauerschlag gegen die Wand: Ball schlagen, Wand, Boden, wieder schlagen. Ziel 10 in Folge.
+
+          **Trainer-Details:** Ellbogen über Schulterhöhe, Treffpunkt vor dem Kopf, Handgelenk locker, „Hand über den Ball“.
+        varianten:
+          6-8: Alle gleichzeitig in Paaren, Trainer wirft bei Bedarf selbst einem Paar zu.
+          9-12: Paare an Wand, Netz und Hallenmitte verteilen. Bei Ballmangel 3er-Gruppen mit fliegendem Wechsel nach 10 Kontakten.
+      - icon: 🎯
+        phase: Technik II
+        dauer: 20
+        titel: Angriff aus dem Stand über das Netz
+        inhalt: |-
+          **Ablauf:** Netz eher niedrig (2,00 m). Angreifer auf Pos IV, Zuwerfer daneben. Zwei Reihen.
+
+          * 🟢 Ball wird hochgeworfen, Angreifer schlägt im Stand oder mit kleinem Hüpfer über das Netz.
+          * 🔵 Ball wird hoch angeworfen, Angreifer springt ab und schlägt.
+          * 🔴 Ball wird gepritscht, Ziel: Reifen in Zone I oder V.
+
+          **Trainer-Details:** Kurze Reihen (max. 3 Kinder), Wartende holen Bälle oder werfen zu. Pro Kind mindestens 15 Schläge.
+        varianten:
+          6-8: Eine Reihe, Trainer wirft zu, Stufe wird pro Kind angepasst.
+          9-12: 'Zwei Netze/Stationen: Pos IV und Pos II.'
       - icon: 🧠
-        phase: Taktik
-        dauer: 30
-        titel: Freeball-Kill unter Zeitdruck
-        inhalt: '**Ablauf:** Annahme, Zuspiel und Angriff innerhalb von 3-4 Sekunden abschließen.'
+        phase: Spielform
+        dauer: 20
+        titel: 'Angriff oder Lob: 2:2'
+        inhalt: |-
+          **Ablauf:** 2:2 auf Kleinfeld, der 3. Ball muss angegriffen werden.
+
+          * 🟢 Lob oder Pritsche über das Netz zählt als Angriff.
+          * 🔵 Schlag aus dem Stand.
+          * 🔴 Schlag mit Sprung; Lob nur als Finte.
+
+          **Trainer-Details:** Jedes Kind spielt auf seiner Stufe, auch im selben Team. Punkt durch Angriff = 2 Punkte.
+        varianten:
+          6-8: 2–3 Kleinfelder; wer gerade frei ist, zählt Punkte oder spielt Ballholer und wechselt nach jedem Spiel ein.
+          9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
       - icon: 🏆
         phase: Abschlussspiel
-        dauer: 20
-        titel: Profi-Kaiserplatz
-        inhalt: '**Ablauf:** Kaiserplatz mit vollen Aufschlägen.'
+        dauer: 15
+        titel: Kaiserturnier 2:2
+        inhalt: |-
+          **Ablauf:** Mehrere Kleinfelder nebeneinander (2:2). Feld 1 = Kaiserfeld, letztes Feld = Einsteigerfeld. Runden à 3 Minuten.
+
+          * Gewinner rutscht ein Feld hoch, Verlierer ein Feld runter.
+          * Kaiserfeld: Punkt nur durch Angriffsschlag oder gegnerischen Fehler.
+          * Im Einsteigerfeld darf ein Ball pro Ballwechsel gefangen werden.
+
+          **Trainer-Details:** Nach 2–3 Runden spielen alle gegen ähnlich Starke, ohne dass jemand eingeteilt werden muss.
+        varianten:
+          6-8: 2–3 Kleinfelder; wer gerade frei ist, zählt Punkte oder spielt Ballholer und wechselt nach jedem Spiel ein.
+          9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
+      - icon: 🧘
+        phase: Abschluss
+        dauer: 5
+        titel: Kontakt-Rekord & Stufen-Check
+        inhalt: |-
+          **Ablauf:** Kurz im Kreis sitzen.
+
+          * Jedes Kind nennt seinen besten Rekord von heute (z. B. „17 Pritschen in Folge“) und seine Stufe.
+          * Wer hat seinen ersten Schlag über das Netz geschafft?
+
+          **Trainer-Details:** Rekorde und Aufsteiger kurz notieren. Lob für Verbesserung, nicht nur für die Besten.
     - name: TE 2
       tag: Freitag
       dauer: 120
-      titel: Not-Pässe & System-Speed
+      titel: Anlauf lernen
       uebungen:
       - icon: 🏃‍♂️
         phase: Warm-up
         dauer: 15
-        titel: Reaktions-Chaos in 3er-Gruppen (ohne Netz)
-        inhalt: '**Ablauf:** 2 Bälle gleichzeitig im 3er-Team jonglieren.'
+        titel: Anlauf-Rhythmus
+        inhalt: |-
+          **Ablauf:** Alle an der Grundlinie, Anlauf bis zur 3-m-Linie, zurückgehen, wieder anlaufen. Danach Ball-Aufgaben.
+
+          * 🟢 2-Schritt-Anlauf (Rechtshänder: links – rechts-links), beidbeiniger Absprung.
+          * 🔵 3-Schritt-Anlauf mit Armschwung nach hinten und hoch.
+          * 🔴 4-Schritt-Anlauf, Landung beidbeinig, stabil, nicht ins Netz.
+          * Zum Schluss: Anlauf und Absprung, dabei einen Ball, der vom Trainer hochgehalten wird, mit der Schlaghand berühren.
+
+          **Trainer-Details:** Laut mitsprechen lassen („Links – Rechts-Links – Hoch!“). Linkshänder spiegelverkehrt.
       - icon: 🎯
-        phase: Technik
-        dauer: 35
-        titel: Schlechte Pässe erlaufen
-        inhalt: '**Ablauf:** Streuende Bälle erlaufen, komplett abstoppen und Notpass spielen.'
-      - icon: 🧠
-        phase: Taktik
-        dauer: 35
-        titel: Butterfly unter Druck
-        inhalt: '**Ablauf:** Endlos-System mit fliegendem Einrücken.'
-      - icon: 🧠
-        phase: Läufersystem
+        phase: Technik I
         dauer: 15
-        titel: Dauerläufer im Sprint
-        inhalt: '**Ablauf:** Sprints vom Hinterfeld (Pos I) auf Pos III unter hohem Tempo, direkt stellen und wieder zurückfallen.'
+        titel: Schlag-Wiederholung im Paar
+        inhalt: |-
+          **Ablauf:** Paare, Schlag aus dem Stand wie in TE 1.
+
+          * 🟢 Schlagwurf. 🔵 Schlag auf den Boden zum Partner. 🔴 Dauerschlag an der Wand.
+
+          **Trainer-Details:** Jedes Kind macht mindestens 30 Schläge.
+        varianten:
+          6-8: Alle gleichzeitig in Paaren, Trainer wirft bei Bedarf selbst einem Paar zu.
+          9-12: Paare an Wand, Netz und Hallenmitte verteilen. Bei Ballmangel 3er-Gruppen mit fliegendem Wechsel nach 10 Kontakten.
+      - icon: 🎯
+        phase: Technik II
+        dauer: 20
+        titel: Anlauf mit Fangen
+        inhalt: |-
+          **Ablauf:** Angreifer laufen an Pos IV an, springen ab und fangen den hochgeworfenen Ball im höchsten Punkt mit beiden Händen über dem Kopf.
+
+          * 🟢 Ohne Anlauf: Stand-Absprung und fangen.
+          * 🔵 2- oder 3-Schritt-Anlauf, fangen.
+          * 🔴 Fangen und in der Luft über das Netz werfen (Schlagwurf im Sprung).
+
+          **Trainer-Details:** Timing lernen: Anlauf beginnt, wenn der Ball oben ist. Absprung mit beiden Beinen, Landung auf beiden Beinen.
+        varianten:
+          6-8: Trainer wirft, alle in einer Reihe.
+          9-12: Zwei Stationen, ein starkes Kind wirft an Station 2.
+      - icon: 🎯
+        phase: Technik III
+        dauer: 15
+        titel: Annahme – Zuspiel – Angriff (kooperativ)
+        inhalt: |-
+          **Ablauf:** 3er-Gruppen am Netz: A nimmt einen Wurf an, B spielt zu, C greift an (Stufe nach Wahl).
+
+          * Nach jedem Angriff Positionen wechseln. Jede Gruppe zählt erfolgreiche Angriffe.
+
+          **Trainer-Details:** Erstes Zusammensetzen der kompletten Kette. Ungenauigkeit ist erlaubt.
+        varianten:
+          6-8: Zwei 3er-Gruppen plus ein Paar; das Paar spielt die gleiche Aufgabe ohne Mittelmann.
+          9-12: Drei bis vier 3er-Gruppen gleichzeitig, jede mit eigenem Ball.
+      - icon: 🧠
+        phase: Spielform
+        dauer: 25
+        titel: 3:3 mit Angriffspflicht
+        inhalt: |-
+          **Ablauf:** 3:3 auf Kleinfeld. Der 3. Ball muss angegriffen werden (Stufe frei wählbar).
+
+          * Angriffspunkt = 2 Punkte, Lob = 1 Punkt.
+          * Einsteiger dürfen die Annahme fangen.
+
+          **Trainer-Details:** Zuspieler bewusst hoch und nah am Netz spielen lassen.
+        varianten:
+          6-8: 2–3 Kleinfelder; wer gerade frei ist, zählt Punkte oder spielt Ballholer und wechselt nach jedem Spiel ein.
+          9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
       - icon: 🏆
         phase: Abschlussspiel
         dauer: 20
-        titel: Out-of-System Bonus
-        inhalt: '**Punkte-Regel:** Punkte nach geretteten Notbällen zählen doppelt.'
+        titel: 3:3 freies Spiel
+        inhalt: |-
+          **Ablauf:** 3:3 auf Kleinfeld, normale Regeln (Aufschlag nach Wahl, kein Fangen).
+
+          * Nach jedem Satz bis 11 Teams neu mischen.
+
+          **Trainer-Details:** Freies Spiel ohne Sonderregeln: Kinder sollen das Gelernte selbst anwenden.
+        varianten:
+          6-8: 2–3 Kleinfelder; wer gerade frei ist, zählt Punkte oder spielt Ballholer und wechselt nach jedem Spiel ein.
+          9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
+      - icon: 🧘
+        phase: Abschluss
+        dauer: 10
+        titel: Kontakt-Rekord & Stufen-Check
+        inhalt: |-
+          **Ablauf:** Kurz im Kreis sitzen.
+
+          * Jedes Kind nennt seinen besten Rekord von heute (z. B. „17 Pritschen in Folge“) und seine Stufe.
+          * Merksatz: „Erst der Ball, dann der Anlauf.“
+
+          **Trainer-Details:** Rekorde und Aufsteiger kurz notieren. Lob für Verbesserung, nicht nur für die Besten.
   - name: Woche 2
     einheiten:
     - name: TE 3
       dauer: 90
-      titel: Angriff aus unsauberer Annahme
+      titel: Angriff mit Zuspiel
       uebungen:
       - icon: 🏃‍♂️
         phase: Warm-up
         dauer: 10
-        titel: Ball-Klau (ohne Netz)
-        inhalt: '**Ablauf:** Dribbeln und Bälle wegschlagen.'
+        titel: Anlauf-Rhythmus
+        inhalt: |-
+          **Ablauf:** Alle an der Grundlinie, Anlauf bis zur 3-m-Linie, zurückgehen, wieder anlaufen. Danach Ball-Aufgaben.
+
+          * 🟢 2-Schritt-Anlauf (Rechtshänder: links – rechts-links), beidbeiniger Absprung.
+          * 🔵 3-Schritt-Anlauf mit Armschwung nach hinten und hoch.
+          * 🔴 4-Schritt-Anlauf, Landung beidbeinig, stabil, nicht ins Netz.
+          * Danach: Anlauf mit Ball in den Händen, im Sprung Ball über das Netz werfen.
+
+          **Trainer-Details:** Laut mitsprechen lassen („Links – Rechts-Links – Hoch!“). Linkshänder spiegelverkehrt.
       - icon: 🎯
-        phase: Technik
-        dauer: 30
-        titel: Angriff aus 3m-Distanz
-        inhalt: '**Ablauf:** Bälle von hinter der 3m-Linie kontrolliert und lang ins gegnerische Feld drücken.'
+        phase: Technik I
+        dauer: 15
+        titel: Schlag im Paar mit Kontrolle
+        inhalt: |-
+          **Ablauf:** Paare, 6 m Abstand. A schlägt den Ball auf den Boden vor B, B baggert hoch zurück, A fängt.
+
+          * 🟢 A wirft statt zu schlagen. 🔵 A schlägt aus dem Stand. 🔴 A schlägt, B baggert, A pritscht zu sich und schlägt wieder (Dauerkette).
+
+          **Trainer-Details:** Schlagen und Abwehren in einer Übung: doppelte Kontaktzahl.
+        varianten:
+          6-8: Alle gleichzeitig in Paaren, Trainer wirft bei Bedarf selbst einem Paar zu.
+          9-12: Paare an Wand, Netz und Hallenmitte verteilen. Bei Ballmangel 3er-Gruppen mit fliegendem Wechsel nach 10 Kontakten.
+      - icon: 🎯
+        phase: Technik II
+        dauer: 25
+        titel: Angriff nach Zuspiel
+        inhalt: |-
+          **Ablauf:** Zuspieler (Trainer oder starkes Kind) auf Pos III, Angreifer laufen von Pos IV an.
+
+          * 🟢 Ball wird angeworfen, Schlag mit kleinem Sprung.
+          * 🔵 Ball wird gepritscht, Anlauf 2–3 Schritte.
+          * 🔴 Annahme vom Trainer, eigenes Zuspiel kommt vom Zuspieler, Angriff in eine angesagte Zone.
+
+          **Trainer-Details:** Kurze Reihen, Kinder wechseln nach 3 Schlägen zum Ballholen/Zuspiel. Gelobt wird der saubere Armzug, nicht die Härte.
+        varianten:
+          6-8: Eine Station, Trainer spielt zu.
+          9-12: Zwei Stationen (Pos IV und Pos II).
       - icon: 🧠
-        phase: Taktik
-        dauer: 30
-        titel: Rettungsaktion -> Angriff
-        inhalt: '**Ablauf:** Ball kratzen -> hoher Notpass -> gezielter Lob/Schlag.'
+        phase: Spielform
+        dauer: 20
+        titel: 3:3 Abwehr-Bonus
+        inhalt: |-
+          **Ablauf:** 3:3 auf Kleinfeld. Der Ballwechsel startet mit einem Angriff vom Trainer/Startteam.
+
+          * Abgewehrter Angriff, der zu einem Gegenangriff wird = 2 Punkte.
+          * Stufen für den Angriff wie bei der Technik.
+
+          **Trainer-Details:** Abwehr: tief stehen, Brett früh, Ball hoch in die eigene Feldmitte spielen.
+        varianten:
+          6-8: 2–3 Kleinfelder; wer gerade frei ist, zählt Punkte oder spielt Ballholer und wechselt nach jedem Spiel ein.
+          9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
       - icon: 🏆
         phase: Abschlussspiel
-        dauer: 20
-        titel: Kein Dankeball
-        inhalt: '**Regel:** Wer unkontrollierte Bälle ''einfach so'' rüberspielt, verliert den Punkt.'
+        dauer: 15
+        titel: Kaiserturnier 3:3
+        inhalt: |-
+          **Ablauf:** Mehrere Kleinfelder nebeneinander (3:3). Feld 1 = Kaiserfeld, letztes Feld = Einsteigerfeld. Runden à 3 Minuten.
+
+          * Gewinner rutscht ein Feld hoch, Verlierer ein Feld runter.
+          * Punkt durch Angriffsschlag zählt 2.
+          * Im Einsteigerfeld darf ein Ball pro Ballwechsel gefangen werden.
+
+          **Trainer-Details:** Nach 2–3 Runden spielen alle gegen ähnlich Starke, ohne dass jemand eingeteilt werden muss.
+        varianten:
+          6-8: 2–3 Kleinfelder; wer gerade frei ist, zählt Punkte oder spielt Ballholer und wechselt nach jedem Spiel ein.
+          9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
+      - icon: 🧘
+        phase: Abschluss
+        dauer: 5
+        titel: Kontakt-Rekord & Stufen-Check
+        inhalt: |-
+          **Ablauf:** Kurz im Kreis sitzen.
+
+          * Jedes Kind nennt seinen besten Rekord von heute (z. B. „17 Pritschen in Folge“) und seine Stufe.
+          * Wer hat seinen Rekord an Angriffen über das Netz verbessert?
+
+          **Trainer-Details:** Rekorde und Aufsteiger kurz notieren. Lob für Verbesserung, nicht nur für die Besten.
     - name: TE 4
       tag: Freitag
       dauer: 120
-      titel: Fehlerkompensation & Sicherung
+      titel: 'Abwehr: Bälle retten'
       uebungen:
       - icon: 🏃‍♂️
         phase: Warm-up
         dauer: 15
-        titel: Koordinations-Sprints (ohne Netz)
-        inhalt: '**Ablauf:** Sprints aus dem Sitzen/Liegen auf Kommando.'
+        titel: Ball-Hüter
+        inhalt: |-
+          **Ablauf:** Fangspiel in einem Volleyballfeld, 2 Fänger mit Leibchen.
+
+          * Jedes Kind dribbelt einen Ball (Hand oder Fuß). Die Fänger versuchen, Bälle wegzuschlagen. Wer seinen Ball verliert, holt ihn zurück und macht 5 Bagger über Kopf, bevor er weiterspielt.
+          * Nach 2 Minuten neue Fänger. Danach 3 Minuten Mobilisation: Armkreisen, Ausfallschritte, Hampelmann, Hopserlauf.
+          * Zum Schluss jedes Kind mit Ball: 20x hochwerfen und in Pritschhaltung fangen.
+
+          **Trainer-Details:** Laufen, Reagieren und Ball in einem. Fänger wechseln oft, damit niemand lange „dran“ bleibt.
       - icon: 🎯
-        phase: Technik
-        dauer: 35
-        titel: Tip/Lob aus der Not
-        inhalt: '**Ablauf:** Ball klebt am Netz -> gezielter Tip über den Block.'
-      - icon: 🧠
-        phase: Taktik
-        dauer: 35
-        titel: Sicherung bei schlechten Pässen
-        inhalt: '**Ablauf:** Mannschaft rückt geschlossen zur Blocksicherung nach.'
-      - icon: 🧠
-        phase: Läufersystem
+        phase: Technik II
         dauer: 15
-        titel: Sicherung des Läufers
-        inhalt: '**Ablauf:** Läufer muss sich nach dem Zuspiel aktiv in den freien Raum fallen lassen, um abgeblockte Angriffe als erster zu sichern.'
+        titel: Abwehr im Paar
+        inhalt: |-
+          **Ablauf:** Paare, 5 m Abstand. A schlägt/wirft hart auf B, B wehrt hoch ab.
+
+          * 🟢 A wirft von unten auf den Bauch. 🔵 A schlägt aus dem Stand. 🔴 A schlägt links/rechts, B muss 1–2 Schritte machen.
+
+          **Trainer-Details:** Tief stehen, Gewicht vorn, Arme locker. Ball **hoch** abwehren, nicht zurück zum Angreifer.
+        varianten:
+          6-8: Alle gleichzeitig in Paaren, Trainer wirft bei Bedarf selbst einem Paar zu.
+          9-12: Paare an Wand, Netz und Hallenmitte verteilen. Bei Ballmangel 3er-Gruppen mit fliegendem Wechsel nach 10 Kontakten.
+      - icon: 🎯
+        phase: Technik II
+        dauer: 20
+        titel: Abwehr – Zuspiel – Angriff
+        inhalt: |-
+          **Ablauf:** 3er-Gruppen: Trainer schlägt auf A (Abwehr), B spielt zu, C greift an.
+
+          * 🟢 Trainer wirft. 🔵 Trainer schlägt locker. 🔴 Trainer schlägt in wechselnde Richtungen.
+
+          **Trainer-Details:** Das ist die Situation aus dem echten Spiel. Laut rufen bei der Abwehr („Ich!“).
+        varianten:
+          6-8: Zwei 3er-Gruppen plus ein Paar; das Paar spielt die gleiche Aufgabe ohne Mittelmann.
+          9-12: Drei bis vier 3er-Gruppen gleichzeitig, jede mit eigenem Ball.
+      - icon: 🎯
+        phase: Technik III
+        dauer: 15
+        titel: Aufschlag-Wiederholung
+        inhalt: |-
+          **Ablauf:** Aufschläge in Zonen, Distanz und Technik nach Stufe aus Monat 2.
+
+          * Ziel: 5 Treffer in Folge, dann schwierigere Zone wählen.
+
+          **Trainer-Details:** Damit der Aufschlag nicht verloren geht. Jedes Kind mindestens 20 Aufschläge.
+        varianten:
+          6-8: Alle gleichzeitig in Paaren, Trainer wirft bei Bedarf selbst einem Paar zu.
+          9-12: Paare an Wand, Netz und Hallenmitte verteilen. Bei Ballmangel 3er-Gruppen mit fliegendem Wechsel nach 10 Kontakten.
+      - icon: 🧠
+        phase: Spielform
+        dauer: 25
+        titel: 4:4 kennenlernen
+        inhalt: |-
+          **Ablauf:** 4:4 auf Feld ca. 7 × 7 m pro Seite. Aufstellung: 2 vorn, 2 hinten (oder Raute).
+
+          * Rotation nach jedem Aufschlagwechsel.
+          * 🟢 Annahme darf gefangen werden. 🔵 Kein Fangen. 🔴 Angriff Pflicht beim 3. Ball.
+
+          **Trainer-Details:** 4:4 ist in der U13 das Wettkampfformat in vielen Landesverbänden. Wichtig: Wer läuft wohin? Kurz an der Tafel zeigen.
+        varianten:
+          6-8: Ein Feld 4:4 bei 8 Kindern; bei 6–7 Kindern 3:3 plus Joker.
+          9-12: Ein Feld 4:4, nebenan 2:2 mit Wechsel nach jedem Satz.
       - icon: 🏆
         phase: Abschlussspiel
         dauer: 20
-        titel: Wash-Game Extrem
-        inhalt: '**Turnier:** 3 Rallyes am Stück gewinnen.'
+        titel: 3:3 oder 4:4 frei
+        inhalt: |-
+          **Ablauf:** Freies Spiel in der Form, die zur Anzahl der Kinder passt.
+
+          * Satz bis 15, dann Teams mischen.
+
+          **Trainer-Details:** Kinder dürfen die Teams einmal selbst wählen, dann Trainer.
+        varianten:
+          6-8: 2–3 Kleinfelder; wer gerade frei ist, zählt Punkte oder spielt Ballholer und wechselt nach jedem Spiel ein.
+          9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
+      - icon: 🧘
+        phase: Abschluss
+        dauer: 10
+        titel: Kontakt-Rekord & Stufen-Check
+        inhalt: |-
+          **Ablauf:** Kurz im Kreis sitzen.
+
+          * Jedes Kind nennt seinen besten Rekord von heute (z. B. „17 Pritschen in Folge“) und seine Stufe.
+          * Frage: Was ist bei der Abwehr anders als bei der Annahme?
+
+          **Trainer-Details:** Rekorde und Aufsteiger kurz notieren. Lob für Verbesserung, nicht nur für die Besten.
   - name: Woche 3
     einheiten:
     - name: TE 5
       dauer: 90
-      titel: High-Speed Transition
+      titel: Spielen mit allen Elementen
       uebungen:
-      - icon: 🎾
+      - icon: 🏃‍♂️
         phase: Warm-up
         dauer: 10
-        titel: Volley-Tennis (ohne Netz)
-        inhalt: '**Ablauf:** 1v1 Chaos-Tennis.'
+        titel: 'Ballschule: Jeder hat einen Ball'
+        inhalt: |-
+          **Ablauf:** Jedes Kind mit eigenem Ball frei in der Halle, auf Pfiff wechselt die Aufgabe alle 45–60 Sekunden.
+
+          * Laufen und Ball beidhändig prellen, auf Pfiff tiefe Grundstellung, Ball dabei weiterprellen.
+          * Ball hochwerfen, darunterlaufen und **über der Stirn** fangen (Pritsch-Dreieck mit Daumen und Zeigefingern).
+          * Ball hochwerfen, hinsetzen, aufstehen, fangen. Danach: einmal klatschen, umdrehen, Boden berühren.
+          * Alle Ballschul-Aufgaben in schneller Folge, dazu Anlauf mit Ball.
+
+          **Trainer-Details:** Immer mit Ball: Im Kinder-Volleyball ist jedes Aufwärmen auch Ballgewöhnung. Kurze Aufgaben, viel Abwechslung, keine Runden ohne Ball.
+        varianten:
+          6-8: Trainer macht mit und gibt Tempo vor.
+          9-12: Zwei Kinder dürfen abwechselnd eine Aufgabe ansagen.
       - icon: 🎯
-        phase: Technik
-        dauer: 30
-        titel: Abwehr -> Sofort-Angriff
-        inhalt: '**Ablauf:** Bagger-Abwehr auf Pos I -> sofortiger Anlauf und Angriff über Pos IV.'
+        phase: Technik I
+        dauer: 15
+        titel: Einspielen-Kette
+        inhalt: |-
+          **Ablauf:** Paare: 3 Minuten Pritschen, 3 Minuten Baggern, 3 Minuten Schlag–Abwehr, 3 Minuten freies Spiel über das Netz.
+
+          **Trainer-Details:** Der feste Einspielablauf wie vor einem Spiel.
+        varianten:
+          6-8: Alle gleichzeitig in Paaren, Trainer wirft bei Bedarf selbst einem Paar zu.
+          9-12: Paare an Wand, Netz und Hallenmitte verteilen. Bei Ballmangel 3er-Gruppen mit fliegendem Wechsel nach 10 Kontakten.
+      - icon: 🎯
+        phase: Technik II
+        dauer: 20
+        titel: Angriffs-Serie
+        inhalt: |-
+          **Ablauf:** Zwei Reihen: Annahme vom Trainer, Zuspiel durch ein Kind, Angriff.
+
+          * 🟢 Lob oder Schlag aus dem Stand. 🔵 Angriff mit Anlauf. 🔴 Angriff in angesagte Zone (I, V oder VI).
+
+          **Trainer-Details:** Jedes Kind macht mindestens 10 Angriffe. Zuspieler wechselt nach 5 Bällen.
+        varianten:
+          6-8: Eine Reihe, alle rotieren durch Annahme, Zuspiel, Angriff.
+          9-12: Zwei Reihen auf beiden Seiten des Netzes.
       - icon: 🧠
-        phase: Taktik
-        dauer: 30
-        titel: Dauerfeuer
-        inhalt: '**Ablauf:** Trainer bringt 5 Bälle pro Team in 10 Sekunden ins Spiel.'
+        phase: Spielform
+        dauer: 25
+        titel: 4:4 „Jeder greift an“
+        inhalt: |-
+          **Ablauf:** 4:4 auf Kleinfeld, gemischte Teams.
+
+          * Punkt zählt nur durch Angriff oder Fehler des Gegners.
+          * Wer im Satz noch nicht angegriffen hat, bringt bei seinem ersten Angriffspunkt 3 Punkte.
+
+          **Trainer-Details:** Damit spielen die Starken gezielt die Schwächeren an.
+        varianten:
+          6-8: 2–3 Kleinfelder; wer gerade frei ist, zählt Punkte oder spielt Ballholer und wechselt nach jedem Spiel ein.
+          9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
       - icon: 🏆
         phase: Abschlussspiel
-        dauer: 20
-        titel: Speed-Turnier
-        inhalt: '**Modus:** Neuer Ball kommt ohne Pause sofort ins Spiel.'
+        dauer: 15
+        titel: Kaiserturnier 3:3
+        inhalt: |-
+          **Ablauf:** Mehrere Kleinfelder nebeneinander (3:3). Feld 1 = Kaiserfeld, letztes Feld = Einsteigerfeld. Runden à 3 Minuten.
+
+          * Gewinner rutscht ein Feld hoch, Verlierer ein Feld runter.
+          * Normale Regeln.
+          * Im Einsteigerfeld darf ein Ball pro Ballwechsel gefangen werden.
+
+          **Trainer-Details:** Nach 2–3 Runden spielen alle gegen ähnlich Starke, ohne dass jemand eingeteilt werden muss.
+        varianten:
+          6-8: 2–3 Kleinfelder; wer gerade frei ist, zählt Punkte oder spielt Ballholer und wechselt nach jedem Spiel ein.
+          9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
+      - icon: 🧘
+        phase: Abschluss
+        dauer: 5
+        titel: Kontakt-Rekord & Stufen-Check
+        inhalt: |-
+          **Ablauf:** Kurz im Kreis sitzen.
+
+          * Jedes Kind nennt seinen besten Rekord von heute (z. B. „17 Pritschen in Folge“) und seine Stufe.
+          * Nächste Woche: Abschluss-Check und großes Turnier.
+
+          **Trainer-Details:** Rekorde und Aufsteiger kurz notieren. Lob für Verbesserung, nicht nur für die Besten.
     - name: TE 6
       tag: Freitag
       dauer: 120
-      titel: Wettkampfhärte & Laufwege
+      titel: Wettkampf-Situationen
       uebungen:
       - icon: 🏃‍♂️
         phase: Warm-up
         dauer: 15
-        titel: 1v1 Auf-/Absteiger
-        inhalt: '**Ablauf:** Volley-Tennis im Turniermodus.'
+        titel: Zonenfangen
+        inhalt: |-
+          **Ablauf:** Fangspiel in einem Volleyballfeld, 2 Fänger mit Leibchen.
+
+          * Wie im Monat 2: Fänger ruft eine Position, alle laufen hin.
+          * Nach 2 Minuten neue Fänger. Danach 3 Minuten Mobilisation: Armkreisen, Ausfallschritte, Hampelmann, Hopserlauf.
+          * Zum Schluss jedes Kind mit Ball: 20x hochwerfen und in Pritschhaltung fangen.
+
+          **Trainer-Details:** Laufen, Reagieren und Ball in einem. Fänger wechseln oft, damit niemand lange „dran“ bleibt.
       - icon: 🎯
-        phase: Technik
-        dauer: 35
-        titel: Aufschlagdruck vs. Transition
-        inhalt: '**Ablauf:** Gezielte Aufschläge von Pos I auf Pos IV, sofortige Transition.'
-      - icon: 🧠
-        phase: Taktik
-        dauer: 35
-        titel: Rallye aufrechterhalten
-        inhalt: '**Ablauf:** Bälle durch Lobs und Blocksicherung im Spiel halten.'
-      - icon: 🧠
-        phase: Läufersystem
+        phase: Technik I
         dauer: 15
-        titel: Schnelle Mitte aus der Bewegung
-        inhalt: '**Ablauf:** Läufer spielt bei U14 schnelle Pässe auf Pos II, während er noch in der Fließbewegung aus Pos I ist.'
+        titel: Einspielen-Kette
+        inhalt: |-
+          **Ablauf:** Paare: Pritschen, Baggern, Schlag–Abwehr, Aufschlag.
+
+          **Trainer-Details:** Der Ablauf sollte inzwischen ohne Ansagen laufen.
+        varianten:
+          6-8: Alle gleichzeitig in Paaren, Trainer wirft bei Bedarf selbst einem Paar zu.
+          9-12: Paare an Wand, Netz und Hallenmitte verteilen. Bei Ballmangel 3er-Gruppen mit fliegendem Wechsel nach 10 Kontakten.
+      - icon: 🎯
+        phase: Technik II
+        dauer: 20
+        titel: Aufschlag – Annahme – Angriff
+        inhalt: |-
+          **Ablauf:** Aufschläger gegen ein 3er- oder 4er-Team. Das Team nimmt an, spielt zu, greift an.
+
+          * Erfolgreicher Angriff = 1 Punkt fürs Team. Aufschlagpunkt = 1 Punkt für Aufschläger.
+          * Nach 6 Aufschlägen wechseln.
+
+          **Trainer-Details:** Das ist der „Side-out“: Hier wird im echten Spiel entschieden, wer gewinnt.
+        varianten:
+          6-8: 2–3 Kleinfelder; wer gerade frei ist, zählt Punkte oder spielt Ballholer und wechselt nach jedem Spiel ein.
+          9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
+      - icon: 🎯
+        phase: Technik III
+        dauer: 15
+        titel: Notbälle
+        inhalt: |-
+          **Ablauf:** Trainer spielt ungenaue Bälle (zu weit, zu kurz, ins Netz) ins Feld. Team muss den Ball irgendwie über das Netz retten.
+
+          * 🟢 Ein Kontakt darf gefangen werden. 🔵/🔴 Ohne Fangen, Ball muss hoch über das Netz.
+
+          **Trainer-Details:** Kein Ball ist verloren! Beim Notball zuerst hoch spielen, dann weiter.
+        varianten:
+          6-8: 2–3 Kleinfelder; wer gerade frei ist, zählt Punkte oder spielt Ballholer und wechselt nach jedem Spiel ein.
+          9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
+      - icon: 🧠
+        phase: Spielform
+        dauer: 20
+        titel: Spielstand-Spiele
+        inhalt: |-
+          **Ablauf:** 4:4 (oder 3:3) mit vorgegebenen Spielständen: 12:12, 13:14, 14:14. Zwei Sätze pro Paarung.
+
+          * Wer den Satz gewinnt, darf sich die nächste Aufschlagseite aussuchen.
+
+          **Trainer-Details:** Kinder lernen, mit Druck umzugehen. Danach kurz fragen: Was hat geholfen?
+        varianten:
+          6-8: 2–3 Kleinfelder; wer gerade frei ist, zählt Punkte oder spielt Ballholer und wechselt nach jedem Spiel ein.
+          9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
       - icon: 🏆
         phase: Abschlussspiel
-        dauer: 20
-        titel: Transition-König
-        inhalt: '**Modus:** Punkte zählen erst nach mindestens 3 Netzüberquerungen.'
+        dauer: 25
+        titel: 4:4 Liga-Spiel
+        inhalt: |-
+          **Ablauf:** 4:4 nach Wettkampfregeln (Aufschlag nach Stufe), zwei Sätze bis 15.
+
+          * Kinder pfeifen selbst.
+
+          **Trainer-Details:** Hier zeigt sich, was im Turnier nächste Woche noch geübt werden muss.
+        varianten:
+          6-8: 2–3 Kleinfelder; wer gerade frei ist, zählt Punkte oder spielt Ballholer und wechselt nach jedem Spiel ein.
+          9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
+      - icon: 🧘
+        phase: Abschluss
+        dauer: 10
+        titel: Kontakt-Rekord & Stufen-Check
+        inhalt: |-
+          **Ablauf:** Kurz im Kreis sitzen.
+
+          * Jedes Kind nennt seinen besten Rekord von heute (z. B. „17 Pritschen in Folge“) und seine Stufe.
+          * Jedes Kind sagt, auf welches Abzeichen es nächste Woche hinarbeitet.
+
+          **Trainer-Details:** Rekorde und Aufsteiger kurz notieren. Lob für Verbesserung, nicht nur für die Besten.
   - name: Woche 4
     einheiten:
     - name: TE 7
       dauer: 90
-      titel: Match-Day Vorbereitung
+      titel: 'Abschluss-Check: alle Basics'
       uebungen:
       - icon: 🏃‍♂️
         phase: Warm-up
         dauer: 10
-        titel: Pre-Game Routine
-        inhalt: '**Ablauf:** Vollständiges Einschlagen.'
+        titel: 'Ballschule: Jeder hat einen Ball'
+        inhalt: |-
+          **Ablauf:** Jedes Kind mit eigenem Ball frei in der Halle, auf Pfiff wechselt die Aufgabe alle 45–60 Sekunden.
+
+          * Laufen und Ball beidhändig prellen, auf Pfiff tiefe Grundstellung, Ball dabei weiterprellen.
+          * Ball hochwerfen, darunterlaufen und **über der Stirn** fangen (Pritsch-Dreieck mit Daumen und Zeigefingern).
+          * Ball hochwerfen, hinsetzen, aufstehen, fangen. Danach: einmal klatschen, umdrehen, Boden berühren.
+          * Wunsch-Aufgaben der Kinder.
+
+          **Trainer-Details:** Immer mit Ball: Im Kinder-Volleyball ist jedes Aufwärmen auch Ballgewöhnung. Kurze Aufgaben, viel Abwechslung, keine Runden ohne Ball.
+        varianten:
+          6-8: Trainer macht mit und gibt Tempo vor.
+          9-12: Zwei Kinder dürfen abwechselnd eine Aufgabe ansagen.
       - icon: 🎯
-        phase: Technik
+        phase: Technik I
         dauer: 30
-        titel: Sicherer Not-Aufschlag
-        inhalt: '**Ablauf:** 100% Quote bei Angaben von unten/leichtem Float.'
+        titel: Großes Basics-Abzeichen
+        inhalt: |-
+          **Ablauf:** Stationen mit Zähler-Kindern; Ergebnisse auf die Liste aus Monat 1 und 2.
+
+          * Station 1: Pritschen allein (in Folge).
+          * Station 2: Baggern allein (in Folge).
+          * Station 3: 10 Aufschläge (Treffer und Distanz).
+          * Station 4: 10 Angriffe nach Zuwurf/Zuspiel (Treffer ins Feld).
+          * Vergleich mit Monat 1: Wer hat sich wie stark verbessert?
+
+          **Trainer-Details:** Verbesserung zählt mehr als das absolute Ergebnis. „Größter Sprung“ als eigene Auszeichnung.
+        varianten:
+          6-8: Zwei Stationen gleichzeitig.
+          9-12: Vier Stationen gleichzeitig, 4 Minuten pro Station.
       - icon: 🧠
-        phase: Taktik
-        dauer: 30
-        titel: Raumaufteilung Pos I bis IV
-        inhalt: '**Ablauf:** Feste Absprachen im 3v3 und 4v4.'
+        phase: Spielform
+        dauer: 15
+        titel: Kooperativ-Rekord 4:4
+        inhalt: |-
+          **Ablauf:** Zwei Teams kooperativ über das Netz, je Seite 3 Kontakte. Hallenrekord aus Monat 1 und 2 knacken.
+
+          **Trainer-Details:** Ein schöner gemeinsamer Erfolg vor dem Turnier.
+        varianten:
+          6-8: 2–3 Kleinfelder; wer gerade frei ist, zählt Punkte oder spielt Ballholer und wechselt nach jedem Spiel ein.
+          9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
       - icon: 🏆
         phase: Abschlussspiel
-        dauer: 20
-        titel: Liga Hinrunde
-        inhalt: '**Turnier:** Jeder gegen Jeden.'
+        dauer: 30
+        titel: Kaiserturnier 3:3
+        inhalt: |-
+          **Ablauf:** Mehrere Kleinfelder nebeneinander (3:3). Feld 1 = Kaiserfeld, letztes Feld = Einsteigerfeld. Runden à 3 Minuten.
+
+          * Gewinner rutscht ein Feld hoch, Verlierer ein Feld runter.
+          * Kaiserfeld: Punkt durch Angriff zählt 2.
+          * Im Einsteigerfeld darf ein Ball pro Ballwechsel gefangen werden.
+
+          **Trainer-Details:** Nach 2–3 Runden spielen alle gegen ähnlich Starke, ohne dass jemand eingeteilt werden muss.
+        varianten:
+          6-8: 2–3 Kleinfelder; wer gerade frei ist, zählt Punkte oder spielt Ballholer und wechselt nach jedem Spiel ein.
+          9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
+      - icon: 🧘
+        phase: Abschluss
+        dauer: 5
+        titel: Kontakt-Rekord & Stufen-Check
+        inhalt: |-
+          **Ablauf:** Kurz im Kreis sitzen.
+
+          * Jedes Kind nennt seinen besten Rekord von heute (z. B. „17 Pritschen in Folge“) und seine Stufe.
+          * Abzeichen verkünden, „Größter Sprung“ ehren.
+
+          **Trainer-Details:** Rekorde und Aufsteiger kurz notieren. Lob für Verbesserung, nicht nur für die Besten.
     - name: TE 8
       tag: Freitag
       dauer: 120
-      titel: Das Saison-Finale
+      titel: Abschlussturnier
       uebungen:
       - icon: 🏃‍♂️
         phase: Warm-up
-        dauer: 15
-        titel: Turnier-Warm-up
-        inhalt: '**Ablauf:** Dynamisches Einspielen.'
+        dauer: 10
+        titel: Lieblings-Fangspiel
+        inhalt: |-
+          **Ablauf:** Fangspiel in einem Volleyballfeld, 2 Fänger mit Leibchen.
+
+          * Kinder wählen.
+          * Nach 2 Minuten neue Fänger. Danach 3 Minuten Mobilisation: Armkreisen, Ausfallschritte, Hampelmann, Hopserlauf.
+          * Zum Schluss jedes Kind mit Ball: 20x hochwerfen und in Pritschhaltung fangen.
+
+          **Trainer-Details:** Laufen, Reagieren und Ball in einem. Fänger wechseln oft, damit niemand lange „dran“ bleibt.
       - icon: 🎯
-        phase: Technik
-        dauer: 35
-        titel: Direkte Duelle
-        inhalt: '**Ablauf:** Angreifer vs. Block, Aufschläger vs. Annahme.'
-      - icon: 🧠
-        phase: Taktik
-        dauer: 35
-        titel: Timeout-Coaching
-        inhalt: '**Ablauf:** Teams lösen taktische Probleme im Timeout selbst.'
-      - icon: 🧠
-        phase: System-Check & Cool-down
+        phase: Technik I
         dauer: 15
-        inhalt: '**Ablauf:** Fehleranalyse von Laufwegen und Cool-Down Routinen.'
+        titel: Einspielen wie im Wettkampf
+        inhalt: |-
+          **Ablauf:** Einspielen-Kette in Paaren, danach Einschlagen am Netz mit Zuspiel.
+
+          **Trainer-Details:** Ablauf wie bei einem Spieltag.
+        varianten:
+          6-8: Alle gleichzeitig in Paaren, Trainer wirft bei Bedarf selbst einem Paar zu.
+          9-12: Paare an Wand, Netz und Hallenmitte verteilen. Bei Ballmangel 3er-Gruppen mit fliegendem Wechsel nach 10 Kontakten.
       - icon: 🏆
         phase: Abschlussspiel
-        dauer: 20
-        titel: Liga Finale
-        inhalt: '**Das große Finale:** 2 Gewinnsätze unter vollen Wettkampfbedingungen.'
-- name: System-Spezial
-  thema: 3v3 meets 4v4
-  titel: Transition & Kognition (Pos I bis IV)
-  wochen:
-  - name: Einheit
-    einheiten:
-    - name: Spezial-Einheit
-      dauer: 75
-      titel: Transition & Kognition (Pos I bis IV)
-      uebungen:
-      - icon: ⏱️
-        phase: Der Transition-Läufer
+        dauer: 80
+        titel: Abschlussturnier 4:4 (bzw. 3:3)
+        inhalt: |-
+          **Ablauf:** Ausgeloste, gemischte Teams. Gruppenphase (6 Minuten pro Spiel), dann Halbfinale und Finale.
+
+          * Wettkampfregeln, Aufschlag nach Stufe.
+          * Pausierende Teams pfeifen, zählen, feuern an.
+          * Option: letztes Spiel Kinder gegen Eltern/Trainer.
+
+          **Trainer-Details:** Ein Fest zum Abschluss der 3 Monate. Fotos machen, Urkunden für Abzeichen vorbereiten.
+        varianten:
+          6-8: Zwei Teams à 3–4 Kinder spielen mehrere kurze Sätze, dazwischen 1:1-Kaiserturnier.
+          9-12: Drei Teams à 3–4 Kinder, jeder gegen jeden, dann Finale.
+      - icon: 🧘
+        phase: Abschluss
         dauer: 15
+        titel: Kontakt-Rekord & Stufen-Check
         inhalt: |-
-          **Aus der Abwehr ins Zuspiel (Pos I -> Pos III):**
-          Trainer schlägt auf den Zuspieler. Zuspieler wehrt ab, Mitspieler von Pos IV übernimmt das Zuspiel.
+          **Ablauf:** Kurz im Kreis sitzen.
 
-          * **U13 (3v3):** Läufer startet von hinten (Pos I) und läuft nach Pos III ein.
-          * **U14 (4v4):** Zuspieler lässt sich aus Pos II/I in die Abwehr fallen und wird vertreten.
-      - icon: 👀
-        phase: Das Scanner-Zuspiel
-        dauer: 20
-        inhalt: '**Block lesen:** Trainer hebt linke oder rechte Hand. Zuspieler auf Pos III pritscht dorthin, wo die Hand *unten* ist.'
-      - icon: 🌪️
-        phase: Der Dauerläufer
-        dauer: 20
-        inhalt: |-
-          **Laufwege & Beinarbeit automatisieren:**
+          * Jedes Kind nennt seinen besten Rekord von heute (z. B. „17 Pritschen in Folge“) und seine Stufe.
+          * Rückblick auf 3 Monate: Abzeichen-Urkunden, Ausblick auf den nächsten Block.
 
-          * Sprint Pos I -> Pos III -> Zuspiel auf Pos IV. Zurück zu Pos I. 8x am Stück wiederholen.
-      - icon: 🏆
-        phase: 'Spielform: Der Libero-Joker'
-        dauer: 20
-        inhalt: '**3v3 / 4v4 Match:** Ein Spieler sichert auf der Grundlinie (hinter Pos I und IV) ab und rettet Notbälle.'
+          **Trainer-Details:** Rekorde und Aufsteiger kurz notieren. Lob für Verbesserung, nicht nur für die Besten.
