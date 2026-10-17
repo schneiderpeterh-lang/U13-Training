@@ -49,9 +49,29 @@ monate:
         varianten:
           6-8: Trainer macht mit und gibt Tempo vor.
           9-12: Zwei Kinder dürfen abwechselnd eine Aufgabe ansagen.
+      - icon: ✋
+        phase: Handhaltung
+        dauer: 10
+        titel: Körbchen bauen
+        bild: bilder/handhaltung-merkbild.svg
+        inhalt: |-
+          **Ablauf:** Jedes Kind mit eigenem Ball, Trainer steht vorn und macht vor. Vier kurze Aufgaben à 2 Minuten, noch ohne in die Luft zu pritschen.
+
+          * **Fenster:** Daumen und Zeigefinger bilden ein Dreieck. Durch das Fenster den Trainer anschauen und die Hände eine Faust breit vor die Stirn nehmen.
+          * **Handabdruck:** Ball liegt vor den Füßen. Hände von oben auf den Ball legen, alle 10 Finger weit gespreizt. In genau dieser Form den Ball aufheben und über die Stirn führen, ohne die Finger zu verschieben.
+          * **Ball ins Körbchen fallen lassen:** Ball mit gestreckten Armen über den Kopf halten, loslassen und im Körbchen über der Stirn auffangen. Leise fangen: Finger und Handgelenke geben nach, Ellbogen gehen zur Seite.
+          * **„Körbchen!“:** Alle prellen frei durch die Halle. Auf Zuruf sofort Ball über die Stirn und einfrieren. Trainer geht herum und prüft.
+          * 🟢 Mit Softball oder Luftballon, der Ball kommt langsam und die Hände haben Zeit.
+          * 🔵 Ball aus 50 cm über dem Kopf fallen lassen, fangen, 3 Sekunden halten.
+          * 🔴 Ball 1 m hochwerfen, im Körbchen fangen und sofort ganz kurz zurückdrücken (nur Finger und Handgelenke).
+
+          **Trainer-Details:** **Die 3 Merkpunkte (Körbchen):** 1. Daumen zeigen zur Nase, nicht nach vorn. 2. Finger weit gespreizt, nur die Finger berühren den Ball, die Handflächen bleiben frei. 3. Hände eine Faust breit über und vor der Stirn, Ellbogen schräg nach außen. Typische Fehler: Handflächen am Ball (es klatscht), Daumen zeigen nach vorn (Ball rutscht durch), Finger geschlossen, Hände vor dem Gesicht statt über der Stirn. Lieber ein Kind kurz in die richtige Form „modellieren“ als lange erklären.
+        varianten:
+          6-8: Trainer korrigiert jedes Kind einzeln mit den Händen am Ball.
+          9-12: 'Paare: eines macht die Aufgabe, eines prüft die 3 Merkpunkte, nach jeder Aufgabe wechseln.'
       - icon: 🎯
         phase: Technik I
-        dauer: 15
+        dauer: 10
         titel: Pritschen allein (Kontakte zählen)
         bild: bilder/pritschen-allein.svg
         inhalt: |-
@@ -98,7 +118,7 @@ monate:
           9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
       - icon: 🏆
         phase: Abschlussspiel
-        dauer: 20
+        dauer: 15
         titel: Kaiserturnier 1:1
         bild: bilder/kaiser-1v1.svg
         inhalt: |-
@@ -179,6 +199,7 @@ monate:
         inhalt: |-
           **Ablauf:** Paare, 3–4 m Abstand, ein Ball.
 
+          * Vorab 2 Minuten Körbchen-Check: Ball über der Stirn einfrieren, der Partner prüft die 3 Merkpunkte.
           * 🟢 Fangen – hochwerfen – pritschen zum Partner.
           * 🔵 Selbstpass pritschen, dann zum Partner.
           * 🔴 Selbstpass baggern, dann zum Partner pritschen.
@@ -256,9 +277,28 @@ monate:
         varianten:
           6-8: Trainer macht mit und gibt Tempo vor.
           9-12: Zwei Kinder dürfen abwechselnd eine Aufgabe ansagen.
+      - icon: ✋
+        phase: Handhaltung
+        dauer: 10
+        titel: 'Fingerpritschen: Rückenlage, Sitzen, Wand'
+        bild: bilder/handhaltung-boden-wand.svg
+        inhalt: |-
+          **Ablauf:** Jedes Kind mit eigenem Ball. Drei Positionen à 3 Minuten, in jeder Position laut mitzählen. Die Beine sind ausgeschaltet, so arbeiten nur Finger und Handgelenke.
+
+          * **Rückenlage:** Auf dem Rücken liegen, Ball über der Stirn. Ball senkrecht 30–50 cm hochpritschen und wieder im Körbchen abfedern.
+          * **Im Sitzen:** Grätschsitz, Ball senkrecht über den Kopf pritschen. Rücken gerade, Blick zum Ball.
+          * **Wand-Trommel:** 50 cm vor der Wand stehen, Ball in Stirnhöhe ganz schnell und kurz gegen die Wand tippen. 30 Sekunden zählen.
+          * 🟢 Rückenlage: jeden Ball kurz fangen und wieder hochdrücken. Ziel: 10 in Folge.
+          * 🔵 Durchgehend pritschen. Ziel: 20 in Folge, Wand-Trommel 30 in 30 Sekunden.
+          * 🔴 Ball bis 1 m hoch, oder Wand-Trommel mit einem Schritt mehr Abstand. Ziel: 30 in Folge.
+
+          **Trainer-Details:** Hörtest: Ein guter Pritschball ist fast leise. Klatscht es, sind die Handflächen am Ball. **Die 3 Merkpunkte (Körbchen):** 1. Daumen zeigen zur Nase, nicht nach vorn. 2. Finger weit gespreizt, nur die Finger berühren den Ball, die Handflächen bleiben frei. 3. Hände eine Faust breit über und vor der Stirn, Ellbogen schräg nach außen.
+        varianten:
+          6-8: Alle gleichzeitig, Trainer zählt die Wand-Trommel laut mit.
+          9-12: 'Zwei Gruppen: eine an der Wand, eine am Boden, nach 3 Minuten wechseln, damit die Wand reicht.'
       - icon: 🎯
         phase: Technik I
-        dauer: 15
+        dauer: 10
         titel: Pritschen allein (Kontakte zählen)
         bild: bilder/pritschen-allein.svg
         inhalt: |-
@@ -305,7 +345,7 @@ monate:
           9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
       - icon: 🏆
         phase: Abschlussspiel
-        dauer: 20
+        dauer: 15
         titel: Kaiserturnier 1:1
         bild: bilder/kaiser-1v1.svg
         inhalt: |-
@@ -463,9 +503,26 @@ monate:
         varianten:
           6-8: Trainer macht mit und gibt Tempo vor.
           9-12: Zwei Kinder dürfen abwechselnd eine Aufgabe ansagen.
+      - icon: ✋
+        phase: Handhaltung
+        dauer: 10
+        titel: Freeze-Fangen im Paar
+        bild: bilder/handhaltung-freeze.svg
+        inhalt: |-
+          **Ablauf:** Paare, 3 m Abstand. A wirft den Ball hoch auf die Stirn von B. B fängt im Körbchen und friert ein. A prüft die 3 Merkpunkte und gibt Daumen hoch, dann drückt B den Ball aus der Haltung zurück. Nach 10 Würfen wechseln.
+
+          * 🟢 Fangen, 2 Sekunden einfrieren, zurückdrücken.
+          * 🔵 Nur noch ganz kurz fangen, sofort zurückdrücken. Auf Zuruf „Freeze!“ von A trotzdem einfrieren.
+          * 🔴 Direkt pritschen, aber bei jedem 5. Ball ruft A „Freeze!“ und B muss den Ball im Körbchen festhalten.
+          * Zusatz für Kräftige: Mit Basketball oder weichem Medizinball (höchstens 1 kg) nur fangen und zurückdrücken, kein Pritschen in der Luft. Der schwere Ball zwingt die Finger auseinander.
+
+          **Trainer-Details:** Das Prüfen macht die Partner zu Mini-Trainern und schärft den Blick für die eigene Haltung. **Die 3 Merkpunkte (Körbchen):** 1. Daumen zeigen zur Nase, nicht nach vorn. 2. Finger weit gespreizt, nur die Finger berühren den Ball, die Handflächen bleiben frei. 3. Hände eine Faust breit über und vor der Stirn, Ellbogen schräg nach außen.
+        varianten:
+          6-8: Trainer übernimmt bei einem Paar das Werfen und Prüfen, damit jedes Kind einmal direkt korrigiert wird.
+          9-12: '3er-Gruppen bei Ballmangel: einer wirft, einer fängt, einer prüft. Nach 10 Würfen rotieren.'
       - icon: 🎯
         phase: Technik I
-        dauer: 15
+        dauer: 10
         titel: Pritschen allein (Kontakte zählen)
         bild: bilder/pritschen-allein.svg
         inhalt: |-
@@ -512,7 +569,7 @@ monate:
           9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
       - icon: 🏆
         phase: Abschlussspiel
-        dauer: 20
+        dauer: 15
         titel: 2:2 Königsfeld
         bild: bilder/2v2-koenigsfeld.svg
         inhalt: |-
@@ -676,6 +733,7 @@ monate:
         inhalt: |-
           **Ablauf:** Stationen mit je einem Kind als Zähler. Jedes Kind hat 2 Versuche pro Station. Ergebnis auf eine Liste.
 
+          * Vorab 2 Minuten Körbchen-Check: Ball über der Stirn einfrieren, der Partner prüft die 3 Merkpunkte.
           * Station 1: Pritschen allein über Kopf (in Folge).
           * Station 2: Baggern allein über Kopf (in Folge).
           * Station 3: Pritschen gegen die Wand aus 2 m (in Folge).
@@ -825,9 +883,28 @@ monate:
         varianten:
           6-8: Trainer macht mit und gibt Tempo vor.
           9-12: Zwei Kinder dürfen abwechselnd eine Aufgabe ansagen.
+      - icon: 🧱
+        phase: Basics
+        dauer: 10
+        titel: Pritschen aus den Beinen
+        bild: bilder/pritschen-beine.svg
+        inhalt: |-
+          **Ablauf:** Jedes Kind mit eigenem Ball. Drei Aufgaben, Trainer zählt laut mit.
+
+          * **Hocke und hoch (3 Min):** Ball im Körbchen über der Stirn, tief in die Knie. Beine strecken und den Ball aus dem Körbchen senkrecht hochdrücken, wieder fangen. Die Arme strecken erst, wenn die Beine schon arbeiten.
+          * **Höhen-Treppe (4 Min):** Pritschen allein. Trainer ruft „1!“, „2!“ oder „3!“ für 1 m, 2 m oder 3 m Ballhöhe. Höher wird es durch mehr Beine, nicht durch mehr Arme.
+          * **Schrittstellung (3 Min):** Rechter Fuß eine halbe Fußlänge vor. 10 Pässe gegen die Wand aus 3 m, jeder Pass mit Strecken bis auf die Zehenspitzen.
+          * 🟢 Hocke und hoch mit Fangen bei jeder Aufgabe, Treppe nur 1 m und 2 m.
+          * 🔵 Durchgehend pritschen. Ziel: 3 Treppen-Runden (1 – 2 – 3 m) ohne Fehler.
+          * 🔴 Wand aus 4 m, oder abwechselnd Hocke (tiefer Ball) und Strecken (hoher Ball).
+
+          **Trainer-Details:** Ganzkörperbewegung: Beine, Rumpf und Arme strecken in einer Welle in Spielrichtung. Gute Pritscher landen nach dem Pass auf den Zehenspitzen. Die Handhaltung bleibt wie gelernt (Körbchen über der Stirn).
+        varianten:
+          6-8: Alle gleichzeitig, Trainer macht die Höhen-Treppe vor und zählt.
+          9-12: 'Zwei Gruppen: eine an der Wand, eine frei in der Halle, nach 5 Minuten wechseln.'
       - icon: 🎯
         phase: Technik I
-        dauer: 10
+        dauer: 5
         titel: Pritschen allein (Kontakte zählen)
         bild: bilder/pritschen-allein.svg
         inhalt: |-
@@ -875,7 +952,7 @@ monate:
           9-12: Drei bis vier 3er-Gruppen gleichzeitig, jede mit eigenem Ball.
       - icon: 🏆
         phase: Abschlussspiel
-        dauer: 25
+        dauer: 20
         titel: 2:2 mit Aufschlag
         bild: bilder/2v2-aufschlag.svg
         inhalt: |-
@@ -918,9 +995,29 @@ monate:
           * Zum Schluss jedes Kind mit Ball: 20x hochwerfen und in Pritschhaltung fangen.
 
           **Trainer-Details:** Laufen, Reagieren und Ball in einem. Fänger wechseln oft, damit niemand lange „dran“ bleibt.
+      - icon: 🧱
+        phase: Basics
+        dauer: 10
+        titel: 'Bagger-Brett: Hände, Arme, Beine'
+        bild: bilder/bagger-merkbild.svg
+        inhalt: |-
+          **Ablauf:** Paare mit einem Ball. Baggern können die Kinder seit Monat 1, jetzt wird das Brett genau. Trainer macht jede Aufgabe einmal vor, dann 2 Minuten üben, dann wechseln.
+
+          * **Brett in 1 Sekunde:** Alle laufen locker. Auf „Brett!“ sofort stehen bleiben, Knie beugen, Brett bilden. Der Partner prüft die 3 Merkpunkte.
+          * **Ball tragen:** Ball liegt auf dem Brett. Damit durch die Halle gehen, in die Hocke gehen und wieder hoch, ohne dass der Ball runterfällt.
+          * **Treffpunkt finden:** Partner hält den Ball 30 cm über das Brett und lässt ihn fallen. Er soll eine Handbreit über den Handgelenken auftreffen und gerade nach oben springen.
+          * **Brett-Schieber:** Partner hält den Ball fest vor dem Bauch des Kindes. Das Kind legt das Brett darunter und schiebt den Ball nur durch Strecken der Beine nach vorn-oben. Die Arme bleiben fest.
+          * 🟢 Mit Softball, beim Treffpunkt den Ball nach dem Aufspringen fangen.
+          * 🔵 Treffpunkt aus 60 cm, Ball springt zum Partner zurück und wird gefangen.
+          * 🔴 Ball tragen im Sidestep und rückwärts, Treffpunkt aus 1 m.
+
+          **Trainer-Details:** **Die 3 Merkpunkte (Brett):** 1. Hand in Hand legen, Daumen liegen parallel nebeneinander. 2. Arme gestreckt, Ellbogen zusammen, so wird das Brett flach. 3. Knie gebeugt, Ball vor dem Körper treffen, gespielt wird aus den Beinen, nicht aus den Armen. Typische Fehler: Daumen über Kreuz, Arme angewinkelt, Ball an den Handgelenken oder Händen, Schwung aus den Schultern. Die Schieber-Aufgabe macht spürbar, dass die Kraft aus den Beinen kommt.
+        varianten:
+          6-8: Trainer geht von Paar zu Paar und modelliert das Brett mit den Händen.
+          9-12: 'Zwei Paare bilden eine Prüf-Gruppe: ein Paar übt, das andere prüft, nach jeder Aufgabe wechseln.'
       - icon: 🎯
         phase: Technik I
-        dauer: 15
+        dauer: 10
         titel: Baggern allein (Brett bauen)
         bild: bilder/baggern-allein.svg
         inhalt: |-
@@ -983,7 +1080,7 @@ monate:
           9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
       - icon: 🏆
         phase: Abschlussspiel
-        dauer: 25
+        dauer: 20
         titel: 2:2 „Annahme zählt doppelt“
         bild: bilder/2v2-annahme-doppelt.svg
         inhalt: |-
@@ -1031,6 +1128,23 @@ monate:
         varianten:
           6-8: Trainer macht mit und gibt Tempo vor.
           9-12: Zwei Kinder dürfen abwechselnd eine Aufgabe ansagen.
+      - icon: 🧱
+        phase: Basics
+        dauer: 10
+        titel: 'Pritschen zum Ziel: erst drehen, dann spielen'
+        bild: bilder/pritschen-drehen.svg
+        inhalt: |-
+          **Ablauf:** 4er-Gruppen. A wirft hoch zu B in der Mitte. Links und rechts von B steht je ein Fänger C. Wenn der Ball oben ist, ruft A „Links!“ oder „Rechts!“. B dreht sich unter dem Ball zum genannten C und pritscht zu ihm. Nach 8 Bällen rotieren.
+
+          * Gesicht und Bauchnabel zeigen beim Pass immer zum Ziel. Erst drehen, dann spielen.
+          * 🟢 A ruft schon vor dem Wurf. B darf den Ball fangen, drehen und aus dem Körbchen zu C pritschen.
+          * 🔵 Ruf, wenn der Ball oben ist. B pritscht direkt, C fängt ohne Schritt.
+          * 🔴 Ruf erst kurz vor dem Kontakt, oder A pritscht statt zu werfen.
+
+          **Trainer-Details:** Das ist die Grundlage fürs Zuspiel: Wer sich nicht zum Ziel dreht, pritscht seitlich und der Ball fliegt schief. Kurze, schnelle Schritte unter den Ball, die Füße zeigen zum Ziel.
+        varianten:
+          6-8: Eine 4er-Gruppe plus eine 3er-Gruppe; dort ruft der Werfer, und es gibt nur ein Ziel, das wechselt die Seite.
+          9-12: Drei 4er-Gruppen gleichzeitig, Fänger wechseln nach jedem Durchgang ins Werfen.
       - icon: 🎯
         phase: Technik I
         dauer: 15
@@ -1065,7 +1179,7 @@ monate:
           9-12: Drei bis vier 3er-Gruppen gleichzeitig, jede mit eigenem Ball.
       - icon: 🧠
         phase: Spielform
-        dauer: 20
+        dauer: 15
         titel: 2:2 mit Zuspielerregel
         bild: bilder/2v2-zuspielerregel.svg
         inhalt: |-
@@ -1081,7 +1195,7 @@ monate:
           9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
       - icon: 🏆
         phase: Abschlussspiel
-        dauer: 20
+        dauer: 15
         titel: Kaiserturnier 2:2
         bild: bilder/kaiser-2v2.svg
         inhalt: |-
@@ -1124,9 +1238,28 @@ monate:
           * 🟢/🔵/🔴 Runde 3: Fang-Pritschen, Pritschen im Gehen oder Pritschen im Laufen.
 
           **Trainer-Details:** Kleine Gruppen, damit niemand lange wartet. Lieber 5 kurze Runden als 2 lange.
+      - icon: 🧱
+        phase: Basics
+        dauer: 10
+        titel: 'Bagger-Beinarbeit: laufen, stoppen, spielen'
+        bild: bilder/bagger-beinarbeit.svg
+        inhalt: |-
+          **Ablauf:** Jedes Kind steht zwischen drei Hütchen (vorn, links, rechts, je 2 m entfernt). Erst ohne Ball, dann mit Partner.
+
+          * **Schattenlauf (3 Min):** Trainer zeigt mit dem Arm eine Richtung. Alle machen 2 Sidesteps (oder 2 Schritte nach vorn), stoppen in der Grundstellung, bilden das Brett und machen eine Baggerbewegung ohne Ball. Zurück in die Mitte.
+          * **Spiegeln (3 Min):** Paare gegenüber. A bewegt sich seitlich hin und her und stoppt plötzlich. B spiegelt jede Bewegung und steht im Stopp sofort mit Brett.
+          * **Laufen, stoppen, spielen (4 Min):** A wirft den Ball neben ein Hütchen. B läuft hin, stoppt hinter dem Ball und baggert zu A zurück.
+          * 🟢 Der Ball darf einmal aufspringen, dann baggern.
+          * 🔵 Direkt baggern, A soll ohne Schritt fangen können.
+          * 🔴 A zeigt erst im letzten Moment die Richtung (Ball wird spät geworfen), 10 in Folge fangbar.
+
+          **Trainer-Details:** Leitsatz: „Erst stehen, dann spielen.“ Sidesteps flach über den Boden, Füße kreuzen nicht. Beim Stopp sind die Füße schulterbreit, das Gewicht vorn. **Die 3 Merkpunkte (Brett):** 1. Hand in Hand legen, Daumen liegen parallel nebeneinander. 2. Arme gestreckt, Ellbogen zusammen, so wird das Brett flach. 3. Knie gebeugt, Ball vor dem Körper treffen, gespielt wird aus den Beinen, nicht aus den Armen.
+        varianten: &id001
+          6-8: Alle gleichzeitig in Paaren, Trainer wirft bei Bedarf selbst einem Paar zu.
+          9-12: Paare an Wand, Netz und Hallenmitte verteilen. Bei Ballmangel 3er-Gruppen mit fliegendem Wechsel nach 10 Kontakten.
       - icon: 🎯
         phase: Technik I
-        dauer: 15
+        dauer: 10
         titel: Pritschen im Paar mit Netz
         bild: bilder/paar-netz.svg
         inhalt: |-
@@ -1188,7 +1321,7 @@ monate:
           9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
       - icon: 🏆
         phase: Abschlussspiel
-        dauer: 25
+        dauer: 20
         titel: 3:3 kennenlernen
         bild: bilder/3v3-kennenlernen.svg
         inhalt: |-
@@ -1235,9 +1368,26 @@ monate:
         varianten:
           6-8: Trainer macht mit und gibt Tempo vor.
           9-12: Zwei Kinder dürfen abwechselnd eine Aufgabe ansagen.
+      - icon: 🧱
+        phase: Basics
+        dauer: 10
+        titel: 'Tiefer Bagger: Knie runter, nicht die Arme'
+        bild: bilder/bagger-tief.svg
+        inhalt: |-
+          **Ablauf:** Paare, 3 m Abstand. A wirft flache Bälle, die B in Kniehöhe oder tiefer erreichen. B spielt mit tiefem Bagger zurück. 10 Würfe, dann wechseln.
+
+          * **Ohne Ball (2 Min):** Ausfallschritt nach vorn, Po tief, Brett flach knapp über dem Boden. 5x links, 5x rechts.
+          * **Ball vom Boden:** Ball liegt vor B. B geht in den Ausfallschritt, schiebt das Brett unter den Ball und hebt ihn aus den Beinen hoch zum Partner.
+          * **Geworfene tiefe Bälle:** A wirft flach auf die Knie von B.
+          * 🟢 Ball wird gerollt, B stoppt ihn im Ausfallschritt mit dem Brett und spielt ihn hoch.
+          * 🔵 Flacher Wurf auf die Knie, B baggert zurück zu A.
+          * 🔴 A wirft 1–2 Schritte vor B. B läuft, geht tief und baggert. Ziel: 7 von 10 fangbar.
+
+          **Trainer-Details:** Bei tiefen Bällen bücken sich Kinder mit geraden Beinen und schlagen mit den Armen. Dann fliegt der Ball nach hinten weg. Merksatz: „Knie runter, nicht die Arme.“ Das Brett bleibt flach, der Rücken eher gerade. **Die 3 Merkpunkte (Brett):** 1. Hand in Hand legen, Daumen liegen parallel nebeneinander. 2. Arme gestreckt, Ellbogen zusammen, so wird das Brett flach. 3. Knie gebeugt, Ball vor dem Körper treffen, gespielt wird aus den Beinen, nicht aus den Armen.
+        varianten: *id001
       - icon: 🎯
         phase: Technik I
-        dauer: 20
+        dauer: 15
         titel: Vom Schlagwurf zum Tennisaufschlag
         bild: bilder/tennisaufschlag.svg
         inhalt: |-
@@ -1282,7 +1432,7 @@ monate:
           9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
       - icon: 🏆
         phase: Abschlussspiel
-        dauer: 20
+        dauer: 15
         titel: Kaiserturnier 3:3
         bild: bilder/kaiser-3v3.svg
         inhalt: |-
@@ -1325,9 +1475,27 @@ monate:
           * Zum Schluss jedes Kind mit Ball: 20x hochwerfen und in Pritschhaltung fangen.
 
           **Trainer-Details:** Laufen, Reagieren und Ball in einem. Fänger wechseln oft, damit niemand lange „dran“ bleibt.
+      - icon: 🧱
+        phase: Basics
+        dauer: 10
+        titel: 'Brett kippen: Schultern zum Ziel'
+        bild: bilder/bagger-kippen.svg
+        inhalt: |-
+          **Ablauf:** 3er-Gruppen im rechten Winkel. A wirft von der Seite zu B, B baggert nach vorn zu C. C fängt. Nach 8 Würfen Rollen tauschen, danach A auf die andere Seite.
+
+          * Vor dem Ball dreht B die Schultern zu C. Das Brett zeigt zu C, nicht zum Werfer.
+          * Bei Bällen von rechts: rechte Schulter etwas tiefer, das Brett kippt zum Ziel. Von links umgekehrt.
+          * 🟢 A wirft auf den Bauch von B, kleiner Winkel (C steht schräg vor B).
+          * 🔵 Voller rechter Winkel, C soll ohne Schritt fangen können.
+          * 🔴 A wirft 1 Schritt neben B. B läuft, stoppt, dreht und baggert. Ziel: 6 von 8 bei C.
+
+          **Trainer-Details:** Der Ball fliegt dahin, wohin das Brett zeigt. Kinder baggern gern zurück zum Werfer, weil sie ihn anschauen. Deshalb: Blick zum Ball, Bauchnabel zum Ziel. **Die 3 Merkpunkte (Brett):** 1. Hand in Hand legen, Daumen liegen parallel nebeneinander. 2. Arme gestreckt, Ellbogen zusammen, so wird das Brett flach. 3. Knie gebeugt, Ball vor dem Körper treffen, gespielt wird aus den Beinen, nicht aus den Armen.
+        varianten:
+          6-8: Zwei 3er-Gruppen plus ein Paar; das Paar spielt die gleiche Aufgabe ohne Mittelmann.
+          9-12: Drei bis vier 3er-Gruppen gleichzeitig, jede mit eigenem Ball.
       - icon: 🎯
         phase: Technik II
-        dauer: 15
+        dauer: 10
         titel: Einspielen Bagger/Pritsche
         bild: bilder/paare-halle.svg
         inhalt: |-
@@ -1388,7 +1556,7 @@ monate:
           9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
       - icon: 🏆
         phase: Abschlussspiel
-        dauer: 25
+        dauer: 20
         titel: 3:3 Turnier (Kurzspiele)
         bild: bilder/3v3-turnier.svg
         inhalt: |-
@@ -1443,6 +1611,7 @@ monate:
         inhalt: |-
           **Ablauf:** Stationen mit Zähler-Kindern, Ergebnisse auf die Liste vom Monat 1.
 
+          * Vorab 2 Minuten Brett-Check: auf „Brett!“ einfrieren, der Partner prüft die 3 Merkpunkte (Daumen parallel, Arme gestreckt, Knie gebeugt).
           * Station 1: 10 Aufschläge von der gewählten Distanz – Treffer zählen.
           * Station 2: 10 Annahmen (Zuwurf/Aufschlag) – wie viele erreicht der Zuspieler?
           * Station 3: 10 Zuspiele vom Netz zu Pos IV – wie viele sind hoch und fangbar?
@@ -1591,9 +1760,28 @@ monate:
         varianten:
           6-8: Trainer macht mit und gibt Tempo vor.
           9-12: Zwei Kinder dürfen abwechselnd eine Aufgabe ansagen.
+      - icon: 🧱
+        phase: Basics
+        dauer: 10
+        titel: 'Stemmschritt: bremsen und hoch'
+        bild: bilder/stemmschritt-fuesse.svg
+        inhalt: |-
+          **Ablauf:** Alle ohne Ball an einer Linie (z. B. 3-m-Linie). Trainer macht vor, alle sprechen laut mit: „Rechts – Links – Hoch!“.
+
+          * **Stopp an der Linie (3 Min):** Aus lockerem Laufen mit einem langen rechten Schritt auf die Ferse landen, links schnell daneben. Einfrieren: Knie gebeugt, Arme hinten. Partner prüft: Füße schulterbreit, links etwas vor?
+          * **Stemmen und hoch (4 Min):** Wie oben, aber nach dem Stemmen sofort beidbeinig senkrecht hochspringen und am selben Fleck landen.
+          * **Reifen-Stemmen (3 Min):** Zwei Reifen nebeneinander. Aus 2 Schritten in die Reifen stemmen (rechts in den einen, links in den anderen) und hochspringen.
+          * 🟢 Aus dem Gehen, nur stemmen und stoppen, kein Sprung.
+          * 🔵 Aus 2 Schritten stemmen und springen. Landung höchstens eine Fußlänge vor dem Absprung.
+          * 🔴 Aus 3 Schritten, im Sprung einen Ball berühren, den der Trainer hochhält.
+
+          **Trainer-Details:** **Merkpunkte Stemmschritt (Rechtshänder):** Der vorletzte Schritt (rechts) ist lang und flach und landet auf der Ferse. Der linke Fuß kommt schnell daneben, etwas weiter vorn. Beide Füße stemmen, die Knie beugen, die Arme sind ganz hinten. Dann Arme nach vorn-oben reißen und beidbeinig hoch. Linkshänder spiegelverkehrt (links lang, rechts dazu). Der Stemmschritt wandelt das Tempo nach vorn in Höhe um. Wer nach vorn springt, hat zu kurz gestemmt. Landung immer beidbeinig und weich.
+        varianten:
+          6-8: Alle in einer Reihe nebeneinander, Trainer prüft jedes Kind einzeln.
+          9-12: 'Zwei Linien, auf jeder Linie Paare: eines springt, eines prüft.'
       - icon: 🎯
         phase: Technik I
-        dauer: 20
+        dauer: 15
         titel: Schlagwurf zum Schlag
         bild: bilder/schlag-paar.svg
         inhalt: |-
@@ -1625,7 +1813,7 @@ monate:
           9-12: 'Zwei Netze/Stationen: Pos IV und Pos II.'
       - icon: 🧠
         phase: Spielform
-        dauer: 20
+        dauer: 15
         titel: 'Angriff oder Lob: 2:2'
         bild: bilder/2v2-angriff.svg
         inhalt: |-
@@ -1789,9 +1977,28 @@ monate:
           * Danach: Anlauf mit Ball in den Händen, im Sprung Ball über das Netz werfen.
 
           **Trainer-Details:** Laut mitsprechen lassen („Links – Rechts-Links – Hoch!“). Linkshänder spiegelverkehrt.
+      - icon: 🧱
+        phase: Basics
+        dauer: 10
+        titel: Stemmschritt mit Armschwung
+        bild: bilder/stemmschritt-arme.svg
+        inhalt: |-
+          **Ablauf:** Alle ohne Ball, dann mit Ziel. Trainer zählt den Rhythmus.
+
+          * **Pendel-Arme im Stand (2 Min):** Beide Arme nach hinten schwingen, Knie beugen, Arme nach vorn-oben reißen und springen. 10x.
+          * **Schritt und Arme koppeln (4 Min):** Beim langen rechten Schritt gehen beide Arme nach hinten. Beim Stemmen sind sie ganz hinten. Beim Absprung reißen beide nach vorn-oben.
+          * **Hoch zum Ziel (4 Min):** Trainer oder großes Kind hält einen Ball auf der Langbank stehend hoch. Anlaufen, stemmen, abspringen, den Ball mit der Schlaghand berühren.
+          * 🟢 2-Schritt-Anlauf, Arme erst im Stand üben, dann koppeln.
+          * 🔵 3-Schritt-Anlauf mit vollem Armschwung.
+          * 🔴 3-Schritt-Anlauf, Schlagarm geht nach dem Armschwung in Ausholposition (Ellbogen hoch hinter dem Kopf).
+
+          **Trainer-Details:** Der Armschwung bringt ein gutes Stück Sprunghöhe. Häufigster Fehler: Arme hängen beim Stemmen unten oder schwingen nur einseitig. **Merkpunkte Stemmschritt (Rechtshänder):** Der vorletzte Schritt (rechts) ist lang und flach und landet auf der Ferse. Der linke Fuß kommt schnell daneben, etwas weiter vorn. Beide Füße stemmen, die Knie beugen, die Arme sind ganz hinten. Dann Arme nach vorn-oben reißen und beidbeinig hoch. Linkshänder spiegelverkehrt (links lang, rechts dazu).
+        varianten:
+          6-8: 'Eine Reihe, Trainer hält den Ball. Wartezeit kurz halten: nach jedem Sprung direkt wieder anstellen.'
+          9-12: 'Zwei Stationen: an einer hält der Trainer den Ball, an der anderen üben Paare die Pendel-Arme.'
       - icon: 🎯
         phase: Technik I
-        dauer: 15
+        dauer: 10
         titel: Schlag im Paar mit Kontrolle
         bild: bilder/schlag-kontrolle.svg
         inhalt: |-
@@ -1821,7 +2028,7 @@ monate:
           9-12: Zwei Stationen (Pos IV und Pos II).
       - icon: 🧠
         phase: Spielform
-        dauer: 20
+        dauer: 15
         titel: 3:3 Abwehr-Bonus
         bild: bilder/3v3-abwehr.svg
         inhalt: |-
@@ -1984,9 +2191,27 @@ monate:
         varianten:
           6-8: Trainer macht mit und gibt Tempo vor.
           9-12: Zwei Kinder dürfen abwechselnd eine Aufgabe ansagen.
+      - icon: 🧱
+        phase: Basics
+        dauer: 10
+        titel: Stemmschritt-Parcours mit Reifen
+        bild: bilder/stemmschritt-parcours.svg
+        inhalt: |-
+          **Ablauf:** Vor dem Netz liegen Reifen als Fußspur: ein Reifen links, ein Reifen weit entfernt rechts (langer Schritt), dann zwei Reifen nebeneinander (Stemmschritt). Anlauf durch die Reifen, Stemmen, Absprung am Netz.
+
+          * Rechtshänder: L – R (lang) – L/R. Linkshänder bekommen eine gespiegelte Reifen-Spur.
+          * Trainer wirft beim Stemmen einen Ball hoch vor das Netz.
+          * 🟢 Nur die Spur laufen, stemmen, hoch springen, kein Ball.
+          * 🔵 Den geworfenen Ball im höchsten Punkt mit beiden Händen fangen.
+          * 🔴 Ball im Sprung fangen und mit Schlagwurf über das Netz werfen, oder direkt schlagen.
+
+          **Trainer-Details:** Die Reifen geben die Schrittlänge vor, nach einigen Durchgängen den mittleren Reifen weglassen. Höchstens 3 Kinder pro Reihe, Wartende holen Bälle. **Merkpunkte Stemmschritt (Rechtshänder):** Der vorletzte Schritt (rechts) ist lang und flach und landet auf der Ferse. Der linke Fuß kommt schnell daneben, etwas weiter vorn. Beide Füße stemmen, die Knie beugen, die Arme sind ganz hinten. Dann Arme nach vorn-oben reißen und beidbeinig hoch. Linkshänder spiegelverkehrt (links lang, rechts dazu).
+        varianten:
+          6-8: Eine Reifen-Spur, Trainer wirft.
+          9-12: Zwei Reifen-Spuren an Pos IV und Pos II, ein sicheres Kind wirft an der zweiten Spur.
       - icon: 🎯
         phase: Technik I
-        dauer: 15
+        dauer: 10
         titel: Einspielen-Kette
         bild: bilder/paare-halle.svg
         inhalt: |-
@@ -2012,7 +2237,7 @@ monate:
           9-12: Zwei Reihen auf beiden Seiten des Netzes.
       - icon: 🧠
         phase: Spielform
-        dauer: 25
+        dauer: 20
         titel: 4:4 „Jeder greift an“
         bild: bilder/4v4-jeder.svg
         inhalt: |-
@@ -2185,6 +2410,7 @@ monate:
           * Station 2: Baggern allein (in Folge).
           * Station 3: 10 Aufschläge (Treffer und Distanz).
           * Station 4: 10 Angriffe nach Zuwurf/Zuspiel (Treffer ins Feld).
+          * Station 5: Stemmschritt-Check. 3 Anläufe, der Zähler prüft: langer Schritt, Stemmen beidbeinig, Landung am Absprungort. Jeder sauber gezeigte Anlauf zählt.
           * Vergleich mit Monat 1: Wer hat sich wie stark verbessert?
 
           **Trainer-Details:** Verbesserung zählt mehr als das absolute Ergebnis. „Größter Sprung“ als eigene Auszeichnung.
