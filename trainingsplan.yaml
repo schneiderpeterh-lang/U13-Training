@@ -21,6 +21,21 @@
 #   video: https://youtu.be/... (YouTube-Link oder eigenes Video im Ordner "bilder")
 #   link: https://...           (Quelle zum Nachlesen, z. B. eine Übung auf einer Trainerseite)
 
+# Kalender für den Knopf "Heute" in der App:
+#   ab_monat:  ab diesem Monat bekommen die Einheiten ein Datum (Monat 1 ist schon vorbei)
+#   start:     Montag der Woche, in der dieser Monat mit Woche 1 beginnt
+#   tage:      Trainingstage. Die 1. Einheit einer Woche liegt am 1. Tag, die 2. am 2. Tag.
+#   pausen:    Ferien oder Hallensperren (von/bis). Fällt ein Trainingstag hinein,
+#              wird die ganze Woche übersprungen und der Plan rückt eine Woche nach hinten.
+kalender:
+  ab_monat: 2
+  start: 2026-11-02
+  tage: [Mittwoch, Freitag]
+  pausen:
+  - von: 2026-12-23
+    bis: 2027-01-06
+    name: Weihnachtsferien
+
 monate:
 - name: Monat 1
   thema: 'Pritschen & Baggern: den Ball kontrollieren (Spielreihe 1:1 → 2:2)'
@@ -865,6 +880,10 @@ monate:
     - name: TE 1
       dauer: 90
       titel: Aufschlag von unten
+      schwerpunkt:
+        kurz: 'Haltehand bleibt ruhig'
+        achte_auf: 'Der Ball liegt ruhig auf der flachen Haltehand, auf Hüfthöhe vor dem Körper auf der Seite der Schlaghand. Er wird höchstens kurz angehoben, nicht hochgeworfen. Wer den Ball wirft, trifft ihn zufällig.'
+        sag_dazu: 'Ball liegt, Hand schlägt!'
       uebungen:
       - icon: 🏃‍♂️
         phase: Warm-up
@@ -981,6 +1000,10 @@ monate:
       tag: Freitag
       dauer: 120
       titel: 'Annahme: hoch zur Mitte'
+      schwerpunkt:
+        kurz: 'Brett still, Beine hoch'
+        achte_auf: 'Die Arme schwingen bei der Annahme nicht nach oben. Das Brett bleibt ruhig, die Höhe kommt aus dem Strecken der Beine.'
+        sag_dazu: 'Brett still, Beine hoch!'
       uebungen:
       - icon: 🏃‍♂️
         phase: Warm-up
@@ -1110,6 +1133,10 @@ monate:
     - name: TE 3
       dauer: 90
       titel: 'Zuspiel: der zweite Ball'
+      schwerpunkt:
+        kurz: 'Erst drehen, dann spielen'
+        achte_auf: 'Beim Zuspiel zeigen Bauch und Füße schon zum Ziel, bevor der Ball kommt. Gespielt wird geradeaus nach vorn, nicht seitlich aus den Händen.'
+        sag_dazu: 'Bauch zum Ziel!'
       uebungen:
       - icon: 🏃‍♂️
         phase: Warm-up
@@ -1224,6 +1251,10 @@ monate:
       tag: Freitag
       dauer: 120
       titel: Drei Kontakte im 2:2
+      schwerpunkt:
+        kurz: '„Ich!“ rufen'
+        achte_auf: 'Vor jedem Ball ruft das Kind, das ihn spielt, laut „Ich!“, und zwar bevor der Ball über das Netz kommt. Das verhindert Zusammenstöße und Bälle, die zwischen zwei Kindern fallen.'
+        sag_dazu: 'Wer ruft, spielt!'
       uebungen:
       - icon: 🏃‍♂️
         phase: Warm-up
@@ -1350,6 +1381,10 @@ monate:
     - name: TE 5
       dauer: 90
       titel: Aufschlag von oben (Einführung)
+      schwerpunkt:
+        kurz: 'Anwurf vor die Schlagschulter'
+        achte_auf: 'Beim Aufschlag von oben wirft die Haltehand den Ball etwa einen Meter hoch und leicht vor die Schlagschulter, nicht über den Kopf oder hinter den Körper.'
+        sag_dazu: 'Ball vor die Schulter!'
       uebungen:
       - icon: 🏃‍♂️
         phase: Warm-up
@@ -1461,6 +1496,10 @@ monate:
       tag: Freitag
       dauer: 120
       titel: 3:3 mit Aufschlag und Annahme
+      schwerpunkt:
+        kurz: 'Schultern zeigen zum Zuspieler'
+        achte_auf: 'Bei der Annahme zeigt das Brett mit den Schultern zum Zuspieler. Kommt der Ball von der Seite, kippt die äußere Schulter etwas tiefer, die Arme schwingen nicht hinterher.'
+        sag_dazu: 'Schultern zum Zuspieler!'
       uebungen:
       - icon: 🏃‍♂️
         phase: Warm-up
@@ -1585,6 +1624,10 @@ monate:
     - name: TE 7
       dauer: 90
       titel: 'Check-Woche: Aufschlag & Annahme'
+      schwerpunkt:
+        kurz: 'Schwächste Station pro Kind'
+        achte_auf: 'Beim Abzeichen nur zählen und nicht korrigieren. Notiere für jedes Kind die Station mit den wenigsten Punkten, daran arbeitet es in Monat 3 im freien Üben.'
+        sag_dazu: 'Was übst du nächsten Monat?'
       uebungen:
       - icon: 🏃‍♂️
         phase: Warm-up
@@ -1666,6 +1709,10 @@ monate:
       tag: Freitag
       dauer: 120
       titel: Monatsturnier 3:3
+      schwerpunkt:
+        kurz: 'Drei Kontakte genutzt'
+        achte_auf: 'Lobe jeden Ballwechsel, in dem eine Mannschaft alle drei Kontakte spielt, auch wenn der Punkt verloren geht. Bälle, die direkt zurückgespielt werden, kommentierst du nicht.'
+        sag_dazu: 'Super, drei Kontakte!'
       uebungen:
       - icon: 🏃‍♂️
         phase: Warm-up
@@ -1742,6 +1789,10 @@ monate:
     - name: TE 1
       dauer: 90
       titel: Schlagwurf und Schlag aus dem Stand
+      schwerpunkt:
+        kurz: 'Ellbogen hoch'
+        achte_auf: 'Beim Schlagwurf und beim Schlag geht der Ellbogen des Schlagarms über Schulterhöhe nach hinten (Bogen spannen). Der Ball wird mit gestrecktem Arm vor dem Kopf getroffen.'
+        sag_dazu: 'Bogen spannen, Ellbogen hoch!'
       uebungen:
       - icon: 🏃‍♂️
         phase: Warm-up
@@ -1858,6 +1909,10 @@ monate:
       tag: Freitag
       dauer: 120
       titel: Anlauf lernen
+      schwerpunkt:
+        kurz: 'Letzter Schritt lang auf die Ferse'
+        achte_auf: 'Beim Anlauf ist der vorletzte Schritt lang und landet auf der Ferse (Rechtshänder: rechts lang, links schnell daneben). Kinder, die auf den Zehen ankommen, springen nach vorn statt nach oben.'
+        sag_dazu: 'Lang – stopp – hoch!'
       uebungen:
       - icon: 🏃‍♂️
         phase: Warm-up
@@ -1962,6 +2017,10 @@ monate:
     - name: TE 3
       dauer: 90
       titel: Angriff mit Zuspiel
+      schwerpunkt:
+        kurz: 'Erst loslaufen, wenn der Zuspieler spielt'
+        achte_auf: 'Der Angreifer wartet mit dem Anlauf, bis der Zuspieler den Ball berührt. Wer zu früh läuft, steht unter dem Ball und kann nicht mehr schlagen.'
+        sag_dazu: 'Warte auf den Pass!'
       uebungen:
       - icon: 🏃‍♂️
         phase: Warm-up
@@ -2072,6 +2131,10 @@ monate:
       tag: Freitag
       dauer: 120
       titel: 'Abwehr: Bälle retten'
+      schwerpunkt:
+        kurz: 'Stillstehen, wenn geschlagen wird'
+        achte_auf: 'In der Abwehr steht das Kind tief und auf den Fußballen still, genau in dem Moment, in dem der Gegner schlägt. Wer dann noch läuft, kommt zu spät.'
+        sag_dazu: 'Bereit, wenn er schlägt!'
       uebungen:
       - icon: 🏃‍♂️
         phase: Warm-up
@@ -2173,6 +2236,10 @@ monate:
     - name: TE 5
       dauer: 90
       titel: Spielen mit allen Elementen
+      schwerpunkt:
+        kurz: 'Nach jeder Aktion sofort bereit'
+        achte_auf: 'Nach dem eigenen Ballkontakt geht jedes Kind sofort zurück in die Grundstellung, Knie gebeugt und Arme vor dem Körper. Niemand schaut dem eigenen Ball hinterher.'
+        sag_dazu: 'Gespielt? Bereit!'
       uebungen:
       - icon: 🏃‍♂️
         phase: Warm-up
@@ -2281,6 +2348,10 @@ monate:
       tag: Freitag
       dauer: 120
       titel: Wettkampf-Situationen
+      schwerpunkt:
+        kurz: 'Nach Fehlern: abklatschen und weiter'
+        achte_auf: 'Wie reagieren die Kinder auf eigene Fehler und Fehler der anderen? Gewünscht ist kurz abklatschen und weiterspielen, ohne Meckern und ohne Kopf hängen lassen.'
+        sag_dazu: 'Abklatschen, nächster Ball!'
       uebungen:
       - icon: 🏃‍♂️
         phase: Warm-up
@@ -2380,6 +2451,10 @@ monate:
     - name: TE 7
       dauer: 90
       titel: 'Abschluss-Check: alle Basics'
+      schwerpunkt:
+        kurz: 'Fortschritt bei der schwächsten Station'
+        achte_auf: 'Vergleiche mit den Notizen aus Monat 2: Hat jedes Kind an seiner schwächsten Station mehr Punkte? Sag jedem Kind, worin es besser geworden ist.'
+        sag_dazu: 'Das hast du richtig verbessert!'
       uebungen:
       - icon: 🏃‍♂️
         phase: Warm-up
@@ -2460,6 +2535,10 @@ monate:
       tag: Freitag
       dauer: 120
       titel: Abschlussturnier
+      schwerpunkt:
+        kurz: 'Mut zum Angriff'
+        achte_auf: 'Lobe jeden Angriffsversuch von oben, egal ob er punktet oder im Netz landet. Sichere Bälle mit Pritschen über das Netz kommentierst du nicht.'
+        sag_dazu: 'Mutig, weiter so!'
       uebungen:
       - icon: 🏃‍♂️
         phase: Warm-up
