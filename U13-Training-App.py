@@ -30,15 +30,39 @@ SPIELER = {
     "6-8": "6-8 Spieler (Intensiv)",
 }
 ANSICHTEN = {"training": "⏱️ Training", "uebersicht": "📋 Übersicht"}
+WOCHENTAGE = ["Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sonntag"]
 
 
 @st.cache_data
 def lade_plan(geaendert):
     # "geaendert" sorgt dafür, dass Änderungen an der YAML-Datei sofort sichtbar werden
-    return yaml.safe_load(PLAN_DATEI.read_text(encoding="utf-8"))["monate"]
+    return yaml.safe_load(PLAN_DATEI.read_text(encoding="utf-8"))
 
 
-plan = lade_plan(PLAN_DATEI.stat().st_mtime)
+def berechne_termine(plan, kalender):
+    # Datum jeder Einheit aus dem Abschnitt "kalender" der YAML-Datei: {(m, w, e): Datum}
+    if not kalender:
+        return {}
+    tage = [WOCHENTAGE.index(t) for t in kalender.get("tage", ["Mittwoch", "Freitag"])]
+    pausen = [(p["von"], p["bis"]) for p in kalender.get("pausen") or []]
+    montag = kalender["start"]
+    termine = {}
+    for m in range(kalender.get("ab_monat", 1) - 1, len(plan)):
+        for w, woche in enumerate(plan[m]["wochen"]):
+            # Wochen überspringen, in denen ein Trainingstag in Ferien/Pausen fällt
+            while any(von <= montag + dt.timedelta(days=t) <= bis for t in tage for von, bis in pausen):
+                montag += dt.timedelta(days=7)
+            for e in range(len(woche["einheiten"])):
+                termine[(m, w, e)] = montag + dt.timedelta(days=tage[min(e, len(tage) - 1)])
+            montag += dt.timedelta(days=7)
+    return termine
+
+
+daten = lade_plan(PLAN_DATEI.stat().st_mtime)
+plan = daten["monate"]
+termine = berechne_termine(plan, daten.get("kalender"))
+# Nächste Einheit ab heute (oder None, wenn der Plan vorbei ist)
+heute = next((k for k, d in sorted(termine.items(), key=lambda x: x[1]) if d >= dt.date.today()), None)
 ss = st.session_state
 
 
@@ -63,10 +87,12 @@ def startzeit():
 
 
 # Fehlende Werte (erster Aufruf, oder Auswahlfeld war kurz ausgeblendet) aus der Adresse holen
+# Ohne Auswahl in der Adresse startet die App mit dem nächsten Training
+ohne_auswahl = "m" not in st.query_params and heute is not None
 for key, default in [
-    ("m", lambda: aus_url("m", 0)),
-    ("w", lambda: aus_url("w", 0)),
-    ("e", lambda: aus_url("e", 0)),
+    ("m", lambda: heute[0] if ohne_auswahl else aus_url("m", 0)),
+    ("w", lambda: heute[1] if ohne_auswahl else aus_url("w", 0)),
+    ("e", lambda: heute[2] if ohne_auswahl else aus_url("e", 0)),
     ("i", lambda: aus_url("i", 0)),
     ("t0", lambda: aus_url("t", 0)),  # Startzeitpunkt der aktuellen Übung (ms), 0 = Timer aus
     ("spieler", lambda: aus_url("sp", "9-12")),
@@ -118,9 +144,32 @@ def oeffne_im_training(w, e):
     ss.ansicht = "training"
 
 
-def einheit_name(einheit):
-    tag = f" ({einheit['tag']})" if einheit.get("tag") else ""
+def oeffne_heute():
+    ss.m, ss.w, ss.e = heute
+    neue_einheit()
+    ss.ansicht = "training"
+
+
+def datum_text(datum):
+    return f"{WOCHENTAGE[datum.weekday()][:2]} {datum:%d.%m.}"
+
+
+def einheit_name(m, w, e):
+    einheit = plan[m]["wochen"][w]["einheiten"][e]
+    if (m, w, e) in termine:
+        tag = f" · {datum_text(termine[(m, w, e)])}"
+    else:
+        tag = f" ({einheit['tag']})" if einheit.get("tag") else ""
     return f"{einheit['name']}{tag} · {einheit['dauer']} Min"
+
+
+def zeige_schwerpunkt(einheit):
+    # Beobachtungsschwerpunkt: eine Sache, auf die der Trainer in dieser Einheit achtet
+    sp = einheit.get("schwerpunkt")
+    if sp:
+        with st.expander(f"👁️ Im Blick: {sp['kurz']}"):
+            st.markdown(f"**Achte auf:** {sp['achte_auf']}\n\n**Sag dazu:** „{sp['sag_dazu']}“")
+            st.caption("Heute nur dazu Rückmeldung geben, alles andere darf warten.")
 
 
 monat = plan[ss.m]
@@ -133,8 +182,15 @@ uebungen = einheit["uebungen"]
 # ---------------------------------------------------------
 st.markdown("**🏐 U13/U14 Training · TuB Bocholt**")
 
+if heute is not None and heute != (ss.m, ss.w, ss.e):
+    st.button(
+        f"📅 Nächstes Training: {datum_text(termine[heute])} · {plan[heute[0]]['name']} · {plan[heute[0]]['wochen'][heute[1]]['einheiten'][heute[2]]['name']}",
+        on_click=oeffne_heute,
+        use_container_width=True,
+    )
+
 kurz = monat["name"] if len(monat["wochen"]) == 1 else f"{monat['name']} · {woche['name']}"
-with st.expander(f"📅 {kurz} · {einheit_name(einheit)}"):
+with st.expander(f"📅 {kurz} · {einheit_name(ss.m, ss.w, ss.e)}"):
     st.selectbox(
         "Monat",
         range(len(plan)),
@@ -155,7 +211,7 @@ with st.expander(f"📅 {kurz} · {einheit_name(einheit)}"):
         st.radio(
             "Einheit",
             range(len(woche["einheiten"])),
-            format_func=lambda e: einheit_name(woche["einheiten"][e]),
+            format_func=lambda e: einheit_name(ss.m, ss.w, e),
             key="e",
             horizontal=True,
             on_change=neue_einheit,
@@ -251,6 +307,8 @@ if ss.ansicht == "training":
         zeiten.append((beginn.strftime("%H:%M"), ende.strftime("%H:%M")))
         beginn = ende
 
+    zeige_schwerpunkt(einheit)
+
     u = uebungen[ss.i]
     st.progress((ss.i + 1) / len(uebungen), text=f"Übung {ss.i + 1} von {len(uebungen)} · {zeiten[ss.i][0]}–{zeiten[ss.i][1]}")
     st.markdown(f"### {u['icon']} {u['phase']} · {u['dauer']} Min")
@@ -302,7 +360,8 @@ else:
     for w_index, (tab, w) in enumerate(zip(reiter, monat["wochen"])):
         with tab:
             for e_index, e in enumerate(w["einheiten"]):
-                st.markdown(f"#### {einheit_name(e)}: {e['titel']}")
+                st.markdown(f"#### {einheit_name(ss.m, w_index, e_index)}: {e['titel']}")
+                zeige_schwerpunkt(e)
                 for x in e["uebungen"]:
                     with st.expander(uebung_titel(x)):
                         zeige_medien(x)
