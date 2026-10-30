@@ -27,6 +27,8 @@
 #   tage:      Trainingstage. Die 1. Einheit einer Woche liegt am 1. Tag, die 2. am 2. Tag.
 #   pausen:    Ferien oder Hallensperren (von/bis). Fällt ein Trainingstag hinein,
 #              wird die ganze Woche übersprungen und der Plan rückt eine Woche nach hinten.
+# Einzelne Einheiten außerhalb des Kalenders (z. B. ein Extra-Training) bekommen ihr
+# Datum direkt in der Einheit: datum: 2026-10-30
 kalender:
   ab_monat: 2
   start: 2026-11-02
@@ -871,6 +873,148 @@ monate:
           * Monatsrückblick: Was kann ich jetzt, was ich vor 4 Wochen nicht konnte? Siegerehrung.
 
           **Trainer-Details:** Rekorde und Aufsteiger kurz notieren. Lob für Verbesserung, nicht nur für die Besten.
+  - name: Extra
+    einheiten:
+    - name: Annahme-Spezial
+      tag: Freitag
+      datum: 2026-10-30
+      dauer: 120
+      titel: 'Annahme-Spezial: Beine und Brett'
+      schwerpunkt:
+        kurz: 'Erst stehen, dann spielen'
+        achte_auf: 'Das Kind ist vor dem Ball am Treffpunkt und steht still (Füße stoppen, Knie gebeugt), bevor der Ball kommt. Das Brett ist schon gebaut, wenn der Ball noch in der Luft ist, und die Arme schwingen nicht.'
+        sag_dazu: 'Erst stehen, dann spielen!'
+      uebungen:
+      - icon: 🏃‍♂️
+        phase: Warm-up
+        dauer: 15
+        titel: Brett-Fangen
+        bild: bilder/brett-fangen.svg
+        inhalt: |-
+          **Ablauf:** Fangspiel in einem Volleyballfeld, 2 Fänger mit Leibchen. Ein paar Bälle liegen am Rand.
+
+          * Wer gefangen wird, friert sofort in der Annahme-Stellung ein: Füße schulterbreit, Knie gebeugt, Brett vor dem Körper.
+          * **Befreien:** Ein Retter holt einen Ball, lässt ihn aus Kopfhöhe auf das Brett fallen. Springt der Ball hoch und der Eingefrorene fängt ihn, ist er frei. Fällt der Ball daneben, nochmal.
+          * Ein Eingefrorener mit krummen Armen oder geraden Beinen darf nicht befreit werden. Die Retter kontrollieren das.
+          * Alle 2 Minuten neue Fänger. Danach 3 Minuten Mobilisation: Armkreisen, Ausfallschritte, Sidesteps mit Bodenberührung.
+
+          **Trainer-Details:** Das Spiel übt das Brett, ohne dass es nach Technik aussieht. Jedes Kind baut in 10 Minuten 10 bis 20 Mal das Brett. Wer lange eingefroren steht, bekommt Kraft in die Beine. Für die Fänger reicht ein Abschlagen mit der Hand.
+        varianten:
+          6-8: 1 Fänger, kleineres Feld (halbes Volleyballfeld).
+          9-12: 2 Fänger, ganzes Volleyballfeld, 3–4 Bälle am Rand.
+      - icon: 🧱
+        phase: Basics Arme
+        dauer: 10
+        titel: 'Brett-Polizei: Hände, Arme, Beine'
+        bild: bilder/bagger-merkbild.svg
+        inhalt: |-
+          **Ablauf:** Paare mit einem Ball. Ein Kind übt, der Partner ist die „Brett-Polizei“ und prüft die 3 Merkpunkte. Für jede saubere Ausführung gibt es einen Punkt. Nach jeder Aufgabe tauschen.
+
+          * **Brett in 1 Sekunde:** Locker laufen, auf „Brett!“ sofort stehen, Knie beugen, Brett zeigen. Die Polizei prüft: Daumen parallel? Arme gestreckt? Knie gebeugt?
+          * **Ball tragen:** Ball liegt auf dem Brett. Einmal um die Polizei herumgehen, dabei in die Hocke und wieder hoch. Ball fällt nicht = 1 Punkt.
+          * **Treffpunkt:** Polizei lässt den Ball aus 30 cm auf das Brett fallen. Er soll eine Handbreit über den Handgelenken auftreffen und senkrecht zurückspringen. Senkrecht = 1 Punkt.
+          * **Brett-Schieber:** Polizei hält den Ball vor dem Bauch fest. Das Kind schiebt mit dem Brett nur durch Strecken der Beine. Arme wackeln = kein Punkt.
+          * 🟢 Softball, Treffpunkt aus 30 cm und Ball danach fangen.
+          * 🔵 Treffpunkt aus 60 cm, Ball springt zur Polizei zurück.
+          * 🔴 Ball tragen im Sidestep und rückwärts, Treffpunkt aus 1 m.
+
+          **Trainer-Details:** **Die 3 Merkpunkte (Brett):** 1. Hand in Hand legen, Daumen liegen parallel nebeneinander. 2. Arme gestreckt, Ellbogen zusammen, so wird das Brett flach. 3. Knie gebeugt, Ball vor dem Körper treffen, gespielt wird aus den Beinen, nicht aus den Armen. Typische Fehler: Daumen über Kreuz, Ellbogen gebeugt, Ball trifft die Hände. Am Ende fragen: Welches Paar hat die meisten Punkte?
+        varianten:
+          6-8: Trainer geht von Paar zu Paar und ist bei einer Aufgabe selbst die Polizei.
+          9-12: 'Zwei Paare bilden eine Gruppe: ein Paar übt, das andere prüft mit, nach jeder Aufgabe wechseln.'
+      - icon: 🦶
+        phase: Basics Beine
+        dauer: 15
+        titel: Ampel-Beinarbeit
+        bild: bilder/annahme-ampel.svg
+        inhalt: |-
+          **Ablauf:** Jedes Kind hat einen eigenen Platz mit 4 Hütchen im Abstand von 2 m: links blau, rechts grün, vorn gelb, hinten rot (Farben nach dem, was da ist). Der Trainer steht vorn und zeigt eine Farbe (Karte, Hütchen hochhalten oder rufen).
+
+          * **Ohne Ball (5 Min):** Auf die Farbe mit Sidesteps (seitlich), kleinen Schritten (vorn) oder Rückwärtsschritten (hinten) zum Hütchen. Dort stoppen, Brett bilden, eine Baggerbewegung aus den Beinen, zurück in die Mitte.
+          * **Ampel-Duell (5 Min):** Zwei Kinder stehen nebeneinander mit eigenen Hütchen. Wer zuerst sauber im Brett am richtigen Hütchen steht, bekommt einen Punkt. Falsche Farbe = Punkt für den anderen. Bis 5, dann neuer Gegner.
+          * **Doppel-Farbe (5 Min):** Trainer zeigt zwei Farben nacheinander („blau – gelb“). Erst zum ersten Hütchen, Brett, dann direkt zum zweiten, Brett, dann zurück.
+          * 🟢 Trainer ruft die Farbe und zeigt gleichzeitig mit dem Arm die Richtung.
+          * 🔵 Nur die Farbe, ohne Richtung.
+          * 🔴 Trainer zeigt die Farbe und das Kind läuft zur **gegenüberliegenden** Seite.
+
+          **Trainer-Details:** Sidesteps flach über den Boden, Füße kreuzen nicht. Beim Stopp sind die Füße schulterbreit, das Gewicht auf den Fußballen, die Knie gebeugt. Wer im Duell schneller ist, aber mit hohen Beinen ankommt, bekommt keinen Punkt: Schnell **und** sauber zählt.
+        varianten:
+          6-8: Alle gleichzeitig, jeder an eigenen Hütchen. Duelle in Paaren nebeneinander.
+          9-12: 'Hütchen in 2 Reihen aufbauen, je 2 Kinder pro Platz: eines läuft, das andere ist Schiedsrichter und zählt Punkte, nach 1 Minute Wechsel.'
+      - icon: 🎯
+        phase: Technik I
+        dauer: 15
+        titel: 'Laufen, stoppen, spielen (10er-Leiter)'
+        bild: bilder/bagger-beinarbeit.svg
+        inhalt: |-
+          **Ablauf:** Paare mit einem Ball, 3–4 m Abstand. A wirft, B läuft hin, stoppt hinter dem Ball und baggert zu A zurück. Nach 10 Würfen tauschen.
+
+          * **10er-Leiter:** Jedes Kind zählt, wie viele der 10 Bälle A ohne Schritt fangen kann. Das ist die Leiterstufe. Ziel ist, in der zweiten Runde eine Stufe höher zu kommen.
+          * Erst nur nach vorn werfen, dann links und rechts, dann gemischt.
+          * 🟢 Ball darf einmal aufspringen, dann baggern. A wirft nur 1 Schritt neben B.
+          * 🔵 Direkt baggern, 2 Schritte neben B.
+          * 🔴 A wirft spät und gemischt (auch kurz vor B), 2–3 Schritte.
+
+          **Trainer-Details:** Leitsatz: „Erst stehen, dann spielen.“ Wer den Ball im Laufen spielt, läuft zu spät los: Blick schon beim Wurf auf die Hand von A. Der Ball wird vor dem Körper getroffen, nicht neben dem Körper. Rekorde der Leiter merken für die Brett-Meister-Challenge am Ende.
+        varianten:
+          6-8: Alle gleichzeitig in Paaren, Trainer wirft bei Bedarf selbst einem Kind zu.
+          9-12: Paare an Wand, Netz und Hallenmitte verteilen. Bei Ballmangel 3er-Gruppen mit fliegendem Wechsel nach 10 Kontakten.
+      - icon: 🎯
+        phase: Technik II
+        dauer: 20
+        titel: Annahme-Punktejagd mit Freeze-Bonus
+        bild: bilder/annahme-punktejagd.svg
+        inhalt: |-
+          **Ablauf:** 3er-Gruppen. A wirft auf B, B baggert in Richtung Ziel: ein Reifen am Boden vor C. C steht am Netz wie ein Zuspieler und fängt. Nach 8 Würfen Rollen tauschen, bis jeder 2x angenommen hat. Alle Gruppen spielen als Teams gegeneinander.
+
+          * **Punkte:** Ball landet im Reifen = 3 Punkte. C fängt ohne Schritt = 1 Punkt.
+          * **Freeze-Bonus:** Der Trainer pfeift ab und zu direkt nach dem Bagger. Alle Annehmer frieren ein. Zeigt das Brett noch zum Ziel und sind die Knie gebeugt, gibt es +1. Wer die Arme hochgerissen hat, bekommt keinen Bonus.
+          * Nach 10 Minuten Zwischenstand, dann Ziel wechseln (Reifen auf die andere Seite).
+          * 🟢 A wirft auf den Bauch von B, Reifen 2 m vor B.
+          * 🔵 A wirft 1–2 Schritte seitlich, Reifen 3–4 m entfernt am Netz.
+          * 🔴 A schlägt von unten auf (aus 5–6 m), Reifen am Netz.
+
+          **Trainer-Details:** Der Freeze-Bonus belohnt die Armstellung und nicht nur das Ergebnis. Die Kinder merken schnell, dass ein ruhiges Brett mehr Punkte bringt als Schwung aus den Schultern. Bei Bällen von der Seite: Bauchnabel zum Ziel drehen, dann kippt das Brett von selbst. Teampunkte auf einem Zettel oder an der Tafel festhalten.
+        varianten:
+          6-8: Zwei 3er-Gruppen plus ein Paar; im Paar wirft A und fängt selbst.
+          9-12: Drei bis vier 3er-Gruppen gleichzeitig, jede mit eigenem Reifen.
+      - icon: 🏆
+        phase: Spielform
+        dauer: 30
+        titel: 'Annahme-Kaiser 2:2 (Fang-Volleyball mit Bagger)'
+        bild: bilder/kaiser-2v2.svg
+        inhalt: |-
+          **Ablauf:** 2:2 auf Kleinfeldern, Netz 2,00 m oder Leine. Felder von „Einsteiger“ bis „Kaiser“ aufsteigend. Runden à 3 Minuten, Sieger gehen ein Feld hoch, Verlierer eins runter.
+
+          * Der Ball kommt mit einem Wurf von unten über das Netz.
+          * **Der erste Kontakt muss ein Bagger sein.** Der Partner fängt den Ball und wirft ihn von unten über das Netz.
+          * Punkt, wenn der Ball beim Gegner auf den Boden fällt oder der Gegner nicht annehmen kann.
+          * **Brett-Bonus:** Eine Annahme, die der Partner ohne Schritt fangen kann, zählt doppelt.
+          * 🟢 Am Einsteigerfeld: Ball darf vor der Annahme einmal aufspringen.
+          * 🔵 Direkt annehmen.
+          * 🔴 Am Kaiserfeld: Partner spielt den zweiten Ball als Pritsche zum Partner oder über das Netz statt zu fangen.
+
+          **Trainer-Details:** Durch das Fangen entstehen lange Ballwechsel mit vielen Annahmen. Der Trainer steht am Feld mit den meisten Problemen und erinnert nur an eine Sache: „Erst stehen, dann spielen.“ Wer auf dem Kaiserfeld eine Runde gewinnt, bleibt dort.
+        varianten:
+          6-8: 2–3 Kleinfelder; wer gerade frei ist, ist Schiedsrichter auf dem Kaiserfeld und wechselt nach jeder Runde ein.
+          9-12: 3–4 Kleinfelder quer zur Halle (Leinen/Langbänke). Bei ungerader Zahl spielt ein 3er-Team im untersten Feld.
+      - icon: 🧘
+        phase: Abschluss
+        dauer: 15
+        titel: Brett-Meister-Challenge
+        bild: bilder/baggern-paar.svg
+        inhalt: |-
+          **Ablauf:** Zum Schluss die Challenge, bei der jedes Kind sein Abzeichen holen kann. Paare, A wirft 10 Bälle wie in der 10er-Leiter, B nimmt an. Gezählt wird, wie viele A ohne Schritt fängt.
+
+          * 🟢 **Brett-Meister Grün:** 5 von 10 (Ball darf aufspringen).
+          * 🔵 **Brett-Meister Blau:** 7 von 10, Würfe 1–2 Schritte seitlich.
+          * 🔴 **Brett-Meister Rot:** 8 von 10, gemischt und spät geworfen.
+          * Danach kurz im Kreis: Jedes Kind nennt seine Stufe von heute. Merksatz: „Erst stehen, dann spielen. Brett still, Beine hoch.“
+
+          **Trainer-Details:** Die Ergebnisse notieren. In Monat 2 (Annahme) kann jedes Kind seinen Titel verteidigen oder eine Stufe aufsteigen. Lob für Verbesserung gegenüber der 10er-Leiter, nicht nur für die Besten.
+        varianten:
+          6-8: Alle gleichzeitig, Trainer schaut reihum bei jedem Paar 10 Bälle zu.
+          9-12: 'Je 2 Paare zusammen: ein Paar spielt, das andere zählt mit.'
 - name: Monat 2
   thema: 'Aufschlag, Annahme & Zuspiel: das Drei-Kontakte-Spiel im 2:2 und 3:3'
   titel: Drei Kontakte
