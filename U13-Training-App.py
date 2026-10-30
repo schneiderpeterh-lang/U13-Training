@@ -41,8 +41,19 @@ def lade_plan(geaendert):
 
 def berechne_termine(plan, kalender):
     # Datum jeder Einheit aus dem Abschnitt "kalender" der YAML-Datei: {(m, w, e): Datum}
-    if not kalender:
-        return {}
+    termine = {}
+    if kalender:
+        termine = kalender_termine(plan, kalender)
+    # Einheiten mit eigenem "datum" (z. B. Extra-Training) haben Vorrang
+    for m, monat in enumerate(plan):
+        for w, woche in enumerate(monat["wochen"]):
+            for e, einheit in enumerate(woche["einheiten"]):
+                if isinstance(einheit.get("datum"), dt.date):
+                    termine[(m, w, e)] = einheit["datum"]
+    return termine
+
+
+def kalender_termine(plan, kalender):
     tage = [WOCHENTAGE.index(t) for t in kalender.get("tage", ["Mittwoch", "Freitag"])]
     pausen = [(p["von"], p["bis"]) for p in kalender.get("pausen") or []]
     montag = kalender["start"]
