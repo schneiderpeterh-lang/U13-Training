@@ -1019,6 +1019,238 @@ monate:
   thema: 'Aufschlag, Annahme & Zuspiel: das Drei-Kontakte-Spiel im 2:2 und 3:3'
   titel: Drei Kontakte
   wochen:
+  - name: Spielwoche
+    einheiten:
+    - name: Spielwoche Mi
+      datum: 2026-11-04
+      dauer: 90
+      titel: 'Spielwoche: Kontakte sammeln, Spiele spielen'
+      schwerpunkt:
+        kurz: 'Ball ankündigen: „Ich!“'
+        achte_auf: 'Vor jedem ersten Kontakt ruft ein Kind laut „Ich!“. Der Partner dreht sich sofort zum Ball und macht sich für den zweiten Ball bereit. Kein Ball fällt zwischen zwei Kindern auf den Boden, weil beide warten.'
+        sag_dazu: 'Ruf ihn: Ich!'
+      uebungen:
+      - icon: 🏃‍♂️
+        phase: Warm-up
+        dauer: 10
+        titel: 'Ballschule: Jeder hat einen Ball'
+        bild: bilder/ballschule.svg
+        inhalt: |-
+          **Ablauf:** Jedes Kind mit eigenem Ball frei in der Halle. Auf Pfiff wechselt die Aufgabe, alle 60 Sekunden.
+
+          * Gehen und sich selbst hochpritschen, auf Pfiff in die Hocke und weiter.
+          * Gehen und sich selbst hochbaggern.
+          * Im Wechsel: einmal Pritsche, einmal Bagger.
+          * Kontakte-Minute: Wer schafft die meisten Kontakte ohne Bodenkontakt des Balls?
+          * 🟢 Ball darf zwischen den Kontakten einmal aufspringen.
+          * 🔵 Ohne Aufspringen.
+          * 🔴 Nach jedem Kontakt einmal den Boden berühren.
+
+          **Trainer-Details:** In 10 Minuten schafft jedes Kind so 150 bis 250 Kontakte. Nicht unterbrechen, nur Aufgaben ansagen.
+      - icon: 🎯
+        phase: Technik I
+        dauer: 10
+        titel: Einspielen wie vor einem Spiel
+        bild: bilder/paare-halle.svg
+        inhalt: |-
+          **Ablauf:** Paare, immer derselbe Ablauf wie vor einem Spiel am Spieltag:
+
+          * 3 Minuten Pritschen, 3 Minuten Baggern, 2 Minuten im Wechsel (Bagger – Pritsche).
+          * 2 Minuten: Aufschläge über das Netz zum Partner, der fängt.
+
+          **Trainer-Details:** Diesen Ablauf am Freitag wiederholen und die Kinder ihn dann selbst starten lassen. Am Spieltag kennen sie das Einspielen und sind ruhig.
+        varianten:
+          6-8: Alle gleichzeitig in Paaren, Trainer wirft bei Bedarf selbst einem Paar zu.
+          9-12: Paare an Wand, Netz und Hallenmitte verteilen. Bei Ballmangel 3er-Gruppen mit fliegendem Wechsel nach 10 Kontakten.
+      - icon: 🎯
+        phase: Technik II
+        dauer: 15
+        titel: 'Dauer-Dreieck: Bagger – Pritsche – Pritsche'
+        bild: bilder/dreieck-bpf.svg
+        inhalt: |-
+          **Ablauf:** 3er-Gruppen im Dreieck, 3–4 m Abstand, ein Ball pro Gruppe. Der Ball soll so lange wie möglich in der Luft bleiben, wie im Spiel: Annahme mit Bagger, Zuspiel mit Pritsche, dritter Ball mit Pritsche zum Nächsten.
+
+          * Jedes Kind ruft vor seinem Kontakt „Ich!“.
+          * Die Gruppe zählt laut. Fällt der Ball, beginnt die Zählung neu. Bester Wert ist der Gruppenrekord.
+          * Nach 5 Minuten die Richtung wechseln, nach 10 Minuten neue Gruppen.
+          * 🟢 Ein Kontakt pro Runde darf gefangen und neu angeworfen werden.
+          * 🔵 Ohne Fangen.
+          * 🔴 Jedes Kind spielt zwei Kontakte (Selbstpass, dann weiter).
+
+          **Trainer-Details:** Hier entstehen in kurzer Zeit sehr viele Kontakte. Hoch spielen hilft dem Nächsten: Wer den Ball flach spielt, macht es dem Partner schwer. Rekorde an die Tafel schreiben.
+        varianten:
+          6-8: Zwei 3er-Gruppen, übrige Kinder als Paar mit Pritsche und Bagger im Wechsel.
+          9-12: Drei bis vier 3er-Gruppen gleichzeitig, bei Ballmangel eine 4er-Gruppe im Viereck.
+      - icon: 🧠
+        phase: Spielform
+        dauer: 20
+        titel: Aufschlag gegen Annahme (Mini-Duell)
+        bild: bilder/annahme-duell.svg
+        inhalt: |-
+          **Ablauf:** Auf jedem Kleinfeld: 2 Aufschläger gegen 2 Annehmer plus 1 Zuspieler am Netz.
+
+          * Annahme zum Zuspieler, der fängt: 1 Punkt für das Annahme-Team.
+          * Aufschlag-Ass oder Annahmefehler: 1 Punkt für die Aufschläger.
+          * Aufschlag ins Aus oder ins Netz: 1 Punkt für das Annahme-Team, wie im Spiel.
+          * Nach 8 Aufschlägen Rollen tauschen, bis jeder einmal Aufschläger, Annehmer und Zuspieler war.
+          * 🟢 Aufschlag aus 4–5 m.
+          * 🔵 Aufschlag von der halben Spielfeldlänge.
+          * 🔴 Aufschlag von der Grundlinie, Zuspieler pritscht statt zu fangen.
+
+          **Trainer-Details:** Das ist die häufigste Situation im Spiel: Aufschlag kommt, Annahme muss hoch zur Mitte. Annehmer rufen „Ich!“ und stehen vor dem Ball still.
+        varianten:
+          6-8: 2–3 Kleinfelder; wer gerade frei ist, zählt Punkte oder spielt Ballholer und wechselt nach jedem Spiel ein.
+          9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
+      - icon: 🏆
+        phase: Abschlussspiel
+        dauer: 30
+        titel: Kaiserturnier 2:2 mit Aufschlag
+        bild: bilder/kaiser-2v2.svg
+        inhalt: |-
+          **Ablauf:** Mehrere Kleinfelder nebeneinander (2:2, ca. 4,5 × 4,5 m pro Seite). Feld 1 = Kaiserfeld, letztes Feld = Einsteigerfeld. Runden à 4 Minuten.
+
+          * Jeder Ballwechsel beginnt mit Aufschlag von unten.
+          * Gewinner rutscht ein Feld hoch, Verlierer ein Feld runter.
+          * Nach jeder zweiten Runde Partner wechseln.
+          * 🟢 Einsteigerfeld: Annahme darf gefangen werden, Aufschlag darf einmal wiederholt werden.
+          * 🔵 Mittlere Felder: Kein Fangen.
+          * 🔴 Kaiserfeld: 3 Kontakte Pflicht.
+
+          **Trainer-Details:** Viele kurze Runden statt langer Sätze: So spielt jedes Kind möglichst viele Ballwechsel. Der Trainer achtet nur auf das „Ich!“.
+        varianten:
+          6-8: 2–3 Kleinfelder; wer gerade frei ist, zählt Punkte oder spielt Ballholer und wechselt nach jedem Spiel ein.
+          9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
+      - icon: 🧘
+        phase: Abschluss
+        dauer: 5
+        titel: Was nehme ich mit ins Spiel?
+        inhalt: |-
+          **Ablauf:** Kurz im Kreis sitzen.
+
+          * Jedes Kind nennt eine Sache, die es am Spieltag machen will (z. B. „Ich rufe jeden Ball“).
+          * Gruppenrekord aus dem Dauer-Dreieck nennen. Am Freitag wird er wieder gejagt.
+
+          **Trainer-Details:** Kurz halten. Lob für laute Kommunikation und mutige Aufschläge.
+    - name: Spielwoche Fr
+      datum: 2026-11-06
+      tag: Freitag
+      dauer: 120
+      titel: 'Spielwoche: Generalprobe für den Spieltag'
+      schwerpunkt:
+        kurz: 'Nach dem Fehler: weiter!'
+        achte_auf: 'Nach einem Fehler klatschen sich die Partner kurz ab und stehen sofort wieder in Grundstellung. Niemand lässt den Kopf hängen oder schimpft. Wer gerade nicht spielt, feuert an.'
+        sag_dazu: 'Abklatschen, nächster Ball!'
+      uebungen:
+      - icon: 🏃‍♂️
+        phase: Warm-up
+        dauer: 15
+        titel: Lieblings-Fangspiel
+        bild: bilder/lieblings-fangspiel.svg
+        inhalt: |-
+          **Ablauf:** Fangspiel in einem Volleyballfeld, 2 Fänger mit Leibchen.
+
+          * Die Kinder wählen eines der Fangspiele aus den letzten Wochen (z. B. Brett-Fangen oder Ball-Retter).
+          * Nach 2 Minuten neue Fänger. Danach 3 Minuten Mobilisation: Armkreisen, Ausfallschritte, Sidesteps mit Bodenberührung.
+          * Zum Schluss jedes Kind mit Ball: 20x sich selbst hochpritschen, 20x hochbaggern.
+
+          **Trainer-Details:** Gute Laune vor dem Spieltag. Fänger wechseln oft, damit niemand lange „dran“ bleibt.
+      - icon: 🎯
+        phase: Technik I
+        dauer: 10
+        titel: Einspielen wie vor einem Spiel (die Kinder führen)
+        bild: bilder/paare-halle.svg
+        inhalt: |-
+          **Ablauf:** Derselbe Ablauf wie am Mittwoch, aber die Kinder starten und wechseln selbst, ohne Ansage vom Trainer:
+
+          * 3 Minuten Pritschen, 3 Minuten Baggern, 2 Minuten im Wechsel.
+          * 2 Minuten: Aufschläge über das Netz zum Partner.
+
+          **Trainer-Details:** Genau so läuft es am Spieltag beim Einspielen. Nur eingreifen, wenn ein Paar nicht weiterweiß.
+        varianten:
+          6-8: Alle gleichzeitig in Paaren, Trainer wirft bei Bedarf selbst einem Paar zu.
+          9-12: Paare an Wand, Netz und Hallenmitte verteilen. Bei Ballmangel 3er-Gruppen mit fliegendem Wechsel nach 10 Kontakten.
+      - icon: 🎯
+        phase: Technik II
+        dauer: 15
+        titel: 'Aufschlag-Challenge: Ein Versuch zählt'
+        bild: bilder/aufschlag-challenge.svg
+        inhalt: |-
+          **Ablauf:** Zwei Teams, jedes auf einer Feldseite an der Aufschlaglinie (Distanz nach Stufe). Alle schlagen gleichzeitig auf die andere Seite auf, die Bälle werden auf der Gegenseite gesammelt und zurückgeschlagen.
+
+          * Jeder Aufschlag im Feld = 1 Punkt fürs Team. Erstes Team mit 30 Punkten gewinnt.
+          * **Spieltag-Runde:** Danach schlägt jedes Kind einzeln auf, alle schauen zu. Nur ein Versuch, wie im Spiel. Das Team feuert an.
+          * 🟢 Aufschlag aus 4–5 m.
+          * 🔵 Von der halben Spielfeldlänge.
+          * 🔴 Von der Grundlinie, Ziel ist die hintere Feldhälfte.
+
+          **Trainer-Details:** In der Spieltag-Runde lernen die Kinder, mit Druck aufzuschlagen. Ruhiges Ritual vor dem Aufschlag: Ball zweimal prellen, durchatmen, Ziel anschauen. Wer daneben schlägt, wird abgeklatscht.
+        varianten:
+          6-8: Ein Feld, alle schlagen von einer Seite auf, ein Kind sammelt gegenüber und wechselt nach 2 Minuten.
+          9-12: Ein Volleyballfeld, zwei Teams, bei Ballmangel in zwei Wellen aufschlagen.
+      - icon: 🧠
+        phase: Spielform
+        dauer: 20
+        titel: 2:2 „Annahme zählt doppelt“
+        bild: bilder/2v2-annahme-doppelt.svg
+        inhalt: |-
+          **Ablauf:** 2:2 auf Kleinfeld (ca. 4,5 × 4,5 m pro Seite), Netz 2,00–2,10 m oder Leine. Spiele bis 11, dann neue Gegner.
+
+          * Normales 2:2 mit Aufschlag.
+          * Ein Punkt nach guter Annahme (der Partner kann pritschen) zählt doppelt.
+          * Nach jedem Punkt, egal für wen: Partner abklatschen.
+          * 🟢 Annahme darf gefangen werden. 🔵 Kein Fangen. 🔴 3 Kontakte Pflicht.
+
+          **Trainer-Details:** Die Annahme wird belohnt, nicht nur der Punkt. Das Abklatschen nach jedem Punkt üben, bis es von selbst passiert.
+        varianten:
+          6-8: 2–3 Kleinfelder; wer gerade frei ist, zählt Punkte oder spielt Ballholer und wechselt nach jedem Spiel ein.
+          9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
+      - icon: 🧠
+        phase: Spielform
+        dauer: 20
+        titel: Spielstand-Spiele (enge Satzenden)
+        bild: bilder/4v4-spielstand.svg
+        inhalt: |-
+          **Ablauf:** 2:2 oder 3:3 (in der Spielform vom Spieltag). Jedes Spiel startet mit einem vorgegebenen Spielstand und geht bis 15:
+
+          * **12:12:** Wer behält die Nerven?
+          * **11:14:** Ein Team liegt zurück und muss aufholen.
+          * **14:14:** Zwei Punkte Vorsprung zum Sieg.
+          * Nach jedem Spiel neue Gegner, das zurückliegende Team darf sich die Aufschlagseite aussuchen.
+
+          **Trainer-Details:** Die Kinder lernen, mit Druck umzugehen. Nach den Spielen kurz fragen: Was hat geholfen, als es eng wurde? (Typische Antworten: sicher aufschlagen, laut rufen, hoch spielen.)
+        varianten:
+          6-8: 2–3 Kleinfelder; wer gerade frei ist, zählt Punkte oder spielt Ballholer und wechselt nach jedem Spiel ein.
+          9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
+      - icon: 🏆
+        phase: Abschlussspiel
+        dauer: 35
+        titel: 'Generalprobe: Mini-Spieltag'
+        bild: bilder/3v3-turnier.svg
+        inhalt: |-
+          **Ablauf:** Teams und Spielform wie am Spieltag (2:2 oder 3:3). Kleines Turnier, jeder gegen jeden, Sätze bis 15 (oder 7 Minuten).
+
+          * Vor dem ersten Spiel: Teamkreis, Schlachtruf, Aufstellung festlegen.
+          * Gespielt wird nach Wettkampfregeln, Aufschlag nach Stufe.
+          * Jedes Team darf pro Satz eine Auszeit nehmen. In der Auszeit sagt jedes Kind einen Satz (z. B. „Wir rufen lauter“).
+          * Wer gerade frei ist, pfeift und zählt als Schiedsrichter.
+          * 🟢 Annahme darf gefangen werden. 🔵 Kein Fangen. 🔴 3 Kontakte Pflicht.
+
+          **Trainer-Details:** Die Kinder sollen einmal erleben, wie ein Spieltag abläuft: Begrüßung, Schlachtruf, Auszeit, Seitenwechsel, Abklatschen mit dem Gegner am Ende. Der Trainer coacht nur in den Auszeiten, so wie am Spieltag.
+        varianten:
+          6-8: Zwei Teams spielen, das dritte Team pfeift und zählt. Nach jedem Satz wechseln.
+          9-12: Zwei Felder gleichzeitig, Turnierplan an die Tafel. Freie Kinder sind Schiedsrichter.
+      - icon: 🧘
+        phase: Abschluss
+        dauer: 5
+        titel: Spieltag-Kreis
+        inhalt: |-
+          **Ablauf:** Alle im Kreis.
+
+          * Jedes Kind nennt einen Moment aus der Woche, auf den es stolz ist.
+          * Kurz klären: Wann treffen wir uns am Spieltag, was kommt in die Tasche (Trikot, Trinkflasche, Hallenschuhe, Snack)?
+          * Gemeinsamer Schlachtruf.
+
+          **Trainer-Details:** Mit einem guten Gefühl in den Spieltag gehen. Lob für Teamgeist und Mut, nicht nur für Siege.
   - name: Woche 1
     einheiten:
     - name: TE 1
