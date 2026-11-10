@@ -1251,6 +1251,281 @@ monate:
           * Gemeinsamer Schlachtruf.
 
           **Trainer-Details:** Mit einem guten Gefühl in den Spieltag gehen. Lob für Teamgeist und Mut, nicht nur für Siege.
+  - name: Angriff & Abstimmung
+    einheiten:
+    - name: Angriff & Abstimmung Mi
+      datum: 2026-11-11
+      dauer: 105
+      titel: 'Sicher angreifen: Kontrolle vor Härte'
+      schwerpunkt:
+        kurz: 'Hoch treffen, lang zielen'
+        achte_auf: 'Der Angreifer steht mindestens eine Armlänge vom Netz weg und trifft den Ball hoch und vor der Schlagschulter, mit gestrecktem Arm. Er zielt in die hintere Hälfte des gegnerischen Feldes. Ein Ball, der sicher im Feld landet, ist mehr wert als ein harter Ball ins Netz.'
+        sag_dazu: 'Lang statt Netz!'
+      uebungen:
+      - icon: 🏃‍♂️
+        phase: Warm-up
+        dauer: 10
+        titel: Schlagwurf-Ballschule
+        bild: bilder/ballschule.svg
+        inhalt: |-
+          **Ablauf:** Jedes Kind mit eigenem Ball, frei in der Halle und an der Wand. Auf Pfiff wechselt die Aufgabe, alle 60 Sekunden. An der Wand ist auf etwa 2,30 m ein Klebeband: die „Netzkante“.
+
+          * Ball hochwerfen, darunterlaufen und mit gestreckten Armen so hoch wie möglich fangen.
+          * Schlagwurf an die Wand: Ellbogen hoch, Ball mit einer Hand über das Klebeband werfen, Rückprall fangen.
+          * Ball selbst hochwerfen und mit der flachen Hand über das Klebeband an die Wand schlagen, Rückprall fangen.
+          * Kontakte-Minute: sich selbst hochpritschen und hochbaggern im Wechsel.
+          * 🟢 Wand aus 3 m.
+          * 🔵 Wand aus 4 m.
+          * 🔴 Wand aus 5 m, Schlag direkt aus dem Rückprall ohne Fangen.
+
+          **Trainer-Details:** Wer unter das Klebeband trifft, hätte ins Netz geschlagen. So üben die Kinder schon beim Aufwärmen, nach vorn-oben zu schlagen statt nach unten.
+        varianten:
+          6-8: Alle an einer Wand, Trainer zählt laut die Treffer über dem Klebeband.
+          9-12: Zwei Wände nutzen, die Kinder zählen sich gegenseitig.
+      - icon: 🧱
+        phase: Basics
+        dauer: 10
+        titel: 'Schlag-Check: hoch treffen, lang zielen'
+        bild: bilder/angriff-merkbild.svg
+        inhalt: |-
+          **Ablauf:** Paare am Netz oder an der Leine (2,00 m). A steht eine Armlänge vom Netz entfernt, B auf der anderen Seite. Trainer zeigt die 4 Merkpunkte einmal vor.
+
+          * **Treffpunkt suchen (3 Min):** A wirft sich den Ball hoch und fängt ihn mit der Schlaghand am höchsten Punkt, vor der Schlagschulter. B prüft: Arm gestreckt? Ball vor dem Körper?
+          * **Bogen-Schlag (4 Min):** A wirft sich den Ball hoch und schlägt ihn aus dem Stand in einem hohen Bogen über das Netz. B steht 4 m hinter dem Netz und fängt.
+          * **Lang-Schlag (3 Min):** B geht nach hinten an die Grundlinie. A schlägt so lang, dass B den Ball fangen kann.
+          * 🟢 Schlagwurf statt Schlag, Leine auf 1,80–2,00 m.
+          * 🔵 Schlag aus dem Stand.
+          * 🔴 B wirft den Ball zu, A schlägt mit kleinem Sprung.
+
+          **Trainer-Details:** **Die 4 Merkpunkte:** 1. Abstand zum Netz: mindestens eine Armlänge. 2. Ball hoch und vor der Schlagschulter treffen, Arm gestreckt. 3. Die Hand schlägt nach vorn-oben durch den Ball, Ziel hinten ins Feld. 4. Erst sicher, dann hart. Typische Gründe für Netzbälle: Der Ball ist schon zu tief gefallen, das Kind steht zu nah am Netz, der Ball ist hinter dem Kopf, oder das Kind schlägt nach unten statt nach vorn.
+        varianten:
+          6-8: Alle Paare gleichzeitig am Netz, Trainer geht von Paar zu Paar.
+          9-12: 'Netz und Leine nutzen, 3er-Gruppen: einer schlägt, einer fängt, einer prüft die Merkpunkte.'
+      - icon: 🎯
+        phase: Technik I
+        dauer: 15
+        titel: 'Zonen-Angriff: lang statt Netz'
+        bild: bilder/angriff-zonen.svg
+        inhalt: |-
+          **Ablauf:** Die gegnerische Feldhälfte mit Hütchen teilen: vorne bis zur 3-m-Linie, dahinter die hintere Zone. Angreifer auf Pos IV, Zuwerfer daneben, kurze Reihe (max. 3 Kinder).
+
+          * Hinten = 2 Punkte, vorne = 1 Punkt, Netz oder Aus = 0 Punkte.
+          * Jedes Kind hat 5 Versuche pro Runde und zählt seine Punkte. Nach 3 Runden: Wer hat sich verbessert?
+          * Wartende holen Bälle und werfen zu.
+          * 🟢 Ball wird hoch angeworfen, Schlag aus dem Stand oder Schlagwurf.
+          * 🔵 Ball wird hoch angeworfen, Schlag mit kleinem Sprung.
+          * 🔴 Ball wird gepritscht, Anlauf 2–3 Schritte. Ein Reifen hinten im Feld zählt 3 Punkte.
+
+          **Trainer-Details:** Die Punkte belohnen den langen, sicheren Ball. Wer oft ins Netz schlägt: einen halben Schritt weiter weg vom Netz starten und den Ball höher anwerfen lassen. Zuwurf etwa 1 m vom Netz entfernt, damit niemand unter das Netz läuft. Jeder Ball im Feld wird gelobt.
+        varianten:
+          6-8: Eine Station, Trainer wirft zu.
+          9-12: Zwei Stationen (Pos IV und Pos II), je eine Reihe mit höchstens 3 Kindern.
+      - icon: 🎯
+        phase: Technik II
+        dauer: 20
+        titel: 'Kontroll-Leiter: erst sicher, dann hart'
+        bild: bilder/angriff-leiter.svg
+        inhalt: |-
+          **Ablauf:** Gleiche Stationen wie beim Zonen-Angriff. Jedes Kind steigt auf einer Leiter mit 4 Stufen nach oben:
+
+          * **Stufe 1:** Lob oder Pritsche über das Netz in die hintere Zone.
+          * **Stufe 2:** Schlag aus dem Stand in die hintere Zone.
+          * **Stufe 3:** Sprungschlag mit Anlauf, der Ball landet im Feld.
+          * **Stufe 4:** Sprungschlag in eine angesagte Ecke (Pos I oder V).
+          * 3 Bälle hintereinander ins Feld: eine Stufe hoch. Ball ins Netz: Auf dieser Stufe wird neu gezählt, die Stufe bleibt.
+          * 🟢 Einstieg auf Stufe 1.
+          * 🔵 Einstieg auf Stufe 2.
+          * 🔴 Einstieg auf Stufe 3.
+
+          **Trainer-Details:** Die Kinder merken: Härte gibt es erst, wenn der Ball sicher ins Feld geht. Gelobt wird der saubere, hohe Treffpunkt, nicht die Härte. Pro Kind mindestens 15 Schläge. Am Ende nennt jedes Kind seine Stufe, am Freitag geht es auf dieser Stufe weiter.
+        varianten:
+          6-8: Eine Station, Trainer wirft oder pritscht zu und passt den Zuwurf jedem Kind an.
+          9-12: Zwei Stationen, ein starkes Kind spielt an der zweiten Station zu und wechselt nach 5 Minuten.
+      - icon: 🧠
+        phase: Spielform
+        dauer: 15
+        titel: 'Lücken-Annahme: Wer nimmt die Mitte?'
+        bild: bilder/annahme-luecke.svg
+        inhalt: |-
+          **Ablauf:** 2 Annehmer hinten im Kleinfeld, 1 Zuspieler am Netz fängt, Trainer (oder ein Kind) wirft von der anderen Seite. Die Würfe gehen absichtlich in die Lücke zwischen die beiden Annehmer oder kurz vor sie.
+
+          * Vor jedem Wurf zeigt ein Annehmer auf sich und ruft „Mitte ich!“. Dieses Kind nimmt jeden Ball in der Mitte.
+          * Wer annimmt, ruft laut „Ich!“, bevor er spielt. Der Partner macht Platz und dreht sich zum Ball.
+          * Punkt fürs Team: Die Annahme kommt hoch zum Zuspieler. Kein Punkt: Der Ball fällt zwischen beiden auf den Boden oder beide gehen zum Ball.
+          * Nach 6 Würfen Rollen tauschen: Annehmer → Zuspieler → Werfer.
+          * 🟢 Wurf, die Annahme darf gefangen werden.
+          * 🔵 Wurf, Annahme mit Bagger.
+          * 🔴 Aufschlag von unten, die Mitte-Ansage wechselt nach jedem Ball.
+
+          **Trainer-Details:** Erst die Ansage, dann der Ball: Ohne „Mitte ich!“ wird nicht geworfen. **Die Ruf-Regeln:** 1. Die Mitte wird vor dem Aufschlag angesagt. 2. Wer den Ball nimmt, ruft früh „Ich!“. 3. Kurze Bälle nimmt der Annehmer, der nach vorn läuft, nicht der Zuspieler. Am Freitag geht es damit weiter.
+        varianten:
+          6-8: Zwei Gruppen mit 3–4 Kindern, Trainer wirft abwechselnd in beide Felder.
+          9-12: Drei Kleinfelder, in jedem Feld wirft ein Kind, Wechsel nach 6 Würfen.
+      - icon: 🏆
+        phase: Abschlussspiel
+        dauer: 30
+        titel: 3:3 Sicher-Punkt
+        bild: bilder/3v3-sicherpunkt.svg
+        inhalt: |-
+          **Ablauf:** 3:3 (oder die Spielform vom Spieltag) auf Kleinfeldern, Sätze bis 15, dann neue Gegner.
+
+          * Normales Spiel mit Aufschlag, der 3. Ball wird angegriffen (Schlag oder Lob).
+          * **Sicher-Strich:** Jeder Angriff, der im gegnerischen Feld landet oder vom Gegner berührt wird, gibt einen Strich. 3 Striche = 1 Extrapunkt.
+          * Angriff ins Netz oder ins Aus: Punkt für den Gegner, wie im Spiel.
+          * Vor jedem Aufschlag die Mitte ansagen, wie in der Lücken-Annahme.
+          * 🟢 Annahme darf gefangen werden, ein Lob zählt als Angriff.
+          * 🔵 Kein Fangen.
+          * 🔴 Sicher-Strich nur für einen Schlag, nicht für einen Lob.
+
+          **Trainer-Details:** Das Spiel belohnt den sicheren Angriff. Ein Kind am Feldrand führt die Strichliste. Der Trainer achtet auf Netzabstand und hohen Treffpunkt und lobt laut jeden langen Ball.
+        varianten:
+          6-8: Ein Feld 3:3 (bei 7–8 Kindern zwei Felder 2:2). Wer frei ist, führt die Strichliste und wechselt nach jedem Satz ein.
+          9-12: Zwei Felder 3:3. Übrige Kinder führen die Strichliste und wechseln nach jedem Satz ein.
+      - icon: 🧘
+        phase: Abschluss
+        dauer: 5
+        titel: 'Lang statt Netz: Was hat geholfen?'
+        inhalt: |-
+          **Ablauf:** Kurz im Kreis sitzen.
+
+          * Jedes Kind nennt seine Stufe aus der Kontroll-Leiter.
+          * Frage an alle: Was hilft gegen Netzbälle? (Abstand zum Netz, hoch treffen, lang zielen)
+          * Welches Team hat die meisten Sicher-Striche gesammelt?
+
+          **Trainer-Details:** Lob für Kinder, die bewusst sicher gespielt haben, auch wenn der Ball dadurch langsamer war.
+    - name: Angriff & Abstimmung Fr
+      datum: 2026-11-13
+      tag: Freitag
+      dauer: 120
+      titel: 'Annahme-Abstimmung: Wer nimmt die Lücke?'
+      schwerpunkt:
+        kurz: 'Mitte ansagen, Ball rufen'
+        achte_auf: 'Vor jedem Aufschlag ist geklärt, wer die Mitte nimmt: Ein Kind zeigt auf sich und ruft „Mitte ich!“. Beim Aufschlag ruft der Annehmer früh „Ich!“, der Partner macht Platz und dreht sich zum Ball. Kein Ball fällt zwischen zwei Kindern auf den Boden.'
+        sag_dazu: 'Mitte ansagen, Ball rufen!'
+      uebungen:
+      - icon: 🏃‍♂️
+        phase: Warm-up
+        dauer: 15
+        titel: Brett-Fangen mit Ruf
+        bild: bilder/brett-fangen.svg
+        inhalt: |-
+          **Ablauf:** Brett-Fangen wie bekannt: 2 Fänger mit Leibchen, wer gefangen wird, bleibt im Brett stehen.
+
+          * Neu: Wer retten will, ruft vorher laut „Ich!“. Rufen zwei gleichzeitig, rettet der Erste, der andere läuft weiter.
+          * Nach 2 Minuten neue Fänger. Danach 3 Minuten Mobilisation: Armkreisen, Ausfallschritte, Sidesteps mit Bodenberührung.
+          * Zum Schluss Paare mit Ball: A wirft B den Ball abwechselnd links, rechts und kurz zu, B ruft „Ich!“ und baggert zurück.
+
+          **Trainer-Details:** Das Rufen beginnt schon beim Aufwärmen. Wer leise ruft, muss es nochmal laut probieren.
+      - icon: 🎯
+        phase: Technik I
+        dauer: 15
+        titel: 'Lücken-Duo: Ruf vor dem Ball'
+        bild: bilder/luecken-duo.svg
+        inhalt: |-
+          **Ablauf:** 3er-Gruppen: zwei Annehmer und ein Werfer auf der anderen Netzseite (oder 5 m entfernt ohne Netz). Der Werfer zielt immer in die Lücke. Annahme zurück zum Werfer, der fängt.
+
+          * **Nebeneinander (6 Min):** Annehmer 3 m auseinander. Vor jedem Wurf ruft einer „Mitte ich!“. Ball in die Mitte nimmt der Angesagte.
+          * **Hintereinander (5 Min):** Ein Annehmer vorne, einer 2–3 m dahinter. Ball zwischen beide: Der Hintere ruft „Ich!“ und läuft nach vorn, er sieht den Ball und den Partner. Der Vordere macht einen Schritt zur Seite.
+          * **Gemischt (4 Min):** Der Werfer wirft frei in alle Lücken, die Annehmer stellen sich nach jedem Ball neu auf.
+          * Nach 8 Bällen Rollen tauschen.
+          * 🟢 Annahme darf gefangen werden.
+          * 🔵 Annahme mit Bagger.
+          * 🔴 Der Werfer wirft erst, wenn die Annehmer schon in Bewegung sind, oder schlägt von unten auf.
+
+          **Trainer-Details:** Die zwei häufigsten Fehler: Beide warten, oder beide laufen zum Ball. Beides löst das frühe, laute „Ich!“. Lieber früh rufen als abwarten.
+        varianten:
+          6-8: Zwei 3er-Gruppen, ein übriges Kind wirft für beide Gruppen abwechselnd oder wechselt nach 8 Bällen ein.
+          9-12: Drei bis vier 3er-Gruppen gleichzeitig, quer zur Halle verteilt.
+      - icon: 🎯
+        phase: Technik II
+        dauer: 20
+        titel: 'Annahme-Abstimmung: Mitte, kurz, lang'
+        bild: bilder/annahme-abstimmung.svg
+        inhalt: |-
+          **Ablauf:** Aufstellung wie im 3:3 bei der Annahme: 2 Annehmer hinten, Zuspieler vorn am Netz. Der Trainer (oder ein Aufschläger) spielt von der anderen Seite gezielt in die Problemzonen:
+
+          * **Mitte:** zwischen die beiden Annehmer. Wer angesagt ist („Mitte ich!“), nimmt.
+          * **Kurz:** vor die Annehmer. Der Annehmer läuft nach vorn und ruft „Ich!“. Der Zuspieler nimmt nicht an, er bleibt frei für den 2. Ball.
+          * **Lang / an die Linie:** Der Partner hilft mit seinem Ruf: „Aus!“ (durchlassen) oder „Gut!“ (spielen).
+          * Annahme zum Zuspieler, der pritscht hoch zu einem Annehmer, der den 3. Ball sicher ins Feld spielt.
+          * Punkte fürs Team: Annahme beim Zuspieler = 1 Punkt, dazu sicherer 3. Ball im Feld = 2 Punkte. Nach 6 Bällen eine Position weiter rotieren.
+          * 🟢 Trainer wirft, die Annahme darf gefangen werden.
+          * 🔵 Trainer wirft oder schlägt von unten auf.
+          * 🔴 Aufschlag von der Grundlinie, der Trainer sagt die Zone nicht vorher an.
+
+          **Trainer-Details:** Das ist der Kern der Woche. Vor jedem Ball 2 Sekunden warten, bis die Mitte angesagt ist. Fällt ein Ball zwischen zwei Kindern: kurz anhalten und fragen „Wer hatte die Mitte?“, nicht schimpfen. Im 2:2 gilt dasselbe ohne Zuspieler vorne: Wer nicht annimmt, wird Zuspieler.
+        varianten:
+          6-8: Zwei 3er-Teams im Wechsel, das freie Team schlägt auf und holt Bälle.
+          9-12: Zwei Felder, auf jedem nimmt ein 3er-Team an, ein Kind schlägt auf, die übrigen holen Bälle und wechseln nach 6 Bällen ein.
+      - icon: 🎯
+        phase: Technik II
+        dauer: 15
+        titel: 'Angriff nach Annahme: lang statt Netz'
+        bild: bilder/angriff-zonen.svg
+        inhalt: |-
+          **Ablauf:** Zonen-Angriff vom Mittwoch, jetzt im Spielablauf: Trainer wirft zum Annehmer, Annahme zum Zuspieler, Zuspiel hoch zu Pos IV, Angriff in die Zonen (hinten 2, vorne 1, Netz oder Aus 0 Punkte).
+
+          * Jedes Kind greift auf seiner Stufe aus der Kontroll-Leiter an.
+          * Nach jedem Angriff eine Position weiter: Annehmer → Zuspieler → Angreifer → Ballholer → Annehmer.
+          * Team-Ziel: 20 Punkte in 5 Minuten, dann ein neues Ziel setzen.
+          * 🟢 Lob oder Schlagwurf.
+          * 🔵 Schlag aus dem Stand.
+          * 🔴 Sprungschlag mit Anlauf in eine angesagte Ecke.
+
+          **Trainer-Details:** Ein gutes Zuspiel macht den sicheren Angriff erst möglich: hoch und etwa 1 m vom Netz weg. Wer zweimal hintereinander ins Netz schlägt, spielt den nächsten Ball als Lob und arbeitet sich wieder hoch.
+        varianten:
+          6-8: Eine Gruppe, Trainer wirft und zählt.
+          9-12: Zwei Gruppen an Pos IV und Pos II, je 4–5 Kinder.
+      - icon: 🧠
+        phase: Spielform
+        dauer: 20
+        titel: 'Sideout-Spiel: Annahme – Zuspiel – sicherer Angriff'
+        bild: bilder/sideout.svg
+        inhalt: |-
+          **Ablauf:** Ein 3er-Team (oder die Aufstellung vom Spieltag) nimmt an, 2–3 Aufschläger auf der anderen Seite. Jeder Ballwechsel wird zu Ende gespielt.
+
+          * Annahme-Team gewinnt den Ballwechsel: 1 Punkt. Mit einem sicheren Angriff ins Feld: 2 Punkte.
+          * Ball fällt zwischen zwei Annehmern: 1 Punkt für die Aufschläger, kurz klären: Wer hatte die Mitte?
+          * Vor jedem Aufschlag die Mitte ansagen.
+          * Nach 6 Aufschlägen tauschen die Teams.
+          * 🟢 Aufschlag aus 4–5 m, die Annahme darf gefangen werden.
+          * 🔵 Aufschlag von der halben Feldlänge.
+          * 🔴 Aufschlag von der Grundlinie, ohne Fangen.
+
+          **Trainer-Details:** Hier kommt beides zusammen: Abstimmung in der Annahme und sicherer Angriff. Der Trainer coacht zwischen den Ballwechseln nur mit einem Satz („Mitte ansagen!“ oder „Lang statt Netz!“).
+        varianten:
+          6-8: 2–3 Kleinfelder; wer gerade frei ist, zählt Punkte oder spielt Ballholer und wechselt nach jedem Spiel ein.
+          9-12: 4–5 Kleinfelder quer zur Halle (Leinen/Langbänke). Kein Kind wartet länger als ein Spiel.
+      - icon: 🏆
+        phase: Abschlussspiel
+        dauer: 30
+        titel: 'Kaiserturnier 3:3: Ruf und Sicher-Strich'
+        bild: bilder/kaiser-3v3.svg
+        inhalt: |-
+          **Ablauf:** Kaiserturnier auf mehreren Kleinfeldern, Runden à 5 Minuten. Gewinner rutschen ein Feld hoch, Verlierer eins runter.
+
+          * Vor jedem Aufschlag die Mitte ansagen. Fällt ein Ball ohne Ruf zwischen zwei Kindern auf den Boden, zählt der Punkt für den Gegner doppelt.
+          * Sicher-Strich wie am Mittwoch: 3 Angriffe ins Feld = 1 Extrapunkt.
+          * Nach jeder zweiten Runde die Teams mischen.
+          * 🟢 Einsteigerfeld: Die Annahme darf gefangen werden.
+          * 🔵 Mittlere Felder: Kein Fangen.
+          * 🔴 Kaiserfeld: 3 Kontakte Pflicht, ein Lob gibt keinen Sicher-Strich.
+
+          **Trainer-Details:** Der Trainer coacht nur zwei Dinge: Ansage vor dem Aufschlag und Angriff ins Feld. Wenn am Spieltag 2:2 gespielt wird, dasselbe Turnier als 2:2.
+        varianten:
+          6-8: Bei 6 Kindern ein Feld 3:3, sonst 2:2 auf zwei Feldern. Das Siegerteam bleibt auf dem Kaiserfeld.
+          9-12: Zwei Felder 3:3, übrige Kinder pfeifen und wechseln nach jeder Runde ein.
+      - icon: 🧘
+        phase: Abschluss
+        dauer: 5
+        titel: Unsere Ruf-Regeln
+        inhalt: |-
+          **Ablauf:** Alle im Kreis.
+
+          * Gemeinsam die Ruf-Regeln wiederholen: Mitte ansagen, früh „Ich!“ rufen, kurze Bälle nimmt der Annehmer, der Partner ruft „Aus!“ oder „Gut!“.
+          * Jedes Kind nennt eine Sache für den nächsten Spieltag (z. B. „Ich sage die Mitte an“ oder „Ich schlage lang“).
+
+          **Trainer-Details:** Die Ruf-Regeln auf einen Zettel schreiben und am Spieltag mitnehmen. Lob für laute Kommunikation und mutige, sichere Angriffe.
   - name: Woche 1
     einheiten:
     - name: TE 1
