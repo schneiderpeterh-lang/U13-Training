@@ -1,0 +1,15 @@
+# Hallmark Wayfind: Werte aus stil/tokens.css (oklch) als Hex für Streamlit
+[theme]
+base = "light"
+primaryColor = "#2055e1"
+backgroundColor = "#edf0f4"
+secondaryBackgroundColor = "#dde2e7"
+textColor = "#0a0d13"
+borderColor = "#0a0d13"
+linkColor = "#0a0d13"
+baseRadius = "none"
+font = "Chivo Mono:https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@400;500;800&display=swap"
+headingFont = "Chivo Mono:https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@400;500;800&display=swap"
+
+[client]
+toolbarMode = "viewer"

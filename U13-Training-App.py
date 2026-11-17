@@ -1,4 +1,5 @@
 import datetime as dt
+import html
 import time
 from pathlib import Path
 
@@ -9,27 +10,24 @@ import yaml
 # Seiten-Konfiguration
 st.set_page_config(page_title="U13/U14 Training", page_icon="🏐", layout="centered")
 
-# Kompaktere Darstellung fürs Handy
-st.markdown(
-    """
-    <style>
-    .block-container {padding-top: 2.5rem; padding-bottom: 3rem;}
-    h3 {font-size: 1.35rem !important;}
-    h4 {font-size: 1.1rem !important;}
-    /* Zurück/Weiter auch auf dem Handy nebeneinander */
-    .st-key-nav [data-testid="stHorizontalBlock"] {flex-wrap: nowrap; gap: 0.5rem;}
-    .st-key-nav [data-testid="stColumn"], .st-key-nav [data-testid="column"] {min-width: 0;}
-    </style>
-    """,
-    unsafe_allow_html=True,
-)
-
 PLAN_DATEI = Path(__file__).with_name("trainingsplan.yaml")
+STIL = Path(__file__).with_name("stil")
+
+
+@st.cache_data
+def lade_stil(geaendert):
+    # Design (Hallmark, Theme Wayfind): tokens.css + base.css + app.css, ohne die @import-Zeilen
+    teile = [(STIL / name).read_text(encoding="utf-8") for name in ("tokens.css", "base.css", "app.css")]
+    return "\n".join(z for z in "\n".join(teile).splitlines() if not z.startswith("@import"))
+
+
+st.html(f"<style>{lade_stil(max(p.stat().st_mtime for p in STIL.glob('*.css')))}</style>")
+TOKENS = (STIL / "tokens.css").read_text(encoding="utf-8")
 SPIELER = {
     "9-12": "9-12 Spieler (Wellen-/Gruppenprinzip)",
     "6-8": "6-8 Spieler (Intensiv)",
 }
-ANSICHTEN = {"training": "⏱️ Training", "uebersicht": "📋 Übersicht"}
+ANSICHTEN = {"training": "Training", "uebersicht": "Übersicht"}
 WOCHENTAGE = ["Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sonntag"]
 
 
@@ -168,17 +166,17 @@ def datum_text(datum):
 def einheit_name(m, w, e):
     einheit = plan[m]["wochen"][w]["einheiten"][e]
     if (m, w, e) in termine:
-        tag = f" · {datum_text(termine[(m, w, e)])}"
+        tag = f", {datum_text(termine[(m, w, e)])}"
     else:
         tag = f" ({einheit['tag']})" if einheit.get("tag") else ""
-    return f"{einheit['name']}{tag} · {einheit['dauer']} Min"
+    return f"{einheit['name']}{tag}, {einheit['dauer']} Min"
 
 
 def zeige_schwerpunkt(einheit):
     # Beobachtungsschwerpunkt: eine Sache, auf die der Trainer in dieser Einheit achtet
     sp = einheit.get("schwerpunkt")
     if sp:
-        with st.expander(f"👁️ Im Blick: {sp['kurz']}"):
+        with st.expander(f"Im Blick: {sp['kurz']}"):
             st.markdown(f"**Achte auf:** {sp['achte_auf']}\n\n**Sag dazu:** „{sp['sag_dazu']}“")
             st.caption("Heute nur dazu Rückmeldung geben, alles andere darf warten.")
 
@@ -191,17 +189,27 @@ uebungen = einheit["uebungen"]
 # ---------------------------------------------------------
 # Kopf: kurzer Titel + aufklappbare Auswahl
 # ---------------------------------------------------------
-st.markdown("**🏐 U13/U14 Training · TuB Bocholt**")
+with st.container(key="kopf"):
+    st.html('<p class="wortmarke">U13/U14 Training</p><p class="verein">TuB Bocholt, Volleyball</p>')
+
+st.radio(
+    "Ansicht",
+    list(ANSICHTEN),
+    format_func=ANSICHTEN.get,
+    key="ansicht",
+    horizontal=True,
+    label_visibility="collapsed",
+)
 
 if heute is not None and heute != (ss.m, ss.w, ss.e):
     st.button(
-        f"📅 Nächstes Training: {datum_text(termine[heute])} · {plan[heute[0]]['name']} · {plan[heute[0]]['wochen'][heute[1]]['einheiten'][heute[2]]['name']}",
+        f"Zum nächsten Training: {datum_text(termine[heute])}, {plan[heute[0]]['name']}, {plan[heute[0]]['wochen'][heute[1]]['einheiten'][heute[2]]['name']}",
         on_click=oeffne_heute,
         use_container_width=True,
     )
 
-kurz = monat["name"] if len(monat["wochen"]) == 1 else f"{monat['name']} · {woche['name']}"
-with st.expander(f"📅 {kurz} · {einheit_name(ss.m, ss.w, ss.e)}"):
+kurz = monat["name"] if len(monat["wochen"]) == 1 else f"{monat['name']}, {woche['name']}"
+with st.container(key="wahl"), st.expander(f"{kurz}, {einheit_name(ss.m, ss.w, ss.e)}"):
     st.selectbox(
         "Monat",
         range(len(plan)),
@@ -236,20 +244,13 @@ with st.expander(f"📅 {kurz} · {einheit_name(ss.m, ss.w, ss.e)}"):
     )
     st.time_input("Trainingsbeginn", key="start", step=300)
 
-st.radio(
-    "Ansicht",
-    list(ANSICHTEN),
-    format_func=ANSICHTEN.get,
-    key="ansicht",
-    horizontal=True,
-    label_visibility="collapsed",
-)
 
-
-def zeige_variante(uebung):
+def zeige_variante(uebung, key):
+    # Variante unter einer Linie im selben Feld, keine eigene Karte
     variante = uebung.get("varianten", {}).get(ss.spieler)
     if variante:
-        st.info(f"**Bei {SPIELER[ss.spieler]}:** {variante}")
+        with st.container(key=f"variante_{key}"):
+            st.markdown(f"**Bei {SPIELER[ss.spieler]}:** {variante}")
 
 
 def datei_oder_link(pfad):
@@ -271,39 +272,76 @@ def zeige_medien(uebung):
     if uebung.get("video"):
         st.video(datei_oder_link(uebung["video"]))
     if uebung.get("link"):
-        st.markdown(f"🔗 [Zur Quelle]({uebung['link']})")
+        st.markdown(f"[Quelle öffnen]({uebung['link']})")
 
 
 def uebung_titel(uebung):
-    titel = f"{uebung['icon']} {uebung['phase']} ({uebung['dauer']} Min)"
+    titel = f"{uebung['phase']} ({uebung['dauer']} Min)"
     if uebung.get("titel"):
         titel += f": {uebung['titel']}"
     return titel
 
 
-def countdown(t0, minuten):
-    # Läuft im Browser weiter, auch wenn die Verbindung kurz weg ist
+def tafel(u, nummer, anzahl, von, bis, t0):
+    # Die Anzeigetafel: Übung, Zeitfenster und Countdown auf einer Tinten-Platte.
+    # Läuft im Browser weiter, auch wenn die Verbindung kurz weg ist.
+    segmente = "".join(
+        f'<li class="{"fertig" if j < nummer else ("jetzt" if j == nummer else "")}"></li>' for j in range(anzahl)
+    )
+    titel = html.escape(u.get("titel", ""))
     components.html(
         f"""
-        <div id="cd" style="font-family: sans-serif; font-size: 2.6rem; font-weight: 700;
-             text-align: center; font-variant-numeric: tabular-nums;"></div>
+        <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@400;500;800&display=swap" rel="stylesheet">
+        <style>
+        {TOKENS}
+        * {{ box-sizing: border-box; margin: 0; padding: 0; }}
+        html, body {{ overflow-x: clip; background: var(--color-paper); }}
+        body {{ font-family: var(--font-body); font-variant-numeric: tabular-nums; color: var(--color-paper-3); }}
+        .platte {{ height: 100vh; display: flex; flex-direction: column; gap: var(--space-sm);
+                   padding: var(--space-md); background: var(--color-ink); border: var(--rule-bar) solid var(--color-ink); }}
+        .kopf {{ display: flex; justify-content: space-between; gap: var(--space-sm); font-size: var(--text-sm); font-weight: 500; color: var(--color-rule); }}
+        ol {{ list-style: none; display: grid; grid-template-columns: repeat({anzahl}, minmax(0, 1fr)); gap: var(--space-2xs); }}
+        li {{ height: 6px; background: var(--color-ink-rule); }}
+        li.fertig {{ background: var(--color-rule); }}
+        li.jetzt {{ background: var(--color-accent-2); }}
+        h2 {{ font-weight: 800; font-size: var(--text-3xl); letter-spacing: var(--tracking-display); line-height: 1;
+              overflow-wrap: break-word; min-width: 0; }}
+        .titel {{ font-size: var(--text-md); font-weight: 500; line-height: 1.35; color: var(--color-paper-2);
+                  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }}
+        .uhr {{ margin-top: auto; display: flex; align-items: baseline; justify-content: space-between; gap: var(--space-sm);
+                padding: var(--space-2xs) var(--space-xs); }}
+        .uhr.knapp {{ background: var(--color-accent-2); color: var(--color-ink); }}
+        .zahl {{ font-weight: 800; font-size: clamp(3rem, 16vw, 4.75rem); line-height: 1; letter-spacing: var(--tracking-display); color: var(--color-accent-2); }}
+        .knapp .zahl {{ color: var(--color-ink); }}
+        .status {{ font-size: var(--text-sm); font-weight: 500; text-align: right; }}
+        .platte.fokus {{ outline: 2px solid var(--color-accent-2); outline-offset: -6px; }}
+        </style>
+        <div class="platte">
+          <div class="kopf"><span>Übung {nummer + 1} von {anzahl}</span><span>{von} bis {bis}</span></div>
+          <ol aria-hidden="true">{segmente}</ol>
+          <h2>{html.escape(u["phase"])}, {u["dauer"]} Min</h2>
+          <p class="titel">{titel}</p>
+          <div class="uhr" id="uhr"><span class="zahl" id="cd">{u["dauer"]:02d}:00</span><span class="status" id="st">{"läuft" if t0 else "bereit"}</span></div>
+        </div>
         <script>
-        const t0 = {t0}, dauer = {minuten} * 60;
-        const el = document.getElementById("cd");
-        const dunkel = window.parent.matchMedia &&
-            window.parent.matchMedia("(prefers-color-scheme: dark)").matches;
+        const t0 = {t0}, dauer = {u["dauer"]} * 60;
+        const uhr = document.getElementById("uhr"), el = document.getElementById("cd"), st = document.getElementById("st");
         function zeige() {{
             const rest = Math.round(dauer - (Date.now() - t0) / 1000);
             const s = Math.abs(rest);
             const txt = String(Math.floor(s / 60)).padStart(2, "0") + ":" + String(s % 60).padStart(2, "0");
-            el.textContent = rest >= 0 ? "⏱️ " + txt : "⏰ +" + txt;
-            el.style.color = rest < 0 ? "#e5484d" : (rest < 60 ? "#f5a524" : (dunkel ? "#fafafa" : "#31333f"));
+            el.textContent = rest >= 0 ? txt : "+" + txt;
+            st.textContent = rest < 0 ? "Zeit um" : (rest < 60 ? "letzte Minute" : "läuft");
+            uhr.classList.toggle("knapp", rest < 60);
         }}
-        zeige();
-        setInterval(zeige, 1000);
+        if (t0) {{ zeige(); setInterval(zeige, 1000); }}
+        // Die Tafel zeigt, wenn sie per Tastatur den Fokus hat
+        const platte = document.querySelector(".platte");
+        window.addEventListener("focus", () => platte.classList.add("fokus"));
+        window.addEventListener("blur", () => platte.classList.remove("fokus"));
         </script>
         """,
-        height=70,
+        height=262,
     )
 
 
@@ -321,46 +359,42 @@ if ss.ansicht == "training":
     zeige_schwerpunkt(einheit)
 
     u = uebungen[ss.i]
-    st.progress((ss.i + 1) / len(uebungen), text=f"Übung {ss.i + 1} von {len(uebungen)} · {zeiten[ss.i][0]}–{zeiten[ss.i][1]}")
-    st.markdown(f"### {u['icon']} {u['phase']} · {u['dauer']} Min")
-    if u.get("titel"):
-        st.markdown(f"**{u['titel']}**")
-
-    if ss.t0:
-        countdown(ss.t0, u["dauer"])
-    else:
-        st.button("▶️ Timer starten", on_click=gehe_zu, args=(ss.i,), use_container_width=True)
+    tafel(u, ss.i, len(uebungen), zeiten[ss.i][0], zeiten[ss.i][1], ss.t0)
+    if not ss.t0:
+        st.button("Timer starten", on_click=gehe_zu, args=(ss.i,), type="primary", use_container_width=True)
 
     zeige_medien(u)
 
-    with st.container(border=True):
+    with st.container(key="inhalt"):
         st.markdown(u["inhalt"])
-        zeige_variante(u)
+        zeige_variante(u, "training")
 
     with st.container(key="nav"):
         links, rechts = st.columns(2)
-        links.button("◀ Zurück", on_click=gehe_zu, args=(ss.i - 1,), disabled=ss.i == 0, use_container_width=True)
+        links.button("Zurück", on_click=gehe_zu, args=(ss.i - 1,), disabled=ss.i == 0, use_container_width=True)
         rechts.button(
-            "Weiter ▶",
+            "Weiter",
             on_click=gehe_zu,
             args=(ss.i + 1,),
             disabled=ss.i == len(uebungen) - 1,
-            type="primary",
+            type="primary" if ss.t0 else "secondary",
             use_container_width=True,
         )
 
-    st.markdown(f"#### Ablauf: {einheit['titel']}")
+    st.markdown(f"### Ablauf: {einheit['titel']}")
+    breite = max(len(x["phase"]) for x in uebungen)
     with st.container(key="ablauf"):
         for j, x in enumerate(uebungen):
-            zeichen = "✅" if j < ss.i else ("▶️" if j == ss.i else "⬜")
-            st.button(
-                f"{zeichen} {zeiten[j][0]} · {x['phase']} ({x['dauer']}′)",
-                key=f"springe_{j}",
-                on_click=gehe_zu,
-                args=(j,),
-                type="primary" if j == ss.i else "secondary",
-                use_container_width=True,
-            )
+            zustand = "fertig" if j < ss.i else ("jetzt" if j == ss.i else "offen")
+            with st.container(key=f"zeile_{zustand}_{j}"):
+                st.button(
+                    f"{zeiten[j][0]}  {x['phase'].ljust(breite)}  {x['dauer']:>2} Min",
+                    key=f"springe_{j}",
+                    on_click=gehe_zu,
+                    args=(j,),
+                    type="primary" if j == ss.i else "secondary",
+                    use_container_width=True,
+                )
 
 # ---------------------------------------------------------
 # Ansicht: Übersicht (zum Vorbereiten)
@@ -373,13 +407,13 @@ else:
             for e_index, e in enumerate(w["einheiten"]):
                 st.markdown(f"#### {einheit_name(ss.m, w_index, e_index)}: {e['titel']}")
                 zeige_schwerpunkt(e)
-                for x in e["uebungen"]:
+                for x_index, x in enumerate(e["uebungen"]):
                     with st.expander(uebung_titel(x)):
                         zeige_medien(x)
                         st.markdown(x["inhalt"])
-                        zeige_variante(x)
+                        zeige_variante(x, f"{w_index}_{e_index}_{x_index}")
                 st.button(
-                    "⏱️ Im Training öffnen",
+                    "Im Training öffnen",
                     key=f"oeffne_{w_index}_{e_index}",
                     on_click=oeffne_im_training,
                     args=(w_index, e_index),
