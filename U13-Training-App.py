@@ -18,10 +18,11 @@ STIL = Path(__file__).with_name("stil")
 def lade_stil(geaendert):
     # Design (Hallmark, Theme Wayfind): tokens.css + base.css + app.css, ohne die @import-Zeilen
     teile = [(STIL / name).read_text(encoding="utf-8") for name in ("tokens.css", "base.css", "app.css")]
-    return "\n".join(z for z in "\n".join(teile).splitlines() if not z.startswith("@import"))
+    return "\n".join(z for z in "\n".join(teile).splitlines() if z.strip() and not z.startswith("@import"))
 
 
-st.html(f"<style>{lade_stil(max(p.stat().st_mtime for p in STIL.glob('*.css')))}</style>")
+# st.markdown statt st.html: st.html lädt auf manchen iPhones nicht ("Importing a module script failed")
+st.markdown(f"<style>{lade_stil(max(p.stat().st_mtime for p in STIL.glob('*.css')))}</style>", unsafe_allow_html=True)
 TOKENS = (STIL / "tokens.css").read_text(encoding="utf-8")
 SPIELER = {
     "9-12": "9-12 Spieler (Wellen-/Gruppenprinzip)",
@@ -190,7 +191,7 @@ uebungen = einheit["uebungen"]
 # Kopf: kurzer Titel + aufklappbare Auswahl
 # ---------------------------------------------------------
 with st.container(key="kopf"):
-    st.html('<p class="wortmarke">U13/U14 Training</p><p class="verein">TuB Bocholt, Volleyball</p>')
+    st.markdown('<p class="wortmarke">U13/U14 Training</p><p class="verein">TuB Bocholt, Volleyball</p>', unsafe_allow_html=True)
 
 st.radio(
     "Ansicht",
